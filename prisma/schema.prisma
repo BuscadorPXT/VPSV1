@@ -1,0 +1,212 @@
+
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                       Int       @id @default(autoincrement())
+  firebaseUid              String    @unique @map("firebase_uid")
+  email                    String
+  name                     String
+  isApproved               Boolean?  @default(false) @map("is_approved")
+  isAdmin                  Boolean?  @default(false) @map("is_admin")
+  subscriptionPlan         String?   @default("free") @map("subscription_plan")
+  createdAt                DateTime? @default(now()) @map("created_at")
+  updatedAt                DateTime? @default(now()) @map("updated_at")
+  lastLoginAt              DateTime? @map("last_login_at")
+  ipAddress                String?   @map("ip_address")
+  userAgent                String?   @map("user_agent")
+  sessionToken             String?   @map("session_token")
+  profileImageUrl          String?   @map("profile_image_url")
+  preferredCurrency        String?   @default("BRL") @map("preferred_currency")
+  notificationPreferences  Json?     @map("notification_preferences")
+  isActive                 Boolean?  @default(true) @map("is_active")
+  subscriptionExpiresAt    DateTime? @map("subscription_expires_at")
+  trialStartedAt           DateTime? @map("trial_started_at")
+  trialExpiresAt           DateTime? @map("trial_expires_at")
+  promotionEndDate         DateTime? @map("promotion_end_date")
+  isPromotionActive        Boolean?  @default(false) @map("is_promotion_active")
+  trialUsed                Boolean?  @default(false) @map("trial_used")
+  loginAttempts            Int?      @default(0) @map("login_attempts")
+  lastLoginAttemptAt       DateTime? @map("last_login_attempt_at")
+  accountLocked            Boolean?  @default(false) @map("account_locked")
+  lockUntil                DateTime? @map("lock_until")
+  emailVerified            Boolean?  @default(false) @map("email_verified")
+  emailVerificationToken   String?   @map("email_verification_token")
+
+  // Relations
+  priceAlerts              PriceAlert[]
+  notificationHistory      NotificationHistory[]
+  userSessions             UserSession?
+  systemSettings           SystemSetting[]
+  systemAnnouncements      SystemAnnouncement[]
+  whatsappClicks           WhatsAppClick[]
+
+  @@map("users")
+}
+
+model Supplier {
+  id        Int       @id @default(autoincrement())
+  name      String    @unique
+  active    Boolean   @default(true)
+  createdAt DateTime  @default(now()) @map("created_at")
+
+  // Relations
+  products  Product[]
+
+  @@map("suppliers")
+}
+
+model Product {
+  id                  Int       @id @default(autoincrement())
+  model               String
+  brand               String
+  storage             String
+  color               String
+  category            String?
+  capacity            String?
+  region              String?
+  date                String?
+  supplierId          Int       @map("supplier_id")
+  price               Decimal   @db.Decimal(10, 2)
+  sku                 String?
+  available           Boolean   @default(true)
+  isLowestPrice       Boolean   @default(false) @map("is_lowest_price")
+  sheetRowId          String?   @map("sheet_row_id")
+  ultimaAtualizacao   DateTime  @default(now()) @map("ultima_atualizacao")
+  updatedAt           DateTime  @default(now()) @map("updated_at")
+  createdAt           DateTime  @default(now()) @map("created_at")
+
+  // Relations
+  supplier            Supplier  @relation(fields: [supplierId], references: [id])
+
+  @@map("products")
+}
+
+model PriceAlert {
+  id                      Int       @id @default(autoincrement())
+  userId                  Int       @map("user_id")
+  model                   String
+  thresholdPrice          Decimal   @db.Decimal(10, 2) @map("threshold_price")
+  isActive                Boolean   @default(true) @map("is_active")
+  isNotified              Boolean   @default(false) @map("is_notified")
+  notifiedAt              DateTime? @map("notified_at")
+  emailNotification       Boolean   @default(true) @map("email_notification")
+  webPushNotification     Boolean   @default(true) @map("web_push_notification")
+  brand                   String?
+  capacity                String?
+  color                   String?
+  region                  String?
+  lastTriggeredAt         DateTime? @map("last_triggered_at")
+  triggerCount            Int       @default(0) @map("trigger_count")
+  maxTriggers             Int       @default(5) @map("max_triggers")
+  createdAt               DateTime  @default(now()) @map("created_at")
+
+  // Relations
+  user                    User      @relation(fields: [userId], references: [id])
+  notificationHistory     NotificationHistory[]
+
+  @@map("price_alerts")
+}
+
+model NotificationHistory {
+  id        Int       @id @default(autoincrement())
+  userId    Int       @map("user_id")
+  alertId   Int?      @map("alert_id")
+  type      String
+  title     String
+  message   String
+  data      String?
+  channel   String
+  status    String
+  readAt    DateTime? @map("read_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+
+  // Relations
+  user      User       @relation(fields: [userId], references: [id])
+  alert     PriceAlert? @relation(fields: [alertId], references: [id])
+
+  @@map("notification_history")
+}
+
+model UserSession {
+  id           Int       @id @default(autoincrement())
+  userId       Int       @unique @map("user_id")
+  sessionToken String    @unique @map("session_token")
+  ipAddress    String    @map("ip_address")
+  lastActivity DateTime  @default(now()) @map("last_activity")
+  userAgent    String?   @map("user_agent")
+  isActive     Boolean   @default(true) @map("is_active")
+  loginAttempts Int      @default(0) @map("login_attempts")
+  expiresAt    DateTime? @map("expires_at")
+  createdAt    DateTime  @default(now()) @map("created_at")
+
+  // Relations
+  user         User      @relation(fields: [userId], references: [id])
+
+  @@map("user_sessions")
+}
+
+model SystemSetting {
+  id               Int       @id @default(autoincrement())
+  key              String    @unique
+  value            String?
+  type             String    @default("string")
+  description      String?
+  isPublic         Boolean   @default(false) @map("is_public")
+  updatedByUserId  Int?      @map("updated_by_user_id")
+  updatedAt        DateTime  @default(now()) @map("updated_at")
+  createdAt        DateTime  @default(now()) @map("created_at")
+
+  // Relations
+  updatedByUser    User?     @relation(fields: [updatedByUserId], references: [id])
+
+  @@map("system_settings")
+}
+
+model SystemAnnouncement {
+  id               Int       @id @default(autoincrement())
+  title            String
+  message          String
+  type             String    @default("info")
+  targetAudience   String[]  @default(["all"]) @map("target_audience")
+  isActive         Boolean   @default(true) @map("is_active")
+  isPermanent      Boolean   @default(false) @map("is_permanent")
+  expiresAt        DateTime? @map("expires_at")
+  createdByUserId  Int       @map("created_by_user_id")
+  createdAt        DateTime  @default(now()) @map("created_at")
+
+  // Relations
+  createdByUser    User      @relation(fields: [createdByUserId], references: [id])
+
+  @@map("system_announcements")
+}
+
+model WhatsAppClick {
+  id                Int       @id @default(autoincrement())
+  userId            Int       @map("user_id")
+  productModel      String    @map("product_model")
+  productBrand      String?   @map("product_brand")
+  productColor      String?   @map("product_color")
+  productStorage    String?   @map("product_storage")
+  productCategory   String?   @map("product_category")
+  supplierName      String    @map("supplier_name")
+  whatsappNumber    String    @map("whatsapp_number")
+  productPrice      Decimal?  @db.Decimal(10, 2) @map("product_price")
+  clickedAt         DateTime  @default(now()) @map("clicked_at")
+  ipAddress         String?   @map("ip_address")
+  userAgent         String?   @map("user_agent")
+
+  // Relations
+  user              User      @relation(fields: [userId], references: [id])
+
+  @@map("whatsapp_clicks")
+}

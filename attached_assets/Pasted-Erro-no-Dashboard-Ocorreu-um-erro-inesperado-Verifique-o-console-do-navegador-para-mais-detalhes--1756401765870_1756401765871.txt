@@ -1,0 +1,17 @@
+Erro no Dashboard
+Ocorreu um erro inesperado. Verifique o console do navegador para mais detalhes.
+
+Detalhes técnicos
+Rendered more hooks than during the previous render.
+
+Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=f1f21721:11678:21)
+    at updateMemo (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=f1f21721:12199:22)
+    at Object.useMemo (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=f1f21721:12726:24)
+    at useMemo (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-QCHXOAYK.js?v=f1f21721:1094:29)
+    at ExcelStylePriceList (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/components/ExcelStylePriceList.tsx:1527:24)
+    at renderWithHooks (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=f1f21721:11548:26)
+    at updateFunctionComponent (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=f1f21721:14582:28)
+    at beginWork (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=f1f21721:15924:22)
+    at beginWork$1 (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=f1f21721:19753:22)
+    at performUnitOfWork (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=f1f21721:19198:20)

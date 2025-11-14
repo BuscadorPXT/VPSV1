@@ -1,0 +1,112 @@
+Causas Comuns e Como Corrigi-las
+A causa raiz é quase sempre uma chamada de Hook que não é executada em todas as renderizações. Aqui estão os cenários mais comuns e suas soluções:
+1. Chamadas de Hooks Dentro de Condicionais
+Esta é a causa mais frequente. Você não pode colocar um Hook dentro de um if, else ou switch.
+Incorreto:
+JavaScript
+function MeuComponente({ deveMostrarInput }) {
+  if (deveMostrarInput) {
+    // ❌ Erro: Este Hook só é chamado quando a condição é verdadeira.
+    const [valor, setValor] = useState('');
+  }
+
+  // ... resto do componente
+}
+Correto:
+Mova a chamada do Hook para o nível superior do componente e use a condição para renderizar o JSX.
+JavaScript
+function MeuComponente({ deveMostrarInput }) {
+  // ✅ Correto: O Hook é sempre chamado, independentemente da condição.
+  const [valor, setValor] = useState('');
+
+  return (
+    <div>
+      {deveMostrarInput && (
+        <input value={valor} onChange={(e) => setValor(e.target.value)} />
+      )}
+    </div>
+  );
+}
+2. Retorno Antecipado (Early Return) Antes de Todos os Hooks
+Se você tiver um return no meio do seu componente, certifique-se de que todas as chamadas de Hooks ocorram antes dele.
+Incorreto:
+JavaScript
+function PerfilUsuario({ usuario }) {
+  const [dadosExtras, setDadosExtras] = useState(null);
+
+  if (!usuario) {
+    // ❌ Erro: Se 'usuario' for nulo, o useEffect abaixo nunca será chamado.
+    return <p>Carregando...</p>;
+  }
+
+  useEffect(() => {
+    // Lógica para buscar dados extras...
+  }, [usuario.id]);
+
+  return <h1>{usuario.nome}</h1>;
+}
+Correto:
+Declare todos os Hooks no topo do componente, antes de qualquer lógica de retorno antecipado.
+JavaScript
+function PerfilUsuario({ usuario }) {
+  // ✅ Correto: Todos os Hooks são declarados no topo.
+  const [dadosExtras, setDadosExtras] = useState(null);
+
+  useEffect(() => {
+    if (usuario) { // A lógica condicional vai para dentro do Hook.
+      // Lógica para buscar dados extras...
+    }
+  }, [usuario]); // Dependência pode ser o objeto todo ou usuario.id
+
+  if (!usuario) {
+    return <p>Carregando...</p>;
+  }
+
+  return <h1>{usuario.nome}</h1>;
+}
+3. Chamadas de Hooks Dentro de Laços (Loops)
+Assim como condicionais, laços (for, while, map, etc.) podem fazer com que o número de chamadas de Hooks varie entre renderizações.
+Incorreto:
+JavaScript
+function ListaDeItens({ itens }) {
+  return (
+    <ul>
+      {itens.map(item => {
+        // ❌ Erro: O número de chamadas de useState muda com o tamanho de 'itens'.
+        const [selecionado, setSelecionado] = useState(false);
+        return <li onClick={() => setSelecionado(!selecionado)}>{item.nome}</li>;
+      })}
+    </ul>
+  );
+}
+Correto:
+Extraia o item da lista para seu próprio componente. Cada instância do novo componente terá seu próprio estado, e o React gerenciará isso corretamente.
+JavaScript
+// Componente para um único item
+function ItemDaLista({ item }) {
+  // ✅ Correto: O Hook pertence a este componente e será chamado uma vez por instância.
+  const [selecionado, setSelecionado] = useState(false);
+
+  return (
+    <li
+      style={{ fontWeight: selecionado ? 'bold' : 'normal' }}
+      onClick={() => setSelecionado(!selecionado)}
+    >
+      {item.nome}
+    </li>
+  );
+}
+
+// Componente pai que renderiza a lista
+function ListaDeItens({ itens }) {
+  return (
+    <ul>
+      {itens.map(item => (
+        <ItemDaLista key={item.id} item={item} />
+      ))}
+    </ul>
+  );
+}
+Como Encontrar o Problema no Seu Código
+Inspecione o Componente: O erro geralmente ocorre no componente que está sendo renderizado ou atualizado. A "call stack" (pilha de chamadas) no seu erro aponta para updateFunctionComponent e renderWithHooks, o que confirma que o problema está na renderização de um componente funcional.
+Procure por if, &&, ? :, for, while: Verifique os componentes que foram modificados recentemente e procure por qualquer chamada de Hook (useState, useEffect, etc.) que esteja dentro de um desses blocos.

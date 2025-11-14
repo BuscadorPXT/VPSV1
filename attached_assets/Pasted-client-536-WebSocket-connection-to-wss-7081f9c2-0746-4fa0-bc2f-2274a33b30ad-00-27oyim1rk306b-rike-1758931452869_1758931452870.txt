@@ -1,0 +1,274 @@
+client:536 WebSocket connection to 'wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/?token=cDHsGQl-Ym4o' failed: 
+setupWebSocket @ client:536
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=cDHsGQl-Ym4o' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+chunk-RPCDYKBN.js?v=48d2bf13:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+firebase.ts:26 ✅ All Firebase environment variables present
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-terms-acceptance.ts:78 [Terms] No user found - hiding modal
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:197 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:197 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:197 ✅ Auth initialization completed
+use-auth.ts:139 🔍 [useAuth] User data processed: Object
+use-auth.ts:162 ✅ User profile loaded: jonathan.comercial@outlook.com
+App.tsx:558 🎯 App component mounted
+App.tsx:559 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+App.tsx:675 [App] Terms modal state: Object
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/emergency-alerts/pending"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+EmergencyAlertDialog.tsx:58 🎧 [Emergency Alert] Setting up WebSocket listeners...
+EmergencyAlertDialog.tsx:141 🎧 [Emergency Alert] WebSocket listeners configured
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:197 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:197 ✅ Auth initialization completed
+App.tsx:558 🎯 App component mounted
+App.tsx:559 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+App.tsx:675 [App] Terms modal state: Object
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/emergency-alerts/pending"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+App.tsx:506 🔍 Checking payment status for user: jonathan.comercial@outlook.com Object
+use-auth.ts:139 🔍 [useAuth] User data processed: Object
+use-auth.ts:162 ✅ User profile loaded: jonathan.comercial@outlook.com
+App.tsx:558 🎯 App component mounted
+App.tsx:559 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+App.tsx:675 [App] Terms modal state: Object
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/emergency-alerts/pending"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+use-feedback-alerts.ts:241 ✅ [FEEDBACK-ALERTS-HOOK] Session token found, initializing feedback alerts
+use-feedback-alerts.ts:206 🎯 [FEEDBACK-ALERTS-HOOK] User authenticated and session ready, fetching alerts for: jonathan.comercial@outlook.com
+use-feedback-alerts.ts:50 🔍 [FEEDBACK-ALERTS-HOOK] Fetching alerts for user jonathan.comercial@outlook.com
+App.tsx:558 🎯 App component mounted
+App.tsx:559 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+App.tsx:675 [App] Terms modal state: Object
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/emergency-alerts/pending"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+use-auth.ts:139 🔍 [useAuth] User data processed: Object
+use-auth.ts:162 ✅ User profile loaded: jonathan.comercial@outlook.com
+App.tsx:558 🎯 App component mounted
+App.tsx:559 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+App.tsx:675 [App] Terms modal state: Object
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/emergency-alerts/pending"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+use-terms-acceptance.ts:25 [Terms] Checking terms acceptance for user: jonathan.comercial@outlook.com
+use-terms-acceptance.ts:43 [Terms] Stored data found: true
+use-terms-acceptance.ts:49 [Terms] Looking for user key: user_5vVK4mUnfpVcrTdDqJmByOYPjqp1
+use-terms-acceptance.ts:50 [Terms] Available keys: Array(1)
+use-terms-acceptance.ts:54 [Terms] User terms found: Object
+use-terms-acceptance.ts:58 [Terms] User has accepted current version - hiding modal
+App.tsx:558 🎯 App component mounted
+App.tsx:559 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+App.tsx:675 [App] Terms modal state: Object
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/emergency-alerts/pending"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+use-auth.ts:139 🔍 [useAuth] User data processed: Object
+use-auth.ts:162 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:197 ✅ Auth initialization completed
+use-feedback-alerts.ts:72 📋 [FEEDBACK-ALERTS-HOOK] Received alerts: Array(0)
+use-feedback-alerts.ts:81 🎯 [FEEDBACK-ALERTS-HOOK] Alerts to show with delays: Array(0)
+App.tsx:558 🎯 App component mounted
+App.tsx:559 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+App.tsx:675 [App] Terms modal state: Object
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/emergency-alerts/pending"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+use-auth.ts:139 🔍 [useAuth] User data processed: Object
+use-auth.ts:162 ✅ User profile loaded: jonathan.comercial@outlook.com
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/emergency-alerts/pending"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/emergency-alerts/pending"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+queryClient.ts:93 📥 Raw response text: {"success":true}
+queryClient.ts:114 ✅ Parsed JSON response: Object
+use-auth.ts:139 🔍 [useAuth] User data processed: Object
+use-auth.ts:162 ✅ User profile loaded: jonathan.comercial@outlook.com
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/stats/users"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/users/online"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/stats/logins"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/activity/recent"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+use-unified-websocket.ts:636 🔄 [UnifiedWebSocket] Auth state check: Object
+use-unified-websocket.ts:652 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed Object
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:692 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:602 🔌 [UnifiedWebSocket] Disconnecting...
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:197 ✅ Auth initialization completed
+use-auth.ts:139 🔍 [useAuth] User data processed: Object
+use-auth.ts:162 ✅ User profile loaded: jonathan.comercial@outlook.com
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/stats/users"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/users/online"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/stats/logins"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/activity/recent"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+use-unified-websocket.ts:636 🔄 [UnifiedWebSocket] Auth state check: Object
+use-unified-websocket.ts:649 ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:686 ✅ [UnifiedWebSocket] Starting WebSocket connection...
+use-unified-websocket.ts:244 🔄 [UnifiedWebSocket] Connection attempt started Object
+use-unified-websocket.ts:279 ✅ [UnifiedWebSocket] Authenticated user found - connecting WebSocket Object
+use-unified-websocket.ts:301 🔗 [UnifiedWebSocket] Using Replit/Production WebSocket URL: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws
+use-unified-websocket.ts:310 🔄 [UnifiedWebSocket] Connecting to: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/stats/users"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/users/online"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/stats/logins"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/activity/recent"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:689 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+use-unified-websocket.ts:317 ✅ [UnifiedWebSocket] Connected successfully to: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws
+use-unified-websocket.ts:381 📨 [UnifiedWebSocket] Message received: CONNECTION_ESTABLISHED Object
+use-unified-websocket.ts:389 ✅ [UnifiedWebSocket] Connection confirmed: CONNECTION_ESTABLISHED
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/stats/users"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/users/online"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/stats/logins"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/activity/recent"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:689 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+use-unified-websocket.ts:335 🎫 Fresh Firebase token obtained for WebSocket auth
+use-unified-websocket.ts:365 📝 [UnifiedWebSocket] Registering session with Firebase token: Object
+use-unified-websocket.ts:381 📨 [UnifiedWebSocket] Message received: SESSION_REGISTERED Object
+use-unified-websocket.ts:389 ✅ [UnifiedWebSocket] Connection confirmed: SESSION_REGISTERED
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/stats/users"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/users/online"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/stats/logins"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/admin/activity/recent"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:689 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+admin.tsx:672 [["/api/admin/stats/users"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+useQuery @ @tanstack_react-query.js?v=48d2bf13:3193
+DashboardOverviewSection @ admin.tsx:672
+renderWithHooks @ chunk-RPCDYKBN.js?v=48d2bf13:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=48d2bf13:14582
+beginWork @ chunk-RPCDYKBN.js?v=48d2bf13:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=48d2bf13:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=48d2bf13:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=48d2bf13:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=48d2bf13:19116
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=48d2bf13:18874
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=48d2bf13:9119
+(anonymous) @ chunk-RPCDYKBN.js?v=48d2bf13:18627
+setTimeout
+defaultScheduler @ @tanstack_react-query.js?v=48d2bf13:565
+flush @ @tanstack_react-query.js?v=48d2bf13:589
+batch @ @tanstack_react-query.js?v=48d2bf13:607
+dispatch_fn @ @tanstack_react-query.js?v=48d2bf13:1040
+onError @ @tanstack_react-query.js?v=48d2bf13:904
+reject @ @tanstack_react-query.js?v=48d2bf13:484
+(anonymous) @ @tanstack_react-query.js?v=48d2bf13:527
+Promise.catch
+run @ @tanstack_react-query.js?v=48d2bf13:517
+(anonymous) @ @tanstack_react-query.js?v=48d2bf13:538
+admin.tsx:680 [["/api/admin/users/online"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+useQuery @ @tanstack_react-query.js?v=48d2bf13:3193
+DashboardOverviewSection @ admin.tsx:680
+renderWithHooks @ chunk-RPCDYKBN.js?v=48d2bf13:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=48d2bf13:14582
+beginWork @ chunk-RPCDYKBN.js?v=48d2bf13:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=48d2bf13:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=48d2bf13:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=48d2bf13:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=48d2bf13:19116
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=48d2bf13:18874
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=48d2bf13:9119
+(anonymous) @ chunk-RPCDYKBN.js?v=48d2bf13:18627
+setTimeout
+defaultScheduler @ @tanstack_react-query.js?v=48d2bf13:565
+flush @ @tanstack_react-query.js?v=48d2bf13:589
+batch @ @tanstack_react-query.js?v=48d2bf13:607
+dispatch_fn @ @tanstack_react-query.js?v=48d2bf13:1040
+onError @ @tanstack_react-query.js?v=48d2bf13:904
+reject @ @tanstack_react-query.js?v=48d2bf13:484
+(anonymous) @ @tanstack_react-query.js?v=48d2bf13:527
+Promise.catch
+run @ @tanstack_react-query.js?v=48d2bf13:517
+(anonymous) @ @tanstack_react-query.js?v=48d2bf13:538
+admin.tsx:694 [["/api/admin/stats/logins"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+useQuery @ @tanstack_react-query.js?v=48d2bf13:3193
+DashboardOverviewSection @ admin.tsx:694
+renderWithHooks @ chunk-RPCDYKBN.js?v=48d2bf13:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=48d2bf13:14582
+beginWork @ chunk-RPCDYKBN.js?v=48d2bf13:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=48d2bf13:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=48d2bf13:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=48d2bf13:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=48d2bf13:19116
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=48d2bf13:18874
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=48d2bf13:9119
+(anonymous) @ chunk-RPCDYKBN.js?v=48d2bf13:18627
+setTimeout
+defaultScheduler @ @tanstack_react-query.js?v=48d2bf13:565
+flush @ @tanstack_react-query.js?v=48d2bf13:589
+batch @ @tanstack_react-query.js?v=48d2bf13:607
+dispatch_fn @ @tanstack_react-query.js?v=48d2bf13:1040
+onError @ @tanstack_react-query.js?v=48d2bf13:904
+reject @ @tanstack_react-query.js?v=48d2bf13:484
+(anonymous) @ @tanstack_react-query.js?v=48d2bf13:527
+Promise.catch
+run @ @tanstack_react-query.js?v=48d2bf13:517
+(anonymous) @ @tanstack_react-query.js?v=48d2bf13:538
+admin.tsx:702 [["/api/admin/activity/recent"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+useQuery @ @tanstack_react-query.js?v=48d2bf13:3193
+DashboardOverviewSection @ admin.tsx:702
+renderWithHooks @ chunk-RPCDYKBN.js?v=48d2bf13:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=48d2bf13:14582
+beginWork @ chunk-RPCDYKBN.js?v=48d2bf13:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=48d2bf13:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=48d2bf13:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=48d2bf13:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=48d2bf13:19116
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=48d2bf13:18874
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=48d2bf13:9119
+(anonymous) @ chunk-RPCDYKBN.js?v=48d2bf13:18627
+setTimeout
+defaultScheduler @ @tanstack_react-query.js?v=48d2bf13:565
+flush @ @tanstack_react-query.js?v=48d2bf13:589
+batch @ @tanstack_react-query.js?v=48d2bf13:607
+dispatch_fn @ @tanstack_react-query.js?v=48d2bf13:1040
+onError @ @tanstack_react-query.js?v=48d2bf13:904
+reject @ @tanstack_react-query.js?v=48d2bf13:484
+(anonymous) @ @tanstack_react-query.js?v=48d2bf13:527
+Promise.catch
+run @ @tanstack_react-query.js?v=48d2bf13:517
+(anonymous) @ @tanstack_react-query.js?v=48d2bf13:538
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: true, shouldReconnectFlag: true, isConnected: true, isConnecting: false, userEmail: 'jonathan.comercial@outlook.com'}
+use-unified-websocket.ts:689 🔌 [UnifiedWebSocket] Already connected or connecting - skipping

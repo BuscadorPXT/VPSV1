@@ -1,0 +1,127 @@
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=tmzgzrcX0BE4' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+chunk-RPCDYKBN.js?v=f1f21721:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+firebase.ts:26 ✅ All Firebase environment variables present
+use-auth.ts:52 🔄 Starting auth initialization...
+use-auth.ts:55 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:52 🔄 Starting auth initialization...
+use-auth.ts:55 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:52 🔄 Starting auth initialization...
+use-auth.ts:55 ⏳ Waiting for Firebase auth state to be ready...
+use-terms-acceptance.ts:78 [Terms] No user found - hiding modal
+use-auth.ts:57 ✅ Firebase auth state is ready
+use-auth.ts:189 ✅ Auth initialization completed
+use-auth.ts:57 ✅ Firebase auth state is ready
+use-auth.ts:189 ✅ Auth initialization completed
+use-auth.ts:57 ✅ Firebase auth state is ready
+use-auth.ts:189 ✅ Auth initialization completed
+use-auth.ts:75 ✅ Firebase user found: jonathan.comercial@outlook.com
+use-auth.ts:75 ✅ Firebase user found: jonathan.comercial@outlook.com
+use-auth.ts:75 ✅ Firebase user found: jonathan.comercial@outlook.com
+use-auth.ts:82 🎫 Fresh Firebase token stored
+use-auth.ts:82 🎫 Fresh Firebase token stored
+use-auth.ts:82 🎫 Fresh Firebase token stored
+use-auth.ts:131 🔍 [useAuth] User data processed: Object
+use-auth.ts:154 ✅ User profile loaded: jonathan.comercial@outlook.com
+App.tsx:530 🎯 App component mounted
+App.tsx:531 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/dashboard
+App.tsx:618 [App] Terms modal state: Object
+use-auth.ts:364 🔄 [Auth] Starting smart profile polling every 60 seconds 
+App.tsx:530 🎯 App component mounted
+App.tsx:531 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/dashboard
+App.tsx:618 [App] Terms modal state: Object
+App.tsx:480 🔍 Checking payment status for user: jonathan.comercial@outlook.com Object
+use-auth.ts:131 🔍 [useAuth] User data processed: Object
+use-auth.ts:154 ✅ User profile loaded: jonathan.comercial@outlook.com
+App.tsx:530 🎯 App component mounted
+App.tsx:531 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/dashboard
+App.tsx:618 [App] Terms modal state: Object
+use-auth.ts:364 🔄 [Auth] Starting smart profile polling every 60 seconds 
+use-auth.ts:131 🔍 [useAuth] User data processed: Object
+use-auth.ts:154 ✅ User profile loaded: jonathan.comercial@outlook.com
+App.tsx:530 🎯 App component mounted
+App.tsx:531 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/dashboard
+App.tsx:618 [App] Terms modal state: Object
+use-auth.ts:364 🔄 [Auth] Starting smart profile polling every 60 seconds 
+use-terms-acceptance.ts:25 [Terms] Checking terms acceptance for user: jonathan.comercial@outlook.com
+use-terms-acceptance.ts:43 [Terms] Stored data found: true
+use-terms-acceptance.ts:49 [Terms] Looking for user key: user_5vVK4mUnfpVcrTdDqJmByOYPjqp1
+use-terms-acceptance.ts:50 [Terms] Available keys: Array(1)
+use-terms-acceptance.ts:54 [Terms] User terms found: Object
+use-terms-acceptance.ts:58 [Terms] User has accepted current version - hiding modal
+App.tsx:530 🎯 App component mounted
+App.tsx:531 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/dashboard
+App.tsx:618 [App] Terms modal state: Object
+AdBlockerCompatibilityLayer.tsx:29 🛡️ Ad blocker detected: Object
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+chunk-RPCDYKBN.js?v=f1f21721:521 Warning: React has detected a change in the order of Hooks called by AdBlockerCompatibilityLayer. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://reactjs.org/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+1. useState                   useState
+2. useState                   useState
+3. useState                   useState
+4. useState                   useState
+5. useEffect                  useEffect
+6. undefined                  useEffect
+   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+    at AdBlockerCompatibilityLayer (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/components/AdBlockerCompatibilityLayer.tsx:23:47)
+    at App (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/App.tsx?v=xtgUNwGauMg2DQ49JfCm1:735:66)
+printWarning @ chunk-RPCDYKBN.js?v=f1f21721:521
+chunk-RPCDYKBN.js?v=f1f21721:11678 Uncaught Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (chunk-RPCDYKBN.js?v=f1f21721:11678:21)
+    at updateEffectImpl (chunk-RPCDYKBN.js?v=f1f21721:12074:22)
+    at updateEffect (chunk-RPCDYKBN.js?v=f1f21721:12099:18)
+    at Object.useEffect (chunk-RPCDYKBN.js?v=f1f21721:12703:22)
+    at useEffect (chunk-QCHXOAYK.js?v=f1f21721:1078:29)
+    at AdBlockerCompatibilityLayer (AdBlockerCompatibilityLayer.tsx:123:3)
+    at renderWithHooks (chunk-RPCDYKBN.js?v=f1f21721:11548:26)
+    at updateFunctionComponent (chunk-RPCDYKBN.js?v=f1f21721:14582:28)
+    at beginWork (chunk-RPCDYKBN.js?v=f1f21721:15924:22)
+    at HTMLUnknownElement.callCallback2 (chunk-RPCDYKBN.js?v=f1f21721:3674:22)
+chunk-RPCDYKBN.js?v=f1f21721:11678 Uncaught Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (chunk-RPCDYKBN.js?v=f1f21721:11678:21)
+    at updateEffectImpl (chunk-RPCDYKBN.js?v=f1f21721:12074:22)
+    at updateEffect (chunk-RPCDYKBN.js?v=f1f21721:12099:18)
+    at Object.useEffect (chunk-RPCDYKBN.js?v=f1f21721:12703:22)
+    at useEffect (chunk-QCHXOAYK.js?v=f1f21721:1078:29)
+    at AdBlockerCompatibilityLayer (AdBlockerCompatibilityLayer.tsx:123:3)
+    at renderWithHooks (chunk-RPCDYKBN.js?v=f1f21721:11548:26)
+    at updateFunctionComponent (chunk-RPCDYKBN.js?v=f1f21721:14582:28)
+    at beginWork (chunk-RPCDYKBN.js?v=f1f21721:15924:22)
+    at HTMLUnknownElement.callCallback2 (chunk-RPCDYKBN.js?v=f1f21721:3674:22)
+chunk-RPCDYKBN.js?v=f1f21721:14032 The above error occurred in the <AdBlockerCompatibilityLayer> component:
+
+    at AdBlockerCompatibilityLayer (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/components/AdBlockerCompatibilityLayer.tsx:23:47)
+    at App (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/App.tsx?v=xtgUNwGauMg2DQ49JfCm1:735:66)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+logCapturedError @ chunk-RPCDYKBN.js?v=f1f21721:14032
+chunk-RPCDYKBN.js?v=f1f21721:19413 Uncaught Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (chunk-RPCDYKBN.js?v=f1f21721:11678:21)
+    at updateEffectImpl (chunk-RPCDYKBN.js?v=f1f21721:12074:22)
+    at updateEffect (chunk-RPCDYKBN.js?v=f1f21721:12099:18)
+    at Object.useEffect (chunk-RPCDYKBN.js?v=f1f21721:12703:22)
+    at useEffect (chunk-QCHXOAYK.js?v=f1f21721:1078:29)
+    at AdBlockerCompatibilityLayer (AdBlockerCompatibilityLayer.tsx:123:3)
+    at renderWithHooks (chunk-RPCDYKBN.js?v=f1f21721:11548:26)
+    at updateFunctionComponent (chunk-RPCDYKBN.js?v=f1f21721:14582:28)
+    at beginWork (chunk-RPCDYKBN.js?v=f1f21721:15924:22)
+    at beginWork$1 (chunk-RPCDYKBN.js?v=f1f21721:19753:22)
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s

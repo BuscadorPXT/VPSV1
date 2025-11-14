@@ -1,0 +1,59 @@
+Análise das tabelas que você mostrou
+
+Pelas capturas:
+	1.	Tabela userSessions (parcial 1ª imagem)
+	•	Possui id (serial) e userId (integer).
+	•	Não há índice UNIQUE sobre userId.
+	•	Isso explica por que o ON CONFLICT (userId) não funciona → não existe restrição para conflito.
+	2.	Tabela userSessions (parcial 2ª imagem)
+	•	Campos ip_address e lastActivity.
+	•	Mostra que a tabela já tem várias sessões criadas, mas todas do 127.0.0.1 → provavelmente ambiente local.
+	3.	Tabela userSessions (parcial 3ª imagem)
+	•	Campos session_token (text) e expiresAt.
+	•	Tokens estão sendo gerados, mas não vinculados corretamente a um userId.
+	4.	Erros de log que você enviou antes
+	•	No session token found for user: jonathanpro@gmail.com.
+	•	Isso confirma que o app não consegue recuperar a sessão porque não há chave única para gerenciar INSERT ... ON CONFLICT.
+
+⸻
+
+✅ Ajuste recomendado
+
+Você precisa criar uma constraint única na tabela userSessions para que o ON CONFLICT funcione.
+Assim, cada usuário terá um único registro de sessão ativo (substituído em caso de novo login).
+
+SQL sugerido:
+
+-- Se cada usuário só pode ter uma sessão válida por vez
+ALTER TABLE "userSessions"
+ADD CONSTRAINT user_sessions_unique UNIQUE ("userId");
+
+Se o design exigir múltiplas sessões por usuário (ex.: login em celular e web ao mesmo tempo), então use session_token como chave única:
+
+ALTER TABLE "userSessions"
+ADD CONSTRAINT user_sessions_token_unique UNIQUE ("session_token");
+
+
+⸻
+
+🚀 Caminho seguro
+	1.	Definir se um usuário pode ter múltiplas sessões simultâneas ou apenas uma ativa.
+	2.	Criar a constraint adequada (UNIQUE(userId) ou UNIQUE(session_token)).
+	3.	Ajustar o INSERT ... ON CONFLICT no código para bater com a constraint criada.
+	•	Se UNIQUE(userId):
+
+INSERT INTO "userSessions" ("userId", "session_token", "expiresAt", "ip_address", "lastActivity")
+VALUES ($1, $2, $3, $4, $5)
+ON CONFLICT ("userId")
+DO UPDATE SET "session_token" = EXCLUDED."session_token",
+              "expiresAt" = EXCLUDED."expiresAt",
+              "ip_address" = EXCLUDED."ip_address",
+              "lastActivity" = EXCLUDED."lastActivity";
+
+
+	•	Se UNIQUE(session_token), o código de upsert deve usar ON CONFLICT (session_token).
+
+⸻
+
+Recommendation: use UNIQUE(userId) se você quiser que cada usuário tenha apenas uma sessão ativa por vez.
+Next step: deseja que eu prepare o SQL completo para recriar a tabela userSessions com todas as colunas vistas nas imagens (id, userId, session_token, expiresAt, ip_address, lastActivity) já com a constraint correta?

@@ -1,0 +1,267 @@
+ WebSocket connection to 'wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/?token=wJbJgvieZ63q' failed: 
+setupWebSocket @ client:536
+client:536 Uncaught (in promise) 
+ Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+ ✅ All Firebase environment variables present
+ 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-terms-acceptance.ts:78 [Terms] No user found - hiding modal
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+App.tsx:575 🎯 App component mounted
+App.tsx:576 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin/encontro
+App.tsx:699 [App] Terms modal state: Object
+use-unified-websocket.ts:636 🔄 [UnifiedWebSocket] Auth state check: Object
+use-unified-websocket.ts:652 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed Object
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+EmergencyAlertDialog.tsx:61 🎧 [Emergency Alert] Setting up WebSocket listeners...
+EmergencyAlertDialog.tsx:144 🎧 [Emergency Alert] WebSocket listeners configured
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:692 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:602 🔌 [UnifiedWebSocket] Disconnecting...
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+App.tsx:575 🎯 App component mounted
+App.tsx:576 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin/encontro
+App.tsx:699 [App] Terms modal state: Object
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:692 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:602 🔌 [UnifiedWebSocket] Disconnecting...
+App.tsx:523 🔍 Checking payment status for user: jonathan.comercial@outlook.com Object
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+App.tsx:575 🎯 App component mounted
+App.tsx:576 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin/encontro
+App.tsx:699 [App] Terms modal state: Object
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:692 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:602 🔌 [UnifiedWebSocket] Disconnecting...
+use-feedback-alerts.ts:241 ✅ [FEEDBACK-ALERTS-HOOK] Session token found, initializing feedback alerts
+use-feedback-alerts.ts:206 🎯 [FEEDBACK-ALERTS-HOOK] User authenticated and session ready, fetching alerts for: jonathan.comercial@outlook.com
+use-feedback-alerts.ts:50 🔍 [FEEDBACK-ALERTS-HOOK] Fetching alerts for user jonathan.comercial@outlook.com
+App.tsx:575 🎯 App component mounted
+App.tsx:576 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin/encontro
+App.tsx:699 [App] Terms modal state: Object
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:692 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:602 🔌 [UnifiedWebSocket] Disconnecting...
+use-auth.ts:158 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+App.tsx:575 🎯 App component mounted
+App.tsx:576 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin/encontro
+App.tsx:699 [App] Terms modal state: {showTermsModal: false, hasAcceptedTerms: false}
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: false, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: undefined}
+use-unified-websocket.ts:692 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:602 🔌 [UnifiedWebSocket] Disconnecting...
+use-terms-acceptance.ts:25 [Terms] Checking terms acceptance for user: jonathan.comercial@outlook.com
+use-terms-acceptance.ts:31 [Terms] Mobile device detected - skipping terms modal
+App.tsx:575 🎯 App component mounted
+App.tsx:576 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin/encontro
+App.tsx:699 [App] Terms modal state: {showTermsModal: false, hasAcceptedTerms: true}
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: false, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: undefined}
+use-unified-websocket.ts:692 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:602 🔌 [UnifiedWebSocket] Disconnecting...
+use-auth.ts:158 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+admin-encontro.tsx:20 [["/api/event/confirmations"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+useQuery @ @tanstack_react-query.js?v=48d2bf13:3193
+AdminEncontroPage @ admin-encontro.tsx:20
+renderWithHooks @ chunk-RPCDYKBN.js?v=48d2bf13:11548
+mountIndeterminateComponent @ chunk-RPCDYKBN.js?v=48d2bf13:14926
+beginWork @ chunk-RPCDYKBN.js?v=48d2bf13:15914
+beginWork$1 @ chunk-RPCDYKBN.js?v=48d2bf13:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=48d2bf13:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=48d2bf13:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=48d2bf13:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=48d2bf13:18678
+workLoop @ chunk-RPCDYKBN.js?v=48d2bf13:197
+flushWork @ chunk-RPCDYKBN.js?v=48d2bf13:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=48d2bf13:384
+use-feedback-alerts.ts:72 📋 [FEEDBACK-ALERTS-HOOK] Received alerts: []
+use-feedback-alerts.ts:81 🎯 [FEEDBACK-ALERTS-HOOK] Alerts to show with delays: []
+App.tsx:575 🎯 App component mounted
+App.tsx:576 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin/encontro
+App.tsx:699 [App] Terms modal state: {showTermsModal: false, hasAcceptedTerms: true}
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+admin-encontro.tsx:20 [["/api/event/confirmations"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+useQuery @ @tanstack_react-query.js?v=48d2bf13:3193
+AdminEncontroPage @ admin-encontro.tsx:20
+renderWithHooks @ chunk-RPCDYKBN.js?v=48d2bf13:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=48d2bf13:14582
+beginWork @ chunk-RPCDYKBN.js?v=48d2bf13:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=48d2bf13:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=48d2bf13:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=48d2bf13:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=48d2bf13:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=48d2bf13:18678
+workLoop @ chunk-RPCDYKBN.js?v=48d2bf13:197
+flushWork @ chunk-RPCDYKBN.js?v=48d2bf13:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=48d2bf13:384
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: false, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: undefined}
+use-unified-websocket.ts:692 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:602 🔌 [UnifiedWebSocket] Disconnecting...
+use-auth.ts:158 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-unified-websocket.ts:636 🔄 [UnifiedWebSocket] Auth state check: {isAuthReady: true, hasUser: true, hasUID: true, hasEmail: true, userRole: 'superadmin', …}
+use-unified-websocket.ts:649 ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: true, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: 'jonathan.comercial@outlook.com'}
+use-unified-websocket.ts:686 ✅ [UnifiedWebSocket] Starting WebSocket connection...
+use-unified-websocket.ts:244 🔄 [UnifiedWebSocket] Connection attempt started {userEmail: 'jonathan.comercial@outlook.com', userId: 200, isAuthReady: true, windowLocation: 'https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin/encontro'}
+use-unified-websocket.ts:279 ✅ [UnifiedWebSocket] Authenticated user found - connecting WebSocket {userId: 200, email: 'jonathan.comercial@outlook.com', role: 'superadmin'}
+use-unified-websocket.ts:301 🔗 [UnifiedWebSocket] Using Replit/Production WebSocket URL: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws
+use-unified-websocket.ts:310 🔄 [UnifiedWebSocket] Connecting to: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: true, shouldReconnectFlag: true, isConnected: false, isConnecting: true, userEmail: 'jonathan.comercial@outlook.com'}
+use-unified-websocket.ts:689 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+queryClient.ts:23 Fetch finished loading: POST "https://securetoken.googleapis.com/v1/token?key=AIzaSyBg_EFchQ75sbbegkJtIdlyflZxuZki2DU".
+(anonymous) @ firebase_auth.js?v=48d2bf13:1544
+await in (anonymous)
+_performFetchWithErrorHandling @ firebase_auth.js?v=48d2bf13:1108
+requestStsToken @ firebase_auth.js?v=48d2bf13:1524
+refresh @ firebase_auth.js?v=48d2bf13:1612
+getToken @ firebase_auth.js?v=48d2bf13:1603
+getIdToken @ firebase_auth.js?v=48d2bf13:1687
+getAuthToken @ queryClient.ts:23
+apiRequest @ queryClient.ts:31
+queryFn @ EmergencyAlertDialog.tsx:30
+fetchFn @ @tanstack_react-query.js?v=48d2bf13:881
+run @ @tanstack_react-query.js?v=48d2bf13:513
+start @ @tanstack_react-query.js?v=48d2bf13:555
+fetch @ @tanstack_react-query.js?v=48d2bf13:969
+executeFetch_fn @ @tanstack_react-query.js?v=48d2bf13:2279
+setOptions @ @tanstack_react-query.js?v=48d2bf13:2040
+(anonymous) @ @tanstack_react-query.js?v=48d2bf13:3156
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=48d2bf13:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=48d2bf13:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=48d2bf13:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=48d2bf13:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=48d2bf13:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=48d2bf13:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=48d2bf13:19447
+(anonymous) @ chunk-RPCDYKBN.js?v=48d2bf13:19328
+workLoop @ chunk-RPCDYKBN.js?v=48d2bf13:197
+flushWork @ chunk-RPCDYKBN.js?v=48d2bf13:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=48d2bf13:384
+use-unified-websocket.ts:317 ✅ [UnifiedWebSocket] Connected successfully to: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws
+use-unified-websocket.ts:381 📨 [UnifiedWebSocket] Message received: CONNECTION_ESTABLISHED {type: 'CONNECTION_ESTABLISHED', timestamp: '2025-10-14T00:37:40.679Z', data: {…}}
+use-unified-websocket.ts:389 ✅ [UnifiedWebSocket] Connection confirmed: CONNECTION_ESTABLISHED
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: true
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: true, shouldReconnectFlag: true, isConnected: true, isConnecting: false, userEmail: 'jonathan.comercial@outlook.com'}
+use-unified-websocket.ts:689 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+queryClient.ts:93 📥 Raw response text: {"alerts":[]}
+queryClient.ts:114 ✅ Parsed JSON response: {alerts: Array(0)}
+queryClient.ts:42 Fetch finished loading: GET "https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/api/emergency-alerts/pending".
+apiRequest @ queryClient.ts:42
+await in apiRequest
+queryFn @ EmergencyAlertDialog.tsx:30
+fetchFn @ @tanstack_react-query.js?v=48d2bf13:881
+run @ @tanstack_react-query.js?v=48d2bf13:513
+start @ @tanstack_react-query.js?v=48d2bf13:555
+fetch @ @tanstack_react-query.js?v=48d2bf13:969
+executeFetch_fn @ @tanstack_react-query.js?v=48d2bf13:2279
+setOptions @ @tanstack_react-query.js?v=48d2bf13:2040
+(anonymous) @ @tanstack_react-query.js?v=48d2bf13:3156
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=48d2bf13:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=48d2bf13:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=48d2bf13:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=48d2bf13:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=48d2bf13:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=48d2bf13:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=48d2bf13:19447
+(anonymous) @ chunk-RPCDYKBN.js?v=48d2bf13:19328
+workLoop @ chunk-RPCDYKBN.js?v=48d2bf13:197
+flushWork @ chunk-RPCDYKBN.js?v=48d2bf13:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=48d2bf13:384
+use-unified-websocket.ts:333 Fetch finished loading: POST "https://securetoken.googleapis.com/v1/token?key=AIzaSyBg_EFchQ75sbbegkJtIdlyflZxuZki2DU".
+(anonymous) @ firebase_auth.js?v=48d2bf13:1544
+await in (anonymous)
+_performFetchWithErrorHandling @ firebase_auth.js?v=48d2bf13:1108
+requestStsToken @ firebase_auth.js?v=48d2bf13:1524
+refresh @ firebase_auth.js?v=48d2bf13:1612
+getToken @ firebase_auth.js?v=48d2bf13:1603
+getIdToken @ firebase_auth.js?v=48d2bf13:1687
+ws.onopen @ use-unified-websocket.ts:333
+use-unified-websocket.ts:335 🎫 Fresh Firebase token obtained for WebSocket auth
+use-unified-websocket.ts:365 📝 [UnifiedWebSocket] Registering session with Firebase token: {userId: 200, email: 'jonathan.comercial@outlook.com', firebaseUid: '5vVK4mUnfpVcrTdDqJmByOYPjqp1', hasToken: true}
+use-unified-websocket.ts:381 📨 [UnifiedWebSocket] Message received: SESSION_REGISTERED {type: 'SESSION_REGISTERED', timestamp: '2025-10-14T00:37:41.311Z', data: {…}}
+use-unified-websocket.ts:389 ✅ [UnifiedWebSocket] Connection confirmed: SESSION_REGISTERED
+EmergencyAlertDialog.tsx:110 🌐 [Emergency Alert] Intercepted WebSocket message: {type: 'SESSION_REGISTERED', timestamp: '2025-10-14T00:37:41.311Z', data: {…}}
+use-realtime-notifications.ts:131 🔔 [Realtime] WebSocket message received: SESSION_REGISTERED
+use-realtime-notifications.ts:147 📝 [Realtime] Unknown message type: SESSION_REGISTERED
+admin-encontro.tsx:20 [["/api/event/confirmations"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+useQuery @ @tanstack_react-query.js?v=48d2bf13:3193
+AdminEncontroPage @ admin-encontro.tsx:20
+renderWithHooks @ chunk-RPCDYKBN.js?v=48d2bf13:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=48d2bf13:14582
+beginWork @ chunk-RPCDYKBN.js?v=48d2bf13:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=48d2bf13:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=48d2bf13:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=48d2bf13:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=48d2bf13:19116
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=48d2bf13:18874
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=48d2bf13:9119
+(anonymous) @ chunk-RPCDYKBN.js?v=48d2bf13:18627
+setTimeout
+defaultScheduler @ @tanstack_react-query.js?v=48d2bf13:565
+flush @ @tanstack_react-query.js?v=48d2bf13:589
+batch @ @tanstack_react-query.js?v=48d2bf13:607
+dispatch_fn @ @tanstack_react-query.js?v=48d2bf13:1040
+onError @ @tanstack_react-query.js?v=48d2bf13:904
+reject @ @tanstack_react-query.js?v=48d2bf13:484
+(anonymous) @ @tanstack_react-query.js?v=48d2bf13:527
+Promise.catch
+run @ @tanstack_react-query.js?v=48d2bf13:517
+(anonymous) @ @tanstack_react-query.js?v=48d2bf13:538
+Promise.then
+(anonymous) @ @tanstack_react-query.js?v=48d2bf13:534
+Promise.catch
+run @ @tanstack_react-query.js?v=48d2bf13:517
+start @ @tanstack_react-query.js?v=48d2bf13:555
+fetch @ @tanstack_react-query.js?v=48d2bf13:969
+executeFetch_fn @ @tanstack_react-query.js?v=48d2bf13:2279
+onSubscribe @ @tanstack_react-query.js?v=48d2bf13:1983
+subscribe @ @tanstack_react-query.js?v=48d2bf13:24
+(anonymous) @ @tanstack_react-query.js?v=48d2bf13:3146
+subscribeToStore @ chunk-RPCDYKBN.js?v=48d2bf13:11984
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=48d2bf13:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=48d2bf13:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=48d2bf13:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=48d2bf13:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=48d2bf13:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=48d2bf13:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=48d2bf13:19447
+(anonymous) @ chunk-RPCDYKBN.js?v=48d2bf13:19328
+workLoop @ chunk-RPCDYKBN.js?v=48d2bf13:197
+flushWork @ chunk-RPCDYKBN.js?v=48d2bf13:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=48d2bf13:384

@@ -1,0 +1,202 @@
+const FIREBASE_URL = 'https://mvp1precos-default-rtdb.firebaseio.com';
+const WEBHOOK_URL = 'https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/api/webhook/sheets-update';
+
+function onEdit(e) {
+  if (!e) {
+    Logger.log("❌ Evento 'e' está undefined. Função foi executada manualmente?");
+    return;
+  }
+
+  const sheet = e.range.getSheet();
+  const row = e.range.getRow();
+  const column = e.range.getColumn(); // 🟢 Aqui pegamos a coluna corretamente
+  Logger.log("📍 COLUNA EDITADA: " + column);
+  const values = sheet.getRange(row, 1, 1, sheet.getLastColumn()).getValues()[0];
+
+  const precoFormatado = parseFloat(String(values[6]).replace(/[^\d,]/g, '').replace(',', '.'));
+  const vendaFormatada = parseFloat(String(values[7]).replace(/[^\d,]/g, '').replace(',', '.'));
+
+  const payload = {
+    fornecedor: values[0],
+    categoria: values[1],
+    modelo: values[2],
+    gb: values[3],
+    regiao: values[4],
+    cor: values[5],
+    preco: precoFormatado,
+    venda: vendaFormatada,
+    atualizadoEm: new Date().toISOString(),
+    linha: row,
+    coluna: column, // ✅ agora vai corretamente no payload
+    aba: sheet.getSheetName()
+  };
+
+  const chave = `${sheet.getSheetName()}/linha-${row}`;
+  const firebaseUrl = `${FIREBASE_URL}/${chave}.json`;
+
+  const options = {
+    method: 'put',
+    contentType: 'application/json',
+    payload: JSON.stringify(payload),
+    muteHttpExceptions: true
+  };
+
+  const webhookOptions = {
+    method: 'post',
+    contentType: 'application/json',
+    payload: JSON.stringify(payload),
+    muteHttpExceptions: true
+  };
+
+  try {
+    const responseFirebase = UrlFetchApp.fetch(firebaseUrl, options);
+    Logger.log("Firebase OK: " + responseFirebase.getContentText());
+
+    const responseWebhook = UrlFetchApp.fetch(WEBHOOK_URL, webhookOptions);
+    Logger.log("Webhook OK: " + responseWebhook.getContentText());
+
+  } catch (err) {
+    Logger.log("Erro ao enviar: " + err);
+  }
+}
+
+// Salva o horário da última atualização na aba 'controle'
+try {
+  const controleSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("controle");
+  if (controleSheet) {
+    controleSheet.getRange("B1").setValue(new Date());
+  }
+} catch (e) {
+  Logger.log("Erro ao atualizar horário em 'controle': " + e);
+}
+
+// ---------------------------------------------------
+// SCRIP DE AUTOMAÇÃO DE DADOS
+
+function atualizarBasePorData() {
+  processarValidacoesNaEntrada();
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const entrada = ss.getSheetByName("ENTRADA");
+
+  const entradaLastRow = entrada.getLastRow();
+  if (entradaLastRow < 2) return;
+
+  const hoje = Utilities.formatDate(new Date(), Session.getScriptTimeZone(), "dd-MM");
+  let base = ss.getSheetByName(hoje);
+
+  // Cria a aba do dia se não existir
+  if (!base) {
+    base = ss.insertSheet(hoje);
+    base.appendRow(["FORNECEDOR", "CAT", "MODELO", "GB", "REGIÃO", "COR", "PREÇO"]);
+  }
+
+  const entradaData = entrada.getRange(2, 1, entradaLastRow - 1, 7).getValues();
+  const baseLastRow = base.getLastRow();
+  const baseData = baseLastRow > 1 ? base.getRange(2, 1, baseLastRow - 1, 7).getValues() : [];
+
+  const baseMap = new Map();
+
+  baseData.forEach(row => {
+    const key = gerarChavePadronizada(row);
+    baseMap.set(key, row);
+  });
+
+  entradaData.forEach(row => {
+    const key = gerarChavePadronizada(row);
+    baseMap.set(key, row); // substitui ou adiciona
+  });
+
+  const newBase = Array.from(baseMap.values());
+
+  if (baseLastRow > 1) {
+    base.getRange(2, 1, baseLastRow - 1, 7).clearContent();
+  }
+  if (newBase.length > 0) {
+    base.getRange(2, 1, newBase.length, 7).setValues(newBase);
+  }
+
+  entrada.getRange(2, 1, entradaLastRow - 1, 7).clearContent();
+}
+
+function gerarChavePadronizada(row) {
+  return row.slice(0, 6).map(campo =>
+    String(campo)
+      .toLowerCase()
+      .replace(/\s+/g, '')
+      .normalize("NFD").replace(/[\u0300-\u036f]/g, '')
+  ).join('|');
+}
+function processarEntradaComTimestamp() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const entrada = ss.getSheetByName("ENTRADA");
+  
+  if (!entrada) {
+    Logger.log("❌ Aba ENTRADA não encontrada");
+    return;
+  }
+  
+  // Verifica se há dados para processar
+  const entradaLastRow = entrada.getLastRow();
+  if (entradaLastRow < 2) {
+    Logger.log("ℹ️ Nenhum dado na aba ENTRADA para processar");
+    return;
+  }
+  
+  // Captura apenas linhas que têm conteúdo (evita linhas vazias)
+  const entradaData = [];
+  const range = entrada.getRange(2, 1, entradaLastRow - 1, 8);
+  const values = range.getValues();
+  
+  values.forEach(row => {
+    // Verifica se a linha tem pelo menos um campo preenchido (ignora linhas completamente vazias)
+    const temConteudo = row.some(cell => cell !== "" && cell !== null && cell !== undefined);
+    if (temConteudo) {
+      entradaData.push(row);
+    }
+  });
+  
+  if (entradaData.length === 0) {
+    Logger.log("ℹ️ Nenhuma linha com conteúdo na aba ENTRADA");
+    return;
+  }
+  
+  // Cria ou acessa aba do dia atual
+  const hoje = Utilities.formatDate(new Date(), Session.getScriptTimeZone(), "dd-MM");
+  let abaDia = ss.getSheetByName(hoje);
+  
+  if (!abaDia) {
+    abaDia = ss.insertSheet(hoje);
+    abaDia.appendRow(["FORNECEDOR", "CAT", "MODELO", "GB", "REGIÃO", "COR", "PREÇO", "TIMESTAMP"]);
+    Logger.log("✅ Aba criada: " + hoje);
+  }
+  
+  // Gera timestamp único para esta execução
+  const timestamp = Utilities.formatDate(new Date(), Session.getScriptTimeZone(), "HH:mm:ss");
+  
+  // Prepara dados para inserção (adiciona timestamp na coluna H)
+  const dadosParaInserir = entradaData.map(row => {
+    const novaRow = [...row]; // copia os dados originais
+    novaRow[7] = timestamp; // adiciona timestamp na coluna H (índice 7)
+    return novaRow;
+  });
+  
+  // Insere dados na aba do dia (sempre no final)
+  const proximaLinhaVazia = abaDia.getLastRow() + 1;
+  abaDia.getRange(proximaLinhaVazia, 1, dadosParaInserir.length, 8).setValues(dadosParaInserir);
+  
+  // Limpa aba ENTRADA (apenas as linhas com dados, mantém cabeçalho)
+  if (entradaLastRow > 1) {
+    entrada.getRange(2, 1, entradaLastRow - 1, 8).clearContent();
+  }
+  
+  // Log do resultado
+  Logger.log("✅ Processamento concluído:");
+  Logger.log("   📊 Linhas processadas: " + dadosParaInserir.length);
+  Logger.log("   🕐 Timestamp aplicado: " + timestamp);
+  Logger.log("   📅 Aba de destino: " + hoje);
+  Logger.log("   📍 Inserido a partir da linha: " + proximaLinhaVazia);
+}
+
+
+
+

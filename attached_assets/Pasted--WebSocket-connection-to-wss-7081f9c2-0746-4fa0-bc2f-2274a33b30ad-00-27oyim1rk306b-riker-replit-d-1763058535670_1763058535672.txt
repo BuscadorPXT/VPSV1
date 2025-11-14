@@ -1,0 +1,2638 @@
+ WebSocket connection to 'wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/?token=Zm5mQbnlIYVP' failed: 
+setupWebSocket @ client:536
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 ExcelStylePriceList: Fetching products... Object
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ 🔗 Request URL: /api/products?date=13-11&limit=999999&page=1&_t=1763058345471 with date: 13-11
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/user/profile","5vVK4mUnfpVcrTdDqJmByOYPjqp1"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/user/profile","5vVK4mUnfpVcrTdDqJmByOYPjqp1"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [ADMIN ITEMS FINAL] Object
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 📱 MobileSearchBar RENDERIZADA: Object
+ 📱 MobileSearchBar: Component is ACTIVE and rendering
+ 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🎯 ExcelStylePriceList: Component render state: Object
+ 🎯 Rendering product 0: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎯 Rendering product 1: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎯 Rendering product 2: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎨 Watermark component rendering with: Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔍 SimpleMobileFilters: Component state changed Object
+ Failed to fetch user profile for debug: 
+queryFn @ useTesterStatusDebug.ts:33
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🎯 ExcelStylePriceList: Component render state: Object
+ 🎯 Rendering product 0: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎯 Rendering product 1: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎯 Rendering product 2: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎨 Watermark component rendering with: Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ ✅ Products response received for date: 13-11 Object
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 📦 Processing products data: Object
+ 📦 Extracted products: Object
+ 🔍 ExcelStylePriceList: Processing search: Object
+ 📋 ExcelStylePriceList: No search term - returning all products
+ 🎯 Using products for filters: Object
+ 🎯 Filter options for search-filtered products: Object
+ 🏪 Extracting suppliers from products: 4050 products
+ 🏪 Current supplier contacts state: 99 contacts loaded
+ 🏪 Extracted suppliers: 78 unique suppliers
+ 🏪 Sample suppliers vs contacts: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🔍 Filtering products: Object
+ 🔍 Exibindo todos os produtos filtrados: Object
+ 🏷️ calculateLowestPrices: Object
+ 🏷️ calculateLowestPrices result: Object
+ 🏷️ [ExcelStylePriceList] Produtos com menor preço após filtragem: 1
+ 🔍 SafeProducts filtering: Object
+ 📄 Pagination debug: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🎯 ExcelStylePriceList: Component render state: Object
+ 🎯 Rendering product 0: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎯 Rendering product 1: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎯 Rendering product 2: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎨 Watermark component rendering with: Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 ExcelStylePriceList: Fetching products... Object
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ 🔗 Request URL: /api/products?date=13-11&limit=999999&page=1&_t=1763058359861 with date: 13-11
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ [["/api/user/profile","5vVK4mUnfpVcrTdDqJmByOYPjqp1"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [ADMIN ITEMS FINAL] Object
+ Failed to fetch user profile for debug: 
+queryFn @ useTesterStatusDebug.ts:33
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🎯 ExcelStylePriceList: Component render state: Object
+ 🎯 Rendering product 0: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎯 Rendering product 1: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎯 Rendering product 2: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎨 Watermark component rendering with: Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🎯 App component mounted
+ 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/dashboard
+ 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 📝 Unregistering refresh callback
+ [Terms] No user found - hiding modal
+ 🎯 App component mounted
+ 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/login
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ 🎯 App component mounted
+ 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/login
+ 🕐 Monitoring data received: Object
+ ✅ Products response received for date: 13-11 Object
+ 🔐 Attempting Firebase login...
+ ✅ Firebase login successful
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🎯 App component mounted
+ 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/login
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed Object
+ 🔔 [RealtimeProvider] WebSocket connection status: false
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🎧 [Emergency Alert] Setting up WebSocket listeners...
+ 🎧 [Emergency Alert] WebSocket listeners configured
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔍 Checking payment status for user: jonathan.comercial@outlook.com Object
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🎯 App component mounted
+ 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/login
+ 🔔 [RealtimeProvider] WebSocket connection status: false
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ ✅ [FEEDBACK-ALERTS-HOOK] Session token found, deferring feedback alerts for 5s
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🎯 App component mounted
+ 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/login
+ 🔔 [RealtimeProvider] WebSocket connection status: false
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ [Terms] Checking terms acceptance for user: jonathan.comercial@outlook.com
+ [Terms] Stored data found: true
+ [Terms] Looking for user key: user_5vVK4mUnfpVcrTdDqJmByOYPjqp1
+ [Terms] Available keys: Array(1)
+ [Terms] User terms found: Object
+ [Terms] User has accepted current version - hiding modal
+ 🎯 App component mounted
+ 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/login
+ 🔔 [RealtimeProvider] WebSocket connection status: false
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+ 🔔 [RealtimeProvider] WebSocket connection status: false
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ ✅ [UnifiedWebSocket] Starting WebSocket connection...
+ 🔄 [UnifiedWebSocket] Connection attempt started Object
+ 🔗 [UnifiedWebSocket] Already connected via singleton
+ 🔔 [RealtimeProvider] WebSocket connection status: true
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ User authenticated, redirecting...
+ 🎯 App component mounted
+ 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/dashboard
+ 🔔 [RealtimeProvider] WebSocket connection status: true
+ 🛡️ ProtectedRoute check: Object
+ ⏳ Showing loader - auth not ready
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔍 Checking payment status for user: jonathan.comercial@outlook.com Object
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🛡️ ProtectedRoute check: Object
+ ✅ User authenticated - rendering protected content
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed Object
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 📅 Auto-selecting most recent date: 13-11
+ Função clearUserTerms() disponível no console
+ 📱 Dashboard: Mobile filters state changed Object
+ 🎯 Dashboard: Products data updated: Object
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ 🎯 Dashboard: Products data updated: Object
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed Object
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [ADMIN ITEMS FINAL] Object
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 📱 MobileSearchBar RENDERIZADA: Object
+ 📱 MobileSearchBar: Component is ACTIVE and rendering
+ 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed Object
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed Object
+ 📦 Processing products data: Object
+ 📦 Extracted products: Object
+ 🔍 ExcelStylePriceList: Processing search: Object
+ 📋 ExcelStylePriceList: No search term - returning all products
+ 🎯 Using products for filters: Object
+ 🎯 Filter options for search-filtered products: Object
+ 🏪 Extracting suppliers from products: 4050 products
+ 🏪 Current supplier contacts state: 0 contacts loaded
+ 🏪 Extracted suppliers: 78 unique suppliers
+ 🏪 Sample suppliers vs contacts: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🔍 Filtering products: Object
+ 🔍 Exibindo todos os produtos filtrados: Object
+ 🏷️ calculateLowestPrices: Object
+ 🏷️ calculateLowestPrices result: Object
+ 🏷️ [ExcelStylePriceList] Produtos com menor preço após filtragem: 1
+ 🔍 SafeProducts filtering: Object
+ 📄 Pagination debug: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔍 TESTER STATUS DEBUG: Object
+ 📞 Updating supplier contacts state with 99 contacts
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 📝 Registering refresh callback for real-time updates
+ 🔍 SimpleMobileFilters: Component state changed Object
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🎯 Dashboard: Products data updated: Object
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ 📱 MobileSearchBar RENDERIZADA: Object
+ 📱 MobileSearchBar: Component is ACTIVE and rendering
+ 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🏪 Extracting suppliers from products: 4050 products
+ 🏪 Current supplier contacts state: 99 contacts loaded
+ 🏪 Extracted suppliers: 78 unique suppliers
+ 🏪 Sample suppliers vs contacts: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🔍 Filtering products: Object
+ 🔍 Exibindo todos os produtos filtrados: Object
+ 🏷️ calculateLowestPrices: Object
+ 🏷️ calculateLowestPrices result: Object
+ 🏷️ [ExcelStylePriceList] Produtos com menor preço após filtragem: 1
+ 🔍 SafeProducts filtering: Object
+ 📄 Pagination debug: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [ADMIN ITEMS FINAL] Object
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 📱 MobileSearchBar RENDERIZADA: Object
+ 📱 MobileSearchBar: Component is ACTIVE and rendering
+ 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔍 SimpleMobileFilters: Component state changed Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ ✅ [UnifiedWebSocket] Starting WebSocket connection...
+ 🔄 [UnifiedWebSocket] Connection attempt started Object
+ 🔗 [UnifiedWebSocket] Already connected via singleton
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [ADMIN ITEMS FINAL] Object
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 📱 MobileSearchBar RENDERIZADA: Object
+ 📱 MobileSearchBar: Component is ACTIVE and rendering
+ 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔍 SimpleMobileFilters: Component state changed Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [ADMIN ITEMS FINAL] Object
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 📱 MobileSearchBar RENDERIZADA: Object
+ 📱 MobileSearchBar: Component is ACTIVE and rendering
+ 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔍 SimpleMobileFilters: Component state changed Object
+ 📱 MobileSearchBar RENDERIZADA: Object
+ 📱 MobileSearchBar: Component is ACTIVE and rendering
+ 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [ADMIN ITEMS FINAL] Object
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 📱 MobileSearchBar RENDERIZADA: Object
+ 📱 MobileSearchBar: Component is ACTIVE and rendering
+ 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔍 SimpleMobileFilters: Component state changed Object
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [ADMIN ITEMS FINAL] Object
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 📱 MobileSearchBar RENDERIZADA: Object
+ 📱 MobileSearchBar: Component is ACTIVE and rendering
+ 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔍 SimpleMobileFilters: Component state changed Object
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ [ADMIN ITEMS FINAL] Object
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 📱 MobileSearchBar RENDERIZADA: Object
+ 📱 MobileSearchBar: Component is ACTIVE and rendering
+ 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ExcelStylePriceList.tsx:1219 🎯 STRICT Filter arrays updated: Object
+suppliers-modal.tsx:58 🏪 SuppliersModal - Props received: Object
+suppliers-modal.tsx:272 🏪 SuppliersModal - Data state: Object
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+SimpleMobileFilters.tsx:54 🔍 SimpleMobileFilters: Component state changed Object
+MobileSearchBar.tsx:34 📱 MobileSearchBar RENDERIZADA: Object
+MobileSearchBar.tsx:38 📱 MobileSearchBar: Component is ACTIVE and rendering
+MobileSearchBar.tsx:39 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+MobileSearchBar.tsx:34 📱 MobileSearchBar RENDERIZADA: Object
+MobileSearchBar.tsx:38 📱 MobileSearchBar: Component is ACTIVE and rendering
+MobileSearchBar.tsx:39 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+MobileSearchBar.tsx:34 📱 MobileSearchBar RENDERIZADA: Object
+MobileSearchBar.tsx:38 📱 MobileSearchBar: Component is ACTIVE and rendering
+MobileSearchBar.tsx:39 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+ExcelStylePriceList.tsx:294 🔌 [ExcelStylePriceList] WebSocket status: Object
+ExcelStylePriceList.tsx:1219 🎯 STRICT Filter arrays updated: Object
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+ExcelStylePriceList.tsx:294 🔌 [ExcelStylePriceList] WebSocket status: Object
+ExcelStylePriceList.tsx:1219 🎯 STRICT Filter arrays updated: Object
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+ExcelStylePriceList.tsx:294 🔌 [ExcelStylePriceList] WebSocket status: Object
+ExcelStylePriceList.tsx:1219 🎯 STRICT Filter arrays updated: Object
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: true
+use-user-profile.ts:22 [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+useUserProfile @ use-user-profile.ts:22
+Dashboard @ dashboard.tsx:101
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+dashboard.tsx:114 [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+Dashboard @ dashboard.tsx:114
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+NotificationBell.tsx:38 [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+NotificationBell @ NotificationBell.tsx:38
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+use-user-profile.ts:22 [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+useUserProfile @ use-user-profile.ts:22
+Sidebar @ sidebar.tsx:78
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+sidebar.tsx:250 [ADMIN ITEMS FINAL] {adminItemsCount: 0, adminItems: Array(0), isAdminUser: false, timestamp: '2025-11-13T18:26:08.848Z'}
+NotificationBell.tsx:38 [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+NotificationBell @ NotificationBell.tsx:38
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+suppliers-modal.tsx:58 🏪 SuppliersModal - Props received: {open: false, dateFilter: '13-11', userPlan: 'free', isAdmin: false, role: 'user'}
+suppliers-modal.tsx:272 🏪 SuppliersModal - Data state: {suppliersDataExists: false, suppliersCount: 0, totalCount: 0, hasApiData: false}
+MobileSearchBar.tsx:34 📱 MobileSearchBar RENDERIZADA: {searchTerm: '', selectedDate: '13-11'}
+MobileSearchBar.tsx:38 📱 MobileSearchBar: Component is ACTIVE and rendering
+MobileSearchBar.tsx:39 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+ExcelStylePriceList.tsx:294 🔌 [ExcelStylePriceList] WebSocket status: {isRealtimeConnected: false, realtimeError: undefined, realtimeLoading: undefined}
+ExcelStylePriceList.tsx:1219 🎯 STRICT Filter arrays updated: {activeSearchTerm: '(nenhuma)', searchTerm: '', currentFiltersSearch: '', propsSearchFilter: '', hasActiveSearch: false, …}
+suppliers-modal.tsx:58 🏪 SuppliersModal - Props received: {open: false, dateFilter: '13-11', userPlan: 'pro', isAdmin: false, role: 'user'}
+suppliers-modal.tsx:272 🏪 SuppliersModal - Data state: {suppliersDataExists: false, suppliersCount: 0, totalCount: 0, hasApiData: false}
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: false, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: undefined}
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: false, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: undefined}
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+SimpleMobileFilters.tsx:54 🔍 SimpleMobileFilters: Component state changed {isOpen: false, availableFilters: {…}, selectedFilters: {…}, productCount: 4050, activeSection: null, …}
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: true, shouldReconnectFlag: true, isConnected: true, isConnecting: false, userEmail: 'jonathan.comercial@outlook.com'}
+use-unified-websocket.ts:723 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+use-auth.ts:158 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+queryClient.ts:93 📥 Raw response text: {"success":true}
+queryClient.ts:114 ✅ Parsed JSON response: {success: true}
+use-user-profile.ts:22 [["/api/user/profile","5vVK4mUnfpVcrTdDqJmByOYPjqp1"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+useUserProfile @ use-user-profile.ts:22
+Dashboard @ dashboard.tsx:101
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+dashboard.tsx:114 [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+Dashboard @ dashboard.tsx:114
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+NotificationBell.tsx:38 [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+NotificationBell @ NotificationBell.tsx:38
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+use-user-profile.ts:22 [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+useUserProfile @ use-user-profile.ts:22
+Sidebar @ sidebar.tsx:78
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+sidebar.tsx:250 [ADMIN ITEMS FINAL] {adminItemsCount: 0, adminItems: Array(0), isAdminUser: false, timestamp: '2025-11-13T18:26:08.855Z'}
+NotificationBell.tsx:38 [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+NotificationBell @ NotificationBell.tsx:38
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+suppliers-modal.tsx:58 🏪 SuppliersModal - Props received: {open: false, dateFilter: '13-11', userPlan: 'free', isAdmin: false, role: 'user'}
+suppliers-modal.tsx:272 🏪 SuppliersModal - Data state: {suppliersDataExists: false, suppliersCount: 0, totalCount: 0, hasApiData: false}
+MobileSearchBar.tsx:34 📱 MobileSearchBar RENDERIZADA: {searchTerm: '', selectedDate: '13-11'}
+MobileSearchBar.tsx:38 📱 MobileSearchBar: Component is ACTIVE and rendering
+MobileSearchBar.tsx:39 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+ExcelStylePriceList.tsx:294 🔌 [ExcelStylePriceList] WebSocket status: {isRealtimeConnected: false, realtimeError: undefined, realtimeLoading: undefined}
+ExcelStylePriceList.tsx:1219 🎯 STRICT Filter arrays updated: {activeSearchTerm: '(nenhuma)', searchTerm: '', currentFiltersSearch: '', propsSearchFilter: '', hasActiveSearch: false, …}
+suppliers-modal.tsx:58 🏪 SuppliersModal - Props received: {open: false, dateFilter: '13-11', userPlan: 'pro', isAdmin: false, role: 'user'}
+suppliers-modal.tsx:272 🏪 SuppliersModal - Data state: {suppliersDataExists: false, suppliersCount: 0, totalCount: 0, hasApiData: false}
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: false, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: undefined}
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: false, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: undefined}
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+SimpleMobileFilters.tsx:54 🔍 SimpleMobileFilters: Component state changed {isOpen: false, availableFilters: {…}, selectedFilters: {…}, productCount: 4050, activeSection: null, …}
+use-auth.ts:158 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+NotificationBell.tsx:38 [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+NotificationBell @ NotificationBell.tsx:38
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+use-auth.ts:158 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-user-profile.ts:22 [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+useUserProfile @ use-user-profile.ts:22
+Sidebar @ sidebar.tsx:78
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+sidebar.tsx:250 [ADMIN ITEMS FINAL] {adminItemsCount: 1, adminItems: Array(1), isAdminUser: true, timestamp: '2025-11-13T18:26:09.469Z'}
+use-feedback-alerts.ts:206 🎯 [FEEDBACK-ALERTS-HOOK] User authenticated and session ready, fetching alerts for: jonathan.comercial@outlook.com
+use-feedback-alerts.ts:50 🔍 [FEEDBACK-ALERTS-HOOK] Fetching alerts for user jonathan.comercial@outlook.com
+App.tsx:573 🎯 App component mounted
+App.tsx:574 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/dashboard
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: true
+App.tsx:105 🛡️ ProtectedRoute check: {user: {…}, loading: false, authInitialized: true, isAuthReady: true}
+App.tsx:122 ✅ User authenticated - rendering protected content
+use-user-profile.ts:22 [["/api/user/profile","5vVK4mUnfpVcrTdDqJmByOYPjqp1"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+useUserProfile @ use-user-profile.ts:22
+Dashboard @ dashboard.tsx:101
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+dashboard.tsx:114 [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+Dashboard @ dashboard.tsx:114
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+NotificationBell.tsx:38 [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+NotificationBell @ NotificationBell.tsx:38
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+use-user-profile.ts:22 [["/api/user/profile",null]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+useUserProfile @ use-user-profile.ts:22
+Sidebar @ sidebar.tsx:78
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+sidebar.tsx:250 [ADMIN ITEMS FINAL] {adminItemsCount: 1, adminItems: Array(1), isAdminUser: true, timestamp: '2025-11-13T18:26:09.761Z'}
+NotificationBell.tsx:38 [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+NotificationBell @ NotificationBell.tsx:38
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+suppliers-modal.tsx:58 🏪 SuppliersModal - Props received: {open: false, dateFilter: '13-11', userPlan: 'free', isAdmin: false, role: 'user'}
+suppliers-modal.tsx:272 🏪 SuppliersModal - Data state: {suppliersDataExists: false, suppliersCount: 0, totalCount: 0, hasApiData: false}
+MobileSearchBar.tsx:34 📱 MobileSearchBar RENDERIZADA: {searchTerm: '', selectedDate: '13-11'}
+MobileSearchBar.tsx:38 📱 MobileSearchBar: Component is ACTIVE and rendering
+MobileSearchBar.tsx:39 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+ExcelStylePriceList.tsx:294 🔌 [ExcelStylePriceList] WebSocket status: {isRealtimeConnected: false, realtimeError: undefined, realtimeLoading: undefined}
+ExcelStylePriceList.tsx:1219 🎯 STRICT Filter arrays updated: {activeSearchTerm: '(nenhuma)', searchTerm: '', currentFiltersSearch: '', propsSearchFilter: '', hasActiveSearch: false, …}
+suppliers-modal.tsx:58 🏪 SuppliersModal - Props received: {open: false, dateFilter: '13-11', userPlan: 'pro', isAdmin: false, role: 'user'}
+suppliers-modal.tsx:272 🏪 SuppliersModal - Data state: {suppliersDataExists: false, suppliersCount: 0, totalCount: 0, hasApiData: false}
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: false, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: undefined}
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: false, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: undefined}
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+SimpleMobileFilters.tsx:54 🔍 SimpleMobileFilters: Component state changed {isOpen: false, availableFilters: {…}, selectedFilters: {…}, productCount: 4050, activeSection: null, …}
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: true, shouldReconnectFlag: true, isConnected: true, isConnecting: false, userEmail: 'jonathan.comercial@outlook.com'}
+use-unified-websocket.ts:723 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+use-auth.ts:158 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-user-profile.ts:22 [["/api/user/profile","5vVK4mUnfpVcrTdDqJmByOYPjqp1"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+useUserProfile @ use-user-profile.ts:22
+Sidebar @ sidebar.tsx:78
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+sidebar.tsx:250 [ADMIN ITEMS FINAL] {adminItemsCount: 1, adminItems: Array(1), isAdminUser: true, timestamp: '2025-11-13T18:26:09.799Z'}
+NotificationBell.tsx:38 [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+NotificationBell @ NotificationBell.tsx:38
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18874
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+(anonymous) @ chunk-RPCDYKBN.js?v=79a3fb7d:18627
+setTimeout
+systemSetTimeoutZero @ @tanstack_react-query.js?v=79a3fb7d:103
+flush @ @tanstack_react-query.js?v=79a3fb7d:615
+batch @ @tanstack_react-query.js?v=79a3fb7d:633
+dispatch_fn @ @tanstack_react-query.js?v=79a3fb7d:1260
+fetch @ @tanstack_react-query.js?v=79a3fb7d:1177
+NotificationBell.tsx:38 [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+NotificationBell @ NotificationBell.tsx:38
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18874
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+(anonymous) @ chunk-RPCDYKBN.js?v=79a3fb7d:18627
+setTimeout
+systemSetTimeoutZero @ @tanstack_react-query.js?v=79a3fb7d:103
+flush @ @tanstack_react-query.js?v=79a3fb7d:615
+batch @ @tanstack_react-query.js?v=79a3fb7d:633
+dispatch_fn @ @tanstack_react-query.js?v=79a3fb7d:1260
+fetch @ @tanstack_react-query.js?v=79a3fb7d:1177
+use-auth.ts:158 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-feedback-alerts.ts:72 📋 [FEEDBACK-ALERTS-HOOK] Received alerts: []
+use-feedback-alerts.ts:81 🎯 [FEEDBACK-ALERTS-HOOK] Alerts to show with delays: []
+App.tsx:573 🎯 App component mounted
+App.tsx:574 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/dashboard
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: true
+use-feedback-alerts.ts:62 Fetch finished loading: GET "https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/api/feedback-alerts/active".
+(anonymous) @ use-feedback-alerts.ts:62
+await in (anonymous)
+(anonymous) @ use-feedback-alerts.ts:216
+(anonymous) @ use-feedback-alerts.ts:248
+App.tsx:105 🛡️ ProtectedRoute check: {user: {…}, loading: false, authInitialized: true, isAuthReady: true}
+App.tsx:122 ✅ User authenticated - rendering protected content
+use-user-profile.ts:22 [["/api/user/profile","5vVK4mUnfpVcrTdDqJmByOYPjqp1"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+useUserProfile @ use-user-profile.ts:22
+Dashboard @ dashboard.tsx:101
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+dashboard.tsx:114 [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+Dashboard @ dashboard.tsx:114
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+NotificationBell.tsx:38 [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+NotificationBell @ NotificationBell.tsx:38
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+use-user-profile.ts:22 [["/api/user/profile","5vVK4mUnfpVcrTdDqJmByOYPjqp1"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+useUserProfile @ use-user-profile.ts:22
+Sidebar @ sidebar.tsx:78
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+sidebar.tsx:250 [ADMIN ITEMS FINAL] {adminItemsCount: 1, adminItems: Array(1), isAdminUser: true, timestamp: '2025-11-13T18:26:10.178Z'}
+NotificationBell.tsx:38 [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+NotificationBell @ NotificationBell.tsx:38
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18678
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+suppliers-modal.tsx:58 🏪 SuppliersModal - Props received: {open: false, dateFilter: '13-11', userPlan: 'free', isAdmin: false, role: 'user'}
+suppliers-modal.tsx:272 🏪 SuppliersModal - Data state: {suppliersDataExists: false, suppliersCount: 0, totalCount: 0, hasApiData: false}
+MobileSearchBar.tsx:34 📱 MobileSearchBar RENDERIZADA: {searchTerm: '', selectedDate: '13-11'}
+MobileSearchBar.tsx:38 📱 MobileSearchBar: Component is ACTIVE and rendering
+MobileSearchBar.tsx:39 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+ExcelStylePriceList.tsx:294 🔌 [ExcelStylePriceList] WebSocket status: {isRealtimeConnected: false, realtimeError: undefined, realtimeLoading: undefined}
+ExcelStylePriceList.tsx:1219 🎯 STRICT Filter arrays updated: {activeSearchTerm: '(nenhuma)', searchTerm: '', currentFiltersSearch: '', propsSearchFilter: '', hasActiveSearch: false, …}
+suppliers-modal.tsx:58 🏪 SuppliersModal - Props received: {open: false, dateFilter: '13-11', userPlan: 'pro', isAdmin: false, role: 'user'}
+suppliers-modal.tsx:272 🏪 SuppliersModal - Data state: {suppliersDataExists: false, suppliersCount: 0, totalCount: 0, hasApiData: false}
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: false, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: undefined}
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: false, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: undefined}
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+SimpleMobileFilters.tsx:54 🔍 SimpleMobileFilters: Component state changed {isOpen: false, availableFilters: {…}, selectedFilters: {…}, productCount: 4050, activeSection: null, …}
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: true, shouldReconnectFlag: true, isConnected: true, isConnecting: false, userEmail: 'jonathan.comercial@outlook.com'}
+use-unified-websocket.ts:723 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+use-auth.ts:158 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+ExcelStylePriceList.tsx:294 🔌 [ExcelStylePriceList] WebSocket status: {isRealtimeConnected: false, realtimeError: undefined, realtimeLoading: undefined}
+ExcelStylePriceList.tsx:1219 🎯 STRICT Filter arrays updated: {activeSearchTerm: '(nenhuma)', searchTerm: '', currentFiltersSearch: '', propsSearchFilter: '', hasActiveSearch: false, …}
+ExcelStylePriceList.tsx:1754 🎯 ExcelStylePriceList render: {isLoading: false, error: false, productsCount: 4050, filteredCount: 4050, searchFilter: '', …}
+ExcelStylePriceList.tsx:1901 🎯 ExcelStylePriceList: Component render state: {hasData: true, dataStructure: Array(9), products: Array(4050), productsLength: 4050, productsArray: Array(4050), …}
+ExcelStylePriceList.tsx:2397 🎯 Rendering product 0: {id: undefined, model: 'FONTE USB-C 20W', price: '25', supplier: 'IMAX EXPRESS 3333', hasAllFields: true}
+ExcelStylePriceList.tsx:2465 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'IMAX EXPRESS 3333', hasWhatsapp: true, whatsappNumber: '55 11 99334-3333', …}
+ExcelStylePriceList.tsx:2397 🎯 Rendering product 1: {id: undefined, model: 'FONTE USB-C 20W', price: '50', supplier: 'PRO PHONE 8077', hasAllFields: true}
+ExcelStylePriceList.tsx:2465 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ExcelStylePriceList.tsx:2397 🎯 Rendering product 2: {id: undefined, model: 'CABO USB-C USB-C', price: '90', supplier: 'IMAX EXPRESS 3333', hasAllFields: true}
+ExcelStylePriceList.tsx:2465 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'IMAX EXPRESS 3333', hasWhatsapp: true, whatsappNumber: '55 11 99334-3333', …}
+ExcelStylePriceList.tsx:2465 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ExcelStylePriceList.tsx:2465 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'IMAX EXPRESS 3333', hasWhatsapp: true, whatsappNumber: '55 11 99334-3333', …}
+ExcelStylePriceList.tsx:2465 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ExcelStylePriceList.tsx:2465 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ExcelStylePriceList.tsx:2465 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'NASSER 5307', hasWhatsapp: true, whatsappNumber: '55 11 98997-5307', …}
+ExcelStylePriceList.tsx:2465 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'HEREZ 6940', hasWhatsapp: true, whatsappNumber: '55 11 95423-6940', …}
+ExcelStylePriceList.tsx:2465 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+Watermark.tsx:9 🎨 Watermark component rendering with: {image: '/src/assets/watermark-pattern.png', opacity: 0.05, size: undefined, isVisible: false, imageUrl: 'url(/src/assets/watermark-pattern.png)'}
+excel-filter-dropdown.tsx:101 🔍 ExcelFilterDropdown: Sorted options {title: 'Categoria', totalOptions: 12}
+excel-filter-dropdown.tsx:108 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Categoria', count: 12}
+excel-filter-dropdown.tsx:101 🔍 ExcelFilterDropdown: Sorted options {title: 'Capacidade', totalOptions: 24}
+excel-filter-dropdown.tsx:108 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Capacidade', count: 24}
+excel-filter-dropdown.tsx:101 🔍 ExcelFilterDropdown: Sorted options {title: 'Região', totalOptions: 98}
+excel-filter-dropdown.tsx:108 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Região', count: 98}
+excel-filter-dropdown.tsx:101 🔍 ExcelFilterDropdown: Sorted options {title: 'Cor', totalOptions: 41}
+excel-filter-dropdown.tsx:108 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Cor', count: 41}
+excel-filter-dropdown.tsx:101 🔍 ExcelFilterDropdown: Sorted options {title: 'Fornecedor', totalOptions: 78}
+excel-filter-dropdown.tsx:108 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Fornecedor', count: 78}
+PriceHoverTooltip.tsx:17 🔍 PriceHoverTooltip - Received data: null
+PriceHoverTooltip.tsx:18 🔍 PriceHoverTooltip - Has priceHistory: false
+PriceHoverTooltip.tsx:19 🔍 PriceHoverTooltip - PriceHistory length: 0
+PriceHoverTooltip.tsx:20 🔍 PriceHoverTooltip - First data point: undefined
+PriceHoverTooltip.tsx:17 🔍 PriceHoverTooltip - Received data: null
+PriceHoverTooltip.tsx:18 🔍 PriceHoverTooltip - Has priceHistory: false
+PriceHoverTooltip.tsx:19 🔍 PriceHoverTooltip - PriceHistory length: 0
+PriceHoverTooltip.tsx:20 🔍 PriceHoverTooltip - First data point: undefined
+PriceHoverTooltip.tsx:17 🔍 PriceHoverTooltip - Received data: null
+PriceHoverTooltip.tsx:18 🔍 PriceHoverTooltip - Has priceHistory: false
+PriceHoverTooltip.tsx:19 🔍 PriceHoverTooltip - PriceHistory length: 0
+PriceHoverTooltip.tsx:20 🔍 PriceHoverTooltip - First data point: undefined
+PriceHoverTooltip.tsx:17 🔍 PriceHoverTooltip - Received data: null
+PriceHoverTooltip.tsx:18 🔍 PriceHoverTooltip - Has priceHistory: false
+PriceHoverTooltip.tsx:19 🔍 PriceHoverTooltip - PriceHistory length: 0
+PriceHoverTooltip.tsx:20 🔍 PriceHoverTooltip - First data point: undefined
+PriceHoverTooltip.tsx:17 🔍 PriceHoverTooltip - Received data: null
+PriceHoverTooltip.tsx:18 🔍 PriceHoverTooltip - Has priceHistory: false
+PriceHoverTooltip.tsx:19 🔍 PriceHoverTooltip - PriceHistory length: 0
+PriceHoverTooltip.tsx:20 🔍 PriceHoverTooltip - First data point: undefined
+PriceHoverTooltip.tsx:17 🔍 PriceHoverTooltip - Received data: null
+PriceHoverTooltip.tsx:18 🔍 PriceHoverTooltip - Has priceHistory: false
+PriceHoverTooltip.tsx:19 🔍 PriceHoverTooltip - PriceHistory length: 0
+PriceHoverTooltip.tsx:20 🔍 PriceHoverTooltip - First data point: undefined
+PriceHoverTooltip.tsx:17 🔍 PriceHoverTooltip - Received data: null
+PriceHoverTooltip.tsx:18 🔍 PriceHoverTooltip - Has priceHistory: false
+PriceHoverTooltip.tsx:19 🔍 PriceHoverTooltip - PriceHistory length: 0
+PriceHoverTooltip.tsx:20 🔍 PriceHoverTooltip - First data point: undefined
+PriceHoverTooltip.tsx:17 🔍 PriceHoverTooltip - Received data: null
+PriceHoverTooltip.tsx:18 🔍 PriceHoverTooltip - Has priceHistory: false
+PriceHoverTooltip.tsx:19 🔍 PriceHoverTooltip - PriceHistory length: 0
+PriceHoverTooltip.tsx:20 🔍 PriceHoverTooltip - First data point: undefined
+PriceHoverTooltip.tsx:17 🔍 PriceHoverTooltip - Received data: null
+PriceHoverTooltip.tsx:18 🔍 PriceHoverTooltip - Has priceHistory: false
+PriceHoverTooltip.tsx:19 🔍 PriceHoverTooltip - PriceHistory length: 0
+PriceHoverTooltip.tsx:20 🔍 PriceHoverTooltip - First data point: undefined
+PriceHoverTooltip.tsx:17 🔍 PriceHoverTooltip - Received data: null
+PriceHoverTooltip.tsx:18 🔍 PriceHoverTooltip - Has priceHistory: false
+PriceHoverTooltip.tsx:19 🔍 PriceHoverTooltip - PriceHistory length: 0
+PriceHoverTooltip.tsx:20 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 ElegantDateSelector props: {selectedDate: '13-11', availableDates: 5, disabled: false}
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: false, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: undefined}
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: false, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: undefined}
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [UnifiedWebSocket] Auth state check: {isAuthReady: true, hasUser: true, hasUID: true, hasEmail: true, userRole: 'superadmin', …}
+ ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+ 🔌 [ExcelStylePriceList] WebSocket status: {isRealtimeConnected: false, realtimeError: undefined, realtimeLoading: undefined}
+ 🎯 STRICT Filter arrays updated: {activeSearchTerm: '(nenhuma)', searchTerm: '', currentFiltersSearch: '', propsSearchFilter: '', hasActiveSearch: false, …}
+ 🎯 ExcelStylePriceList render: {isLoading: false, error: false, productsCount: 4050, filteredCount: 4050, searchFilter: '', …}
+ 🎯 ExcelStylePriceList: Component render state: {hasData: true, dataStructure: Array(9), products: Array(4050), productsLength: 4050, productsArray: Array(4050), …}
+ 🎯 Rendering product 0: {id: undefined, model: 'FONTE USB-C 20W', price: '25', supplier: 'IMAX EXPRESS 3333', hasAllFields: true}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'IMAX EXPRESS 3333', hasWhatsapp: true, whatsappNumber: '55 11 99334-3333', …}
+ 🎯 Rendering product 1: {id: undefined, model: 'FONTE USB-C 20W', price: '50', supplier: 'PRO PHONE 8077', hasAllFields: true}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ 🎯 Rendering product 2: {id: undefined, model: 'CABO USB-C USB-C', price: '90', supplier: 'IMAX EXPRESS 3333', hasAllFields: true}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'IMAX EXPRESS 3333', hasWhatsapp: true, whatsappNumber: '55 11 99334-3333', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'IMAX EXPRESS 3333', hasWhatsapp: true, whatsappNumber: '55 11 99334-3333', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'NASSER 5307', hasWhatsapp: true, whatsappNumber: '55 11 98997-5307', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'HEREZ 6940', hasWhatsapp: true, whatsappNumber: '55 11 95423-6940', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ 🎨 Watermark component rendering with: {image: '/src/assets/watermark-pattern.png', opacity: 0.05, size: undefined, isVisible: false, imageUrl: 'url(/src/assets/watermark-pattern.png)'}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Categoria', totalOptions: 12}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Categoria', count: 12}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Capacidade', totalOptions: 24}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Capacidade', count: 24}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Região', totalOptions: 98}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Região', count: 98}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Cor', totalOptions: 41}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Cor', count: 41}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Fornecedor', totalOptions: 78}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Fornecedor', count: 78}
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: true, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: 'jonathan.comercial@outlook.com'}
+ ✅ [UnifiedWebSocket] Starting WebSocket connection...
+ 🔄 [UnifiedWebSocket] Connection attempt started {userEmail: 'jonathan.comercial@outlook.com', userId: 200, isAuthReady: true, windowLocation: 'https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/dashboard'}
+ 🔗 [UnifiedWebSocket] Already connected via singleton
+ 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: false, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: undefined}
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔌 [ExcelStylePriceList] WebSocket status: {isRealtimeConnected: true, realtimeError: undefined, realtimeLoading: undefined}
+ 🎯 STRICT Filter arrays updated: {activeSearchTerm: '(nenhuma)', searchTerm: '', currentFiltersSearch: '', propsSearchFilter: '', hasActiveSearch: false, …}
+ 🎯 ExcelStylePriceList render: {isLoading: false, error: false, productsCount: 4050, filteredCount: 4050, searchFilter: '', …}
+ 🎯 ExcelStylePriceList: Component render state: {hasData: true, dataStructure: Array(9), products: Array(4050), productsLength: 4050, productsArray: Array(4050), …}
+ 🎯 Rendering product 0: {id: undefined, model: 'FONTE USB-C 20W', price: '25', supplier: 'IMAX EXPRESS 3333', hasAllFields: true}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'IMAX EXPRESS 3333', hasWhatsapp: true, whatsappNumber: '55 11 99334-3333', …}
+ 🎯 Rendering product 1: {id: undefined, model: 'FONTE USB-C 20W', price: '50', supplier: 'PRO PHONE 8077', hasAllFields: true}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ 🎯 Rendering product 2: {id: undefined, model: 'CABO USB-C USB-C', price: '90', supplier: 'IMAX EXPRESS 3333', hasAllFields: true}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'IMAX EXPRESS 3333', hasWhatsapp: true, whatsappNumber: '55 11 99334-3333', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'IMAX EXPRESS 3333', hasWhatsapp: true, whatsappNumber: '55 11 99334-3333', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'NASSER 5307', hasWhatsapp: true, whatsappNumber: '55 11 98997-5307', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'HEREZ 6940', hasWhatsapp: true, whatsappNumber: '55 11 95423-6940', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ 🎨 Watermark component rendering with: {image: '/src/assets/watermark-pattern.png', opacity: 0.05, size: undefined, isVisible: false, imageUrl: 'url(/src/assets/watermark-pattern.png)'}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Categoria', totalOptions: 12}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Categoria', count: 12}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Capacidade', totalOptions: 24}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Capacidade', count: 24}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Região', totalOptions: 98}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Região', count: 98}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Cor', totalOptions: 41}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Cor', count: 41}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Fornecedor', totalOptions: 78}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Fornecedor', count: 78}
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: true, shouldReconnectFlag: true, isConnected: true, isConnecting: false, userEmail: 'jonathan.comercial@outlook.com'}
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: false, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: undefined}
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ Fetch finished loading: GET "https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/api/user/profile".
+(anonymous) @ use-auth.ts:81
+(anonymous) @ firebase_auth.js?v=79a3fb7d:2749
+Promise.then
+registerStateListener @ firebase_auth.js?v=79a3fb7d:2745
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:2605
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:5125
+initAuth @ use-auth.ts:30
+await in initAuth
+(anonymous) @ use-auth.ts:184
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=79a3fb7d:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=79a3fb7d:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=79a3fb7d:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=79a3fb7d:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:19447
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18868
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+commitRootImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19432
+commitRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:19277
+finishConcurrentRender @ chunk-RPCDYKBN.js?v=79a3fb7d:18805
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18718
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+ Fetch finished loading: GET "https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/api/user/profile".
+(anonymous) @ use-auth.ts:81
+(anonymous) @ firebase_auth.js?v=79a3fb7d:2749
+Promise.then
+registerStateListener @ firebase_auth.js?v=79a3fb7d:2745
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:2605
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:5125
+initAuth @ use-auth.ts:30
+await in initAuth
+(anonymous) @ use-auth.ts:184
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=79a3fb7d:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=79a3fb7d:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=79a3fb7d:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=79a3fb7d:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:19447
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18868
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+commitRootImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19432
+commitRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:19277
+finishConcurrentRender @ chunk-RPCDYKBN.js?v=79a3fb7d:18805
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18718
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: {hasIdToken: true, hasSessionToken: true, userEmail: 'jonathan.comercial@outlook.com', idTokenLength: 940}
+ 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ [["/api/user/profile","5vVK4mUnfpVcrTdDqJmByOYPjqp1"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+useUserProfile @ use-user-profile.ts:5
+Dashboard @ dashboard.tsx:100
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18874
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+(anonymous) @ chunk-RPCDYKBN.js?v=79a3fb7d:18627
+setTimeout
+systemSetTimeoutZero @ @tanstack_react-query.js?v=79a3fb7d:103
+flush @ @tanstack_react-query.js?v=79a3fb7d:615
+batch @ @tanstack_react-query.js?v=79a3fb7d:633
+dispatch_fn @ @tanstack_react-query.js?v=79a3fb7d:1260
+fetch @ @tanstack_react-query.js?v=79a3fb7d:1177
+await in fetch
+executeFetch_fn @ @tanstack_react-query.js?v=79a3fb7d:1651
+setOptions @ @tanstack_react-query.js?v=79a3fb7d:1401
+(anonymous) @ @tanstack_react-query.js?v=79a3fb7d:3320
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=79a3fb7d:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=79a3fb7d:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=79a3fb7d:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=79a3fb7d:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:19447
+(anonymous) @ chunk-RPCDYKBN.js?v=79a3fb7d:19328
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+Dashboard @ dashboard.tsx:109
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18874
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+(anonymous) @ chunk-RPCDYKBN.js?v=79a3fb7d:18627
+setTimeout
+systemSetTimeoutZero @ @tanstack_react-query.js?v=79a3fb7d:103
+flush @ @tanstack_react-query.js?v=79a3fb7d:615
+batch @ @tanstack_react-query.js?v=79a3fb7d:633
+dispatch_fn @ @tanstack_react-query.js?v=79a3fb7d:1260
+fetch @ @tanstack_react-query.js?v=79a3fb7d:1177
+await in fetch
+executeFetch_fn @ @tanstack_react-query.js?v=79a3fb7d:1651
+setOptions @ @tanstack_react-query.js?v=79a3fb7d:1401
+(anonymous) @ @tanstack_react-query.js?v=79a3fb7d:3320
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=79a3fb7d:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=79a3fb7d:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=79a3fb7d:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=79a3fb7d:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:19447
+(anonymous) @ chunk-RPCDYKBN.js?v=79a3fb7d:19328
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+NotificationBell @ NotificationBell.tsx:34
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18874
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+(anonymous) @ chunk-RPCDYKBN.js?v=79a3fb7d:18627
+setTimeout
+systemSetTimeoutZero @ @tanstack_react-query.js?v=79a3fb7d:103
+flush @ @tanstack_react-query.js?v=79a3fb7d:615
+batch @ @tanstack_react-query.js?v=79a3fb7d:633
+dispatch_fn @ @tanstack_react-query.js?v=79a3fb7d:1260
+fetch @ @tanstack_react-query.js?v=79a3fb7d:1177
+await in fetch
+executeFetch_fn @ @tanstack_react-query.js?v=79a3fb7d:1651
+setOptions @ @tanstack_react-query.js?v=79a3fb7d:1401
+(anonymous) @ @tanstack_react-query.js?v=79a3fb7d:3320
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=79a3fb7d:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=79a3fb7d:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=79a3fb7d:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=79a3fb7d:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:19447
+(anonymous) @ chunk-RPCDYKBN.js?v=79a3fb7d:19328
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+ [["/api/user/profile","5vVK4mUnfpVcrTdDqJmByOYPjqp1"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+useUserProfile @ use-user-profile.ts:5
+Sidebar @ sidebar.tsx:59
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18874
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+(anonymous) @ chunk-RPCDYKBN.js?v=79a3fb7d:18627
+setTimeout
+systemSetTimeoutZero @ @tanstack_react-query.js?v=79a3fb7d:103
+flush @ @tanstack_react-query.js?v=79a3fb7d:615
+batch @ @tanstack_react-query.js?v=79a3fb7d:633
+dispatch_fn @ @tanstack_react-query.js?v=79a3fb7d:1260
+fetch @ @tanstack_react-query.js?v=79a3fb7d:1177
+await in fetch
+executeFetch_fn @ @tanstack_react-query.js?v=79a3fb7d:1651
+setOptions @ @tanstack_react-query.js?v=79a3fb7d:1401
+(anonymous) @ @tanstack_react-query.js?v=79a3fb7d:3320
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=79a3fb7d:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=79a3fb7d:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=79a3fb7d:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=79a3fb7d:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:19447
+(anonymous) @ chunk-RPCDYKBN.js?v=79a3fb7d:19328
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+ [ADMIN ITEMS FINAL] {adminItemsCount: 1, adminItems: Array(1), isAdminUser: true, timestamp: '2025-11-13T18:26:10.860Z'}
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=79a3fb7d:3289
+useQuery @ @tanstack_react-query.js?v=79a3fb7d:3357
+NotificationBell @ NotificationBell.tsx:34
+renderWithHooks @ chunk-RPCDYKBN.js?v=79a3fb7d:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=79a3fb7d:14582
+beginWork @ chunk-RPCDYKBN.js?v=79a3fb7d:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=79a3fb7d:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=79a3fb7d:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=79a3fb7d:19116
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18874
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+(anonymous) @ chunk-RPCDYKBN.js?v=79a3fb7d:18627
+setTimeout
+systemSetTimeoutZero @ @tanstack_react-query.js?v=79a3fb7d:103
+flush @ @tanstack_react-query.js?v=79a3fb7d:615
+batch @ @tanstack_react-query.js?v=79a3fb7d:633
+dispatch_fn @ @tanstack_react-query.js?v=79a3fb7d:1260
+fetch @ @tanstack_react-query.js?v=79a3fb7d:1177
+await in fetch
+executeFetch_fn @ @tanstack_react-query.js?v=79a3fb7d:1651
+setOptions @ @tanstack_react-query.js?v=79a3fb7d:1401
+(anonymous) @ @tanstack_react-query.js?v=79a3fb7d:3320
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=79a3fb7d:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=79a3fb7d:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=79a3fb7d:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=79a3fb7d:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:19447
+(anonymous) @ chunk-RPCDYKBN.js?v=79a3fb7d:19328
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+ 🏪 SuppliersModal - Props received: {open: false, dateFilter: '13-11', userPlan: 'free', isAdmin: false, role: 'user'}
+ 🏪 SuppliersModal - Data state: {suppliersDataExists: false, suppliersCount: 0, totalCount: 0, hasApiData: false}
+ 📱 MobileSearchBar RENDERIZADA: {searchTerm: '', selectedDate: '13-11'}
+ 📱 MobileSearchBar: Component is ACTIVE and rendering
+ 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "13-11",
+  "onSearchChangeType": "function"
+}
+ 🔌 [ExcelStylePriceList] WebSocket status: {isRealtimeConnected: true, realtimeError: undefined, realtimeLoading: undefined}
+ 🎯 STRICT Filter arrays updated: {activeSearchTerm: '(nenhuma)', searchTerm: '', currentFiltersSearch: '', propsSearchFilter: '', hasActiveSearch: false, …}
+ 🎯 ExcelStylePriceList render: {isLoading: false, error: false, productsCount: 4050, filteredCount: 4050, searchFilter: '', …}
+ 🎯 ExcelStylePriceList: Component render state: {hasData: true, dataStructure: Array(9), products: Array(4050), productsLength: 4050, productsArray: Array(4050), …}
+ 🎯 Rendering product 0: {id: undefined, model: 'FONTE USB-C 20W', price: '25', supplier: 'IMAX EXPRESS 3333', hasAllFields: true}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'IMAX EXPRESS 3333', hasWhatsapp: true, whatsappNumber: '55 11 99334-3333', …}
+ 🎯 Rendering product 1: {id: undefined, model: 'FONTE USB-C 20W', price: '50', supplier: 'PRO PHONE 8077', hasAllFields: true}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ 🎯 Rendering product 2: {id: undefined, model: 'CABO USB-C USB-C', price: '90', supplier: 'IMAX EXPRESS 3333', hasAllFields: true}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'IMAX EXPRESS 3333', hasWhatsapp: true, whatsappNumber: '55 11 99334-3333', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'IMAX EXPRESS 3333', hasWhatsapp: true, whatsappNumber: '55 11 99334-3333', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'NASSER 5307', hasWhatsapp: true, whatsappNumber: '55 11 98997-5307', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'HEREZ 6940', hasWhatsapp: true, whatsappNumber: '55 11 95423-6940', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'PRO PHONE 8077', hasWhatsapp: true, whatsappNumber: '55 11 95923-8077', …}
+ 🎨 Watermark component rendering with: {image: '/src/assets/watermark-pattern.png', opacity: 0.05, size: undefined, isVisible: false, imageUrl: 'url(/src/assets/watermark-pattern.png)'}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Categoria', totalOptions: 12}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Categoria', count: 12}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Capacidade', totalOptions: 24}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Capacidade', count: 24}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Região', totalOptions: 98}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Região', count: 98}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Cor', totalOptions: 41}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Cor', count: 41}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Fornecedor', totalOptions: 78}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Fornecedor', count: 78}
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🏪 SuppliersModal - Props received: {open: false, dateFilter: '13-11', userPlan: 'pro', isAdmin: false, role: 'user'}
+ 🏪 SuppliersModal - Data state: {suppliersDataExists: false, suppliersCount: 0, totalCount: 0, hasApiData: false}
+ 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: true, shouldReconnectFlag: true, isConnected: true, isConnecting: false, userEmail: 'jonathan.comercial@outlook.com'}
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: false, shouldReconnectFlag: false, isConnected: false, isConnecting: false, userEmail: undefined}
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔍 SimpleMobileFilters: Component state changed {isOpen: false, availableFilters: {…}, selectedFilters: {…}, productCount: 4050, activeSection: null, …}
+ Fetch finished loading: GET "https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/api/user/profile".
+(anonymous) @ use-auth.ts:81
+(anonymous) @ firebase_auth.js?v=79a3fb7d:2749
+Promise.then
+registerStateListener @ firebase_auth.js?v=79a3fb7d:2745
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:2605
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:5125
+initAuth @ use-auth.ts:30
+await in initAuth
+(anonymous) @ use-auth.ts:184
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=79a3fb7d:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=79a3fb7d:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=79a3fb7d:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=79a3fb7d:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:19447
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18868
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+commitRootImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19432
+commitRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:19277
+finishConcurrentRender @ chunk-RPCDYKBN.js?v=79a3fb7d:18805
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18718
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+ 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ Fetch finished loading: GET "https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/api/user/profile".
+(anonymous) @ use-auth.ts:81
+(anonymous) @ firebase_auth.js?v=79a3fb7d:2749
+Promise.then
+registerStateListener @ firebase_auth.js?v=79a3fb7d:2745
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:2605
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:5125
+initAuth @ use-auth.ts:30
+await in initAuth
+(anonymous) @ use-auth.ts:184
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=79a3fb7d:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=79a3fb7d:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=79a3fb7d:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=79a3fb7d:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:19447
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18868
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+commitRootImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19432
+commitRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:19277
+finishConcurrentRender @ chunk-RPCDYKBN.js?v=79a3fb7d:18805
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18718
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+ 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ Fetch finished loading: GET "https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/api/user/profile".
+(anonymous) @ use-auth.ts:81
+(anonymous) @ firebase_auth.js?v=79a3fb7d:2749
+Promise.then
+registerStateListener @ firebase_auth.js?v=79a3fb7d:2745
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:2605
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:5125
+initAuth @ use-auth.ts:30
+await in initAuth
+(anonymous) @ use-auth.ts:184
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=79a3fb7d:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=79a3fb7d:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=79a3fb7d:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=79a3fb7d:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:19447
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18868
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+commitRootImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19432
+commitRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:19277
+finishConcurrentRender @ chunk-RPCDYKBN.js?v=79a3fb7d:18805
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18718
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+ 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ Fetch finished loading: GET "https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/api/user/profile".
+(anonymous) @ use-auth.ts:81
+(anonymous) @ firebase_auth.js?v=79a3fb7d:2749
+Promise.then
+registerStateListener @ firebase_auth.js?v=79a3fb7d:2745
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:2605
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:5125
+initAuth @ use-auth.ts:30
+await in initAuth
+(anonymous) @ use-auth.ts:184
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=79a3fb7d:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=79a3fb7d:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=79a3fb7d:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=79a3fb7d:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:19447
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18868
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+commitRootImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19432
+commitRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:19277
+finishConcurrentRender @ chunk-RPCDYKBN.js?v=79a3fb7d:18805
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18718
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+ Fetch finished loading: GET "https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/api/user/profile".
+(anonymous) @ use-auth.ts:81
+(anonymous) @ firebase_auth.js?v=79a3fb7d:2749
+Promise.then
+registerStateListener @ firebase_auth.js?v=79a3fb7d:2745
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:2605
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:5125
+initAuth @ use-auth.ts:30
+await in initAuth
+(anonymous) @ use-auth.ts:184
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=79a3fb7d:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=79a3fb7d:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=79a3fb7d:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=79a3fb7d:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:19447
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18868
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+commitRootImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19432
+commitRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:19277
+finishConcurrentRender @ chunk-RPCDYKBN.js?v=79a3fb7d:18805
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18718
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+ 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ Fetch finished loading: GET "https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/api/user/profile".
+(anonymous) @ use-auth.ts:81
+(anonymous) @ firebase_auth.js?v=79a3fb7d:2749
+Promise.then
+registerStateListener @ firebase_auth.js?v=79a3fb7d:2745
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:2605
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:5125
+initAuth @ use-auth.ts:30
+await in initAuth
+(anonymous) @ use-auth.ts:184
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=79a3fb7d:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=79a3fb7d:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=79a3fb7d:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=79a3fb7d:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:19447
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18868
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+commitRootImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19432
+commitRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:19277
+finishConcurrentRender @ chunk-RPCDYKBN.js?v=79a3fb7d:18805
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18718
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+ 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ Fetch finished loading: GET "https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/api/user/profile".
+(anonymous) @ use-auth.ts:81
+(anonymous) @ firebase_auth.js?v=79a3fb7d:2749
+Promise.then
+registerStateListener @ firebase_auth.js?v=79a3fb7d:2745
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:2605
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:5125
+initAuth @ use-auth.ts:30
+await in initAuth
+(anonymous) @ use-auth.ts:184
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=79a3fb7d:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=79a3fb7d:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=79a3fb7d:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=79a3fb7d:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:19447
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18868
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+commitRootImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19432
+commitRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:19277
+finishConcurrentRender @ chunk-RPCDYKBN.js?v=79a3fb7d:18805
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18718
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+ 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ Fetch finished loading: GET "https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/api/user/profile".
+(anonymous) @ use-auth.ts:81
+(anonymous) @ firebase_auth.js?v=79a3fb7d:2749
+Promise.then
+registerStateListener @ firebase_auth.js?v=79a3fb7d:2745
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:2605
+onAuthStateChanged @ firebase_auth.js?v=79a3fb7d:5125
+initAuth @ use-auth.ts:30
+await in initAuth
+(anonymous) @ use-auth.ts:184
+commitHookEffectListMount @ chunk-RPCDYKBN.js?v=79a3fb7d:16915
+commitPassiveMountOnFiber @ chunk-RPCDYKBN.js?v=79a3fb7d:18156
+commitPassiveMountEffects_complete @ chunk-RPCDYKBN.js?v=79a3fb7d:18129
+commitPassiveMountEffects_begin @ chunk-RPCDYKBN.js?v=79a3fb7d:18119
+commitPassiveMountEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:18109
+flushPassiveEffectsImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19490
+flushPassiveEffects @ chunk-RPCDYKBN.js?v=79a3fb7d:19447
+performSyncWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18868
+flushSyncCallbacks @ chunk-RPCDYKBN.js?v=79a3fb7d:9119
+commitRootImpl @ chunk-RPCDYKBN.js?v=79a3fb7d:19432
+commitRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:19277
+finishConcurrentRender @ chunk-RPCDYKBN.js?v=79a3fb7d:18805
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=79a3fb7d:18718
+workLoop @ chunk-RPCDYKBN.js?v=79a3fb7d:197
+flushWork @ chunk-RPCDYKBN.js?v=79a3fb7d:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=79a3fb7d:384
+ 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: true}
+ ✅ User profile loaded: jonathan.comercial@outlook.com

@@ -1,0 +1,762 @@
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Buscador PXT — Encontre o melhor preço de iPhones e MacBooks</title>
+<meta name="description" content="O Buscador PXT reúne as melhores ofertas de iPhones e MacBooks em um só lugar, com atualização automática e filtros avançados.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script></head>
+  <body class="antialiased bg-black text-zinc-100 font-['Inter'] overflow-x-hidden">
+    <!-- Background glows -->
+    <div class="pointer-events-none fixed inset-0">
+      <div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[1100px] h-[1100px] rounded-full blur-3xl opacity-30 bg-[radial-gradient(closest-side,rgba(59,130,246,0.35),rgba(0,0,0,0))]"></div>
+      <div class="absolute -bottom-32 -left-20 w-[800px] h-[800px] rounded-full blur-3xl opacity-20 bg-[radial-gradient(closest-side,rgba(168,85,247,0.35),rgba(0,0,0,0))]"></div>
+      <div class="absolute top-1/3 -right-24 w-[700px] h-[700px] rounded-full blur-3xl opacity-20 bg-[radial-gradient(closest-side,rgba(6,182,212,0.3),rgba(0,0,0,0))]"></div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="relative z-30 border-b border-white/5 backdrop-blur-xl bg-black/70">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+        <a href="#" class="flex items-center gap-2">
+          <span class="relative inline-flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-blue-500 via-purple-600 to-cyan-500 shadow-lg">
+            <i data-lucide="sparkles" class="w-4 h-4 text-white" style="stroke-width:1.5"></i>
+          </span>
+          <span class="text-lg font-semibold tracking-tight">PXT</span>
+        </a>
+
+        <nav class="hidden md:flex items-center gap-8">
+          <a class="text-sm text-zinc-400 hover:text-white transition-colors" href="#">Como funciona</a>
+          <a class="text-sm text-zinc-400 hover:text-white transition-colors" href="#">Categorias</a>
+          <a class="text-sm text-zinc-400 hover:text-white transition-colors" href="#">Histórico</a>
+          <a class="text-sm text-zinc-400 hover:text-white transition-colors" href="#">Contato</a>
+        </nav>
+
+        <div class="hidden sm:flex items-center gap-3">
+          <button class="text-sm text-zinc-300 hover:text-white transition-colors">Entrar</button>
+          <button class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 backdrop-blur-xl px-4 py-2 text-sm font-medium transition-colors">
+            <i data-lucide="bell" class="w-4 h-4" style="stroke-width:1.5"></i>
+            Criar alerta
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative z-20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-24">
+        <div class="mx-auto text-center">
+          <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-zinc-200 backdrop-blur-xl">
+            <i data-lucide="radio" class="w-4 h-4 text-blue-300" style="stroke-width:1.5"></i>
+            Atualização em tempo real
+          </div>
+
+          <h1 class="mt-6 text-5xl sm:text-6xl md:text-7xl font-semibold tracking-tight leading-[1.05]">
+            Descubra o melhor preço de iPhones e MacBooks em segundos.
+          </h1>
+
+          <p class="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-zinc-400">
+            O Buscador PXT reúne as melhores ofertas de produtos Apple em um só lugar, com atualização automática e filtros avançados para você economizar tempo e dinheiro.
+          </p>
+
+          <!-- Search + Chips -->
+          <div class="mt-8 flex flex-col items-center gap-4">
+            <div class="w-full max-w-2xl relative">
+              <div class="absolute inset-0 -z-10 mx-auto h-20 max-w-2xl rounded-2xl bg-gradient-to-r from-blue-500/20 via-purple-500/15 to-cyan-500/20 blur-xl"></div>
+              <div class="flex items-center gap-2 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl px-3 py-2">
+                <i data-lucide="search" class="w-5 h-5 text-zinc-400" style="stroke-width:1.5"></i>
+                <input type="text" placeholder="Busque por iPhone 15, MacBook Air M2..." class="flex-1 bg-transparent outline-none placeholder:text-zinc-500 text-white text-base">
+                <button class="inline-flex items-center gap-2 rounded-xl border border-blue-500/30 bg-blue-500/20 hover:bg-blue-500/30 px-4 py-2 text-sm font-medium text-blue-200 transition-colors">
+                  Buscar agora
+                  <i data-lucide="chevron-right" class="w-4 h-4" style="stroke-width:1.5"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-2 text-sm">
+              <button class="rounded-full border border-white/10 bg-white/5 hover:bg-white/10 px-3 py-1.5 text-zinc-300 transition-colors">iPhone 15</button>
+              <button class="rounded-full border border-white/10 bg-white/5 hover:bg-white/10 px-3 py-1.5 text-zinc-300 transition-colors">iPhone 15 Pro</button>
+              <button class="rounded-full border border-white/10 bg-white/5 hover:bg-white/10 px-3 py-1.5 text-zinc-300 transition-colors">MacBook Air M2</button>
+              <button class="rounded-full border border-white/10 bg-white/5 hover:bg-white/10 px-3 py-1.5 text-zinc-300 transition-colors">MacBook Pro M3</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3D Preview -->
+        <div id="preview-container" class="relative mt-14 sm:mt-20">
+          <!-- soft glow -->
+          <div class="absolute inset-0 -top-8 h-40 max-w-5xl mx-auto rounded-3xl bg-gradient-to-r from-blue-500/20 via-purple-500/15 to-cyan-500/20 blur-2xl"></div>
+
+          <!-- floating glass cards -->
+          <div class="pointer-events-none absolute -top-6 -left-2 sm:-left-16">
+            <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-4 shadow-xl transform transition-transform hover:-translate-y-1">
+              <div class="flex items-center gap-3">
+                <div class="relative">
+                  <span class="absolute -top-0.5 -right-0.5 h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                  <div class="h-10 w-10 rounded-xl bg-gradient-to-br from-emerald-500 to-cyan-600 flex items-center justify-center">
+                    <i data-lucide="bell" class="w-5 h-5 text-white" style="stroke-width:1.5"></i>
+                  </div>
+                </div>
+                <div>
+                  <p class="text-sm font-semibold">Alerta ativo</p>
+                  <p class="text-xs text-zinc-300">iPhone 15 ≤ R$ 4.299</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pointer-events-none absolute -top-4 -right-2 sm:-right-20">
+            <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-4 shadow-xl transform transition-transform hover:-translate-y-1">
+              <div class="flex items-center justify-between gap-6">
+                <div class="flex items-center gap-2">
+                  <i data-lucide="trending-down" class="w-4 h-4 text-emerald-300" style="stroke-width:1.5"></i>
+                  <span class="text-xs text-zinc-200">30 dias</span>
+                </div>
+                <span class="text-xs text-emerald-300 font-medium">-12%</span>
+              </div>
+              <div class="mt-2 flex items-end gap-1">
+                <div class="w-1.5 h-2 bg-emerald-400/70 rounded"></div>
+                <div class="w-1.5 h-3 bg-emerald-400/70 rounded"></div>
+                <div class="w-1.5 h-4 bg-emerald-400/70 rounded"></div>
+                <div class="w-1.5 h-6 bg-emerald-400/70 rounded"></div>
+                <div class="w-1.5 h-5 bg-emerald-400/70 rounded"></div>
+                <div class="w-1.5 h-7 bg-emerald-400/70 rounded"></div>
+                <div class="w-1.5 h-8 bg-emerald-400/70 rounded"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pointer-events-none absolute bottom-8 -left-10 sm:-left-24">
+            <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-3 shadow-xl transform transition-transform hover:-translate-y-1">
+              <div class="flex items-center gap-2">
+                <i data-lucide="shield-check" class="w-4 h-4 text-cyan-300" style="stroke-width:1.5"></i>
+                <span class="text-xs text-zinc-200">Lojas verificadas</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Main preview card (3D) -->
+          <div class="relative max-w-5xl mx-auto">
+            <div id="preview-card" class="relative rounded-3xl border border-white/10 bg-zinc-950/80 backdrop-blur-2xl shadow-2xl overflow-hidden transition-transform duration-150" style="transform: perspective(1200px) rotateX(0deg) rotateY(0deg); transform-style: preserve-3d;">
+              <!-- Header -->
+              <div class="flex items-center justify-between px-6 sm:px-8 py-4 border-b border-white/10">
+                <div class="flex items-center gap-3">
+                  <div class="h-9 w-9 rounded-lg bg-gradient-to-br from-blue-500 via-purple-600 to-cyan-500 flex items-center justify-center">
+                    <i data-lucide="tag" class="w-4 h-4 text-white" style="stroke-width:1.5"></i>
+                  </div>
+                  <div>
+                    <p class="text-sm font-medium text-white">Comparador PXT</p>
+                    <p class="text-xs text-zinc-400">Ofertas atualizadas agora</p>
+                  </div>
+                </div>
+                <div class="hidden sm:flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/15 px-3 py-1.5 text-emerald-200 text-xs">
+                  Economize até R$ 800
+                </div>
+              </div>
+
+              <!-- Content -->
+              <div class="grid grid-cols-1 lg:grid-cols-2">
+                <!-- Left: product -->
+                <div class="p-6 sm:p-8">
+                  <div class="relative">
+                    <div class="absolute inset-0 -top-4 -left-4 -right-4 h-32 rounded-3xl bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-cyan-500/20 blur-2xl"></div>
+                    <div class="relative rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5">
+                      <div class="flex items-start gap-4">
+                        <div class="h-24 w-24 rounded-xl bg-gradient-to-br from-zinc-700 to-zinc-900 flex items-center justify-center">
+                          <i data-lucide="smartphone" class="w-8 h-8 text-white/70" style="stroke-width:1.5"></i>
+                        </div>
+                        <div class="min-w-0">
+                          <h3 class="text-lg font-semibold tracking-tight">iPhone 15 128GB</h3>
+                          <p class="text-sm text-zinc-400">Várias cores • Garantia Brasil</p>
+                          <div class="mt-3 flex flex-wrap items-center gap-2">
+                            <span class="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-xs text-zinc-300">Entrega rápida</span>
+                            <span class="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-xs text-zinc-300">Nota fiscal</span>
+                            <span class="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-xs text-zinc-300">Frete grátis</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mt-5 rounded-xl border border-white/10 bg-black/30 p-4">
+                        <div class="flex items-center justify-between">
+                          <span class="text-sm text-zinc-300">Menor preço agora</span>
+                          <span class="text-emerald-300 text-sm font-medium">R$ 4.299</span>
+                        </div>
+                        <div class="mt-2 w-full h-1.5 rounded bg-white/5 overflow-hidden">
+                          <div class="h-full w-2/3 bg-gradient-to-r from-emerald-400 to-cyan-400"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Right: price table -->
+                <div class="border-t lg:border-t-0 lg:border-l border-white/10 bg-zinc-900/30">
+                  <div class="p-6 sm:p-8 space-y-3">
+                    <!-- Row 1 -->
+                    <div class="group rounded-xl border border-emerald-500/30 bg-emerald-500/10 hover:bg-emerald-500/15 transition-colors">
+                      <div class="flex items-center justify-between p-4">
+                        <div class="flex items-center gap-3">
+                          <div class="h-8 w-8 rounded-lg bg-white/5 flex items-center justify-center border border-white/10">
+                            <i data-lucide="building-2" class="w-4 h-4 text-white/80" style="stroke-width:1.5"></i>
+                          </div>
+                          <div>
+                            <p class="text-sm font-medium text-white">Loja A</p>
+                            <p class="text-xs text-zinc-300">Frete grátis • 12x s/ juros</p>
+                          </div>
+                        </div>
+                        <div class="flex items-center gap-3">
+                          <span class="rounded-full border border-emerald-400/30 bg-emerald-400/20 px-2 py-1 text-[10px] text-emerald-100">Menor preço</span>
+                          <div class="text-right">
+                            <p class="text-base font-semibold text-emerald-200 tracking-tight">R$ 4.299</p>
+                            <p class="text-[11px] text-emerald-300/80">à vista</p>
+                          </div>
+                          <button class="ml-1 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 px-3 py-2 text-xs text-white transition-colors">Ver oferta</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="group rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 transition-colors">
+                      <div class="flex items-center justify-between p-4">
+                        <div class="flex items-center gap-3">
+                          <div class="h-8 w-8 rounded-lg bg-white/5 flex items-center justify-center border border-white/10">
+                            <i data-lucide="building-2" class="w-4 h-4 text-white/80" style="stroke-width:1.5"></i>
+                          </div>
+                          <div>
+                            <p class="text-sm font-medium text-white">Loja B</p>
+                            <p class="text-xs text-zinc-300">Retire hoje • 10x s/ juros</p>
+                          </div>
+                        </div>
+                        <div class="flex items-center gap-3">
+                          <div class="text-right">
+                            <p class="text-base font-medium tracking-tight">R$ 4.499</p>
+                            <p class="text-[11px] text-zinc-400">à vista</p>
+                          </div>
+                          <button class="ml-1 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 px-3 py-2 text-xs text-white transition-colors">Ver oferta</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Row 3 -->
+                    <div class="group rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 transition-colors">
+                      <div class="flex items-center justify-between p-4">
+                        <div class="flex items-center gap-3">
+                          <div class="h-8 w-8 rounded-lg bg-white/5 flex items-center justify-center border border-white/10">
+                            <i data-lucide="building-2" class="w-4 h-4 text-white/80" style="stroke-width:1.5"></i>
+                          </div>
+                          <div>
+                            <p class="text-sm font-medium text-white">Loja C</p>
+                            <p class="text-xs text-zinc-300">Entrega expressa</p>
+                          </div>
+                        </div>
+                        <div class="flex items-center gap-3">
+                          <div class="text-right">
+                            <p class="text-base font-medium tracking-tight">R$ 4.559</p>
+                            <p class="text-[11px] text-zinc-400">no Pix</p>
+                          </div>
+                          <button class="ml-1 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 px-3 py-2 text-xs text-white transition-colors">Ver oferta</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- MacBook sample toggle -->
+                    <div class="mt-4 flex justify-between items-center">
+                      <div class="flex items-center gap-2">
+                        <i data-lucide="laptop" class="w-4 h-4 text-zinc-300" style="stroke-width:1.5"></i>
+                        <span class="text-xs text-zinc-400">Também disponível para MacBooks</span>
+                      </div>
+                      <a href="#" class="text-xs text-blue-300 hover:text-blue-200 inline-flex items-center gap-1">
+                        Ver MacBook Air M2
+                        <i data-lucide="chevron-right" class="w-3.5 h-3.5" style="stroke-width:1.5"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Footer actions -->
+              <div class="flex flex-col sm:flex-row items-center justify-between gap-3 px-6 sm:px-8 py-4 border-t border-white/10">
+                <div class="flex items-center gap-2 text-sm text-zinc-400">
+                  <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                  Monitorando 42 ofertas neste momento
+                </div>
+                <div class="flex items-center gap-2">
+                  <button class="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 backdrop-blur-xl px-4 py-2 text-sm text-white transition-colors">
+                    <i data-lucide="bell-plus" class="w-4 h-4" style="stroke-width:1.5"></i>
+                    Ativar alerta de preço
+                  </button>
+                  <button class="inline-flex items-center gap-2 rounded-xl border border-blue-500/30 bg-blue-500/20 hover:bg-blue-500/30 px-4 py-2 text-sm font-medium text-blue-200 transition-colors">
+                    <i data-lucide="download" class="w-4 h-4" style="stroke-width:1.5"></i>
+                    Exportar ofertas
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end main preview -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Mini features -->
+    <section class="relative z-10 pt-16 pb-20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-4">
+            <div class="flex items-center gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="clock" class="w-4.5 h-4.5 text-white/80" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <p class="text-sm font-medium">Atualização automática</p>
+                <p class="text-xs text-zinc-400">A cada poucos segundos</p>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-4">
+            <div class="flex items-center gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="sliders-horizontal" class="w-4.5 h-4.5 text-white/80" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <p class="text-sm font-medium">Filtros avançados</p>
+                <p class="text-xs text-zinc-400">Estado, cor, capacidade, loja</p>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-4">
+            <div class="flex items-center gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="wallet" class="w-4.5 h-4.5 text-white/80" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <p class="text-sm font-medium">Melhor custo-benefício</p>
+                <p class="text-xs text-zinc-400">Ranking por economia real</p>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-4">
+            <div class="flex items-center gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="shield" class="w-4.5 h-4.5 text-white/80" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <p class="text-sm font-medium">Lojas confiáveis</p>
+                <p class="text-xs text-zinc-400">Curadoria e verificação</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3">
+          <button class="inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/20 hover:bg-blue-500/30 px-5 py-3 text-sm font-medium text-blue-100 transition-colors">
+            <i data-lucide="sparkles" class="w-4 h-4" style="stroke-width:1.5"></i>
+            Explorar ofertas agora
+          </button>
+          <button class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 backdrop-blur-xl px-5 py-3 text-sm text-white transition-colors">
+            <i data-lucide="mail-plus" class="w-4 h-4" style="stroke-width:1.5"></i>
+            Receber alertas por e-mail
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Como Funciona -->
+    <section class="relative z-10 pt-4 pb-16">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl text-center">
+          <h2 class="text-3xl sm:text-4xl font-semibold tracking-tight">Como Funciona</h2>
+          <p class="mt-2 text-sm text-zinc-400">Quatro passos simples para encontrar o melhor preço</p>
+        </div>
+        <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- Passo 1 -->
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5">
+            <div class="flex items-start gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="search" class="w-4.5 h-4.5 text-blue-200" style="stroke-width:1.5"></i>
+              </div>
+              <div class="min-w-0">
+                <p class="text-xs text-zinc-400">Passo 1</p>
+                <h3 class="text-base font-semibold tracking-tight mt-0.5">Busque pelo modelo</h3>
+                <p class="text-sm text-zinc-400 mt-1">Digite o modelo do iPhone, iPad ou MacBook que você procura</p>
+              </div>
+            </div>
+          </div>
+          <!-- Passo 2 -->
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5">
+            <div class="flex items-start gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="scale" class="w-4.5 h-4.5 text-emerald-200" style="stroke-width:1.5"></i>
+              </div>
+              <div class="min-w-0">
+                <p class="text-xs text-zinc-400">Passo 2</p>
+                <h3 class="text-base font-semibold tracking-tight mt-0.5">Compare preços</h3>
+                <p class="text-sm text-zinc-400 mt-1">Veja ofertas de diversos fornecedores em tempo real</p>
+              </div>
+            </div>
+          </div>
+          <!-- Passo 3 -->
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5">
+            <div class="flex items-start gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="sliders-horizontal" class="w-4.5 h-4.5 text-purple-200" style="stroke-width:1.5"></i>
+              </div>
+              <div class="min-w-0">
+                <p class="text-xs text-zinc-400">Passo 3</p>
+                <h3 class="text-base font-semibold tracking-tight mt-0.5">Aplique filtros</h3>
+                <p class="text-sm text-zinc-400 mt-1">Filtre por cor, armazenamento, região e muito mais</p>
+              </div>
+            </div>
+          </div>
+          <!-- Passo 4 -->
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5">
+            <div class="flex items-start gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="check-circle-2" class="w-4.5 h-4.5 text-cyan-200" style="stroke-width:1.5"></i>
+              </div>
+              <div class="min-w-0">
+                <p class="text-xs text-zinc-400">Passo 4</p>
+                <h3 class="text-base font-semibold tracking-tight mt-0.5">Escolha a melhor oferta</h3>
+                <p class="text-sm text-zinc-400 mt-1">Encontre o melhor custo-benefício para seu negócio</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Principais Funcionalidades -->
+    <section class="relative z-10 pb-16">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl text-center">
+          <h2 class="text-3xl sm:text-4xl font-semibold tracking-tight">Principais Funcionalidades</h2>
+          <p class="mt-2 text-sm text-zinc-400">Tudo que você precisa para otimizar suas compras</p>
+        </div>
+        <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5">
+            <div class="flex items-start gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="search" class="w-4.5 h-4.5 text-blue-200" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <h3 class="text-base font-semibold tracking-tight">Busca Inteligente</h3>
+                <p class="text-sm text-zinc-400 mt-1">Encontre qualquer modelo Apple com precisão e velocidade</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5">
+            <div class="flex items-start gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="refresh-cw" class="w-4.5 h-4.5 text-emerald-200" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <h3 class="text-base font-semibold tracking-tight">Atualização Automática</h3>
+                <p class="text-sm text-zinc-400 mt-1">Preços sempre atualizados em tempo real</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5">
+            <div class="flex items-start gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="filter" class="w-4.5 h-4.5 text-purple-200" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <h3 class="text-base font-semibold tracking-tight">Filtros Avançados</h3>
+                <p class="text-sm text-zinc-400 mt-1">Filtre por cor, capacidade, região e fornecedor</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5">
+            <div class="flex items-start gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="layout-dashboard" class="w-4.5 h-4.5 text-cyan-200" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <h3 class="text-base font-semibold tracking-tight">Dashboard Intuitivo</h3>
+                <p class="text-sm text-zinc-400 mt-1">Interface limpa e fácil de usar</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5">
+            <div class="flex items-start gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="shield" class="w-4.5 h-4.5 text-teal-200" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <h3 class="text-base font-semibold tracking-tight">Acesso Seguro</h3>
+                <p class="text-sm text-zinc-400 mt-1">Dados protegidos com criptografia de ponta</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5">
+            <div class="flex items-start gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="crown" class="w-4.5 h-4.5 text-amber-200" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <h3 class="text-base font-semibold tracking-tight">Recursos PRO</h3>
+                <p class="text-sm text-zinc-400 mt-1">Histórico de preços, favoritos e alertas exclusivos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Para Quem É o Buscador PXT -->
+    <section class="relative z-10 pb-16">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl text-center">
+          <h2 class="text-3xl sm:text-4xl font-semibold tracking-tight">Para Quem É o Buscador PXT</h2>
+          <p class="mt-2 text-sm text-zinc-400">Ideal para profissionais que precisam de informações precisas</p>
+        </div>
+        <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-6">
+            <div class="flex items-start gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="handshake" class="w-4.5 h-4.5 text-emerald-200" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <h3 class="text-base font-semibold tracking-tight">Revendedores</h3>
+                <p class="text-sm text-zinc-400 mt-1">Encontre os melhores preços para revenda</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-6">
+            <div class="flex items-start gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="store" class="w-4.5 h-4.5 text-blue-200" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <h3 class="text-base font-semibold tracking-tight">Lojistas</h3>
+                <p class="text-sm text-zinc-400 mt-1">Monitore concorrência e preços de mercado</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-6">
+            <div class="flex items-start gap-3">
+              <div class="h-9 w-9 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center">
+                <i data-lucide="building" class="w-4.5 h-4.5 text-purple-200" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <h3 class="text-base font-semibold tracking-tight">Empresas</h3>
+                <p class="text-sm text-zinc-400 mt-1">Compras corporativas com economia garantida</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- O que nossos usuários dizem -->
+    <section class="relative z-10 pb-16">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl text-center">
+          <h2 class="text-3xl sm:text-4xl font-semibold tracking-tight">O que nossos usuários dizem</h2>
+        </div>
+
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+          <!-- Testimonial 1 -->
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-6">
+            <i data-lucide="quote" class="w-5 h-5 text-blue-200" style="stroke-width:1.5"></i>
+            <p class="mt-3 text-sm text-zinc-200">"Economizo mais de 3 horas por dia na pesquisa de preços. O sistema é incrivelmente preciso e rápido."</p>
+            <div class="mt-4">
+              <p class="text-sm font-medium">Carlos Silva</p>
+              <p class="text-xs text-zinc-400">Revendedor Autorizado</p>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-6">
+            <i data-lucide="quote" class="w-5 h-5 text-emerald-200" style="stroke-width:1.5"></i>
+            <p class="mt-3 text-sm text-zinc-200">"Consegui aumentar minha margem de lucro em 15% usando o Buscador PXT para encontrar os melhores fornecedores."</p>
+            <div class="mt-4">
+              <p class="text-sm font-medium">Ana Costa</p>
+              <p class="text-xs text-zinc-400">Proprietária de Loja</p>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-6">
+            <i data-lucide="quote" class="w-5 h-5 text-purple-200" style="stroke-width:1.5"></i>
+            <p class="mt-3 text-sm text-zinc-200">"Ferramenta essencial para nossa empresa. Os filtros avançados facilitam muito nosso trabalho."</p>
+            <div class="mt-4">
+              <p class="text-sm font-medium">João Santos</p>
+              <p class="text-xs text-zinc-400">Comprador Corporativo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Perguntas Frequentes -->
+    <section class="relative z-10 pb-20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl text-center">
+          <h2 class="text-3xl sm:text-4xl font-semibold tracking-tight">Perguntas Frequentes</h2>
+        </div>
+
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
+          <!-- Q1 -->
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5">
+            <div class="flex items-start gap-3">
+              <div class="h-8 w-8 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center mt-0.5">
+                <i data-lucide="help-circle" class="w-4 h-4 text-blue-200" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold tracking-tight">Como os preços são atualizados?</h3>
+                <p class="text-sm text-zinc-400 mt-1">Os preços são atualizados automaticamente através de integração com nossos fornecedores, garantindo informações sempre atuais e precisas.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q2 -->
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5">
+            <div class="flex items-start gap-3">
+              <div class="h-8 w-8 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center mt-0.5">
+                <i data-lucide="help-circle" class="w-4 h-4 text-emerald-200" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold tracking-tight">Posso usar o sistema no celular?</h3>
+                <p class="text-sm text-zinc-400 mt-1">Sim! O Buscador PXT é totalmente responsivo e funciona perfeitamente em smartphones, tablets e computadores.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q3 -->
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5">
+            <div class="flex items-start gap-3">
+              <div class="h-8 w-8 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center mt-0.5">
+                <i data-lucide="help-circle" class="w-4 h-4 text-purple-200" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold tracking-tight">Quantos fornecedores estão cadastrados?</h3>
+                <p class="text-sm text-zinc-400 mt-1">Trabalhamos com mais de 40 fornecedores verificados, oferecendo uma ampla comparação de preços do mercado.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q4 -->
+          <div class="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-5">
+            <div class="flex items-start gap-3">
+              <div class="h-8 w-8 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center mt-0.5">
+                <i data-lucide="help-circle" class="w-4 h-4 text-cyan-200" style="stroke-width:1.5"></i>
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold tracking-tight">Existe período de teste gratuito?</h3>
+                <p class="text-sm text-zinc-400 mt-1">Sim, oferecemos demonstração gratuita para que você possa conhecer todas as funcionalidades antes de assinar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing (PRO) -->
+    <section id="pricing" class="relative z-10 pt-6 pb-20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl text-center">
+          <h2 class="text-3xl sm:text-4xl font-semibold tracking-tight">Preços</h2>
+          <p class="mt-2 text-sm text-zinc-400">Desbloqueie recursos avançados com o plano PRO.</p>
+        </div>
+
+        <div class="mt-8 max-w-xl mx-auto">
+          <div class="relative rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-6 sm:p-8">
+            <div class="absolute -inset-x-8 -top-8 h-24 rounded-3xl bg-gradient-to-r from-blue-500/20 via-purple-500/15 to-cyan-500/20 blur-2xl"></div>
+            <div class="relative flex flex-col gap-5">
+              <div class="flex items-center justify-between">
+                <div class="inline-flex items-center gap-2 rounded-full border border-blue-400/30 bg-blue-400/15 px-3 py-1.5 text-xs text-blue-100">
+                  <i data-lucide="crown" class="w-4 h-4" style="stroke-width:1.5"></i>
+                  PRO
+                </div>
+                <span class="text-xs text-zinc-400">Cancelamento a qualquer momento</span>
+              </div>
+
+              <div class="flex items-end gap-2">
+                <span class="text-4xl sm:text-5xl font-semibold tracking-tight">R$ 289,90</span>
+              </div>
+
+              <ul class="grid gap-2.5 text-sm text-zinc-300">
+                <li class="inline-flex items-center gap-2">
+                  <i data-lucide="bell-ring" class="w-4 h-4 text-emerald-300" style="stroke-width:1.5"></i>
+                  Alertas de preço ilimitados
+                </li>
+                <li class="inline-flex items-center gap-2">
+                  <i data-lucide="line-chart" class="w-4 h-4 text-emerald-300" style="stroke-width:1.5"></i>
+                  Histórico e tendências de preços
+                </li>
+                <li class="inline-flex items-center gap-2">
+                  <i data-lucide="download" class="w-4 h-4 text-emerald-300" style="stroke-width:1.5"></i>
+                  Exportação de ofertas (CSV)
+                </li>
+                <li class="inline-flex items-center gap-2">
+                  <i data-lucide="shield-check" class="w-4 h-4 text-emerald-300" style="stroke-width:1.5"></i>
+                  Suporte prioritário
+                </li>
+              </ul>
+
+              <div class="pt-2">
+                <button class="w-full inline-flex items-center justify-center gap-2 rounded-xl border border-blue-500/30 bg-blue-500/20 hover:bg-blue-500/30 px-5 py-3 text-sm font-medium text-blue-100 transition-colors">
+                  <i data-lucide="sparkles" class="w-4 h-4" style="stroke-width:1.5"></i>
+                  Começar teste grátis
+                </button>
+                <p class="mt-3 text-center text-xs text-zinc-400">Sem cartão no início do teste.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="relative z-10 border-t border-white/10 bg-zinc-900/40 backdrop-blur-xl">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div class="flex items-center gap-2">
+          <div class="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-500 via-purple-600 to-cyan-500 flex items-center justify-center">
+            <i data-lucide="sparkles" class="w-4 h-4 text-white" style="stroke-width:1.5"></i>
+          </div>
+          <span class="text-sm text-zinc-300">© 2024 PXT. Todos os direitos reservados.</span>
+        </div>
+        <div class="flex items-center gap-6 text-sm">
+          <a href="#" class="text-zinc-400 hover:text-white transition-colors">Privacidade</a>
+          <a href="#" class="text-zinc-400 hover:text-white transition-colors">Termos</a>
+          <a href="#" class="text-zinc-400 hover:text-white transition-colors">Suporte</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Init icons
+      if (window.lucide) {
+        lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
+      }
+
+      // 3D tilt for preview
+      const container = document.getElementById('preview-container');
+      const card = document.getElementById('preview-card');
+
+      if (container && card) {
+        container.addEventListener('pointermove', (e) => {
+          const rect = card.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+          const midX = rect.width / 2;
+          const midY = rect.height / 2;
+          const rotateY = ((x - midX) / midX) * 6;
+          const rotateX = -((y - midY) / midY) * 6;
+          card.style.transform = `perspective(1200px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg)`;
+        });
+
+        container.addEventListener('pointerleave', () => {
+          card.style.transform = 'perspective(1200px) rotateX(0deg) rotateY(0deg)';
+        });
+      }
+    </script>
+  
+</body></html>

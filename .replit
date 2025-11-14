@@ -1,0 +1,78 @@
+modules = ["nodejs-20", "web", "postgresql-16"]
+run = "npm run dev"
+hidden = [".config", ".git", "generated-icon.png", "node_modules", "dist"]
+
+[nix]
+channel = "stable-24_05"
+packages = ["comma"]
+
+[deployment]
+deploymentTarget = "autoscale"
+build = ["npm", "run", "build"]
+run = ["sh", "-c", "npm run start"]
+
+[workflows]
+runButton = "Clean Start Server"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start application"
+
+[[workflows.workflow]]
+name = "Start application"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm run dev"
+waitForPort = 5000
+
+[[workflows.workflow]]
+name = "Start Server"
+author = 42058348
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm run dev"
+
+[[workflows.workflow]]
+name = "Clean Start Server"
+author = 42058348
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "pkill -f \"server/index.ts\" || pkill -f \"tsx\" || true"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "sleep 1"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm run dev"
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[[ports]]
+localPort = 33061
+externalPort = 3002
+
+[[ports]]
+localPort = 35015
+externalPort = 3001
+
+[[ports]]
+localPort = 41199
+externalPort = 3000
+
+[agent]
+integrations = ["javascript_stripe:1.0.0"]

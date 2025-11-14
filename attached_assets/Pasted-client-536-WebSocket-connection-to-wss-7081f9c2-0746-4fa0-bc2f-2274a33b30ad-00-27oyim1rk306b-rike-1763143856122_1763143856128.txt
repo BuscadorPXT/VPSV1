@@ -1,0 +1,295 @@
+client:536 WebSocket connection to 'wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/?token=JxEMBGT0_6RN' failed: 
+setupWebSocket @ client:536
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=JxEMBGT0_6RN' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+chunk-RPCDYKBN.js?v=79a3fb7d:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+firebase.ts:26 ✅ All Firebase environment variables present
+main.tsx:13 🚀 Buscador PXT loaded - 2025.11.13.1750
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-terms-acceptance.ts:78 [Terms] No user found - hiding modal
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:249 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:249 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:249 ✅ Auth initialization completed
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+App.tsx:581 🎯 App component mounted
+App.tsx:582 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+use-unified-websocket.ts:670 🔄 [UnifiedWebSocket] Auth state check: Object
+use-unified-websocket.ts:686 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed Object
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+EmergencyAlertDialog.tsx:78 🎧 [Emergency Alert] Setting up WebSocket listeners...
+EmergencyAlertDialog.tsx:162 🎧 [Emergency Alert] WebSocket listeners configured
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+App.tsx:528 🔍 Checking payment status for user: jonathan.comercial@outlook.com Object
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:249 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:249 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:249 ✅ Auth initialization completed
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+App.tsx:581 🎯 App component mounted
+App.tsx:582 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+use-feedback-alerts.ts:243 ✅ [FEEDBACK-ALERTS-HOOK] Session token found, deferring feedback alerts for 5s
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+App.tsx:581 🎯 App component mounted
+App.tsx:582 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+use-terms-acceptance.ts:25 [Terms] Checking terms acceptance for user: jonathan.comercial@outlook.com
+use-terms-acceptance.ts:43 [Terms] Stored data found: true
+use-terms-acceptance.ts:49 [Terms] Looking for user key: user_5vVK4mUnfpVcrTdDqJmByOYPjqp1
+use-terms-acceptance.ts:50 [Terms] Available keys: Array(1)
+use-terms-acceptance.ts:54 [Terms] User terms found: Object
+use-terms-acceptance.ts:58 [Terms] User has accepted current version - hiding modal
+App.tsx:581 🎯 App component mounted
+App.tsx:582 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:249 ✅ Auth initialization completed
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-unified-websocket.ts:670 🔄 [UnifiedWebSocket] Auth state check: Object
+use-unified-websocket.ts:683 ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:720 ✅ [UnifiedWebSocket] Starting WebSocket connection...
+use-unified-websocket.ts:249 🔄 [UnifiedWebSocket] Connection attempt started Object
+use-unified-websocket.ts:280 ✅ [UnifiedWebSocket] Authenticated user found - using singleton connection Object
+websocket-manager.ts:40 🔄 [WSManager] Connecting to: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws Object
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-unified-websocket.ts:670 🔄 [UnifiedWebSocket] Auth state check: Object
+use-unified-websocket.ts:686 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed Object
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:249 ✅ Auth initialization completed
+queryClient.ts:93 📥 Raw response text: {"success":true}
+queryClient.ts:114 ✅ Parsed JSON response: Object
+websocket-manager.ts:45 ✅ [WSManager] Connected successfully
+use-unified-websocket.ts:293 ✅ [UnifiedWebSocket] Connected via singleton successfully
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: true
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:723 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+use-unified-websocket.ts:336 ✅ [UnifiedWebSocket] Connection confirmed: CONNECTION_ESTABLISHED
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-unified-websocket.ts:670 🔄 [UnifiedWebSocket] Auth state check: Object
+use-unified-websocket.ts:683 ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:720 ✅ [UnifiedWebSocket] Starting WebSocket connection...
+use-unified-websocket.ts:249 🔄 [UnifiedWebSocket] Connection attempt started Object
+use-unified-websocket.ts:264 🔗 [UnifiedWebSocket] Already connected via singleton
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:723 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+queryClient.ts:93 📥 Raw response text: {"success":true,"message":"Atividade recente não disponível","data":{"activities":[],"total":0},"total":0}
+queryClient.ts:114 ✅ Parsed JSON response: Object
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:723 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+queryClient.ts:93 📥 Raw response text: {"totalUsers":296,"proUsers":274,"adminUsers":4,"pendingUsers":1}
+queryClient.ts:114 ✅ Parsed JSON response: Object
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:723 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+queryClient.ts:93 📥 Raw response text: {"success":true,"data":{"totalOnline":141,"wsConnections":1,"authenticatedWsUsers":0,"wsUserEmails":[],"activeSessions":0,"onlineUsers":[{"id":926,"name":"GERMANO TROMMER","email":"theplace.contato@gmail.com","role":"pro","subscriptionPlan":"pro","isAdmin":false,"ipAddress":"N/A","lastActivity":"2025-11-14T18:10:26.942Z","userAgent":"Desktop","browser":"Unknown","isSessionActive":true,"sessionCreatedAt":"2025-11-14T18:10:26.942Z"},{"id":666,"name":"Tércio Queiróz","email":"exploratech@terciomax.com","role":"pro","subscriptionPlan":"pro","isAdmin":false,"ipAddress":"N/A","lastActivity":"2025-11-14T18:10:26.834Z","userAgent":"Desktop","browser":"Unknown","isSessionActive":true,"sessionCreatedAt":"2025-11-14T18:10:26.834Z"},{"id":200,"name":"jonathan.comercial","email":"jonathan.comercial@outlook.com","role":"superadmin","subscriptionPlan":"pro","isAdmin":true,"ipAddress":"N/A","lastActivity":"2025-11-14T18:10:26.636Z","userAgent":"Desktop","browser":"Unknown","isSessionActive":true,"sessionCreatedAt":"2025-11-14T18:10:26.636Z"},{"id":329,"name":"Azur","email":"azur.xip@hotmail.com","role":"pro","subscriptionPlan":"pro","isAdmin":false,"ipAddress":"N/A","lastActivity":"2025-11-14T18:10:26.610Z","userAgent":"Desktop","browser":"Unknown","isSessionActive":true,"sessionCreatedAt":"2025-11-14T18:10:26.610Z"},{"id":248,"name":"Paulo Roberto Santos Silverio","email":"assessoriaevolua@gmail.com","role":"pro","subscriptionPlan":"pro","isAdmin":false,"ipAddress":"N/A","lastActivity":"2025-11-14T18:10:25.515Z","userAgent":"Desktop","browser":"Unknown","isSessionActive":true,"sessionCreatedAt":"2025-11-14T18:10:25.515Z"},{"id":713,"name":"Rosenilton nevess","email":"roseniltonneves999943156@gmail.com","role":"pro","subscriptionPlan":"pro","isAdmin":false,"ipAddress":"N/A","lastActivity":"2025-11-14T18:10:25.471Z","userAgent":"Desktop","browser":"Unknown","isSessionActive":true,"sessionCreatedAt":"2025-11-14T18:10:25.471Z"},{"id":816,"name":"Bruno Flausino","email":"flau.bruno@gmail.com","role":"pro","subscriptionPlan":"pro","isAdmin":false,"ipAddress":"N/A","lastActivity":"2025-11-14T18:10:18.244Z","userAgent":"Desktop","browser":"Unknown","isSessionActive":true,"sessionCreatedAt":"2025-11-14T18:10:18.244Z"},{"id":665,"name":"Gabriel carneiro","email":"gabriel.c.dantas@hotmail.com","role":"pro","subscriptionPlan":"pro","isAdmin":false,"ipAddress":"N/A","lastActivity":"2025-11-14T18:10:18.054Z","userAgent":"Desktop","browser":"Unknown","isSessionActive":true,"sessionCreatedAt":"2025-11-14T18:10:18.054Z"},{"id":599,"name":"AUDI","email":"audi@gmail.com","role":"pro","subscriptionPlan":"pro","isAdmin":false,"ipAddress":"N/A","lastActivity":"2025-11-14T18:10:17.853Z","userAgent":"Desktop","browser":"Unknown","isSessionActive":true,"sessionCreatedAt":"2025-11-14T18:10:17.853Z"},{"id":852,"name":"Lucas Gabriel ","email":"contatophoneacessivel@gmail.com","role":"pro","subscriptionPlan":"pro","isAdmin":false,"ipAddress":"N/A","lastActivity":"2025-11-14T18:10:17.852Z","userAgent":"Desktop","browser":"Unknown","isSessionActive":true,"sessionCreatedAt":"2025-11-14T18:10:17.852Z"},{"id":569,"name":"Jeferson Meneses passos ","email":"meneses.iphones@hotmail.com","role":"pro","subscriptionPlan":"pro","isAdmin":false,"ipAddress":"N/A","lastActivity":"2025-11-14T18:10:17.762Z","userAgent":"Desktop","browser":"Unknown","isSessionActive":true,"sessionCreatedAt":"2025-11-14T18:10:17.762Z"},{"id":763,"name":"Pedro Henrique Souza Costa ","email":"pedrophscosta@gmail.com","role":"pro","subscriptionPlan":"pro","isAdmin":false,"ipAddress":"N/A","lastActivity":"2025-11-14T18:10:17.756Z","userAgent":"Desktop","browser":"Unknown","isSessionActive":true,"sessionCreatedAt":"2025-11-14T18:10:17.756Z"},{"id":924,"name":"André Barbosa Leal ","email":"andretuta@gmail.com","role":"pro","subscriptionPlan":"pro","isAdmin":false,"ipAddress":"N/A","lastActivity":"2025-11-14T18:10:17.710Z","userAgent":"Desktop","browser":"Unknown","isSessionActive":true,"sessionCreatedAt":"2025-11-14T18:10:17.710Z"},{"id":275,"name":"gabriela_bertoldi","email":"gabriela_bertoldi@icloud.com","role":"admin","subscriptionPlan":"admin","isAdmin":true,"ipAddress":"N/A","lastActivity":"2025-11-14T18:10:17.706Z","userAgent":"Desktop","browser":"Unknown","isSessionActive":true,"sessionCreatedAt":"2025-11-14T18:10:17.706Z"},{"id":305,"name":"RObert domingos ","email":"robert.sp1595@gmail.com","role":"pro","subscriptionPlan":"pro","isAdmin":false,"ipAddress":"N/A","lastActivity":"2025-11-14T18:10:17.665Z","userAgent":"Desktop","browser":"Unknown","isSessionActive":true,"sessionCreatedAt":"2025-11-14T18:10:17.665Z"},{"id":358,"name":"JORGE WANDERSON","email":"jorge@acolatto.com.br","role":"pro","subscriptionPlan":"pro","isAdmin":false,"ipAddress":"N/A","lastActivity":"2025-11-14T18:10:17.620Z","userAgent":"Desktop","browser":"Unknown","isSessionActive":true,"sessionCreatedAt":"2025-11-14T18:10:17.620Z"},{"id":286,"name":"RAMON DE OLIVEIRA MARTINS","email":"martinssmartphoneipanema@gmail
+queryClient.ts:114 ✅ Parsed JSON response: Object
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:723 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+queryClient.ts:93 📥 Raw response text: {"logins7d":0,"logins24h":0,"loginStats":[{"date":"2025-11-08","dayName":"Sab","count":0},{"date":"2025-11-09","dayName":"Dom","count":0},{"date":"2025-11-10","dayName":"Seg","count":0},{"date":"2025-11-11","dayName":"Ter","count":0},{"date":"2025-11-12","dayName":"Qua","count":0},{"date":"2025-11-13","dayName":"Qui","count":0},{"date":"2025-11-14","dayName":"Sex","count":0}]}
+queryClient.ts:114 ✅ Parsed JSON response: Object
+chunk-RPCDYKBN.js?v=79a3fb7d:521 Warning: React has detected a change in the order of Hooks called by DashboardOverviewSection. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://reactjs.org/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+1. useState                   useState
+2. useEffect                  useEffect
+3. useContext                 useContext
+4. useContext                 useContext
+5. useContext                 useContext
+6. useEffect                  useEffect
+7. useState                   useState
+8. useCallback                useCallback
+9. useSyncExternalStore       useSyncExternalStore
+10. useEffect                 useEffect
+11. useContext                useContext
+12. useContext                useContext
+13. useContext                useContext
+14. useEffect                 useEffect
+15. useState                  useState
+16. useCallback               useCallback
+17. useSyncExternalStore      useSyncExternalStore
+18. useEffect                 useEffect
+19. useContext                useContext
+20. useContext                useContext
+21. useContext                useContext
+22. useEffect                 useEffect
+23. useState                  useState
+24. useCallback               useCallback
+25. useSyncExternalStore      useSyncExternalStore
+26. useEffect                 useEffect
+27. useContext                useContext
+28. useContext                useContext
+29. useContext                useContext
+30. useEffect                 useEffect
+31. useState                  useState
+32. useCallback               useCallback
+33. useSyncExternalStore      useSyncExternalStore
+34. useEffect                 useEffect
+35. useState                  useState
+36. useState                  useState
+37. useRef                    useRef
+38. useContext                useContext
+39. useRef                    useRef
+40. useState                  useState
+41. useState                  useState
+42. useState                  useState
+43. useState                  useState
+44. useState                  useState
+45. useState                  useState
+46. useContext                useContext
+47. useSyncExternalStore      useSyncExternalStore
+48. useRef                    useRef
+49. useInsertionEffect        useInsertionEffect
+50. useRef                    useRef
+51. useRef                    useRef
+52. useRef                    useRef
+53. useEffect                 useEffect
+54. useCallback               useCallback
+55. useCallback               useCallback
+56. useCallback               useCallback
+57. useCallback               useCallback
+58. useEffect                 useEffect
+59. useRef                    useRef
+60. useRef                    useRef
+61. useRef                    useRef
+62. useRef                    useRef
+63. useRef                    useRef
+64. useCallback               useCallback
+65. useCallback               useCallback
+66. useCallback               useCallback
+67. useCallback               useCallback
+68. useCallback               useCallback
+69. useCallback               useCallback
+70. useEffect                 useEffect
+71. useMemo                   useMemo
+72. useEffect                 useEffect
+73. useEffect                 useEffect
+74. undefined                 useContext
+   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+    at DashboardOverviewSection (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/pages/admin.tsx:174:21)
+    at main
+    at div
+    at div
+    at Admin (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/pages/admin.tsx:5677:36)
+    at AdminProtectedRoute (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/App.tsx?v=oAL9Iv_99NvZnd_xopoiZ:170:32)
+    at Route (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=79a3fb7d:280:16)
+    at Switch (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=79a3fb7d:336:17)
+    at AppRoutes
+    at RealtimeNotificationsProvider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/components/RealtimeNotificationsProvider.tsx:19:49)
+    at Suspense
+    at Provider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-AGOQHPII.js?v=79a3fb7d:38:15)
+    at TooltipProvider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=79a3fb7d:62:5)
+    at ThemeProvider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/components/theme-provider.tsx:25:3)
+    at QueryClientProvider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=79a3fb7d:3093:3)
+    at AdBlockerCompatibilityLayer (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/components/AdBlockerCompatibilityLayer.tsx:17:47)
+    at App (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/App.tsx?v=oAL9Iv_99NvZnd_xopoiZ:820:66)
+printWarning @ chunk-RPCDYKBN.js?v=79a3fb7d:521
+chunk-RPCDYKBN.js?v=79a3fb7d:11678 Uncaught Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (chunk-RPCDYKBN.js?v=79a3fb7d:11678:21)
+    at updateReducer (chunk-RPCDYKBN.js?v=79a3fb7d:11727:22)
+    at updateState (chunk-RPCDYKBN.js?v=79a3fb7d:12021:18)
+    at Object.useState (chunk-RPCDYKBN.js?v=79a3fb7d:12753:24)
+    at Object.useState (chunk-QCHXOAYK.js?v=79a3fb7d:1066:29)
+    at useMutation (@tanstack_react-query.js?v=79a3fb7d:3561:30)
+    at DashboardOverviewSection (admin.tsx:782:30)
+    at renderWithHooks (chunk-RPCDYKBN.js?v=79a3fb7d:11548:26)
+    at updateFunctionComponent (chunk-RPCDYKBN.js?v=79a3fb7d:14582:28)
+    at beginWork (chunk-RPCDYKBN.js?v=79a3fb7d:15924:22)
+chunk-RPCDYKBN.js?v=79a3fb7d:11678 Uncaught Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (chunk-RPCDYKBN.js?v=79a3fb7d:11678:21)
+    at updateReducer (chunk-RPCDYKBN.js?v=79a3fb7d:11727:22)
+    at updateState (chunk-RPCDYKBN.js?v=79a3fb7d:12021:18)
+    at Object.useState (chunk-RPCDYKBN.js?v=79a3fb7d:12753:24)
+    at Object.useState (chunk-QCHXOAYK.js?v=79a3fb7d:1066:29)
+    at useMutation (@tanstack_react-query.js?v=79a3fb7d:3561:30)
+    at DashboardOverviewSection (admin.tsx:782:30)
+    at renderWithHooks (chunk-RPCDYKBN.js?v=79a3fb7d:11548:26)
+    at updateFunctionComponent (chunk-RPCDYKBN.js?v=79a3fb7d:14582:28)
+    at beginWork (chunk-RPCDYKBN.js?v=79a3fb7d:15924:22)
+chunk-RPCDYKBN.js?v=79a3fb7d:14032 The above error occurred in the <DashboardOverviewSection> component:
+
+    at DashboardOverviewSection (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/pages/admin.tsx:174:21)
+    at main
+    at div
+    at div
+    at Admin (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/pages/admin.tsx:5677:36)
+    at AdminProtectedRoute (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/App.tsx?v=oAL9Iv_99NvZnd_xopoiZ:170:32)
+    at Route (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=79a3fb7d:280:16)
+    at Switch (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=79a3fb7d:336:17)
+    at AppRoutes
+    at RealtimeNotificationsProvider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/components/RealtimeNotificationsProvider.tsx:19:49)
+    at Suspense
+    at Provider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-AGOQHPII.js?v=79a3fb7d:38:15)
+    at TooltipProvider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=79a3fb7d:62:5)
+    at ThemeProvider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/components/theme-provider.tsx:25:3)
+    at QueryClientProvider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=79a3fb7d:3093:3)
+    at AdBlockerCompatibilityLayer (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/components/AdBlockerCompatibilityLayer.tsx:17:47)
+    at App (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/App.tsx?v=oAL9Iv_99NvZnd_xopoiZ:820:66)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+logCapturedError @ chunk-RPCDYKBN.js?v=79a3fb7d:14032
+chunk-RPCDYKBN.js?v=79a3fb7d:9129 Uncaught Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (chunk-RPCDYKBN.js?v=79a3fb7d:11678:21)
+    at updateReducer (chunk-RPCDYKBN.js?v=79a3fb7d:11727:22)
+    at updateState (chunk-RPCDYKBN.js?v=79a3fb7d:12021:18)
+    at Object.useState (chunk-RPCDYKBN.js?v=79a3fb7d:12753:24)
+    at Object.useState (chunk-QCHXOAYK.js?v=79a3fb7d:1066:29)
+    at useMutation (@tanstack_react-query.js?v=79a3fb7d:3561:30)
+    at DashboardOverviewSection (admin.tsx:782:30)
+    at renderWithHooks (chunk-RPCDYKBN.js?v=79a3fb7d:11548:26)
+    at updateFunctionComponent (chunk-RPCDYKBN.js?v=79a3fb7d:14582:28)
+    at beginWork (chunk-RPCDYKBN.js?v=79a3fb7d:15924:22)
+use-unified-websocket.ts:736 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+use-unified-websocket.ts:736 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...

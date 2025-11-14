@@ -1,0 +1,549 @@
+Se você estiver usando Tailwind CSS, adicione o seguinte código ao seu arquivo CSS principal (geralmente index.css ou globals.css):
+CSS
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Adicione o CSS específico do componente de login abaixo */
+
+:root {
+  --background-light: #f0f2f5;
+  --background-dark: #1a1a2e;
+  --card-background-light: #ffffff;
+  --card-background-dark: #2a2a3e;
+  --text-color-light: #333;
+  --text-color-dark: #e0e0e0;
+  --primary-color: #4a90e2;
+  --primary-color-hover: #357abd;
+  --input-border-light: #ccc;
+  --input-border-dark: #444;
+  --input-focus-border: #4a90e2;
+  --error-color: #e74c3c;
+}
+
+.dark-mode {
+  --background-light: var(--background-dark);
+  --card-background-light: var(--card-background-dark);
+  --text-color-light: var(--text-color-dark);
+  --input-border-light: var(--input-border-dark);
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--background-light);
+  color: var(--text-color-light);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.particles-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: var(--card-background-light);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  transition: transform 0.2s;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+}
+
+.login-card {
+  background-color: var(--card-background-light);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.5s;
+}
+
+.login-header {
+  margin-bottom: 30px;
+}
+
+.login-logo {
+  width: 80px; /* Ajuste o tamanho conforme necessário */
+  height: 80px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.login-header h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.login-header p {
+  color: #888;
+  font-size: 16px;
+}
+
+.form-field {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.form-field input {
+  width: 100%;
+  padding: 12px 10px;
+  border: 1px solid var(--input-border-light);
+  border-radius: 6px;
+  background-color: transparent;
+  color: var(--text-color-light);
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-field label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  background-color: var(--card-background-light);
+  padding: 0 5px;
+  color: #888;
+  transition: all 0.2s ease-in-out;
+  pointer-events: none;
+}
+
+.form-field.active label,
+.form-field input:focus + label {
+  top: 0;
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+.form-field input:focus {
+  outline: none;
+  border-color: var(--input-focus-border);
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.form-field.invalid input {
+  border-color: var(--error-color);
+}
+
+.form-field.invalid label {
+  color: var(--error-color);
+}
+
+.error-message {
+  color: var(--error-color);
+  font-size: 12px;
+  text-align: left;
+  display: block;
+  margin-top: 4px;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.remember-me input {
+  display: none;
+}
+
+.checkmark {
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--input-border-light);
+  border-radius: 4px;
+  margin-right: 8px;
+  display: inline-block;
+  position: relative;
+}
+
+.remember-me input:checked + .checkmark {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.remember-me input:checked + .checkmark:after {
+  display: block;
+}
+
+.forgot-password {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  width: 100%;
+  padding: 14px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.login-button:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.login-button:active {
+  transform: scale(0.98);
+}
+
+.login-button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.signup-prompt {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.signup-prompt a {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signup-prompt a:hover {
+  text-decoration: underline;
+}
+
+.form-success .login-button {
+  background-color: #2ecc71;
+}
+3. Componente de Login Modificado
+Crie o arquivo /components/ui/animated-sign-in.tsx e cole o código abaixo. Ele já está com as alterações que você pediu.
+TSX
+// /components/ui/animated-sign-in.tsx
+"use client";
+
+import React, { useState, useEffect } from "react";
+import { Eye, EyeOff, Sun, Moon } from "lucide-react";
+import "../../index.css"; // Certifique-se que o caminho para o CSS está correto
+
+const LoginPage: React.FC = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [rememberMe, setRememberMe] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isEmailFocused, setIsEmailFocused] = useState(false);
+  const [isPasswordFocused, setIsPasswordFocused] = useState(false);
+  const [isEmailValid, setIsEmailValid] = useState(true);
+  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
+
+  // Validação de e-mail
+  const validateEmail = (email: string) => {
+    const re =
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+  };
+
+  // Lida com a mudança no campo de e-mail
+  const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setEmail(e.target.value);
+    if (e.target.value) {
+      setIsEmailValid(validateEmail(e.target.value));
+    } else {
+      setIsEmailValid(true);
+    }
+  };
+
+  // Lida com o envio do formulário
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsFormSubmitted(true);
+
+    if (email && password && validateEmail(email)) {
+      console.log("Formulário enviado:", { email, password, rememberMe });
+      // Aqui você normalmente lidaria com o processo de login
+
+      // Simula feedback de login bem-sucedido
+      const form = document.querySelector(".login-form") as HTMLElement;
+      if (form) {
+        form.classList.add("form-success");
+        setTimeout(() => {
+          form.classList.remove("form-success");
+        }, 1500);
+      }
+    }
+  };
+
+  // Alterna o modo escuro
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+    document.documentElement.classList.toggle("dark-mode");
+  };
+
+  // Inicializa o tema com base na preferência do usuário
+  useEffect(() => {
+    const prefersDark = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
+    setIsDarkMode(prefersDark);
+    if (prefersDark) {
+      document.documentElement.classList.add("dark-mode");
+    }
+  }, []);
+
+  // Cria as partículas de fundo
+  useEffect(() => {
+    const canvas = document.getElementById("particles") as HTMLCanvasElement;
+    if (!canvas) return;
+
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+
+    const setCanvasSize = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    };
+
+    setCanvasSize();
+    window.addEventListener("resize", setCanvasSize);
+
+    class Particle {
+      x: number;
+      y: number;
+      size: number;
+      speedX: number;
+      speedY: number;
+      color: string;
+
+      constructor() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.size = Math.random() * 3 + 1;
+        this.speedX = (Math.random() - 0.5) * 0.5;
+        this.speedY = (Math.random() - 0.5) * 0.5;
+        this.color = isDarkMode
+          ? `rgba(255, 255, 255, ${Math.random() * 0.2})`
+          : `rgba(0, 0, 100, ${Math.random() * 0.2})`;
+      }
+
+      update() {
+        this.x += this.speedX;
+        this.y += this.speedY;
+
+        if (this.x > canvas.width) this.x = 0;
+        if (this.x < 0) this.x = canvas.width;
+        if (this.y > canvas.height) this.y = 0;
+        if (this.y < 0) this.y = canvas.height;
+      }
+
+      draw() {
+        if (!ctx) return;
+        ctx.fillStyle = this.color;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    const particles: Particle[] = [];
+    const particleCount = Math.min(
+      100,
+      Math.floor((canvas.width * canvas.height) / 15000)
+    );
+
+    for (let i = 0; i < particleCount; i++) {
+      particles.push(new Particle());
+    }
+
+    const animate = () => {
+      if (!ctx) return;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      for (const particle of particles) {
+        particle.update();
+        particle.draw();
+      }
+
+      requestAnimationFrame(animate);
+    };
+
+    animate();
+
+    return () => {
+      window.removeEventListener("resize", setCanvasSize);
+    };
+  }, [isDarkMode]);
+
+  return (
+    <div className={`login-container ${isDarkMode ? "dark" : "light"}`}>
+      <canvas id="particles" className="particles-canvas"></canvas>
+
+      <div className="theme-toggle" onClick={toggleDarkMode}>
+        {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+      </div>
+
+      <div className="login-card">
+        <div className="login-card-inner">
+          <div className="login-header">
+            {/* Adicione o caminho para sua logo aqui */}
+            <img src="/caminho/para/sua/logo.png" alt="Logo do Sistema" className="login-logo" />
+            <h1>Nome do Sistema</h1>
+            <p>Por favor, faça login para continuar</p>
+          </div>
+
+          <form className="login-form" onSubmit={handleSubmit}>
+            <div
+              className={`form-field ${
+                isEmailFocused || email ? "active" : ""
+              } ${!isEmailValid && email ? "invalid" : ""}`}
+            >
+              <input
+                type="email"
+                id="email"
+                value={email}
+                onChange={handleEmailChange}
+                onFocus={() => setIsEmailFocused(true)}
+                onBlur={() => setIsEmailFocused(false)}
+                required
+              />
+              <label htmlFor="email">Endereço de Email</label>
+              {!isEmailValid && email && (
+                <span className="error-message">
+                  Por favor, insira um email válido
+                </span>
+              )}
+            </div>
+
+            <div
+              className={`form-field ${
+                isPasswordFocused || password ? "active" : ""
+              }`}
+            >
+              <input
+                type={showPassword ? "text" : "password"}
+                id="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                onFocus={() => setIsPasswordFocused(true)}
+                onBlur={() => setIsPasswordFocused(false)}
+                required
+              />
+              <label htmlFor="password">Senha</label>
+              <button
+                type="button"
+                className="toggle-password"
+                onClick={() => setShowPassword(!showPassword)}
+                aria-label={showPassword ? "Ocultar senha" : "Mostrar senha"}
+              >
+                {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
+              </button>
+            </div>
+
+            <div className="form-options">
+              <label className="remember-me">
+                <input
+                  type="checkbox"
+                  checked={rememberMe}
+                  onChange={() => setRememberMe(!rememberMe)}
+                />
+                <span className="checkmark"></span>
+                Lembrar de mim
+              </label>
+
+              <a href="#" className="forgot-password">
+                Esqueceu a senha?
+              </a>
+            </div>
+
+            <button
+              type="submit"
+              className="login-button"
+              disabled={
+                isFormSubmitted && (!email || !password || !isEmailValid)
+              }
+            >
+              Entrar
+            </button>
+          </form>
+
+          <p className="signup-prompt">
+            Não tem uma conta? <a href="#">Cadastre-se</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default LoginPage;
+4. Como Usar
+Finalmente, no seu arquivo principal (como App.tsx ou demo.tsx), importe e use o componente LoginPage:
+TSX
+// demo.tsx
+import React from "react";
+import LoginPage from "./components/ui/animated-sign-in";
+
+function App() {
+  return <LoginPage />;
+}
+
+export default App;
+Observação: Não se esqueça de substituir "Nome do Sistema" pelo nome real do seu projeto e /caminho/para/sua/logo.png pelo caminho correto da imagem da sua logo no Replit.

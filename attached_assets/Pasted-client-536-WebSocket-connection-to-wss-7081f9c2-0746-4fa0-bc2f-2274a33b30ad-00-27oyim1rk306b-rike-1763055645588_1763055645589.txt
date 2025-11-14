@@ -1,0 +1,189 @@
+client:536 WebSocket connection to 'wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/?token=2oJuksnex5tM' failed: 
+setupWebSocket @ client:536
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=2oJuksnex5tM' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+chunk-RPCDYKBN.js?v=79a3fb7d:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+firebase.ts:26 ✅ All Firebase environment variables present
+main.tsx:13 🚀 Buscador PXT loaded - 2025.11.13.1445
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-terms-acceptance.ts:78 [Terms] No user found - hiding modal
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+api/user/profile:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+use-auth.ts:183 Failed to load user profile, using basic user info
+(anonymous) @ use-auth.ts:183
+App.tsx:573 🎯 App component mounted
+App.tsx:574 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/
+use-unified-websocket.ts:670 🔄 [UnifiedWebSocket] Auth state check: Object
+use-unified-websocket.ts:686 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed Object
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+EmergencyAlertDialog.tsx:78 🎧 [Emergency Alert] Setting up WebSocket listeners...
+EmergencyAlertDialog.tsx:162 🎧 [Emergency Alert] WebSocket listeners configured
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+App.tsx:520 🔍 Checking payment status for user: jonathan.comercial@outlook.com Object
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+api/user/profile:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+use-auth.ts:183 Failed to load user profile, using basic user info
+(anonymous) @ use-auth.ts:183
+App.tsx:573 🎯 App component mounted
+App.tsx:574 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+use-feedback-alerts.ts:243 ✅ [FEEDBACK-ALERTS-HOOK] Session token found, deferring feedback alerts for 5s
+api/user/profile:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+use-auth.ts:183 Failed to load user profile, using basic user info
+(anonymous) @ use-auth.ts:183
+App.tsx:573 🎯 App component mounted
+App.tsx:574 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+use-terms-acceptance.ts:25 [Terms] Checking terms acceptance for user: jonathan.comercial@outlook.com
+use-terms-acceptance.ts:43 [Terms] Stored data found: true
+use-terms-acceptance.ts:49 [Terms] Looking for user key: user_5vVK4mUnfpVcrTdDqJmByOYPjqp1
+use-terms-acceptance.ts:50 [Terms] Available keys: Array(1)
+use-terms-acceptance.ts:54 [Terms] User terms found: Object
+use-terms-acceptance.ts:58 [Terms] User has accepted current version - hiding modal
+App.tsx:573 🎯 App component mounted
+App.tsx:574 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+api/user/profile:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+use-auth.ts:183 Failed to load user profile, using basic user info
+(anonymous) @ use-auth.ts:183
+api/user/profile:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+use-auth.ts:183 Failed to load user profile, using basic user info
+(anonymous) @ use-auth.ts:183
+api/user/profile:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+use-auth.ts:183 Failed to load user profile, using basic user info
+(anonymous) @ use-auth.ts:183
+use-unified-websocket.ts:670 🔄 [UnifiedWebSocket] Auth state check: Object
+use-unified-websocket.ts:683 ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:720 ✅ [UnifiedWebSocket] Starting WebSocket connection...
+use-unified-websocket.ts:249 🔄 [UnifiedWebSocket] Connection attempt started Object
+use-unified-websocket.ts:280 ✅ [UnifiedWebSocket] Authenticated user found - using singleton connection Object
+websocket-manager.ts:40 🔄 [WSManager] Connecting to: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws Object
+websocket-manager.ts:45 ✅ [WSManager] Connected successfully
+use-unified-websocket.ts:293 ✅ [UnifiedWebSocket] Connected via singleton successfully
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: true
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:723 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+use-unified-websocket.ts:336 ✅ [UnifiedWebSocket] Connection confirmed: CONNECTION_ESTABLISHED
+App.tsx:573 🎯 App component mounted
+App.tsx:574 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/login
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: true
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:723 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+App.tsx:520 🔍 Checking payment status for user: jonathan.comercial@outlook.com Object
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+api/user/profile:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+use-auth.ts:183 Failed to load user profile, using basic user info
+(anonymous) @ use-auth.ts:183
+login.tsx:53 User authenticated, redirecting...
+App.tsx:573 🎯 App component mounted
+App.tsx:574 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/pending-approval
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: true
+use-unified-websocket.ts:670 🔄 [UnifiedWebSocket] Auth state check: Object
+use-unified-websocket.ts:686 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed Object
+chunk-RPCDYKBN.js?v=79a3fb7d:521 Warning: Received `true` for a non-boolean attribute `jsx`.
+
+If you want to write it to the DOM, pass a string instead: jsx="true" or jsx={value.toString()}.
+    at style
+    at div
+    at RainbowLoadingWave (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/components/ui/rainbow-loading-wave.tsx:21:3)
+    at div
+    at PendingApproval (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/pages/pending-approval.tsx:32:42)
+    at Route (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=79a3fb7d:280:16)
+    at Switch (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=79a3fb7d:336:17)
+    at AppRoutes
+    at RealtimeNotificationsProvider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/components/RealtimeNotificationsProvider.tsx:19:49)
+    at Suspense
+    at Provider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-AGOQHPII.js?v=79a3fb7d:38:15)
+    at TooltipProvider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=79a3fb7d:62:5)
+    at ThemeProvider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/components/theme-provider.tsx:25:3)
+    at QueryClientProvider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=79a3fb7d:3093:3)
+    at AdBlockerCompatibilityLayer (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/components/AdBlockerCompatibilityLayer.tsx:17:47)
+    at App (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/App.tsx?v=EuHMxNmnu8BgUJbmRefqO:805:66)
+printWarning @ chunk-RPCDYKBN.js?v=79a3fb7d:521
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:726 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:723 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+App.tsx:520 🔍 Checking payment status for user: jonathan.comercial@outlook.com Object
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+api/user/profile:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+use-auth.ts:183 Failed to load user profile, using basic user info
+(anonymous) @ use-auth.ts:183
+pending-approval.tsx:33 🔍 Pending Approval Page Check: Object
+pending-approval.tsx:57 ⚠️ Unclear approval status - forcing profile refresh...
+pending-approval.tsx:114 🔄 [PendingApproval] Starting intelligent polling for approval status
+pending-approval.tsx:118 🔍 Checking approval status...
+api/user/profile:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+use-auth.ts:183 Failed to load user profile, using basic user info
+(anonymous) @ use-auth.ts:183
+use-unified-websocket.ts:670 🔄 [UnifiedWebSocket] Auth state check: Object
+use-unified-websocket.ts:683 ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:720 ✅ [UnifiedWebSocket] Starting WebSocket connection...
+use-unified-websocket.ts:249 🔄 [UnifiedWebSocket] Connection attempt started Object
+use-unified-websocket.ts:264 🔗 [UnifiedWebSocket] Already connected via singleton
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:723 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+use-feedback-alerts.ts:206 🎯 [FEEDBACK-ALERTS-HOOK] User authenticated and session ready, fetching alerts for: jonathan.comercial@outlook.com
+use-feedback-alerts.ts:50 🔍 [FEEDBACK-ALERTS-HOOK] Fetching alerts for user jonathan.comercial@outlook.com
+App.tsx:573 🎯 App component mounted
+App.tsx:574 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/pending-approval
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: true
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:723 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+queryClient.ts:93 📥 Raw response text: {"alerts":[]}
+queryClient.ts:114 ✅ Parsed JSON response: Object
+use-feedback-alerts.ts:72 📋 [FEEDBACK-ALERTS-HOOK] Received alerts: Array(0)
+use-feedback-alerts.ts:81 🎯 [FEEDBACK-ALERTS-HOOK] Alerts to show with delays: Array(0)
+App.tsx:573 🎯 App component mounted
+App.tsx:574 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/pending-approval
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: true
+use-unified-websocket.ts:707 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:723 🔌 [UnifiedWebSocket] Already connected or connecting - skipping

@@ -1,0 +1,144 @@
+ STRICT Filter arrays updated: 
+{searchTerm: '(nenhuma)', hasActiveSearch: false, categories: 12, capacities: 26, regions: 124, …}
+apiData
+: 
+{capacityApiData: null, storageApiData: null, colorsApiData: null, searchFilteredProducts: 4262}
+capacities
+: 
+26
+categories
+: 
+12
+colors
+: 
+92
+hasActiveSearch
+: 
+false
+originalCounts
+: 
+{categories: 12, capacities: 26, regions: 124, colors: 92}
+regions
+: 
+124
+sampleCapacities
+: 
+(3) ['128GB', '128GB/4GB', '128GB/6GB']
+sampleCategories
+: 
+(3) ['ACSS', 'IPAD', 'IPH']
+sampleColors
+: 
+(3) ['ALPINE GREEN', 'AZUL', 'BEGE']
+searchTerm
+: 
+"(nenhuma)"
+[[Prototype]]
+: 
+Object
+ExcelStylePriceList.tsx:1744 🎯 ExcelStylePriceList render: 
+{isLoading: false, error: false, productsCount: 4262, filteredCount: 4262, searchFilter: '', …}
+actualDate
+: 
+"28-08"
+connectionState
+: 
+undefined
+dataKeys
+: 
+(9) ['products', 'total', 'page', 'limit', 'totalPages', 'actualDate', 'requestedDate', 'supplierContacts', 'success']
+dataType
+: 
+"object"
+dateFilter
+: 
+"28-08"
+error
+: 
+false
+filteredCount
+: 
+4262
+filtersDate
+: 
+"28-08"
+hasDirectProducts
+: 
+true
+hasNestedData
+: 
+false
+isAdmin
+: 
+false
+isLoading
+: 
+false
+isRealtimeConnected
+: 
+false
+lastUpdateTime
+: 
+undefined
+productsCount
+: 
+4262
+rawDataExists
+: 
+true
+requestedDate
+: 
+undefined
+role
+: 
+"user"
+searchFilter
+: 
+""
+updateCount
+: 
+undefined
+userPlan
+: 
+"free"
+userProfileDebug
+: 
+{id: 0, email: 'unknown', role: 'unknown', subscriptionPlan: 'unknown', isAdmin: false, …}
+[[Prototype]]
+: 
+Object
+ExcelStylePriceList.tsx:1951 🎯 ExcelStylePriceList: Component render state: 
+{hasData: true, dataStructure: Array(9), products: Array(4262), productsLength: 4262, productsArray: Array(4262), …}
+dataStructure
+: 
+(9) ['products', 'total', 'page', 'limit', 'totalPages', 'actualDate', 'requestedDate', 'supplierContacts', 'success']
+dateFilter
+: 
+"28-08"
+errorMessage
+: 
+undefined
+hasData
+: 
+true
+hasError
+: 
+false
+isLoading
+: 
+false
+products
+: 
+(4262) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, …]
+productsArray
+: 
+(4262) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, …]
+productsArrayLength
+: 
+4262
+productsLength
+: 
+4262
+searchFilter
+: 
+""

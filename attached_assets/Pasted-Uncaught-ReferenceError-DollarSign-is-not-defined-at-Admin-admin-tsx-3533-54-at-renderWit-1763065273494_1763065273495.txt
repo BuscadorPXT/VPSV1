@@ -1,0 +1,56 @@
+Uncaught ReferenceError: DollarSign is not defined
+    at Admin (admin.tsx:3533:54)
+    at renderWithHooks (chunk-RPCDYKBN.js?v=79a3fb7d:11548:26)
+    at updateFunctionComponent (chunk-RPCDYKBN.js?v=79a3fb7d:14582:28)
+    at beginWork (chunk-RPCDYKBN.js?v=79a3fb7d:15924:22)
+    at HTMLUnknownElement.callCallback2 (chunk-RPCDYKBN.js?v=79a3fb7d:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-RPCDYKBN.js?v=79a3fb7d:3699:24)
+    at invokeGuardedCallback (chunk-RPCDYKBN.js?v=79a3fb7d:3733:39)
+    at beginWork$1 (chunk-RPCDYKBN.js?v=79a3fb7d:19765:15)
+    at performUnitOfWork (chunk-RPCDYKBN.js?v=79a3fb7d:19198:20)
+    at workLoopSync (chunk-RPCDYKBN.js?v=79a3fb7d:19137:13)Understand this error
+admin.tsx:3533 Uncaught ReferenceError: DollarSign is not defined
+    at Admin (admin.tsx:3533:54)
+    at renderWithHooks (chunk-RPCDYKBN.js?v=79a3fb7d:11548:26)
+    at updateFunctionComponent (chunk-RPCDYKBN.js?v=79a3fb7d:14582:28)
+    at beginWork (chunk-RPCDYKBN.js?v=79a3fb7d:15924:22)
+    at HTMLUnknownElement.callCallback2 (chunk-RPCDYKBN.js?v=79a3fb7d:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-RPCDYKBN.js?v=79a3fb7d:3699:24)
+    at invokeGuardedCallback (chunk-RPCDYKBN.js?v=79a3fb7d:3733:39)
+    at beginWork$1 (chunk-RPCDYKBN.js?v=79a3fb7d:19765:15)
+    at performUnitOfWork (chunk-RPCDYKBN.js?v=79a3fb7d:19198:20)
+    at workLoopSync (chunk-RPCDYKBN.js?v=79a3fb7d:19137:13)Understand this error
+chunk-RPCDYKBN.js?v=79a3fb7d:14032 The above error occurred in the <Admin> component:
+
+    at Admin (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/pages/admin.tsx:5617:36)
+    at AdminProtectedRoute (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/App.tsx?v=_70a9haoZxa-EvuRuol_4:170:32)
+    at Route (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=79a3fb7d:280:16)
+    at Switch (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=79a3fb7d:336:17)
+    at AppRoutes
+    at RealtimeNotificationsProvider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/components/RealtimeNotificationsProvider.tsx:19:49)
+    at Suspense
+    at Provider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-AGOQHPII.js?v=79a3fb7d:38:15)
+    at TooltipProvider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=79a3fb7d:62:5)
+    at ThemeProvider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/components/theme-provider.tsx:25:3)
+    at QueryClientProvider (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=79a3fb7d:3093:3)
+    at AdBlockerCompatibilityLayer (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/components/AdBlockerCompatibilityLayer.tsx:17:47)
+    at App (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/App.tsx?v=_70a9haoZxa-EvuRuol_4:820:66)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+logCapturedError @ chunk-RPCDYKBN.js?v=79a3fb7d:14032Understand this error
+chunk-RPCDYKBN.js?v=79a3fb7d:19413 Uncaught ReferenceError: DollarSign is not defined
+    at Admin (admin.tsx:3533:54)
+    at renderWithHooks (chunk-RPCDYKBN.js?v=79a3fb7d:11548:26)
+    at updateFunctionComponent (chunk-RPCDYKBN.js?v=79a3fb7d:14582:28)
+    at beginWork (chunk-RPCDYKBN.js?v=79a3fb7d:15924:22)
+    at beginWork$1 (chunk-RPCDYKBN.js?v=79a3fb7d:19753:22)
+    at performUnitOfWork (chunk-RPCDYKBN.js?v=79a3fb7d:19198:20)
+    at workLoopSync (chunk-RPCDYKBN.js?v=79a3fb7d:19137:13)
+    at renderRootSync (chunk-RPCDYKBN.js?v=79a3fb7d:19116:15)
+    at recoverFromConcurrentError (chunk-RPCDYKBN.js?v=79a3fb7d:18736:28)
+    at performConcurrentWorkOnRoot (chunk-RPCDYKBN.js?v=79a3fb7d:18684:30)Understand this error
+use-unified-websocket.ts:736 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+use-unified-websocket.ts:636 🔌 [UnifiedWebSocket] Disconnecting...
+queryClient.ts:93 📥 Raw response text: {"success":true}
+queryClient.ts:114 ✅ Parsed JSON response: Object

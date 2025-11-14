@@ -1,0 +1,154 @@
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=prTbKtIErz5X' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+chunk-RPCDYKBN.js?v=f1f21721:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+firebase.ts:26 ✅ All Firebase environment variables present
+use-auth.ts:52 🔄 Starting auth initialization...
+use-auth.ts:55 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:52 🔄 Starting auth initialization...
+use-auth.ts:55 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:52 🔄 Starting auth initialization...
+use-auth.ts:55 ⏳ Waiting for Firebase auth state to be ready...
+use-terms-acceptance.ts:78 [Terms] No user found - hiding modal
+use-auth.ts:57 ✅ Firebase auth state is ready
+use-auth.ts:189 ✅ Auth initialization completed
+use-auth.ts:57 ✅ Firebase auth state is ready
+use-auth.ts:189 ✅ Auth initialization completed
+use-auth.ts:57 ✅ Firebase auth state is ready
+use-auth.ts:189 ✅ Auth initialization completed
+use-auth.ts:69 🚪 No Firebase user found
+use-auth.ts:69 🚪 No Firebase user found
+use-auth.ts:69 🚪 No Firebase user found
+App.tsx:530 🎯 App component mounted
+App.tsx:531 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/
+react-router-dom.js?v=f1f21721:527 Uncaught Error: [Route] is not a <Route> component. All component children of <Routes> must be a <Route> or <React.Fragment>
+    at invariant (react-router-dom.js?v=f1f21721:527:11)
+    at react-router-dom.js?v=f1f21721:6344:5
+    at chunk-QCHXOAYK.js?v=f1f21721:750:25
+    at chunk-QCHXOAYK.js?v=f1f21721:737:25
+    at mapIntoArray (chunk-QCHXOAYK.js?v=f1f21721:660:31)
+    at mapIntoArray (chunk-QCHXOAYK.js?v=f1f21721:701:31)
+    at mapChildren (chunk-QCHXOAYK.js?v=f1f21721:736:11)
+    at Object.forEachChildren [as forEach] (chunk-QCHXOAYK.js?v=f1f21721:749:11)
+    at createRoutesFromChildren (react-router-dom.js?v=f1f21721:6332:19)
+    at Routes (react-router-dom.js?v=f1f21721:6260:20)
+invariant @ react-router-dom.js?v=f1f21721:527
+(anônimo) @ react-router-dom.js?v=f1f21721:6344
+(anônimo) @ chunk-QCHXOAYK.js?v=f1f21721:750
+(anônimo) @ chunk-QCHXOAYK.js?v=f1f21721:737
+mapIntoArray @ chunk-QCHXOAYK.js?v=f1f21721:660
+mapIntoArray @ chunk-QCHXOAYK.js?v=f1f21721:701
+mapChildren @ chunk-QCHXOAYK.js?v=f1f21721:736
+forEachChildren @ chunk-QCHXOAYK.js?v=f1f21721:749
+createRoutesFromChildren @ react-router-dom.js?v=f1f21721:6332
+Routes @ react-router-dom.js?v=f1f21721:6260
+renderWithHooks @ chunk-RPCDYKBN.js?v=f1f21721:11548
+mountIndeterminateComponent @ chunk-RPCDYKBN.js?v=f1f21721:14926
+beginWork @ chunk-RPCDYKBN.js?v=f1f21721:15914
+callCallback2 @ chunk-RPCDYKBN.js?v=f1f21721:3674
+invokeGuardedCallbackDev @ chunk-RPCDYKBN.js?v=f1f21721:3699
+invokeGuardedCallback @ chunk-RPCDYKBN.js?v=f1f21721:3733
+beginWork$1 @ chunk-RPCDYKBN.js?v=f1f21721:19765
+performUnitOfWork @ chunk-RPCDYKBN.js?v=f1f21721:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=f1f21721:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=f1f21721:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=f1f21721:18678
+workLoop @ chunk-RPCDYKBN.js?v=f1f21721:197
+flushWork @ chunk-RPCDYKBN.js?v=f1f21721:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=f1f21721:384
+App.tsx:530 🎯 App component mounted
+App.tsx:531 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/
+react-router-dom.js?v=f1f21721:527 Uncaught Error: [Route] is not a <Route> component. All component children of <Routes> must be a <Route> or <React.Fragment>
+    at invariant (react-router-dom.js?v=f1f21721:527:11)
+    at react-router-dom.js?v=f1f21721:6344:5
+    at chunk-QCHXOAYK.js?v=f1f21721:750:25
+    at chunk-QCHXOAYK.js?v=f1f21721:737:25
+    at mapIntoArray (chunk-QCHXOAYK.js?v=f1f21721:660:31)
+    at mapIntoArray (chunk-QCHXOAYK.js?v=f1f21721:701:31)
+    at mapChildren (chunk-QCHXOAYK.js?v=f1f21721:736:11)
+    at Object.forEachChildren [as forEach] (chunk-QCHXOAYK.js?v=f1f21721:749:11)
+    at createRoutesFromChildren (react-router-dom.js?v=f1f21721:6332:19)
+    at Routes (react-router-dom.js?v=f1f21721:6260:20)
+invariant @ react-router-dom.js?v=f1f21721:527
+(anônimo) @ react-router-dom.js?v=f1f21721:6344
+(anônimo) @ chunk-QCHXOAYK.js?v=f1f21721:750
+(anônimo) @ chunk-QCHXOAYK.js?v=f1f21721:737
+mapIntoArray @ chunk-QCHXOAYK.js?v=f1f21721:660
+mapIntoArray @ chunk-QCHXOAYK.js?v=f1f21721:701
+mapChildren @ chunk-QCHXOAYK.js?v=f1f21721:736
+forEachChildren @ chunk-QCHXOAYK.js?v=f1f21721:749
+createRoutesFromChildren @ react-router-dom.js?v=f1f21721:6332
+Routes @ react-router-dom.js?v=f1f21721:6260
+renderWithHooks @ chunk-RPCDYKBN.js?v=f1f21721:11548
+mountIndeterminateComponent @ chunk-RPCDYKBN.js?v=f1f21721:14926
+beginWork @ chunk-RPCDYKBN.js?v=f1f21721:15914
+callCallback2 @ chunk-RPCDYKBN.js?v=f1f21721:3674
+invokeGuardedCallbackDev @ chunk-RPCDYKBN.js?v=f1f21721:3699
+invokeGuardedCallback @ chunk-RPCDYKBN.js?v=f1f21721:3733
+beginWork$1 @ chunk-RPCDYKBN.js?v=f1f21721:19765
+performUnitOfWork @ chunk-RPCDYKBN.js?v=f1f21721:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=f1f21721:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=f1f21721:19116
+recoverFromConcurrentError @ chunk-RPCDYKBN.js?v=f1f21721:18736
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=f1f21721:18684
+workLoop @ chunk-RPCDYKBN.js?v=f1f21721:197
+flushWork @ chunk-RPCDYKBN.js?v=f1f21721:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=f1f21721:384
+chunk-RPCDYKBN.js?v=f1f21721:14032 The above error occurred in the <Routes> component:
+
+    at Routes (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-router-dom.js?v=f1f21721:6257:3)
+    at div
+    at Router (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=f1f21721:235:17)
+    at App (https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/src/App.tsx?v=8dgJ9l-f0YBEzAzNS7m_k:737:66)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+logCapturedError @ chunk-RPCDYKBN.js?v=f1f21721:14032
+update.callback @ chunk-RPCDYKBN.js?v=f1f21721:14052
+callCallback @ chunk-RPCDYKBN.js?v=f1f21721:11248
+commitUpdateQueue @ chunk-RPCDYKBN.js?v=f1f21721:11265
+commitLayoutEffectOnFiber @ chunk-RPCDYKBN.js?v=f1f21721:17093
+commitLayoutMountEffects_complete @ chunk-RPCDYKBN.js?v=f1f21721:17980
+commitLayoutEffects_begin @ chunk-RPCDYKBN.js?v=f1f21721:17969
+commitLayoutEffects @ chunk-RPCDYKBN.js?v=f1f21721:17920
+commitRootImpl @ chunk-RPCDYKBN.js?v=f1f21721:19353
+commitRoot @ chunk-RPCDYKBN.js?v=f1f21721:19277
+finishConcurrentRender @ chunk-RPCDYKBN.js?v=f1f21721:18760
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=f1f21721:18718
+workLoop @ chunk-RPCDYKBN.js?v=f1f21721:197
+flushWork @ chunk-RPCDYKBN.js?v=f1f21721:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=f1f21721:384
+chunk-RPCDYKBN.js?v=f1f21721:19413 Uncaught Error: [Route] is not a <Route> component. All component children of <Routes> must be a <Route> or <React.Fragment>
+    at invariant (react-router-dom.js?v=f1f21721:527:11)
+    at react-router-dom.js?v=f1f21721:6344:5
+    at chunk-QCHXOAYK.js?v=f1f21721:750:25
+    at chunk-QCHXOAYK.js?v=f1f21721:737:25
+    at mapIntoArray (chunk-QCHXOAYK.js?v=f1f21721:660:31)
+    at mapIntoArray (chunk-QCHXOAYK.js?v=f1f21721:701:31)
+    at mapChildren (chunk-QCHXOAYK.js?v=f1f21721:736:11)
+    at Object.forEachChildren [as forEach] (chunk-QCHXOAYK.js?v=f1f21721:749:11)
+    at createRoutesFromChildren (react-router-dom.js?v=f1f21721:6332:19)
+    at Routes (react-router-dom.js?v=f1f21721:6260:20)
+invariant @ react-router-dom.js?v=f1f21721:527
+(anônimo) @ react-router-dom.js?v=f1f21721:6344
+(anônimo) @ chunk-QCHXOAYK.js?v=f1f21721:750
+(anônimo) @ chunk-QCHXOAYK.js?v=f1f21721:737
+mapIntoArray @ chunk-QCHXOAYK.js?v=f1f21721:660
+mapIntoArray @ chunk-QCHXOAYK.js?v=f1f21721:701
+mapChildren @ chunk-QCHXOAYK.js?v=f1f21721:736
+forEachChildren @ chunk-QCHXOAYK.js?v=f1f21721:749
+createRoutesFromChildren @ react-router-dom.js?v=f1f21721:6332
+Routes @ react-router-dom.js?v=f1f21721:6260
+renderWithHooks @ chunk-RPCDYKBN.js?v=f1f21721:11548
+mountIndeterminateComponent @ chunk-RPCDYKBN.js?v=f1f21721:14926
+beginWork @ chunk-RPCDYKBN.js?v=f1f21721:15914
+beginWork$1 @ chunk-RPCDYKBN.js?v=f1f21721:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=f1f21721:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=f1f21721:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=f1f21721:19116
+recoverFromConcurrentError @ chunk-RPCDYKBN.js?v=f1f21721:18736
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=f1f21721:18684
+workLoop @ chunk-RPCDYKBN.js?v=f1f21721:197
+flushWork @ chunk-RPCDYKBN.js?v=f1f21721:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=f1f21721:384

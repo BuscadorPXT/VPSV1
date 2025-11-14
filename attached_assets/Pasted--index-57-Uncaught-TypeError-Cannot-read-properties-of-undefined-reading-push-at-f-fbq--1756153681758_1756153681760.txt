@@ -1,0 +1,54 @@
+(index):57 Uncaught TypeError: Cannot read properties of undefined (reading 'push')
+    at f.fbq ((index):57:45)
+    at (index):63:5
+index-C4l_G2Sn.js:1592 ✅ All Firebase environment variables present
+index-C4l_G2Sn.js:2187 🔄 Starting auth initialization...
+index-C4l_G2Sn.js:2187 ⏳ Waiting for Firebase auth state to be ready...
+index-C4l_G2Sn.js:2187 🔄 Starting auth initialization...
+index-C4l_G2Sn.js:2187 ⏳ Waiting for Firebase auth state to be ready...
+index-C4l_G2Sn.js:2187 🔄 Starting auth initialization...
+index-C4l_G2Sn.js:2187 ⏳ Waiting for Firebase auth state to be ready...
+index-C4l_G2Sn.js:2512 [Terms] No user found - hiding modal
+index-C4l_G2Sn.js:2187 ✅ Firebase auth state is ready
+index-C4l_G2Sn.js:2187 ✅ Auth initialization completed
+index-C4l_G2Sn.js:2187 ✅ Firebase auth state is ready
+index-C4l_G2Sn.js:2187 ✅ Auth initialization completed
+index-C4l_G2Sn.js:2187 ✅ Firebase auth state is ready
+index-C4l_G2Sn.js:2187 ✅ Auth initialization completed
+index-C4l_G2Sn.js:2187 🚪 No Firebase user found
+index-C4l_G2Sn.js:2187 🚪 No Firebase user found
+index-C4l_G2Sn.js:2187 🚪 No Firebase user found
+index-C4l_G2Sn.js:2514 🎯 App component mounted
+index-C4l_G2Sn.js:2514 📍 Current location: https://buscadorpxt.com.br/
+index-C4l_G2Sn.js:2514 [App] Terms modal state: Object
+index-C4l_G2Sn.js:2187 🔄 Starting auth initialization...
+index-C4l_G2Sn.js:2187 ⏳ Waiting for Firebase auth state to be ready...
+index-C4l_G2Sn.js:2187 🔄 Starting auth initialization...
+index-C4l_G2Sn.js:2187 ⏳ Waiting for Firebase auth state to be ready...
+index-C4l_G2Sn.js:2512 🎧 [Emergency Alert] Setting up WebSocket listeners...
+index-C4l_G2Sn.js:2512 🎧 [Emergency Alert] WebSocket listeners configured
+index-C4l_G2Sn.js:2187 ✅ Firebase auth state is ready
+index-C4l_G2Sn.js:2187 ✅ Auth initialization completed
+index-C4l_G2Sn.js:2187 ✅ Firebase auth state is ready
+index-C4l_G2Sn.js:2187 ✅ Auth initialization completed
+index-C4l_G2Sn.js:2187 🚪 No Firebase user found
+index-C4l_G2Sn.js:2187 🚪 No Firebase user found
+index-C4l_G2Sn.js:40 TypeError: Cannot read properties of undefined (reading 'push')
+    at f.fbq ((index):57:45)
+    at fw (index-C4l_G2Sn.js:2187:70117)
+    at index-C4l_G2Sn.js:2187:70220
+    at rS (index-C4l_G2Sn.js:40:24296)
+    at Tp (index-C4l_G2Sn.js:40:42451)
+    at index-C4l_G2Sn.js:40:40763
+    at S (index-C4l_G2Sn.js:25:1589)
+    at MessagePort.R (index-C4l_G2Sn.js:25:1953)
+XC @ index-C4l_G2Sn.js:40
+index-C4l_G2Sn.js:38 Uncaught TypeError: Cannot read properties of undefined (reading 'push')
+    at f.fbq ((index):57:45)
+    at fw (index-C4l_G2Sn.js:2187:70117)
+    at index-C4l_G2Sn.js:2187:70220
+    at rS (index-C4l_G2Sn.js:40:24296)
+    at Tp (index-C4l_G2Sn.js:40:42451)
+    at index-C4l_G2Sn.js:40:40763
+    at S (index-C4l_G2Sn.js:25:1589)
+    at MessagePort.R (index-C4l_G2Sn.js:25:1953)

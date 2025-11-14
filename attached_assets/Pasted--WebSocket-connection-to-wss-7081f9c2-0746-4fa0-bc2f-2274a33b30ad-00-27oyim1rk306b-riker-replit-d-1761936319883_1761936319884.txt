@@ -1,0 +1,1051 @@
+ WebSocket connection to 'wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/?token=azmTtrx5hfH1' failed: 
+setupWebSocket @ client:536
+api/user/profile:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+api/user/profile:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+api/user/profile:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+api/user/profile:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+api/user/profile:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+api/user/profile:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+api/products/dates:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+ 🔄 Fetching exchange rates via Investing.com scraper...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ 📞 Supplier contacts loaded: 97 suppliers
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 📞 Updating supplier contacts state with 97 contacts
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🏪 Extracting suppliers from products: 0 products
+ 🏪 Current supplier contacts state: 97 contacts loaded
+ 🏪 Extracted suppliers: 0 unique suppliers
+ 🏪 Sample suppliers vs contacts: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🔍 Filtering products: Object
+ 🔍 Exibindo todos os produtos filtrados: Object
+ 🏷️ calculateLowestPrices: No products provided
+ 🔍 SafeProducts filtering: Object
+ 📄 Pagination debug: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ [ADMIN ITEMS FINAL] Object
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 📱 MobileSearchBar RENDERIZADA: Object
+ 📱 MobileSearchBar: Component is ACTIVE and rendering
+ 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "all",
+  "onSearchChangeType": "function"
+}
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔍 SimpleMobileFilters: Component state changed Object
+ 📅 Auto-selecting most recent date: 31-10
+ 🎯 Dashboard: Products data updated: Object
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ [ADMIN ITEMS FINAL] Object
+ 📱 MobileSearchBar RENDERIZADA: Object
+ 📱 MobileSearchBar: Component is ACTIVE and rendering
+ 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "31-10",
+  "onSearchChangeType": "function"
+}
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 ExcelStylePriceList: Fetching products... Object
+ 🔍 SimpleMobileFilters: Component state changed Object
+ 🔄 Dashboard: Fetching products data with dateFilter: 31-10
+ 🎯 Dashboard: Products data updated: Object
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ 🔗 Request URL: /api/products?date=31-10&limit=999999&page=1&_t=1761936293680 with date: 31-10
+ 📡 Dashboard: Making request to: /api/products?date=31-10&limit=999999&page=1
+ 🔑 Dashboard: Headers present: true
+ 📨 [UnifiedWebSocket] Message received: SESSION_REGISTERED Object
+ ✅ [UnifiedWebSocket] Connection confirmed: SESSION_REGISTERED
+ 📥 Raw response text: {"success":true}
+ ✅ Parsed JSON response: Object
+ Failed to fetch user profile for debug: 
+queryFn @ useTesterStatusDebug.ts:33
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ 📊 Dashboard: Response status: 200
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ [ADMIN ITEMS FINAL] Object
+ 🕐 Monitoring data received: Object
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ ✅ Exchange rates fetched via backend proxy: Object
+ 🔍 Response details: Object
+ 🔍 Rate validation: Object
+ ✅ Valid exchange rate received from backend: 5.38
+ ✅ Products response received for date: all Object
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🕐 Monitoring data received: Object
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ [ADMIN ITEMS FINAL] Object
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ ✅ [UnifiedWebSocket] Starting WebSocket connection...
+ 🔄 [UnifiedWebSocket] Connection attempt started Object
+ ✅ [UnifiedWebSocket] Authenticated user found - connecting WebSocket Object
+ 🔗 [UnifiedWebSocket] Production WebSocket URL: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws Object
+ 🔄 [UnifiedWebSocket] Connecting to: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ ✅ Products response received for date: 31-10 Object
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 📦 Processing products data: Object
+ 📦 Extracted products: Object
+ 🔍 ExcelStylePriceList: Processing search: Object
+ 📋 ExcelStylePriceList: No search term - returning all products
+ 🎯 Using products for filters: Object
+ 🎯 Filter options for search-filtered products: Object
+ 🏪 Extracting suppliers from products: 4300 products
+ 🏪 Current supplier contacts state: 97 contacts loaded
+ 🏪 Extracted suppliers: 72 unique suppliers
+ 🏪 Sample suppliers vs contacts: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🔍 Filtering products: Object
+ 🔍 Exibindo todos os produtos filtrados: Object
+ 🏷️ calculateLowestPrices: Object
+ 🏷️ calculateLowestPrices result: Object
+ 🏷️ [ExcelStylePriceList] Produtos com menor preço após filtragem: 1
+ 🔍 SafeProducts filtering: Object
+ 📄 Pagination debug: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🎯 ExcelStylePriceList: Component render state: Object
+ 🎯 Rendering product 0: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎯 Rendering product 1: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎯 Rendering product 2: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎨 Watermark component rendering with: Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 ElegantDateSelector props: Object
+ ExcelStylePriceList: Date changed from all to: 31-10
+ 🔄 ExcelStylePriceList: Fetching products... Object
+ 🔄 ExcelStylePriceList: Fetching products... Object
+ 📅 Date changed from ExcelStylePriceList: 31-10
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🎯 ExcelStylePriceList: Component render state: Object
+ 🎯 Rendering product 0: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎯 Rendering product 1: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎯 Rendering product 2: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎨 Watermark component rendering with: Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ ExcelStylePriceList: Date changed from all to: 31-10
+ 🔄 ExcelStylePriceList: Fetching products... Object
+ 🔄 ExcelStylePriceList: Fetching products... Object
+ 📅 Date changed from ExcelStylePriceList: 31-10
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ 🔗 Request URL: /api/products?date=31-10&limit=999999&page=1&_t=1761936295357 with date: 31-10
+ 🔗 Request URL: /api/products?date=31-10&limit=999999&page=1&_t=1761936295357 with date: 31-10
+ 🔗 Request URL: /api/products?date=31-10&limit=999999&page=1&_t=1761936295357 with date: 31-10
+ 🔗 Request URL: /api/products?date=31-10&limit=999999&page=1&_t=1761936295357 with date: 31-10
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 📦 Processing products data: Object
+ ⚠️ No data received from API
+ ⚠️ No products available for search
+ 🎯 Using products for filters: Object
+ 🎯 Filter options for search-filtered products: Object
+ 🏪 Extracting suppliers from products: 0 products
+ 🏪 Current supplier contacts state: 97 contacts loaded
+ 🏪 Extracted suppliers: 0 unique suppliers
+ 🏪 Sample suppliers vs contacts: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🔍 Filtering products: Object
+ 🔍 Exibindo todos os produtos filtrados: Object
+ 🏷️ calculateLowestPrices: No products provided
+ 🔍 SafeProducts filtering: Object
+ 📄 Pagination debug: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 ExcelStylePriceList: Fetching products... Object
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ 🔗 Request URL: /api/products?date=31-10&limit=999999&page=1&_t=1761936295366 with date: 31-10
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ ✅ Dashboard: Products data received: Object
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ [ADMIN ITEMS FINAL] Object
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 📱 MobileSearchBar RENDERIZADA: Object
+ 📱 MobileSearchBar: Component is ACTIVE and rendering
+ 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "31-10",
+  "onSearchChangeType": "function"
+}
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔍 SimpleMobileFilters: Component state changed Object
+ 🎯 Dashboard: Products data updated: Object
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ ✅ [UnifiedWebSocket] Starting WebSocket connection...
+ 🔄 [UnifiedWebSocket] Connection attempt started Object
+ ✅ [UnifiedWebSocket] Authenticated user found - connecting WebSocket Object
+ 🔗 [UnifiedWebSocket] Production WebSocket URL: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws Object
+ 🔄 [UnifiedWebSocket] Connecting to: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ ✅ [UnifiedWebSocket] Connected successfully to: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 📨 [UnifiedWebSocket] Message received: CONNECTION_ESTABLISHED Object
+ ✅ [UnifiedWebSocket] Connection confirmed: CONNECTION_ESTABLISHED
+ ✅ Products response received for date: 31-10 Object
+ 🎫 Fresh Firebase token obtained for WebSocket auth
+ 📝 [UnifiedWebSocket] Registering session with Firebase token: Object
+ ✅ Products response received for date: 31-10 Object
+ 📨 [UnifiedWebSocket] Message received: SESSION_REGISTERED Object
+ ✅ [UnifiedWebSocket] Connection confirmed: SESSION_REGISTERED
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ ✅ [UnifiedWebSocket] Starting WebSocket connection...
+ 🔄 [UnifiedWebSocket] Connection attempt started Object
+ ✅ [UnifiedWebSocket] Authenticated user found - connecting WebSocket Object
+ 🔗 [UnifiedWebSocket] Production WebSocket URL: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws Object
+ 🔄 [UnifiedWebSocket] Connecting to: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ ✅ [UnifiedWebSocket] Connected successfully to: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 📨 [UnifiedWebSocket] Message received: CONNECTION_ESTABLISHED Object
+ ✅ [UnifiedWebSocket] Connection confirmed: CONNECTION_ESTABLISHED
+ [["/api/sync/status"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ [ADMIN ITEMS FINAL] Object
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 📱 MobileSearchBar RENDERIZADA: Object
+ 📱 MobileSearchBar: Component is ACTIVE and rendering
+ 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "31-10",
+  "onSearchChangeType": "function"
+}
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔍 SimpleMobileFilters: Component state changed Object
+ 🎫 Fresh Firebase token obtained for WebSocket auth
+ 📝 [UnifiedWebSocket] Registering session with Firebase token: Object
+ ✅ Products response received for date: 31-10 Object
+ 📨 [UnifiedWebSocket] Message received: SESSION_REGISTERED Object
+ ✅ [UnifiedWebSocket] Connection confirmed: SESSION_REGISTERED
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ ✅ [UnifiedWebSocket] Connected successfully to: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws
+ 📨 [UnifiedWebSocket] Message received: CONNECTION_ESTABLISHED Object
+ ✅ [UnifiedWebSocket] Connection confirmed: CONNECTION_ESTABLISHED
+ [["/api/notifications"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ ✅ Products response received for date: 31-10 Object
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ ✅ Products response received for date: 31-10 Object
+ 🔌 [ExcelStylePriceList] WebSocket status: Object
+ 📦 Processing products data: Object
+ 📦 Extracted products: Object
+ 🔍 ExcelStylePriceList: Processing search: Object
+ 📋 ExcelStylePriceList: No search term - returning all products
+ 🎯 Using products for filters: Object
+ 🎯 Filter options for search-filtered products: Object
+ 🏪 Extracting suppliers from products: 4300 products
+ 🏪 Current supplier contacts state: 97 contacts loaded
+ 🏪 Extracted suppliers: 72 unique suppliers
+ 🏪 Sample suppliers vs contacts: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🔍 Filtering products: Object
+ 🔍 Exibindo todos os produtos filtrados: Object
+ 🏷️ calculateLowestPrices: Object
+ 🏷️ calculateLowestPrices result: Object
+ 🏷️ [ExcelStylePriceList] Produtos com menor preço após filtragem: 1
+ 🔍 SafeProducts filtering: Object
+ 📄 Pagination debug: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🎯 ExcelStylePriceList: Component render state: Object
+ 🎯 Rendering product 0: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎯 Rendering product 1: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎯 Rendering product 2: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎨 Watermark component rendering with: Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 ElegantDateSelector props: Object
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+sidebar.tsx:100 🔍 [SIDEBAR] Raw API response: Object
+sidebar.tsx:101 🔍 [SIDEBAR] Processed profile data: Object
+sidebar.tsx:264 [ADMIN ITEMS FINAL] Object
+use-unified-websocket.ts:337 🎫 Fresh Firebase token obtained for WebSocket auth
+use-unified-websocket.ts:367 📝 [UnifiedWebSocket] Registering session with Firebase token: Object
+App.tsx:575 🎯 App component mounted
+App.tsx:576 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/minha-assinatura
+App.tsx:699 [App] Terms modal state: Object
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: true
+App.tsx:102 🛡️ ProtectedRoute check: Object
+App.tsx:119 ✅ User authenticated - rendering protected content
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/user/my-subscription"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+use-unified-websocket.ts:795 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+use-unified-websocket.ts:695 🔌 [UnifiedWebSocket] Disconnecting...
+use-unified-websocket.ts:795 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+use-unified-websocket.ts:695 🔌 [UnifiedWebSocket] Disconnecting...
+use-unified-websocket.ts:795 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+use-unified-websocket.ts:695 🔌 [UnifiedWebSocket] Disconnecting...
+use-unified-websocket.ts:795 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+use-unified-websocket.ts:695 🔌 [UnifiedWebSocket] Disconnecting...
+use-realtime-products.ts:113 📝 Unregistering refresh callback
+use-unified-websocket.ts:766 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:782 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+App.tsx:523 🔍 Checking payment status for user: jonathan.comercial@outlook.com Object
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-unified-websocket.ts:645 🔌 [UnifiedWebSocket] Connection closed: 1000 Manual disconnect
+use-unified-websocket.ts:645 🔌 [UnifiedWebSocket] Connection closed: 1000 Manual disconnect
+use-unified-websocket.ts:645 🔌 [UnifiedWebSocket] Connection closed: 1000 Manual disconnect
+use-unified-websocket.ts:645 🔌 [UnifiedWebSocket] Connection closed: 1000 Manual disconnect
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+@tanstack_react-query.js?v=48d2bf13:3125 [["/api/user/my-subscription"]]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function
+useBaseQuery @ @tanstack_react-query.js?v=48d2bf13:3125
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com

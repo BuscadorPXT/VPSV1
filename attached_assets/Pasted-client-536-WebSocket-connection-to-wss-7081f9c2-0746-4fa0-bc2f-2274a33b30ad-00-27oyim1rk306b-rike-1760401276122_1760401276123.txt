@@ -1,0 +1,137 @@
+client:536 WebSocket connection to 'wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/?token=pzWE8k86hdXh' failed: 
+setupWebSocket @ client:536
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=pzWE8k86hdXh' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+chunk-RPCDYKBN.js?v=48d2bf13:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+firebase.ts:26 ✅ All Firebase environment variables present
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-terms-acceptance.ts:78 [Terms] No user found - hiding modal
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+App.tsx:568 🎯 App component mounted
+App.tsx:569 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/encontro
+App.tsx:692 [App] Terms modal state: Object
+use-unified-websocket.ts:636 🔄 [UnifiedWebSocket] Auth state check: Object
+use-unified-websocket.ts:652 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed Object
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+EmergencyAlertDialog.tsx:61 🎧 [Emergency Alert] Setting up WebSocket listeners...
+EmergencyAlertDialog.tsx:144 🎧 [Emergency Alert] WebSocket listeners configured
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:692 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:602 🔌 [UnifiedWebSocket] Disconnecting...
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:216 ✅ Auth initialization completed
+App.tsx:568 🎯 App component mounted
+App.tsx:569 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/encontro
+App.tsx:692 [App] Terms modal state: Object
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:692 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:602 🔌 [UnifiedWebSocket] Disconnecting...
+App.tsx:516 🔍 Checking payment status for user: jonathan.comercial@outlook.com Object
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+App.tsx:568 🎯 App component mounted
+App.tsx:569 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/encontro
+App.tsx:692 [App] Terms modal state: Object
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:692 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:602 🔌 [UnifiedWebSocket] Disconnecting...
+use-feedback-alerts.ts:241 ✅ [FEEDBACK-ALERTS-HOOK] Session token found, initializing feedback alerts
+use-feedback-alerts.ts:206 🎯 [FEEDBACK-ALERTS-HOOK] User authenticated and session ready, fetching alerts for: jonathan.comercial@outlook.com
+use-feedback-alerts.ts:50 🔍 [FEEDBACK-ALERTS-HOOK] Fetching alerts for user jonathan.comercial@outlook.com
+App.tsx:568 🎯 App component mounted
+App.tsx:569 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/encontro
+App.tsx:692 [App] Terms modal state: Object
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:692 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:602 🔌 [UnifiedWebSocket] Disconnecting...
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+App.tsx:568 🎯 App component mounted
+App.tsx:569 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/encontro
+App.tsx:692 [App] Terms modal state: Object
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:692 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:602 🔌 [UnifiedWebSocket] Disconnecting...
+use-terms-acceptance.ts:25 [Terms] Checking terms acceptance for user: jonathan.comercial@outlook.com
+use-terms-acceptance.ts:43 [Terms] Stored data found: true
+use-terms-acceptance.ts:49 [Terms] Looking for user key: user_5vVK4mUnfpVcrTdDqJmByOYPjqp1
+use-terms-acceptance.ts:50 [Terms] Available keys: Array(1)
+use-terms-acceptance.ts:54 [Terms] User terms found: Object
+use-terms-acceptance.ts:58 [Terms] User has accepted current version - hiding modal
+App.tsx:568 🎯 App component mounted
+App.tsx:569 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/encontro
+App.tsx:692 [App] Terms modal state: Object
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:692 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:602 🔌 [UnifiedWebSocket] Disconnecting...
+use-feedback-alerts.ts:72 📋 [FEEDBACK-ALERTS-HOOK] Received alerts: Array(0)
+use-feedback-alerts.ts:81 🎯 [FEEDBACK-ALERTS-HOOK] Alerts to show with delays: Array(0)
+App.tsx:568 🎯 App component mounted
+App.tsx:569 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/encontro
+App.tsx:692 [App] Terms modal state: Object
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:692 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:602 🔌 [UnifiedWebSocket] Disconnecting...
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-auth.ts:158 🔍 [useAuth] User data processed: Object
+use-auth.ts:181 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-unified-websocket.ts:636 🔄 [UnifiedWebSocket] Auth state check: Object
+use-unified-websocket.ts:649 ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:686 ✅ [UnifiedWebSocket] Starting WebSocket connection...
+use-unified-websocket.ts:244 🔄 [UnifiedWebSocket] Connection attempt started Object
+use-unified-websocket.ts:279 ✅ [UnifiedWebSocket] Authenticated user found - connecting WebSocket Object
+use-unified-websocket.ts:301 🔗 [UnifiedWebSocket] Using Replit/Production WebSocket URL: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws
+use-unified-websocket.ts:310 🔄 [UnifiedWebSocket] Connecting to: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: false
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:689 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+queryClient.ts:93 📥 Raw response text: {"alerts":[]}
+queryClient.ts:114 ✅ Parsed JSON response: Object
+use-unified-websocket.ts:317 ✅ [UnifiedWebSocket] Connected successfully to: wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/ws
+use-unified-websocket.ts:381 📨 [UnifiedWebSocket] Message received: CONNECTION_ESTABLISHED Object
+use-unified-websocket.ts:389 ✅ [UnifiedWebSocket] Connection confirmed: CONNECTION_ESTABLISHED
+RealtimeNotificationsProvider.tsx:18 🔔 [RealtimeProvider] WebSocket connection status: true
+use-unified-websocket.ts:673 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:689 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+use-unified-websocket.ts:335 🎫 Fresh Firebase token obtained for WebSocket auth
+use-unified-websocket.ts:365 📝 [UnifiedWebSocket] Registering session with Firebase token: Object
+use-unified-websocket.ts:381 📨 [UnifiedWebSocket] Message received: SESSION_REGISTERED Object
+use-unified-websocket.ts:389 ✅ [UnifiedWebSocket] Connection confirmed: SESSION_REGISTERED
+EmergencyAlertDialog.tsx:110 🌐 [Emergency Alert] Intercepted WebSocket message: Object
+use-realtime-notifications.ts:131 🔔 [Realtime] WebSocket message received: SESSION_REGISTERED
+use-realtime-notifications.ts:147 📝 [Realtime] Unknown message type: SESSION_REGISTERED

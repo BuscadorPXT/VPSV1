@@ -1,0 +1,43 @@
+· You're about to add user_sessions_user_id_unique unique constraint to the table, which contains 12 items. If this statement fails, you will receive an error from the database. Do you want to truncate user_sessions table?
+
+· You're about to add subscription_management_user_id_unique unique constraint to the table, which contains 87 items. If this statement fails, you will receive an error from the database. Do you want to truncate subscription_management table?
+
+ Warning  Found data-loss statements:
+· You're about to delete average_rating column in suppliers table with 60 items
+· You're about to delete rating_count column in suppliers table with 60 items
+· You're about to delete details column in admin_action_logs table with 631 items
+· You're about to delete adminId column in admin_action_logs table with 631 items
+· You're about to delete targetUserId column in admin_action_logs table with 631 items
+· You're about to delete createdAt column in user_sessions table with 12 items
+· You're about to delete updatedAt column in user_sessions table with 12 items
+· You're about to delete subscription_start_date column in users table with 118 items
+· You're about to delete subscription_end_date column in users table with 118 items
+· You're about to delete stripe_customer_id column in users table with 118 items
+· You're about to delete stripe_subscription_id column in users table with 118 items
+· You're about to delete subscription_status column in users table with 118 items
+· You're about to delete trial_start_date column in users table with 118 items
+· You're about to delete trial_end_date column in users table with 118 items
+· You're about to delete is_in_trial column in users table with 118 items
+· You're about to delete payment_status column in users table with 118 items
+· You're about to delete password column in users table with 118 items
+· You're about to delete rejected_at column in users table with 118 items
+· You're about to delete rejected_by column in users table with 118 items
+· You're about to delete rejection_reason column in users table with 118 items
+· You're about to delete whatsapp column in users table with 118 items
+· You're about to delete trial_plan column in users table with 118 items
+· You're about to delete asaas_customer_id column in users table with 118 items
+· You're about to delete asaas_subscription_id column in users table with 118 items
+· You're about to delete trial_payment_method column in users table with 118 items
+· You're about to delete api_key column in users table with 118 items
+· You're about to delete password_reset_expires_at column in users table with 118 items
+· You're about to delete is_tester column in users table with 118 items
+· You're about to delete test_end_date column in users table with 118 items
+· You're about to delete account_status column in users table with 118 items
+· You're about to delete isApproved column in users table with 118 items
+· You're about to delete source column in products table with 66044 items
+
+THIS ACTION WILL CAUSE DATA LOSS AND CANNOT BE REVERTED
+
+Do you still want to push changes?
+  No, abort
+❯ Yes, I want to remove 32 columns, truncate 1 table

@@ -1,0 +1,1313 @@
+dashboard:177 Uncaught 
+client:536 Uncaught (in promise) 
+ Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+ ✅ All Firebase environment variables present
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ [Terms] No user found - hiding modal
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🎯 App component mounted
+ 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/dashboard
+ [App] Terms modal state: Object
+ 🛡️ ProtectedRoute check: Object
+ ⏳ Showing loader - auth not ready
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🎧 [Emergency Alert] Setting up WebSocket listeners...
+ 🎧 [Emergency Alert] WebSocket listeners configured
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ 🎯 App component mounted
+ 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/dashboard
+ [App] Terms modal state: Object
+ 🛡️ ProtectedRoute check: Object
+ ⏳ Showing loader - auth not ready
+ 🔍 Checking payment status for user: jonathan.comercial@outlook.com Object
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🎯 App component mounted
+ 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/dashboard
+ [App] Terms modal state: Object
+ 🛡️ ProtectedRoute check: Object
+ ⏳ Showing loader - auth not ready
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ [Terms] Checking terms acceptance for user: jonathan.comercial@outlook.com
+ [Terms] Stored data found: true
+ [Terms] Looking for user key: user_5vVK4mUnfpVcrTdDqJmByOYPjqp1
+ [Terms] Available keys: Array(2)
+ [Terms] User terms found: Object
+ [Terms] User has accepted current version - hiding modal
+ 🎯 App component mounted
+ 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/dashboard
+ [App] Terms modal state: Object
+ 🛡️ ProtectedRoute check: Object
+ ⏳ Showing loader - auth not ready
+ 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🛡️ ProtectedRoute check: Object
+ ✅ User authenticated - rendering protected content
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ Função clearUserTerms() disponível no console
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ [ADMIN ITEMS FINAL] Object
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ 📥 Raw response text: {"dates":["23-08","22-08","21-08","20-08","19-08","18-08","16-08","15-08","14-08","13-08","12-08","11-08","09-08","08-08","07-08","06-08","05-08","04-08","02-08","01-08","31-07","30-07","29-07","28-07","26-07","25-07","24-07","23-07"],"success":true}
+ ✅ Parsed JSON response: Object
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 📅 Auto-selecting most recent date: 23-08
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 📥 Raw response text: {"notifications":[],"unreadCount":0,"totalCount":0}
+ ✅ Parsed JSON response: Object
+ 📥 Raw response text: {"alerts":[]}
+ ✅ Parsed JSON response: Object
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🎯 About to render ExcelStylePriceList with props: Object
+ [ADMIN ITEMS FINAL] Object
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed
+ ⚠️ No data received from API
+ ⚠️ No products available for search
+ 🎯 Using products for filters: Object
+ 🎯 Filter options for search-filtered products: Object
+ 🏪 Extracting suppliers from products: 0 products
+ 🏪 Current supplier contacts state: 0 contacts loaded
+ 🏪 Extracted suppliers: 0 unique suppliers
+ 🏪 Sample suppliers vs contacts: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🔍 Filtering products: Object
+ 🏷️ calculateLowestPrices: No products provided
+ 🎯 ExcelStylePriceList render: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔍 TESTER STATUS DEBUG: Object
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔍 Supplier contacts state updated: Object
+ 🔄 ExcelStylePriceList: Fetching products... Object
+ 🔍 Initial search triggered for date: 23-08
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ 🔗 Request URL: /api/products?dateFilter=23-08&limit=999999&page=1 with date: 23-08
+ 📥 Raw response text: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="module">
+import { createHotContext } from "/@vite/client";
+const hot = createHotContext("/__dummy__runtime-error-plugin");
+
+function sendError(error) {
+  if (!(error instanceof Error)) {
+    error = new Error("(unknown runtime error)");
+  }
+  const serialized = {
+    message: error.message,
+    stack: error.stack,
+  };
+  hot.send("runtime-error-plugin:error", serialized);
+}
+
+window.addEventListener("error", (evt) => {
+  sendError(evt.error);
+});
+
+window.addEventListener("unhandledrejection", (evt) => {
+  sendError(evt.reason);
+});
+</script>
+
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+    <!-- Proteções de segurança desabilitadas para desenvolvimento -->
+
+    <!-- Título da aba -->
+    <title>Assine o Buscador PXT - Compare preços Apple com precisão e economia</title>
+
+
+
+    <!-- Meta description para SEO -->
+    <meta name="description" content="Assine o Buscador PXT - Compare preços Apple com precisão e economia. Acesso completo aos fornecedores, preços em tempo real, filtros avançados. Exclusivo para revendedores." />
+
+    <!-- Open Graph para WhatsApp, Facebook, LinkedIn -->
+    <meta property="og:title" content="Buscador PXT - Compare preços de iPhones em tempo real" />
+    <meta property="og:description" content="Acesse o sistema PXT e descubra qual fornecedor tem o menor preço de iPhones hoje. Exclusivo para revendedores Apple." />
+    <meta property="og:url" content="https://buscadorpxt.com.br" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://buscadorpxt.com.br/assets/thumb-pxt.jpg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Buscador PXT - Sistema de consulta de preços Apple" />
+    <meta name="twitter:description" content="Compare preços entre dezenas de fornecedores e encontre o melhor valor do dia para iPhones." />
+    <meta name="twitter:image" content="https://buscadorpxt.com.br/assets/thumb-pxt.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/faviconbuscador.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/faviconbuscador.svg" />
+
+    <!-- Desabilitar tradução automática do navegador -->
+    <meta name="google" content="notranslate" />
+    <meta name="robots" content="notranslate" />
+    <meta http-equiv="Content-Language" content="pt-BR" />
+    <script>
+      // Force dark theme immediately to prevent flash
+      (function() {
+        const stored = localStorage.getItem('vite-ui-theme');
+        const theme = stored && ['dark', 'light', 'system'].includes(stored) ? stored : 'dark';
+        document.documentElement.classList.add(theme === 'system'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+        );
+      })();
+    </script>
+    <script type="module">"use strict";(()=>{var P="0.2.7";var T={HIGHLIGHT_COLOR:"#0079F2",HIGHLIGHT_BG:"#0079F210",ALLOWED_DOMAIN:".replit.dev"},Q=`
+  [contenteditable] {
+    outline: none !important;
+  }
+
+  [contenteditable]:focus {
+    outline: none !important;
+  }
+`,Z=`
+  .beacon-highlighter {
+    content: '';
+    position: absolute;
+    z-index: ${Number.MAX_SAFE_INTEGER-3};
+    box-sizing: border-box;
+    pointer-events: none;
+    outline: 2px dashed ${T.HIGHLIGHT_COLOR} !important;
+    outline-offset: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: none !important;
+    background: ${T.HIGHLIGHT_BG} !important;
+    opacity: 0;
+  }
+  
+  .beacon-hover-highlighter {
+    position: fixed;
+    z-index: ${Number.MAX_SAFE_INTEGER};
+  }
+  
+  .beacon-selected-highlighter {
+    position: fixed;
+    pointer-events: none;
+    outline: 2px solid ${T.HIGHLIGHT_COLOR} !important;
+    outline-offset: 3px !important;
+    background: none !important;
+  }
+  
+  .beacon-label {
+    position: absolute;
+    background-color: ${T.HIGHLIGHT_COLOR};
+    color: #FFFFFF;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: monospace;
+    line-height: 1;
+    white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transform: translateY(-100%);
+    margin-top: -4px;
+    left: 0;
+    z-index: ${Number.MAX_SAFE_INTEGER-2};
+    pointer-events: none;
+    opacity: 0;
+  }
+  
+  .beacon-hover-label {
+    position: fixed;
+    z-index: ${Number.MAX_SAFE_INTEGER};
+  }
+  
+  .beacon-selected-label {
+    position: fixed;
+    pointer-events: none;
+  }
+  
+  .beacon-sibling-highlighter {
+    position: fixed;
+    pointer-events: none;
+    outline: 2px dashed ${T.HIGHLIGHT_COLOR} !important;
+    outline-offset: 0 !import
+ ❌ Failed to parse JSON response: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="module">
+import { createHotContext } from "/@vite/client";
+const hot = createHotContext("/__dummy__runtime-error-plugin");
+
+function sendError(error) {
+  if (!(error instanceof Error)) {
+    error = new Error("(unknown runtime error)");
+  }
+  const serialized = {
+    message: error.message,
+    stack: error.stack,
+  };
+  hot.send("runtime-error-plugin:error", serialized);
+}
+
+window.addEventListener("error", (evt) => {
+  sendError(evt.error);
+});
+
+window.addEventListener("unhandledrejection", (evt) => {
+  sendError(evt.reason);
+});
+</script>
+
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+    <!-- Proteções de segurança desabilitadas para desenvolvimento -->
+
+    <!-- Título da aba -->
+    <title>Assine o Buscador PXT - Compare preços Apple com precisão e economia</title>
+
+
+
+    <!-- Meta description para SEO -->
+    <meta name="description" content="Assine o Buscador PXT - Compare preços Apple com precisão e economia. Acesso completo aos fornecedores, preços em tempo real, filtros avançados. Exclusivo para revendedores." />
+
+    <!-- Open Graph para WhatsApp, Facebook, LinkedIn -->
+    <meta property="og:title" content="Buscador PXT - Compare preços de iPhones em tempo real" />
+    <meta property="og:description" content="Acesse o sistema PXT e descubra qual fornecedor tem o menor preço de iPhones hoje. Exclusivo para revendedores Apple." />
+    <meta property="og:url" content="https://buscadorpxt.com.br" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://buscadorpxt.com.br/assets/thumb-pxt.jpg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Buscador PXT - Sistema de consulta de preços Apple" />
+    <meta name="twitter:description" content="Compare preços entre dezenas de fornecedores e encontre o melhor valor do dia para iPhones." />
+    <meta name="twitter:image" content="https://buscadorpxt.com.br/assets/thumb-pxt.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/faviconbuscador.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/faviconbuscador.svg" />
+
+    <!-- Desabilitar tradução automática do navegador -->
+    <meta name="google" content="notranslate" />
+    <meta name="robots" content="notranslate" />
+    <meta http-equiv="Content-Language" content="pt-BR" />
+    <script>
+      // Force dark theme immediately to prevent flash
+      (function() {
+        const stored = localStorage.getItem('vite-ui-theme');
+        const theme = stored && ['dark', 'light', 'system'].includes(stored) ? stored : 'dark';
+        document.documentElement.classList.add(theme === 'system'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+        );
+      })();
+    </script>
+    <script type="module">"use strict";(()=>{var P="0.2.7";var T={HIGHLIGHT_COLOR:"#0079F2",HIGHLIGHT_BG:"#0079F210",ALLOWED_DOMAIN:".replit.dev"},Q=`
+  [contenteditable] {
+    outline: none !important;
+  }
+
+  [contenteditable]:focus {
+    outline: none !important;
+  }
+`,Z=`
+  .beacon-highlighter {
+    content: '';
+    position: absolute;
+    z-index: ${Number.MAX_SAFE_INTEGER-3};
+    box-sizing: border-box;
+    pointer-events: none;
+    outline: 2px dashed ${T.HIGHLIGHT_COLOR} !important;
+    outline-offset: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: none !important;
+    background: ${T.HIGHLIGHT_BG} !important;
+    opacity: 0;
+  }
+  
+  .beacon-hover-highlighter {
+    position: fixed;
+    z-index: ${Number.MAX_SAFE_INTEGER};
+  }
+  
+  .beacon-selected-highlighter {
+    position: fixed;
+    pointer-events: none;
+    outline: 2px solid ${T.HIGHLIGHT_COLOR} !important;
+    outline-offset: 3px !important;
+    background: none !important;
+  }
+  
+  .beacon-label {
+    position: absolute;
+    background-color: ${T.HIGHLIGHT_COLOR};
+    color: #FFFFFF;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: monospace;
+    line-height: 1;
+    white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transform: translateY(-100%);
+    margin-top: -4px;
+    left: 0;
+    z-index: ${Number.MAX_SAFE_INTEGER-2};
+    pointer-events: none;
+    opacity: 0;
+  }
+  
+  .beacon-hover-label {
+    position: fixed;
+    z-index: ${Number.MAX_SAFE_INTEGER};
+  }
+  
+  .beacon-selected-label {
+    position: fixed;
+    pointer-events: none;
+  }
+  
+  .beacon-sibling-highlighter {
+    position: fixed;
+    pointer-events: none;
+    outline: 2px dashed ${T.HIGHLIGHT_COLOR} !important;
+    outline-offset: 0 !import
+apiRequest @ queryClient.ts:87
+ ❌ Parse error: 
+apiRequest @ queryClient.ts:88
+ ❌ Response headers: Object
+apiRequest @ queryClient.ts:89
+ ❌ Response status: 200
+apiRequest @ queryClient.ts:90
+ ❌ Response URL: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/api/sync/status
+apiRequest @ queryClient.ts:91
+ ❌ Response is not JSON: text/html; charset=utf-8
+apiRequest @ queryClient.ts:94
+ 🎯 About to render ExcelStylePriceList with props: Object
+ [ADMIN ITEMS FINAL] Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔍 TESTER STATUS DEBUG: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+ 🎯 About to render ExcelStylePriceList with props: Object
+ [ADMIN ITEMS FINAL] Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔍 TESTER STATUS DEBUG: Object
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ ✅ [UnifiedWebSocket] Starting WebSocket connection...
+ ✅ [UnifiedWebSocket] Authenticated user found - connecting WebSocket Object
+ 🔄 [UnifiedWebSocket] Connecting to: wss://localhost:5000/ws
+ 🎯 About to render ExcelStylePriceList with props: Object
+ [ADMIN ITEMS FINAL] Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔍 TESTER STATUS DEBUG: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🔍 TESTER STATUS DEBUG: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 📞 Supplier contacts loaded: Object
+ 🏪 Extracting suppliers from products: 0 products
+ 🏪 Current supplier contacts state: 80 contacts loaded
+ 🏪 Extracted suppliers: 0 unique suppliers
+ 🏪 Sample suppliers vs contacts: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🔍 Filtering products: Object
+ 🏷️ calculateLowestPrices: No products provided
+ 🎯 ExcelStylePriceList render: Object
+ 🔍 TESTER STATUS DEBUG: Object
+ 🔍 Supplier contacts state updated: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 Fetching exchange rates via Investing.com scraper...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🎫 Fresh Firebase token stored
+ 📊 Tester status response: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🔍 TESTER STATUS DEBUG: Object
+ 📥 Raw response text: {"success":true}
+ ✅ Parsed JSON response: Object
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+ 🕐 Monitoring data received: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ [ADMIN ITEMS FINAL] Object
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ 🎯 About to render ExcelStylePriceList with props: Object
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ ✅ Exchange rates fetched via backend proxy: Object
+ 🔍 Response details: Object
+ 🔍 Rate validation: Object
+ ✅ Valid exchange rate received from backend: 5.44
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ ✅ [UnifiedWebSocket] Starting WebSocket connection...
+ ✅ [UnifiedWebSocket] Authenticated user found - connecting WebSocket Object
+ 🔄 [UnifiedWebSocket] Connecting to: wss://localhost:5000/ws
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ ✅ [UnifiedWebSocket] Starting WebSocket connection...
+ ✅ [UnifiedWebSocket] Authenticated user found - connecting WebSocket Object
+ 🔄 [UnifiedWebSocket] Connecting to: wss://localhost:5000/ws
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ Failed to fetch user profile for debug: 
+queryFn @ useTesterStatusDebug.ts:33
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ ✅ Firebase ID token obtained (cached)
+ 🔑 Auth headers prepared: Object
+ 🎯 About to render ExcelStylePriceList with props: Object
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🎯 About to render ExcelStylePriceList with props: Object
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+ ✅ [UnifiedWebSocket] Starting WebSocket connection...
+ ✅ [UnifiedWebSocket] Authenticated user found - connecting WebSocket Object
+ 🔄 [UnifiedWebSocket] Connecting to: wss://localhost:5000/ws
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ 🔍 [SIDEBAR] Raw API response: Object
+ 🔍 [SIDEBAR] Processed profile data: Object
+ [ADMIN ITEMS FINAL] Object
+ 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+ ❌ [UnifiedWebSocket] Error: Event
+ws.onerror @ use-unified-websocket.ts:396
+ 🔌 [UnifiedWebSocket] Connection closed: 1006 
+ 🔄 [UnifiedWebSocket] Scheduling reconnection attempt 1/5 in 2007ms
+ 🎯 About to render ExcelStylePriceList with props: Object
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+ ✅ [UnifiedWebSocket] Authenticated user found - connecting WebSocket Object
+ 🔄 [UnifiedWebSocket] Connecting to: wss://localhost:5000/ws
+ 🎯 About to render ExcelStylePriceList with props: Object
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ ❌ [UnifiedWebSocket] Error: Event
+ws.onerror @ use-unified-websocket.ts:396
+ 🔌 [UnifiedWebSocket] Connection closed: 1006 
+ 🔄 [UnifiedWebSocket] Scheduling reconnection attempt 1/5 in 1865ms
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ ✅ Products response received for date: 23-08 Object
+ 📦 Extracted products: Object
+ 🔍 ExcelStylePriceList: Processing search: Object
+ 📋 ExcelStylePriceList: No search term - returning all products
+ 🎯 Using products for filters: Object
+ 🎯 Filter options for search-filtered products: Object
+ 🏪 Extracting suppliers from products: 3507 products
+ 🏪 Current supplier contacts state: 80 contacts loaded
+ 🏪 Extracted suppliers: 61 unique suppliers
+ 🏪 Sample suppliers vs contacts: Object
+ 🎯 STRICT Filter arrays updated: Object
+ 🔍 Filtering products: Object
+ 🏷️ calculateLowestPrices: Object
+ 🏷️ calculateLowestPrices result: Object
+ 🏷️ [ExcelStylePriceList] Produtos com menor preço após filtragem: 4
+ 🎯 ExcelStylePriceList render: Object
+ 🕐 Raw value from controle!B1: 11:42:51
+ 🕐 Type of value: string
+ 🕐 Full monitoring data: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎨 Watermark component rendering with: Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 ElegantDateSelector props: Object
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🎫 Fresh Firebase token stored
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ ✅ [UnifiedWebSocket] Authenticated user found - connecting WebSocket Object
+ 🔄 [UnifiedWebSocket] Connecting to: wss://localhost:5000/ws
+ [ADMIN ITEMS FINAL] Object
+ 🏪 SuppliersModal - Props received: Object
+ 🏪 SuppliersModal - Data state: Object
+ ❌ [UnifiedWebSocket] Error: Event
+ws.onerror @ use-unified-websocket.ts:396
+ 🔌 [UnifiedWebSocket] Connection closed: 1006 
+ 🔄 [UnifiedWebSocket] Scheduling reconnection attempt 1/5 in 2139ms
+ 🎯 STRICT Filter arrays updated: Object
+ 🎯 ExcelStylePriceList render: Object
+ 🕐 Raw value from controle!B1: 11:42:51
+ 🕐 Type of value: string
+ 🕐 Full monitoring data: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🏪 Desktop table - Supplier check: Object
+ 🎨 Watermark component rendering with: Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 ExcelFilterDropdown: Sorted options Object
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ 🎯 App component mounted
+ 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+ [App] Terms modal state: Object
+ 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+ 🔌 [UnifiedWebSocket] Disconnecting...
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔍 Checking payment status for user: jonathan.comercial@outlook.com Object
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ ❌ [UnifiedWebSocket] Error: Event
+ws.onerror @ use-unified-websocket.ts:396
+ 🔌 [UnifiedWebSocket] Connection closed: 1006 
+ ❌ [UnifiedWebSocket] Error: Event
+ws.onerror @ use-unified-websocket.ts:396
+ 🔌 [UnifiedWebSocket] Connection closed: 1006 
+ ❌ [UnifiedWebSocket] Error: Event
+ws.onerror @ use-unified-websocket.ts:396
+ 🔌 [UnifiedWebSocket] Connection closed: 1006 
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🎫 Fresh Firebase token stored
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 [Auth] Starting smart profile polling every 60 seconds
+ ✅ Firebase auth state is ready
+ ✅ Auth initialization completed
+ ✅ Firebase user found: jonathan.comercial@outlook.com
+ 🎫 Fresh Firebase token stored
+ 📥 Raw response text: {"success":true}
+ ✅ Parsed JSON response: Object
+ 🔍 [useAuth] User data processed: Object
+ ✅ User profile loaded: jonathan.comercial@outlook.com
+ 🔄 [UnifiedWebSocket] Auth state check: Object
+ 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed
+ 🔄 Starting auth initialization...
+ ⏳ Waiting for Firebase auth state to be ready...
+ 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:647 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:562 🔌 [UnifiedWebSocket] Disconnecting...
+use-auth.ts:355 🔄 [Auth] Starting smart profile polling every 60 seconds
+use-auth.ts:54 ✅ Firebase auth state is ready
+use-auth.ts:184 ✅ Auth initialization completed
+use-auth.ts:70 ✅ Firebase user found: jonathan.comercial@outlook.com
+use-auth.ts:77 🎫 Fresh Firebase token stored
+queryClient.ts:93 📥 Raw response text: {"success":true,"message":"Atividade recente não disponível","data":{"activities":[],"total":0},"total":0}
+queryClient.ts:114 ✅ Parsed JSON response: Object
+use-unified-websocket.ts:628 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:647 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:562 🔌 [UnifiedWebSocket] Disconnecting...
+use-auth.ts:126 🔍 [useAuth] User data processed: Object
+use-auth.ts:149 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-unified-websocket.ts:596 🔄 [UnifiedWebSocket] Auth state check: Object
+use-unified-websocket.ts:609 ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+use-auth.ts:355 🔄 [Auth] Starting smart profile polling every 60 seconds
+use-unified-websocket.ts:628 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:641 ✅ [UnifiedWebSocket] Starting WebSocket connection...
+use-unified-websocket.ts:256 ✅ [UnifiedWebSocket] Authenticated user found - connecting WebSocket Object
+use-unified-websocket.ts:284 🔄 [UnifiedWebSocket] Connecting to: wss://localhost:5000/ws
+use-unified-websocket.ts:628 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:644 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+queryClient.ts:93 📥 Raw response text: {"success":true,"data":{"totalOnline":11,"wsConnections":0,"authenticatedWsUsers":0,"wsUserEmails":[],"activeSessions":0,"onlineUsers":[{"id":369,"email":"iphonexfb@gmail.com","name":"fernando barbosa fazio","role":"pro","lastLoginAt":"2025-08-24T17:03:41.734Z","subscriptionPlan":"pro","isAdmin":false},{"id":386,"email":"dkrimportss@gmail.com","name":"Washington inacio ramos dos reis","role":"pro","lastLoginAt":"2025-08-24T17:06:45.162Z","subscriptionPlan":"pro","isAdmin":false},{"id":327,"email":"stkstkstk@gmail.com","name":"Stk amigo da garotada","role":"pro","lastLoginAt":"2025-08-24T16:58:04.819Z","subscriptionPlan":"pro","isAdmin":false},{"id":335,"email":"jonathanpro@gmail.com","name":"Jonathan Machado","role":"pro","lastLoginAt":"2025-08-24T17:06:48.978Z","subscriptionPlan":"pro","isAdmin":false},{"id":267,"email":"bryan.paes@hotmail.com","name":"BRYAN PAES DE ANDRADE","role":"apoiador","lastLoginAt":"2025-08-24T17:06:49.854Z","subscriptionPlan":"apoiador","isAdmin":false},{"id":273,"email":"jappabattisti@gmail.com","name":"Daniel Battisti","role":"pro","lastLoginAt":"2025-08-24T17:05:26.442Z","subscriptionPlan":"pro","isAdmin":false},{"id":200,"email":"jonathan.comercial@outlook.com","name":"jonathan.comercial","role":"superadmin","lastLoginAt":"2025-08-24T17:06:53.685Z","subscriptionPlan":"pro","isAdmin":true},{"id":410,"email":"dgcotenawi@gmail.com","name":"RODRIGO","role":"apoiador","lastLoginAt":"2025-08-24T17:06:53.696Z","subscriptionPlan":"apoiador","isAdmin":false},{"id":403,"email":"administrativo@bumpiimports.com","name":"Lucas Alves da Silva ","role":"pro","lastLoginAt":"2025-08-24T17:05:25.634Z","subscriptionPlan":"pro","isAdmin":false},{"id":564,"email":"daoimports@gmail.com","name":"João Vitor Santos ","role":"pro","lastLoginAt":"2025-08-24T17:06:12.093Z","subscriptionPlan":"pro","isAdmin":false},{"id":401,"email":"rbstoreml@gmail.com","name":"Rb store","role":"pro","lastLoginAt":"2025-08-24T17:06:53.548Z","subscriptionPlan":"pro","isAdmin":false}],"timeWindow":"30 minutes","lastCheck":"2025-08-24T17:06:53.846Z"}}
+queryClient.ts:114 ✅ Parsed JSON response: Object
+use-unified-websocket.ts:628 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:644 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+queryClient.ts:93 📥 Raw response text: {"totalUsers":115,"proUsers":90,"adminUsers":5,"pendingUsers":12}
+queryClient.ts:114 ✅ Parsed JSON response: Object
+use-unified-websocket.ts:628 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:644 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+queryClient.ts:93 📥 Raw response text: {"logins7d":4,"logins24h":0,"loginStats":[{"date":"2025-08-18","dayName":"Seg","count":0},{"date":"2025-08-19","dayName":"Ter","count":0},{"date":"2025-08-20","dayName":"Qua","count":0},{"date":"2025-08-21","dayName":"Qui","count":3},{"date":"2025-08-22","dayName":"Sex","count":1},{"date":"2025-08-23","dayName":"Sab","count":0},{"date":"2025-08-24","dayName":"Dom","count":0}]}
+queryClient.ts:114 ✅ Parsed JSON response: Object
+admin.tsx:815 🔍 [Admin] Raw online data: Object
+admin.tsx:842 📊 [Admin] Calculated online count: 11
+use-unified-websocket.ts:596 🔄 [UnifiedWebSocket] Auth state check: Object
+use-unified-websocket.ts:612 🔌 [UnifiedWebSocket] Auth not ready or no user - connection not allowed
+OnlineUsersMonitor.tsx:40 🔍 Fetching online users data...
+use-auth.ts:49 🔄 Starting auth initialization...
+use-auth.ts:52 ⏳ Waiting for Firebase auth state to be ready...
+use-unified-websocket.ts:628 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:647 🔌 [UnifiedWebSocket] Should not connect - disconnecting...
+use-unified-websocket.ts:562 🔌 [UnifiedWebSocket] Disconnecting...
+use-unified-websocket.ts:628 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:644 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+admin.tsx:815 🔍 [Admin] Raw online data: Object
+admin.tsx:842 📊 [Admin] Calculated online count: 11
+use-unified-websocket.ts:628 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:644 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+use-auth.ts:54 ✅ Firebase auth state is ready
+use-auth.ts:184 ✅ Auth initialization completed
+use-auth.ts:70 ✅ Firebase user found: jonathan.comercial@outlook.com
+use-auth.ts:77 🎫 Fresh Firebase token stored
+use-auth.ts:126 🔍 [useAuth] User data processed: Object
+use-auth.ts:149 ✅ User profile loaded: jonathan.comercial@outlook.com
+use-unified-websocket.ts:596 🔄 [UnifiedWebSocket] Auth state check: Object
+use-unified-websocket.ts:609 ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+use-auth.ts:355 🔄 [Auth] Starting smart profile polling every 60 seconds
+use-unified-websocket.ts:628 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:641 ✅ [UnifiedWebSocket] Starting WebSocket connection...
+use-unified-websocket.ts:256 ✅ [UnifiedWebSocket] Authenticated user found - connecting WebSocket Object
+use-unified-websocket.ts:284 🔄 [UnifiedWebSocket] Connecting to: wss://localhost:5000/ws
+queryClient.ts:93 📥 Raw response text: {"success":true,"data":{"totalOnline":11,"wsConnections":0,"authenticatedWsUsers":0,"wsUserEmails":[],"activeSessions":0,"onlineUsers":[{"id":369,"email":"iphonexfb@gmail.com","name":"fernando barbosa fazio","role":"pro","lastLoginAt":"2025-08-24T17:03:41.734Z","subscriptionPlan":"pro","isAdmin":false},{"id":386,"email":"dkrimportss@gmail.com","name":"Washington inacio ramos dos reis","role":"pro","lastLoginAt":"2025-08-24T17:06:45.162Z","subscriptionPlan":"pro","isAdmin":false},{"id":327,"email":"stkstkstk@gmail.com","name":"Stk amigo da garotada","role":"pro","lastLoginAt":"2025-08-24T16:58:04.819Z","subscriptionPlan":"pro","isAdmin":false},{"id":335,"email":"jonathanpro@gmail.com","name":"Jonathan Machado","role":"pro","lastLoginAt":"2025-08-24T17:06:48.978Z","subscriptionPlan":"pro","isAdmin":false},{"id":267,"email":"bryan.paes@hotmail.com","name":"BRYAN PAES DE ANDRADE","role":"apoiador","lastLoginAt":"2025-08-24T17:06:49.854Z","subscriptionPlan":"apoiador","isAdmin":false},{"id":273,"email":"jappabattisti@gmail.com","name":"Daniel Battisti","role":"pro","lastLoginAt":"2025-08-24T17:05:26.442Z","subscriptionPlan":"pro","isAdmin":false},{"id":200,"email":"jonathan.comercial@outlook.com","name":"jonathan.comercial","role":"superadmin","lastLoginAt":"2025-08-24T17:06:54.943Z","subscriptionPlan":"pro","isAdmin":true},{"id":410,"email":"dgcotenawi@gmail.com","name":"RODRIGO","role":"apoiador","lastLoginAt":"2025-08-24T17:06:54.978Z","subscriptionPlan":"apoiador","isAdmin":false},{"id":403,"email":"administrativo@bumpiimports.com","name":"Lucas Alves da Silva ","role":"pro","lastLoginAt":"2025-08-24T17:05:25.634Z","subscriptionPlan":"pro","isAdmin":false},{"id":564,"email":"daoimports@gmail.com","name":"João Vitor Santos ","role":"pro","lastLoginAt":"2025-08-24T17:06:12.093Z","subscriptionPlan":"pro","isAdmin":false},{"id":401,"email":"rbstoreml@gmail.com","name":"Rb store","role":"pro","lastLoginAt":"2025-08-24T17:06:54.901Z","subscriptionPlan":"pro","isAdmin":false}],"timeWindow":"30 minutes","lastCheck":"2025-08-24T17:06:55.134Z"}}
+queryClient.ts:114 ✅ Parsed JSON response: Object
+OnlineUsersMonitor.tsx:43 📊 Online users response: Object
+admin.tsx:815 🔍 [Admin] Raw online data: Object
+admin.tsx:842 📊 [Admin] Calculated online count: 11
+use-unified-websocket.ts:628 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:644 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+admin.tsx:815 🔍 [Admin] Raw online data: Object
+admin.tsx:842 📊 [Admin] Calculated online count: 11
+use-unified-websocket.ts:628 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+use-unified-websocket.ts:644 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+use-unified-websocket.ts:657 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+use-unified-websocket.ts:562 🔌 [UnifiedWebSocket] Disconnecting...
+use-unified-websocket.ts:657 🧹 [UnifiedWebSocket] Component unmounting - cleanup
+use-unified-websocket.ts:562 🔌 [UnifiedWebSocket] Disconnecting...
+use-unified-websocket.ts:550 ❌ [UnifiedWebSocket] Error: Event
+ws.onerror @ use-unified-websocket.ts:550
+use-unified-websocket.ts:526 🔌 [UnifiedWebSocket] Connection closed: 1006 
+use-unified-websocket.ts:550 ❌ [UnifiedWebSocket] Error: Event
+ws.onerror @ use-unified-websocket.ts:550
+use-unified-websocket.ts:526 🔌 [UnifiedWebSocket] Connection closed: 1006 
+queryClient.ts:93 📥 Raw response text: {"success":true,"data":{"subscriptions":[{"userId":227,"name":"AADAD","email":"clarice123455@icloud.com","subscriptionPlan":"pro","isSubscriptionActive":true,"status":"approved","subscriptionNickname":"teste","manualRenewalOverride":false,"subscriptionNotes":null,"createdAt":"2025-07-10T23:04:27.000Z","lastLoginAt":"2025-08-23T12:19:46.873Z","smId":37,"paymentDate":"2025-08-21T00:00:00.000Z","renewalDate":"2025-08-28T00:00:00.000Z","daysUntilRenewal":7,"notes":null,"nickname":"teste","paymentMethod":"pix","paymentAmount":"289.00","paymentStatus":"ativo","smCreatedAt":"2025-07-10T23:04:27.000Z","smUpdatedAt":"2025-08-21T16:02:00.306Z","daysWithoutPayment":5},{"userId":362,"name":"Abud","email":"alhambdw1@gmail.com","subscriptionPlan":"pro","isSubscriptionActive":true,"status":"approved","subscriptionNickname":null,"manualRenewalOverride":false,"subscriptionNotes":null,"createdAt":"2025-07-25T12:26:32.326Z","lastLoginAt":"2025-08-02T17:37:06.193Z","smId":27,"paymentDate":null,"renewalDate":null,"daysUntilRenewal":0,"notes":null,"nickname":null,"paymentMethod":null,"paymentAmount":"29.90","paymentStatus":"ativo","smCreatedAt":"2025-07-25T12:26:32.326Z","smUpdatedAt":"2025-08-15T18:30:46.114Z","daysWithoutPayment":0},{"userId":260,"name":"Adel Zafani","email":"zafanitech@gmail.com","subscriptionPlan":"pro","isSubscriptionActive":true,"status":"approved","subscriptionNickname":null,"manualRenewalOverride":false,"subscriptionNotes":null,"createdAt":"2025-06-20T13:46:53.000Z","lastLoginAt":"2025-08-24T12:55:13.846Z","smId":83,"paymentDate":null,"renewalDate":null,"daysUntilRenewal":0,"notes":null,"nickname":null,"paymentMethod":null,"paymentAmount":"29.90","paymentStatus":"ativo","smCreatedAt":"2025-06-20T13:46:53.000Z","smUpdatedAt":"2025-08-15T18:30:50.794Z","daysWithoutPayment":0},{"userId":565,"name":"Adel nasser","email":"adelnassee08@icloud.com.br","subscriptionPlan":"pro","isSubscriptionActive":true,"status":"approved","subscriptionNickname":null,"manualRenewalOverride":false,"subscriptionNotes":null,"createdAt":"2025-08-14T17:52:34.933Z","lastLoginAt":"2025-08-15T01:39:35.543Z","smId":null,"paymentDate":null,"renewalDate":null,"daysUntilRenewal":null,"notes":null,"nickname":null,"paymentMethod":null,"paymentAmount":null,"paymentStatus":null,"smCreatedAt":null,"smUpdatedAt":null,"daysWithoutPayment":0},{"userId":289,"name":"Alex rodrigues de oliveira ","email":"alex2023pb@hotmail.com","subscriptionPlan":"pro","isSubscriptionActive":true,"status":"approved","subscriptionNickname":null,"manualRenewalOverride":false,"subscriptionNotes":null,"createdAt":"2025-06-18T13:42:27.000Z","lastLoginAt":"2025-08-24T15:43:20.035Z","smId":62,"paymentDate":null,"renewalDate":null,"daysUntilRenewal":0,"notes":null,"nickname":null,"paymentMethod":null,"paymentAmount":"29.90","paymentStatus":"ativo","smCreatedAt":"2025-06-18T13:42:27.000Z","smUpdatedAt":"2025-08-15T18:30:49.021Z","daysWithoutPayment":0},{"userId":412,"name":"Anderson lopes pereira","email":"lpphones23@gmail.com","subscriptionPlan":"pro","isSubscriptionActive":false,"status":"approved","subscriptionNickname":null,"manualRenewalOverride":false,"subscriptionNotes":null,"createdAt":"2025-08-04T14:56:45.387Z","lastLoginAt":"2025-08-24T14:07:19.977Z","smId":20,"paymentDate":null,"renewalDate":null,"daysUntilRenewal":0,"notes":null,"nickname":null,"paymentMethod":null,"paymentAmount":"29.90","paymentStatus":"ativo","smCreatedAt":"2025-08-04T14:56:45.387Z","smUpdatedAt":"2025-08-15T18:30:45.608Z","daysWithoutPayment":0},{"userId":329,"name":"Azur","email":"azur.xip@hotmail.com","subscriptionPlan":"pro","isSubscriptionActive":true,"status":"approved","subscriptionNickname":null,"manualRenewalOverride":false,"subscriptionNotes":null,"createdAt":"2025-07-15T12:14:45.869Z","lastLoginAt":"2025-08-23T19:47:11.709Z","smId":29,"paymentDate":null,"renewalDate":null,"daysUntilRenewal":0,"notes":null,"nickname":null,"paymentMethod":null,"paymentAmount":"29.90","paymentStatus":"ativo","smCreatedAt":"2025-07-15T12:14:45.869Z","smUpdatedAt":"2025-08-15T18:30:46.284Z","daysWithoutPayment":0},{"userId":337,"name":"BRUNO MACEDO","email":"barhelena05@gmail.com","subscriptionPlan":"free","isSubscriptionActive":true,"status":"approved","subscriptionNickname":null,"manualRenewalOverride":false,"subscriptionNotes":null,"createdAt":"2025-07-17T15:54:41.501Z","lastLoginAt":"2025-07-30T20:03:45.807Z","smId":58,"paymentDate":null,"renewalDate":null,"daysUntilRenewal":0,"notes":null,"nickname":null,"paymentMethod":null,"paymentAmount":"29.90","paymentStatus":"ativo","smCreatedAt":"2025-07-17T15:54:41.501Z","smUpdatedAt":"2025-08-15T18:30:48.680Z","daysWithoutPayment":0},{"userId":267,"name":"BRYAN PAES DE ANDRADE","email":"bryan.paes@hotmail.com","subscriptionPlan":"apoiador","isSubscriptionActive":true,"status":"approved","subscriptionNickname":null,"manualRenewalOverride":false,"subscriptionNotes":null,"createdAt":"2025-07-10T19:22:16.000Z","lastLoginAt":"2025-08-24T17:06:49.854Z","smId":40,"
+queryClient.ts:114 ✅ Parsed JSON response: Object
+queryClient.ts:93 📥 Raw response text: {"success":true,"data":{"overview":{"totalUsers":115,"activeSubscriptions":109,"pendingPayments":0,"suspendedUsers":12,"churnRate":"10.43","activeRate":"94.78"},"planDistribution":[{"plan":"admin","count":3,"percentage":"2.61"},{"plan":"apoiador","count":9,"percentage":"7.83"},{"plan":"free","count":13,"percentage":"11.30"},{"plan":"pro","count":90,"percentage":"78.26"}],"upcoming":{"renewalsNext30Days":1},"revenue":{"estimatedMonthly":"2980.60","averagePayment":"35.0658823529411765"}}}
+queryClient.ts:114 ✅ Parsed JSON response: Object
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+queryClient.ts:93 📥 Raw response text: {"success":false,"error":"Erro interno do servidor","details":"there is no unique or exclusion constraint matching the ON CONFLICT specification"}
+queryClient.ts:93 📥 Raw response text: {"alerts":[]}
+queryClient.ts:114 ✅ Parsed JSON response: Object
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+queryClient.ts:93 📥 Raw response text: {"success":false,"error":"Erro interno do servidor","details":"there is no unique or exclusion constraint matching the ON CONFLICT specification"}
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+App.tsx:527 🎯 App component mounted
+App.tsx:528 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+App.tsx:569 [App] Terms modal state: {showTermsModal: false, hasAcceptedTerms: true}
+App.tsx:527 🎯 App component mounted
+App.tsx:528 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+App.tsx:569 [App] Terms modal state: {showTermsModal: false, hasAcceptedTerms: true}
+App.tsx:477 🔍 Checking payment status for user: jonathan.comercial@outlook.com {subscriptionPlan: 'pro', status: 'approved', role: 'superadmin', hasPendingPayment: false}
+App.tsx:527 🎯 App component mounted
+App.tsx:528 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+App.tsx:569 [App] Terms modal state: {showTermsModal: false, hasAcceptedTerms: true}
+App.tsx:477 🔍 Checking payment status for user: jonathan.comercial@outlook.com {subscriptionPlan: 'pro', status: 'approved', role: 'superadmin', hasPendingPayment: false}
+App.tsx:527 🎯 App component mounted
+App.tsx:528 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+App.tsx:569 [App] Terms modal state: {showTermsModal: false, hasAcceptedTerms: true}
+use-terms-acceptance.ts:25 [Terms] Checking terms acceptance for user: jonathan.comercial@outlook.com
+use-terms-acceptance.ts:43 [Terms] Stored data found: true
+use-terms-acceptance.ts:49 [Terms] Looking for user key: user_5vVK4mUnfpVcrTdDqJmByOYPjqp1
+use-terms-acceptance.ts:50 [Terms] Available keys: (2) ['user_4CWJIMdTcgUecMRMB2c5P95zbFJ2', 'user_5vVK4mUnfpVcrTdDqJmByOYPjqp1']
+use-terms-acceptance.ts:54 [Terms] User terms found: {hasAccepted: true, acceptanceDate: '2025-08-24T16:23:59.763Z', version: '2025-01-02'}
+use-terms-acceptance.ts:58 [Terms] User has accepted current version - hiding modal
+App.tsx:527 🎯 App component mounted
+App.tsx:528 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/admin
+App.tsx:569 [App] Terms modal state: {showTermsModal: false, hasAcceptedTerms: true}
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+queryClient.ts:93 📥 Raw response text: {"alerts":[]}
+queryClient.ts:114 ✅ Parsed JSON response: {alerts: Array(0)}
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s
+use-feedback-alerts.ts:210 🕐 [FEEDBACK-ALERTS-HOOK] Session token not ready yet, retrying in 2s

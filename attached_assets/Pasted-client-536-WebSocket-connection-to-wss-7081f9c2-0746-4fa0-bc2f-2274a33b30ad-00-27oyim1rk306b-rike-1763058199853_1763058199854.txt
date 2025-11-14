@@ -1,0 +1,93 @@
+client:536 WebSocket connection to 'wss://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/?token=O67gGt8CGQoP' failed: 
+setupWebSocket @ client:536
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=O67gGt8CGQoP' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+ Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+firebase.ts:26 ✅ All Firebase environment variables present
+main.tsx:13 🚀 Buscador PXT loaded - 2025.11.13.1750
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-terms-acceptance.ts:78 [Terms] No user found - hiding modal
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:249 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:249 ✅ Auth initialization completed
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:249 ✅ Auth initialization completed
+App.tsx:573 🎯 App component mounted
+App.tsx:574 📍 Current location: https://7081f9c2-0746-4fa0-bc2f-2274a33b30ad-00-27oyim1rk306b.riker.replit.dev/login
+use-auth.ts:60 🔄 Starting auth initialization...
+use-auth.ts:63 ⏳ Waiting for Firebase auth state to be ready...
+use-auth.ts:65 ✅ Firebase auth state is ready
+use-auth.ts:249 ✅ Auth initialization completed
+login.tsx:75 🔐 Attempting Firebase login...
+login.tsx:79 ✅ Firebase login successful
+login.tsx:75 🔐 Attempting Firebase login...
+login.tsx:77 Fetch finished loading: POST "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBg_EFchQ75sbbegkJtIdlyflZxuZki2DU".
+(anonymous) @ firebase_auth.js?v=79a3fb7d:1099
+await in (anonymous)
+_performFetchWithErrorHandling @ firebase_auth.js?v=79a3fb7d:1108
+_performApiRequest @ firebase_auth.js?v=79a3fb7d:1065
+_performSignInRequest @ firebase_auth.js?v=79a3fb7d:1143
+signInWithPassword @ firebase_auth.js?v=79a3fb7d:3441
+handleRecaptchaFlow @ firebase_auth.js?v=79a3fb7d:3194
+_getIdTokenResponse @ firebase_auth.js?v=79a3fb7d:3524
+_processCredentialSavingMfaContextIfNecessary @ firebase_auth.js?v=79a3fb7d:4548
+_signInWithCredential @ firebase_auth.js?v=79a3fb7d:4632
+signInWithCredential @ firebase_auth.js?v=79a3fb7d:4640
+signInWithEmailAndPassword @ firebase_auth.js?v=79a3fb7d:4875
+handleLogin @ login.tsx:77
+await in handleLogin
+callCallback2 @ @fs/home/runner/work….js?v=79a3fb7d:3674
+invokeGuardedCallbackDev @ @fs/home/runner/work….js?v=79a3fb7d:3699
+invokeGuardedCallback @ @fs/home/runner/work….js?v=79a3fb7d:3733
+invokeGuardedCallbackAndCatchFirstError @ @fs/home/runner/work….js?v=79a3fb7d:3736
+executeDispatch @ @fs/home/runner/work….js?v=79a3fb7d:7014
+processDispatchQueueItemsInOrder @ @fs/home/runner/work….js?v=79a3fb7d:7034
+processDispatchQueue @ @fs/home/runner/work….js?v=79a3fb7d:7043
+dispatchEventsForPlugins @ @fs/home/runner/work….js?v=79a3fb7d:7051
+(anonymous) @ @fs/home/runner/work….js?v=79a3fb7d:7174
+batchedUpdates$1 @ @fs/home/runner/work…js?v=79a3fb7d:18913
+batchedUpdates @ @fs/home/runner/work….js?v=79a3fb7d:3579
+dispatchEventForPluginEventSystem @ @fs/home/runner/work….js?v=79a3fb7d:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ @fs/home/runner/work….js?v=79a3fb7d:5478
+dispatchEvent @ @fs/home/runner/work….js?v=79a3fb7d:5472
+dispatchDiscreteEvent @ @fs/home/runner/work….js?v=79a3fb7d:5449
+login.tsx:77 Fetch finished loading: POST "https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=AIzaSyBg_EFchQ75sbbegkJtIdlyflZxuZki2DU".
+(anonymous) @ firebase_auth.js?v=79a3fb7d:1099
+await in (anonymous)
+_performFetchWithErrorHandling @ firebase_auth.js?v=79a3fb7d:1108
+_performApiRequest @ firebase_auth.js?v=79a3fb7d:1065
+getAccountInfo @ firebase_auth.js?v=79a3fb7d:1284
+_reloadWithoutSaving @ firebase_auth.js?v=79a3fb7d:1472
+await in _reloadWithoutSaving
+_fromIdTokenResponse @ firebase_auth.js?v=79a3fb7d:1886
+_fromIdTokenResponse @ firebase_auth.js?v=79a3fb7d:4473
+_signInWithCredential @ firebase_auth.js?v=79a3fb7d:4633
+await in _signInWithCredential
+signInWithCredential @ firebase_auth.js?v=79a3fb7d:4640
+signInWithEmailAndPassword @ firebase_auth.js?v=79a3fb7d:4875
+handleLogin @ login.tsx:77
+await in handleLogin
+callCallback2 @ @fs/home/runner/work….js?v=79a3fb7d:3674
+invokeGuardedCallbackDev @ @fs/home/runner/work….js?v=79a3fb7d:3699
+invokeGuardedCallback @ @fs/home/runner/work….js?v=79a3fb7d:3733
+invokeGuardedCallbackAndCatchFirstError @ @fs/home/runner/work….js?v=79a3fb7d:3736
+executeDispatch @ @fs/home/runner/work….js?v=79a3fb7d:7014
+processDispatchQueueItemsInOrder @ @fs/home/runner/work….js?v=79a3fb7d:7034
+processDispatchQueue @ @fs/home/runner/work….js?v=79a3fb7d:7043
+dispatchEventsForPlugins @ @fs/home/runner/work….js?v=79a3fb7d:7051
+(anonymous) @ @fs/home/runner/work….js?v=79a3fb7d:7174
+batchedUpdates$1 @ @fs/home/runner/work…js?v=79a3fb7d:18913
+batchedUpdates @ @fs/home/runner/work….js?v=79a3fb7d:3579
+dispatchEventForPluginEventSystem @ @fs/home/runner/work….js?v=79a3fb7d:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ @fs/home/runner/work….js?v=79a3fb7d:5478
+dispatchEvent @ @fs/home/runner/work….js?v=79a3fb7d:5472
+dispatchDiscreteEvent @ @fs/home/runner/work….js?v=79a3fb7d:5449
+login.tsx:79 ✅ Firebase login successful

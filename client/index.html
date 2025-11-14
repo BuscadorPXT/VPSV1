@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+    <!-- Proteções de segurança desabilitadas para desenvolvimento -->
+
+    <!-- Título da aba -->
+    <title>Assine o Buscador PXT - Compare preços Apple com precisão e economia</title>
+
+
+
+    <!-- Meta description para SEO -->
+    <meta name="description" content="Assine o Buscador PXT - Compare preços Apple com precisão e economia. Acesso completo aos fornecedores, preços em tempo real, filtros avançados. Exclusivo para revendedores." />
+
+    <!-- Open Graph para WhatsApp, Facebook, LinkedIn -->
+    <meta property="og:title" content="Buscador PXT - Compare preços de iPhones em tempo real" />
+    <meta property="og:description" content="Acesse o sistema PXT e descubra qual fornecedor tem o menor preço de iPhones hoje. Exclusivo para revendedores Apple." />
+    <meta property="og:url" content="https://buscadorpxt.com.br" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://buscadorpxt.com.br/assets/thumb-pxt.jpg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Buscador PXT - Sistema de consulta de preços Apple" />
+    <meta name="twitter:description" content="Compare preços entre dezenas de fornecedores e encontre o melhor valor do dia para iPhones." />
+    <meta name="twitter:image" content="https://buscadorpxt.com.br/assets/thumb-pxt.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
+
+    <!-- Desabilitar tradução automática do navegador -->
+    <meta name="google" content="notranslate" />
+    <meta name="robots" content="notranslate" />
+    <meta http-equiv="Content-Language" content="pt-BR" />
+    <script>
+      // Force dark theme immediately to prevent flash
+      (function() {
+        const stored = localStorage.getItem('vite-ui-theme');
+        const theme = stored && ['dark', 'light', 'system'].includes(stored) ? stored : 'dark';
+        document.documentElement.classList.add(theme === 'system'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+        );
+      })();
+    </script>
+  </head>
+  <body translate="no">
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+
+    // Verificar se fbq foi carregado antes de usar
+    if (typeof fbq !== 'undefined') {
+      fbq('init', '498799586186996');
+      fbq('track', 'PageView');
+    }
+    </script>
+    <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=744271924432827&ev=PageView&noscript=1"
+    />
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1851055182491714&ev=PageView&noscript=1"
+    />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

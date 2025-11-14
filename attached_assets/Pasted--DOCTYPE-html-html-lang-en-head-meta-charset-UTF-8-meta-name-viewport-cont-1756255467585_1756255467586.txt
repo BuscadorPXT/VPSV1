@@ -1,0 +1,139 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow Loading Wave</title>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Sans:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            text-size-adjust: 100%;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizelegibility;
+        }
+        
+        #loadingWave {
+            font-size: 48px;
+            font-family: 'Geist Sans', sans-serif;
+            font-weight: 300;
+            perspective: 80px;
+            transform-style: preserve-3d;
+            text-align: center;
+            letter-spacing: -0.02em;
+        }
+        
+        #loadingWave span {
+            position: relative;
+            transition: all .3s ease;
+            display: inline-block;
+            animation: loadingWave 2.4s ease infinite;
+            letter-spacing: -0.02em;
+            transform-origin: 100% 50%;
+            transform-style: preserve-3d;
+        }
+        
+        #loadingWave span:nth-child(1) { animation-delay: 0s; }
+        #loadingWave span:nth-child(2) { animation-delay: 0.05s; }
+        #loadingWave span:nth-child(3) { animation-delay: 0.1s; }
+        #loadingWave span:nth-child(4) { animation-delay: 0.15s; }
+        #loadingWave span:nth-child(5) { animation-delay: 0.2s; }
+        #loadingWave span:nth-child(6) { animation-delay: 0.25s; }
+        #loadingWave span:nth-child(7) { animation-delay: 0.3s; }
+        #loadingWave span:nth-child(8) { animation-delay: 0.35s; }
+        #loadingWave span:nth-child(9) { animation-delay: 0.4s; }
+        #loadingWave span:nth-child(10) { animation-delay: 0.45s; }
+        
+        @keyframes loadingWave {
+            0% {
+                transform: translate3D(0,0,0) scale(1) rotateY(0);
+                color: #ff0080;
+                text-shadow: 0 0 10px rgba(255, 0, 128, 0.3);
+            }
+            12% {
+                transform: translate3D(2px,-1px,2px) scale(1.18) rotateY(6deg);
+                color: #ff4080;
+                text-shadow: 0 0 20px rgba(255, 64, 128, 0.8), 0 0 40px rgba(255, 64, 128, 0.4);
+            }
+            15% {
+                color: #ff8040;
+                text-shadow: 0 0 25px rgba(255, 128, 64, 0.9), 0 0 50px rgba(255, 128, 64, 0.5);
+            }
+            24% {
+                transform: translate3D(0,0,0) scale(1) rotateY(0);
+                color: #ffff00;
+                text-shadow: 0 0 20px rgba(255, 255, 0, 0.7), 0 0 40px rgba(255, 255, 0, 0.3);
+                opacity: 1;
+            }
+            36% {
+                transform: translate3D(0,0,0) scale(1);
+                color: #80ff40;
+                text-shadow: 0 0 15px rgba(128, 255, 64, 0.6), 0 0 30px rgba(128, 255, 64, 0.2);
+            }
+            48% {
+                color: #40ff80;
+                text-shadow: 0 0 12px rgba(64, 255, 128, 0.5), 0 0 25px rgba(64, 255, 128, 0.2);
+            }
+            60% {
+                color: #00ffff;
+                text-shadow: 0 0 10px rgba(0, 255, 255, 0.4), 0 0 20px rgba(0, 255, 255, 0.2);
+            }
+            72% {
+                color: #4080ff;
+                text-shadow: 0 0 8px rgba(64, 128, 255, 0.3), 0 0 15px rgba(64, 128, 255, 0.15);
+            }
+            84% {
+                color: #8040ff;
+                text-shadow: 0 0 6px rgba(128, 64, 255, 0.25), 0 0 12px rgba(128, 64, 255, 0.1);
+            }
+            100% {
+                transform: scale(1);
+                color: #ff0080;
+                text-shadow: 0 0 5px rgba(255, 0, 128, 0.2);
+                opacity: 0.8;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            #loadingWave {
+                font-size: 32px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            #loadingWave {
+                font-size: 24px;
+            }
+        }
+    </style>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="loadingWave">Loading...</div>
+    
+    <script>
+        const target = document.getElementById('loadingWave');
+        function splitTextToSpans(targetElement) {
+            if (targetElement) {
+                const text = targetElement.textContent;
+                targetElement.innerHTML = '';
+                for (let character of text) {
+                    const span = document.createElement('span');
+                    if (character === ' ') {
+                        span.innerHTML = '&nbsp;';
+                    } else {
+                        span.textContent = character;
+                    }
+                    targetElement.appendChild(span);
+                }
+            }
+        }
+        splitTextToSpans(target);
+    </script>
+</body>
+</html>

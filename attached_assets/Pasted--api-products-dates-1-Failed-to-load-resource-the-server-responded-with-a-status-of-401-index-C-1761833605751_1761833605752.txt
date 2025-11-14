@@ -1,0 +1,1292 @@
+/api/products/dates:1  Failed to load resource: the server responded with a status of 401 ()
+index-CXSv-zJv.js:2192 ⏳ Waiting for Firebase auth state to be ready...
+index-CXSv-zJv.js:2192 🔄 Starting auth initialization...
+index-CXSv-zJv.js:2192 ⏳ Waiting for Firebase auth state to be ready...
+index-CXSv-zJv.js:2192 🔄 Starting auth initialization...
+index-CXSv-zJv.js:2192 ⏳ Waiting for Firebase auth state to be ready...
+index-CXSv-zJv.js:2192 🔄 Starting auth initialization...
+index-CXSv-zJv.js:2192 ⏳ Waiting for Firebase auth state to be ready...
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2192 ✅ Firebase auth state is ready
+index-CXSv-zJv.js:2192 ✅ Auth initialization completed
+index-CXSv-zJv.js:2421 ✅ Products response received for date: 30-10 Object
+index-CXSv-zJv.js:2297 🎫 Fresh Firebase token obtained for WebSocket auth
+index-CXSv-zJv.js:2297 📝 [UnifiedWebSocket] Registering session with Firebase token: Object
+index-CXSv-zJv.js:2421 ✅ Products response received for date: 30-10 Object
+index-CXSv-zJv.js:2297 📨 [UnifiedWebSocket] Message received: SESSION_REGISTERED Object
+index-CXSv-zJv.js:2297 ✅ [UnifiedWebSocket] Connection confirmed: SESSION_REGISTERED
+index-CXSv-zJv.js:2297 ✅ [UnifiedWebSocket] Connected successfully to: wss://buscadorpxt.com.br/ws
+index-CXSv-zJv.js:2297 📨 [UnifiedWebSocket] Message received: CONNECTION_ESTABLISHED Object
+index-CXSv-zJv.js:2297 ✅ [UnifiedWebSocket] Connection confirmed: CONNECTION_ESTABLISHED
+index-CXSv-zJv.js:2421 🔌 [ExcelStylePriceList] WebSocket status: Object
+index-CXSv-zJv.js:2421 🎯 STRICT Filter arrays updated: Object
+index-CXSv-zJv.js:2421 🎯 ExcelStylePriceList render: Object
+index-CXSv-zJv.js:2427 🎯 ExcelStylePriceList: Component render state: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 0: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 1: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 2: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2297 🎨 Watermark component rendering with: Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2435 📊 Dashboard: Response status: 200
+index-CXSv-zJv.js:2435 ✅ Dashboard: Products data received: Object
+index-CXSv-zJv.js:2297 [ADMIN ITEMS FINAL] Object
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Props received: Object
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Data state: Object
+index-CXSv-zJv.js:2435 📱 MobileSearchBar RENDERIZADA: Object
+index-CXSv-zJv.js:2435 📱 MobileSearchBar: Component is ACTIVE and rendering
+index-CXSv-zJv.js:2435 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "30-10",
+  "onSearchChangeType": "function"
+}
+index-CXSv-zJv.js:2421 🔌 [ExcelStylePriceList] WebSocket status: Object
+index-CXSv-zJv.js:2421 🎯 STRICT Filter arrays updated: Object
+index-CXSv-zJv.js:2421 🎯 ExcelStylePriceList render: Object
+index-CXSv-zJv.js:2427 🎯 ExcelStylePriceList: Component render state: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 0: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 1: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 2: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2297 🎨 Watermark component rendering with: Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Props received: Object
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Data state: Object
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2435 🔍 SimpleMobileFilters: Component state changed Object
+index-CXSv-zJv.js:2435 🎯 Dashboard: Products data updated: Object
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Auth state check: Object
+index-CXSv-zJv.js:2297 ✅ [UnifiedWebSocket] Auth complete - WebSocket connection allowed
+index-CXSv-zJv.js:2297 [ADMIN ITEMS FINAL] Object
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Props received: Object
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Data state: Object
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 ✅ [UnifiedWebSocket] Starting WebSocket connection...
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection attempt started Object
+index-CXSv-zJv.js:2297 ✅ [UnifiedWebSocket] Authenticated user found - connecting WebSocket Object
+index-CXSv-zJv.js:2297 🔗 [UnifiedWebSocket] Production WebSocket URL: wss://buscadorpxt.com.br/ws Object
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connecting to: wss://buscadorpxt.com.br/ws
+index-CXSv-zJv.js:2297 [ADMIN ITEMS FINAL] Object
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Props received: Object
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Data state: Object
+index-CXSv-zJv.js:2297 🎫 Fresh Firebase token obtained for WebSocket auth
+index-CXSv-zJv.js:2297 📝 [UnifiedWebSocket] Registering session with Firebase token: Object
+index-CXSv-zJv.js:2297 📨 [UnifiedWebSocket] Message received: SESSION_REGISTERED Object
+index-CXSv-zJv.js:2297 ✅ [UnifiedWebSocket] Connection confirmed: SESSION_REGISTERED
+index-CXSv-zJv.js:2297 [ADMIN ITEMS FINAL] Object
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Props received: Object
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Data state: Object
+index-CXSv-zJv.js:2435 📱 MobileSearchBar RENDERIZADA: Object
+index-CXSv-zJv.js:2435 📱 MobileSearchBar: Component is ACTIVE and rendering
+index-CXSv-zJv.js:2435 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "30-10",
+  "onSearchChangeType": "function"
+}
+index-CXSv-zJv.js:2421 🔌 [ExcelStylePriceList] WebSocket status: Object
+index-CXSv-zJv.js:2421 🎯 STRICT Filter arrays updated: Object
+index-CXSv-zJv.js:2421 🎯 ExcelStylePriceList render: Object
+index-CXSv-zJv.js:2427 🎯 ExcelStylePriceList: Component render state: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 0: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 1: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 2: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2297 🎨 Watermark component rendering with: Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Props received: Object
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Data state: Object
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2435 🔍 SimpleMobileFilters: Component state changed Object
+index-CXSv-zJv.js:2297 ✅ [UnifiedWebSocket] Connected successfully to: wss://buscadorpxt.com.br/ws
+index-CXSv-zJv.js:2297 📨 [UnifiedWebSocket] Message received: CONNECTION_ESTABLISHED Object
+index-CXSv-zJv.js:2297 ✅ [UnifiedWebSocket] Connection confirmed: CONNECTION_ESTABLISHED
+index-CXSv-zJv.js:2297 [ADMIN ITEMS FINAL] Object
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Props received: Object
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Data state: Object
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2297 🎫 Fresh Firebase token obtained for WebSocket auth
+index-CXSv-zJv.js:2297 📝 [UnifiedWebSocket] Registering session with Firebase token: Object
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2297 📨 [UnifiedWebSocket] Message received: SESSION_REGISTERED Object
+index-CXSv-zJv.js:2297 ✅ [UnifiedWebSocket] Connection confirmed: SESSION_REGISTERED
+index-CXSv-zJv.js:2297 🔍 [SIDEBAR] Raw API response: Object
+index-CXSv-zJv.js:2297 🔍 [SIDEBAR] Processed profile data: Object
+index-CXSv-zJv.js:2297 [ADMIN ITEMS FINAL] Object
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Filtered options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Filtered options Object
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2427 🏪 Supplier filter changed: Array(1)
+index-CXSv-zJv.js:2427 🏪 Mapped supplier IDs: Array(1)
+index-CXSv-zJv.js:2427 🏪 Supplier filter applied: Array(1)
+index-CXSv-zJv.js:2427  Apply supplier IDs: Array(1)
+index-CXSv-zJv.js:2421 🔌 [ExcelStylePriceList] WebSocket status: Object
+index-CXSv-zJv.js:2421 🎯 STRICT Filter arrays updated: Object
+index-CXSv-zJv.js:2421 🔍 Filtering products: Object
+index-CXSv-zJv.js:2421 🔍 Exibindo todos os produtos filtrados: Object
+index-CXSv-zJv.js:2421 🏷️ calculateLowestPrices: Object
+index-CXSv-zJv.js:2421 🏷️ calculateLowestPrices result: Object
+index-CXSv-zJv.js:2421 🏷️ [ExcelStylePriceList] Produtos com menor preço após filtragem: 1
+index-CXSv-zJv.js:2421 🔍 SafeProducts filtering: Object
+index-CXSv-zJv.js:2421 📄 Pagination debug: Object
+index-CXSv-zJv.js:2421 🎯 ExcelStylePriceList render: Object
+index-CXSv-zJv.js:2427 🎯 ExcelStylePriceList: Component render state: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 0: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 1: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 2: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2297 🎨 Watermark component rendering with: Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Filtered options Object
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2427 🏪 Supplier filter changed: Array(0)
+index-CXSv-zJv.js:2427 🏪 Mapped supplier IDs: Array(0)
+index-CXSv-zJv.js:2427 🏪 Supplier filter applied: Array(0)
+index-CXSv-zJv.js:2427  Apply supplier IDs: Array(0)
+index-CXSv-zJv.js:2421 🔌 [ExcelStylePriceList] WebSocket status: Object
+index-CXSv-zJv.js:2421 🎯 STRICT Filter arrays updated: Object
+index-CXSv-zJv.js:2421 🔍 Filtering products: Object
+index-CXSv-zJv.js:2421 🔍 Exibindo todos os produtos filtrados: Object
+index-CXSv-zJv.js:2421 🏷️ calculateLowestPrices: Object
+index-CXSv-zJv.js:2421 🏷️ calculateLowestPrices result: Object
+index-CXSv-zJv.js:2421 🏷️ [ExcelStylePriceList] Produtos com menor preço após filtragem: 1
+index-CXSv-zJv.js:2421 🔍 SafeProducts filtering: Object
+index-CXSv-zJv.js:2421 📄 Pagination debug: Object
+index-CXSv-zJv.js:2421 🎯 ExcelStylePriceList render: Object
+index-CXSv-zJv.js:2427 🎯 ExcelStylePriceList: Component render state: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 0: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 1: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 2: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2297 🎨 Watermark component rendering with: Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Filtered options Object
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: Object
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2297 [ADMIN ITEMS FINAL] Object
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Props received: Object
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Data state: Object
+index-CXSv-zJv.js:2435 📱 MobileSearchBar RENDERIZADA: Object
+index-CXSv-zJv.js:2435 📱 MobileSearchBar: Component is ACTIVE and rendering
+index-CXSv-zJv.js:2435 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "30-10",
+  "onSearchChangeType": "function"
+}
+index-CXSv-zJv.js:2421 🔌 [ExcelStylePriceList] WebSocket status: Object
+index-CXSv-zJv.js:2421 🎯 STRICT Filter arrays updated: Object
+index-CXSv-zJv.js:2421 🎯 ExcelStylePriceList render: Object
+index-CXSv-zJv.js:2427 🎯 ExcelStylePriceList: Component render state: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 0: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 1: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 2: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2297 🎨 Watermark component rendering with: Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Filtered options Object
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Props received: Object
+index-CXSv-zJv.js:2297 🏪 SuppliersModal - Data state: Object
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2435 🔍 SimpleMobileFilters: Component state changed Object
+index-CXSv-zJv.js:2435 📱 MobileSearchBar RENDERIZADA: Object
+index-CXSv-zJv.js:2435 📱 MobileSearchBar: Component is ACTIVE and rendering
+index-CXSv-zJv.js:2435 📱 MobileSearchBar: Props received: {
+  "searchTerm": "",
+  "selectedDate": "30-10",
+  "onSearchChangeType": "function"
+}
+index-CXSv-zJv.js:2421 🔌 [ExcelStylePriceList] WebSocket status: Object
+index-CXSv-zJv.js:2421 🎯 STRICT Filter arrays updated: Object
+index-CXSv-zJv.js:2421 🎯 ExcelStylePriceList render: Object
+index-CXSv-zJv.js:2427 🎯 ExcelStylePriceList: Component render state: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 0: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 1: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🎯 Rendering product 2: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2427 🏪 Desktop table - Supplier check: Object
+index-CXSv-zJv.js:2297 🎨 Watermark component rendering with: Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: No search term, returning all sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Sorted options Object
+index-CXSv-zJv.js:2297 🔍 ExcelFilterDropdown: Filtered options Object
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: Object
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: false}
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: false}
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: false}
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: false}
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: false}
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: false}
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: false}
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: false}
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2192 🔍 [useAuth] User data processed: {email: undefined, isApproved: false, role: undefined, status: undefined, isMobile: false}
+index-CXSv-zJv.js:2192 ✅ User profile loaded: jonathan.comercial@outlook.com
+index-CXSv-zJv.js:2353 Failed to fetch user profile for debug: TypeError: Cannot read properties of undefined (reading 'id')
+    at queryFn (index-CXSv-zJv.js:2353:1915)
+queryFn @ index-CXSv-zJv.js:2353
+index-CXSv-zJv.js:662 Fetch finished loading: POST "https://securetoken.googleapis.com/v1/token?key=AIzaSyBg_EFchQ75sbbegkJtIdlyflZxuZki2DU".
+(anonymous) @ index-CXSv-zJv.js:662
+await in (anonymous)
+Nq @ index-CXSv-zJv.js:557
+Oxe @ index-CXSv-zJv.js:662
+refresh @ index-CXSv-zJv.js:677
+getToken @ index-CXSv-zJv.js:677
+getIdToken @ index-CXSv-zJv.js:692
+Eye @ index-CXSv-zJv.js:1592
+Xt @ index-CXSv-zJv.js:1592
+queryFn @ index-CXSv-zJv.js:2659
+i @ index-CXSv-zJv.js:48
+b @ index-CXSv-zJv.js:48
+start @ index-CXSv-zJv.js:48
+fetch @ index-CXSv-zJv.js:48
+nv @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+index-CXSv-zJv.js:1592 📥 Raw response text: {"alerts":[]}
+index-CXSv-zJv.js:1592 Fetch finished loading: GET "https://buscadorpxt.com.br/api/emergency-alerts/pending".
+Xt @ index-CXSv-zJv.js:1592
+await in Xt
+queryFn @ index-CXSv-zJv.js:2659
+i @ index-CXSv-zJv.js:48
+b @ index-CXSv-zJv.js:48
+start @ index-CXSv-zJv.js:48
+fetch @ index-CXSv-zJv.js:48
+nv @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+index-CXSv-zJv.js:1592 ✅ Parsed JSON response: {alerts: Array(0)}
+index-CXSv-zJv.js:2297 🔄 Fetching exchange rates via Investing.com scraper...
+index-CXSv-zJv.js:2421 🔄 ExcelStylePriceList: Fetching products... {dateFilter: '30-10', propsDateFilter: '30-10', currentFiltersDate: '30-10', updateCount: undefined, timestamp: '2025-10-30T14:12:15.099Z'}
+index-CXSv-zJv.js:2297 ✅ Firebase ID token obtained (cached)
+index-CXSv-zJv.js:2297 🔑 Auth headers prepared: {hasIdToken: true, hasSessionToken: true, userEmail: 'jonathan.comercial@outlook.com', idTokenLength: 940}
+index-CXSv-zJv.js:2421 🔗 Request URL: /api/products?date=30-10&limit=999999&page=1&_t=1761833535100 with date: 30-10
+index-CXSv-zJv.js:2297 Fetch finished loading: GET "https://buscadorpxt.com.br/api/public/exchange-rates?pairs=USD-BRL&t=1761833535098".
+queryFn @ index-CXSv-zJv.js:2297
+i @ index-CXSv-zJv.js:48
+b @ index-CXSv-zJv.js:48
+start @ index-CXSv-zJv.js:48
+fetch @ index-CXSv-zJv.js:48
+nv @ index-CXSv-zJv.js:48
+fetch @ index-CXSv-zJv.js:48
+refetch @ index-CXSv-zJv.js:48
+onFocus @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+batch @ index-CXSv-zJv.js:48
+onFocus @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+await in (anonymous)
+(anonymous) @ index-CXSv-zJv.js:48
+onFocus @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+r @ index-CXSv-zJv.js:48
+index-CXSv-zJv.js:2297 ✅ Exchange rates fetched via backend proxy: {USDBRL: {…}}
+index-CXSv-zJv.js:2297 🔍 Response details: {source: 'unknown', timestamp: '1761833535', rate: '5.38'}
+index-CXSv-zJv.js:2297 🔍 Rate validation: {rate: 5.38, timestampAge: '0 minutes ago', timestampDate: '30/10/2025, 11:12:15', source: undefined}
+index-CXSv-zJv.js:2297 ✅ Valid exchange rate received from backend: 5.38
+index-CXSv-zJv.js:2421 ✅ Products response received for date: 30-10 {hasSuccess: true, hasData: false, hasProducts: true, dataProductsLength: 0, directProductsLength: 2882, …}
+index-CXSv-zJv.js:2421 Fetch finished loading: GET "https://buscadorpxt.com.br/api/products?date=30-10&limit=999999&page=1&_t=1761833535100".
+queryFn @ index-CXSv-zJv.js:2421
+await in queryFn
+i @ index-CXSv-zJv.js:48
+b @ index-CXSv-zJv.js:48
+start @ index-CXSv-zJv.js:48
+fetch @ index-CXSv-zJv.js:48
+nv @ index-CXSv-zJv.js:48
+fetch @ index-CXSv-zJv.js:48
+refetch @ index-CXSv-zJv.js:48
+onFocus @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+batch @ index-CXSv-zJv.js:48
+onFocus @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+await in (anonymous)
+(anonymous) @ index-CXSv-zJv.js:48
+onFocus @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+r @ index-CXSv-zJv.js:48
+ 🔌 [ExcelStylePriceList] WebSocket status: {isRealtimeConnected: true, realtimeError: undefined, realtimeLoading: undefined}
+ 📦 Processing products data: {hasData: true, dataType: 'object', dataKeys: Array(9), isLoading: false, hasError: false}
+ 📦 Extracted products: {source: 'data.products', count: 2882, total: 2882, actualDate: '30-10', success: true}
+ 🔍 ExcelStylePriceList: Processing search: {searchTerm: '', activeSearchTerm: '', currentFiltersSearch: '', propsSearchFilter: '', productsCount: 2882, …}
+ 📋 ExcelStylePriceList: No search term - returning all products
+ 🎯 Using products for filters: {totalProducts: 2882, searchFilteredProducts: 2882, productsForFilters: 2882, hasSearch: false, searchTerm: '(nenhuma)'}
+ 🎯 Filter options for search-filtered products: {searchTerm: '(nenhuma)', productsCount: 2882, filterCounts: {…}, sampleOptions: {…}}
+ 🏪 Extracting suppliers from products: 2882 products
+ 🏪 Current supplier contacts state: 96 contacts loaded
+ 🏪 Extracted suppliers: 55 unique suppliers
+ 🏪 Sample suppliers vs contacts: {suppliers: Array(5), contacts: Array(5)}
+ 🎯 STRICT Filter arrays updated: {activeSearchTerm: '(nenhuma)', searchTerm: '', currentFiltersSearch: '', propsSearchFilter: '', hasActiveSearch: false, …}
+ 🔍 Filtering products: {searchFilteredProductsCount: 2882, currentSearch: '', searchTerm: '', searchFilter: ''}
+ 🔍 Exibindo todos os produtos filtrados: {activeSearchTerm: '', totalProducts: 2882}
+ 🏷️ calculateLowestPrices: {totalProducts: 2882, minPrice: 25, allPrices: Array(5)}
+ 🏷️ calculateLowestPrices result: {productsWithLowestPrice: 1}
+ 🏷️ [ExcelStylePriceList] Produtos com menor preço após filtragem: 1
+ 🔍 SafeProducts filtering: {originalCount: 2882, safeCount: 2882, sampleProduct: {…}, hasModel: 'CABO USB-C USB-C', hasPrice: '25', …}
+ 📄 Pagination debug: {page: 1, itemsPerPage: 10, safeProductsCount: 2882, paginatedCount: 10, startIndex: 0, …}
+ 🎯 ExcelStylePriceList render: {isLoading: false, error: false, productsCount: 2882, filteredCount: 2882, searchFilter: '', …}
+ 🎯 ExcelStylePriceList: Component render state: {hasData: true, dataStructure: Array(9), products: Array(2882), productsLength: 2882, productsArray: Array(2882), …}
+ 🎯 Rendering product 0: {id: undefined, model: 'CABO USB-C USB-C', price: '25', supplier: 'MUNDO DO IPHONE 5805', hasAllFields: true}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'MUNDO DO IPHONE 5805', hasWhatsapp: true, whatsappNumber: '55 11 98480-5805', …}
+ 🎯 Rendering product 1: {id: undefined, model: 'FONTE USB-C', price: '40', supplier: 'MUNDO DO IPHONE 5805', hasAllFields: true}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'MUNDO DO IPHONE 5805', hasWhatsapp: true, whatsappNumber: '55 11 98480-5805', …}
+ 🎯 Rendering product 2: {id: undefined, model: 'FONTE USB-C', price: '100', supplier: 'MUNDO DO IPHONE 5805', hasAllFields: true}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'MUNDO DO IPHONE 5805', hasWhatsapp: true, whatsappNumber: '55 11 98480-5805', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'NASSER 5307', hasWhatsapp: true, whatsappNumber: '55 11 98997-5307', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'ZOI CELL 9959', hasWhatsapp: true, whatsappNumber: '55 11 94514-9959', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'BOB CELL 0277', hasWhatsapp: true, whatsappNumber: '55 11 97777-0277', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'AZUR 2728', hasWhatsapp: true, whatsappNumber: '595 993 272728', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'SHOP CELL 7229', hasWhatsapp: true, whatsappNumber: '55 11 96908-7229', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'SHOP CELL 7229', hasWhatsapp: true, whatsappNumber: '55 11 96908-7229', …}
+ 🏪 Desktop table - Supplier check: {productId: undefined, originalSupplier: undefined, supplierName: 'SHOP CELL 7229', hasWhatsapp: true, whatsappNumber: '55 11 96908-7229', …}
+ 🎨 Watermark component rendering with: {image: '/assets/watermark-pattern-vx_CFLwk.png', opacity: 0.05, size: undefined, isVisible: false, imageUrl: 'url(/assets/watermark-pattern-vx_CFLwk.png)'}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Categoria', totalOptions: 12}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Categoria', count: 12}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Capacidade', totalOptions: 26}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Capacidade', count: 26}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Região', totalOptions: 54}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Região', count: 54}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Cor', totalOptions: 39}
+ 🔍 ExcelFilterDropdown: No search term, returning all sorted options {title: 'Cor', count: 39}
+ 🔍 ExcelFilterDropdown: Sorted options {title: 'Fornecedor', totalOptions: 55}
+ 🔍 ExcelFilterDropdown: Filtered options {title: 'Fornecedor', searchTerm: 'f5', filteredCount: 1, totalCount: 55}
+ 🔍 PriceHoverTooltip - Received data: null
+ 🔍 PriceHoverTooltip - Has priceHistory: false
+ 🔍 PriceHoverTooltip - PriceHistory length: 0
+ 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Received data: null
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - Has priceHistory: false
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - PriceHistory length: 0
+index-CXSv-zJv.js:2421 🔍 PriceHoverTooltip - First data point: undefined
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: true, shouldReconnectFlag: true, isConnected: true, isConnecting: false, userEmail: 'jonathan.comercial@outlook.com'}
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2297 🔄 [UnifiedWebSocket] Connection effect triggered: {shouldConnect: true, shouldReconnectFlag: true, isConnected: true, isConnecting: false, userEmail: 'jonathan.comercial@outlook.com'}
+index-CXSv-zJv.js:2297 🔌 [UnifiedWebSocket] Already connected or connecting - skipping
+index-CXSv-zJv.js:2353 Failed to fetch user profile for debug: TypeError: Cannot read properties of undefined (reading 'id')
+    at queryFn (index-CXSv-zJv.js:2353:1915)
+queryFn @ index-CXSv-zJv.js:2353
+await in queryFn
+i @ index-CXSv-zJv.js:48
+b @ index-CXSv-zJv.js:48
+start @ index-CXSv-zJv.js:48
+fetch @ index-CXSv-zJv.js:48
+nv @ index-CXSv-zJv.js:48
+fetch @ index-CXSv-zJv.js:48
+refetch @ index-CXSv-zJv.js:48
+onFocus @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+batch @ index-CXSv-zJv.js:48
+onFocus @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+await in (anonymous)
+(anonymous) @ index-CXSv-zJv.js:48
+onFocus @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+r @ index-CXSv-zJv.js:48
+index-CXSv-zJv.js:2295 Fetch finished loading: GET "https://buscadorpxt.com.br/api/user/profile".
+request @ index-CXSv-zJv.js:2295
+await in request
+get @ index-CXSv-zJv.js:2295
+queryFn @ index-CXSv-zJv.js:2353
+i @ index-CXSv-zJv.js:48
+b @ index-CXSv-zJv.js:48
+start @ index-CXSv-zJv.js:48
+fetch @ index-CXSv-zJv.js:48
+nv @ index-CXSv-zJv.js:48
+fetch @ index-CXSv-zJv.js:48
+refetch @ index-CXSv-zJv.js:48
+onFocus @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+batch @ index-CXSv-zJv.js:48
+onFocus @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+await in (anonymous)
+(anonymous) @ index-CXSv-zJv.js:48
+onFocus @ index-CXSv-zJv.js:48
+(anonymous) @ index-CXSv-zJv.js:48
+r @ index-CXSv-zJv.js:48

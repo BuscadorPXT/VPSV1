@@ -1,0 +1,1294 @@
+# 📱 Guia Completo: Correções de Layout Mobile - BuscadorPXT
+
+> **Objetivo:** Este documento detalha todas as correções de layout mobile aplicadas no projeto BuscadorPXT.
+> Use como referência para replicar as mesmas correções em outros ambientes.
+
+**Data:** 2025-11-07
+**Versão:** 1.0
+**Stack:** React 18 + TypeScript 5.6 + Tailwind CSS + shadcn/ui
+
+---
+
+## 📋 Índice de Correções
+
+1. [Dialog Component - Overflow em Mobile](#1-dialog-component---overflow-em-mobile)
+2. [Sheet Component - Safe Areas iOS](#2-sheet-component---safe-areas-ios)
+3. [MobileSearchBar - Busca por Números](#3-mobilesearchbar---busca-por-números)
+4. [TopSearchBar - Expansão Inteligente](#4-topsearchbar---expansão-inteligente)
+5. [Landing Page - Menu Mobile](#5-landing-page---menu-mobile)
+6. [Sidebar - Modo Colapsado](#6-sidebar---modo-colapsado)
+7. [Dashboard Layout - Transição Suave](#7-dashboard-layout---transição-suave)
+8. [CSS Global - Utility Classes](#8-css-global---utility-classes)
+9. [Mobile Header - Touch Targets](#9-mobile-header---touch-targets)
+
+---
+
+## 1. Dialog Component - Overflow em Mobile
+
+### 🐛 Problema
+Diálogos ultrapassavam o viewport em telas mobile (< 500px), causando:
+- Scroll horizontal indesejado
+- Conteúdo cortado nas laterais
+- Botão X difícil de tocar (< 44px)
+
+### 📁 Arquivo
+```
+client/src/components/ui/dialog.tsx
+```
+
+### 🔧 Solução
+
+#### ANTES:
+```tsx
+const DialogContent = React.forwardRef<
+  React.ElementRef<typeof DialogPrimitive.Content>,
+  React.ComponentPropsWithoutRef<typeof DialogPrimitive.Content>
+>(({ className, children, ...props }, ref) => (
+  <DialogPortal>
+    <DialogOverlay />
+    <DialogPrimitive.Content
+      ref={ref}
+      className={cn(
+        'fixed left-[50%] top-[50%] z-50 grid w-full max-w-lg translate-x-[-50%] translate-y-[-50%] gap-4 border bg-background p-6 shadow-lg duration-200 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[state=closed]:slide-out-to-left-1/2 data-[state=closed]:slide-out-to-top-[48%] data-[state=open]:slide-in-from-left-1/2 data-[state=open]:slide-in-from-top-[48%] sm:rounded-lg',
+        className
+      )}
+      {...props}
+    >
+      {children}
+      <DialogPrimitive.Close className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground">
+        <X className="h-4 w-4" />
+        <span className="sr-only">Close</span>
+      </DialogPrimitive.Close>
+    </DialogPrimitive.Content>
+  </DialogPortal>
+))
+```
+
+#### DEPOIS:
+```tsx
+const DialogContent = React.forwardRef<
+  React.ElementRef<typeof DialogPrimitive.Content>,
+  React.ComponentPropsWithoutRef<typeof DialogPrimitive.Content>
+>(({ className, children, ...props }, ref) => (
+  <DialogPortal>
+    <DialogOverlay />
+    <DialogPrimitive.Content
+      ref={ref}
+      className={cn(
+        // ⬇️ MUDANÇA 1: Largura responsiva
+        'fixed left-[50%] top-[50%] z-50 grid w-full max-w-[calc(100vw-2rem)] sm:max-w-lg translate-x-[-50%] translate-y-[-50%] gap-4 border bg-background p-4 sm:p-6 shadow-lg duration-200 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[state=closed]:slide-out-to-left-1/2 data-[state=closed]:slide-out-to-top-[48%] data-[state=open]:slide-in-from-left-1/2 data-[state=open]:slide-in-from-top-[48%] sm:rounded-lg',
+        // ⬆️ MUDANÇA 2: Padding responsivo p-4 sm:p-6
+        className
+      )}
+      {...props}
+    >
+      {children}
+      {/* ⬇️ MUDANÇA 3: Touch target 44x44px e posição responsiva */}
+      <DialogPrimitive.Close className="absolute right-2 top-2 sm:right-4 sm:top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground min-h-[44px] min-w-[44px] inline-flex items-center justify-center">
+        <X className="h-4 w-4" />
+        <span className="sr-only">Close</span>
+      </DialogPrimitive.Close>
+    </DialogPrimitive.Content>
+  </DialogPortal>
+))
+```
+
+### 📝 Mudanças Específicas:
+
+1. **Largura máxima mobile:**
+   ```diff
+   - max-w-lg
+   + max-w-[calc(100vw-2rem)] sm:max-w-lg
+   ```
+   - **Motivo:** `calc(100vw-2rem)` garante margem de 1rem (16px) em cada lado
+   - **Breakpoint:** `sm:` (640px) volta ao tamanho original
+
+2. **Padding responsivo:**
+   ```diff
+   - p-6
+   + p-4 sm:p-6
+   ```
+   - **Mobile:** 16px de padding (economiza espaço)
+   - **Desktop:** 24px de padding (conforto visual)
+
+3. **Botão Close:**
+   ```diff
+   - className="absolute right-4 top-4 ..."
+   + className="absolute right-2 top-2 sm:right-4 sm:top-4 ... min-h-[44px] min-w-[44px] inline-flex items-center justify-center"
+   ```
+   - **Touch target:** 44x44px (Apple HIG guideline)
+   - **Posição mobile:** 8px das bordas (right-2 top-2)
+   - **Posição desktop:** 16px das bordas (right-4 top-4)
+
+### ✅ Validação
+```bash
+# Testar em viewports:
+- 320px (iPhone SE) → Dialog tem 288px largura (320 - 32)
+- 375px (iPhone 12) → Dialog tem 343px largura (375 - 32)
+- 640px+ (Desktop) → Dialog volta para max-w-lg (512px)
+
+# Verificar:
+✓ Sem scroll horizontal
+✓ Botão X tocável com polegar
+✓ Conteúdo não cortado
+```
+
+---
+
+## 2. Sheet Component - Safe Areas iOS
+
+### 🐛 Problema
+Sheets (drawer lateral/bottom) não respeitavam safe areas do iOS (notch, navigation bar), causando:
+- Conteúdo sobreposto pelo notch
+- Botão home do iOS cobrindo conteúdo inferior
+
+### 📁 Arquivo
+```
+client/src/components/ui/sheet.tsx
+```
+
+### 🔧 Solução
+
+#### ANTES:
+```tsx
+const sheetVariants = cva(
+  'fixed z-50 gap-4 bg-background p-6 shadow-lg transition ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-300 data-[state=open]:duration-500',
+  {
+    variants: {
+      side: {
+        top: 'inset-x-0 top-0 border-b data-[state=closed]:slide-out-to-top data-[state=open]:slide-in-from-top',
+        bottom:
+          'inset-x-0 bottom-0 border-t data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom',
+        left: 'inset-y-0 left-0 h-full w-3/4 border-r data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left sm:max-w-sm',
+        right:
+          'inset-y-0 right-0 h-full w-3/4  border-l data-[state=closed]:slide-out-to-right data-[state=open]:slide-in-from-right sm:max-w-sm',
+      },
+    },
+    defaultVariants: {
+      side: 'right',
+    },
+  }
+)
+```
+
+#### DEPOIS:
+```tsx
+const sheetVariants = cva(
+  // ⬇️ MUDANÇA 1: Padding responsivo
+  'fixed z-50 gap-4 bg-background p-4 sm:p-6 shadow-lg transition ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-300 data-[state=open]:duration-500',
+  {
+    variants: {
+      side: {
+        // ⬇️ MUDANÇA 2: Safe area top
+        top: 'inset-x-0 top-0 border-b pt-[env(safe-area-inset-top)] data-[state=closed]:slide-out-to-top data-[state=open]:slide-in-from-top',
+        // ⬇️ MUDANÇA 3: Safe area bottom
+        bottom:
+          'inset-x-0 bottom-0 border-t pb-[env(safe-area-inset-bottom)] data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom',
+        left: 'inset-y-0 left-0 h-full w-3/4 border-r data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left sm:max-w-sm',
+        right:
+          'inset-y-0 right-0 h-full w-3/4  border-l data-[state=closed]:slide-out-to-right data-[state=open]:slide-in-from-right sm:max-w-sm',
+      },
+    },
+    defaultVariants: {
+      side: 'right',
+    },
+  }
+)
+```
+
+#### Close Button:
+```tsx
+// ANTES:
+<SheetPrimitive.Close className="absolute right-4 top-4 rounded-sm opacity-70 ...">
+
+// DEPOIS:
+<SheetPrimitive.Close className="absolute right-2 top-2 sm:right-4 sm:top-4 rounded-sm opacity-70 ... min-h-[44px] min-w-[44px] inline-flex items-center justify-center">
+```
+
+### 📝 Mudanças Específicas:
+
+1. **Safe area top:**
+   ```css
+   pt-[env(safe-area-inset-top)]
+   ```
+   - Adiciona padding dinâmico para notch do iPhone (varia por modelo)
+
+2. **Safe area bottom:**
+   ```css
+   pb-[env(safe-area-inset-bottom)]
+   ```
+   - Adiciona padding para home indicator do iOS
+
+3. **Padding responsivo:**
+   ```diff
+   - p-6
+   + p-4 sm:p-6
+   ```
+
+4. **Touch target no close button:**
+   - Mesmo padrão do Dialog (44x44px)
+
+### ✅ Validação
+```bash
+# Testar em dispositivos iOS reais ou simulador:
+- iPhone 14 Pro (Dynamic Island) → Conteúdo não sobreposto
+- iPhone SE (sem notch) → Funciona normalmente
+- iPad → Sem mudanças (não tem notch)
+
+# CSS env() retorna 0 em devices sem safe areas
+```
+
+---
+
+## 3. MobileSearchBar - Busca por Números
+
+### 🐛 Problema
+Buscar "15" não mostrava "iPhone 15 Pro Max", apenas resultados com match exato "15".
+Usuários precisavam digitar "iPhone 15" completo.
+
+### 📁 Arquivo
+```
+client/src/components/MobileSearchBar.tsx
+```
+
+### 🔧 Solução
+
+#### MUDANÇA 1: Detectar query numérica (linha ~125)
+
+```tsx
+// ⬇️ ADICIONAR: Detector de números simples
+const isNumberQuery = /^\d{1,2}$/.test(query.trim());
+
+const params = new URLSearchParams({
+  q: query,
+  // ⬇️ MUDANÇA: Mais resultados para números, menos para texto
+  limit: isNumberQuery ? '12' : '6',
+  // ⬇️ MUDANÇA: Não usar exact match em números (backend expande)
+  ...(isNumberQuery ? {} : { exact: 'true' }),
+});
+```
+
+**Lógica:**
+- Regex `/^\d{1,2}$/` detecta 1 ou 2 dígitos soltos (ex: "5", "15", "14")
+- Números: 12 resultados, sem `exact=true` (backend filtra variantes)
+- Texto: 6 resultados, com `exact=true` (match preciso)
+
+#### MUDANÇA 2: Filtrar resultados localmente (linha ~147)
+
+```tsx
+const data = await response.json();
+const queryLower = query.toLowerCase().trim();
+
+// ⬇️ ADICIONAR: Detecção de query numérica
+const isNumberQuery = /^\d{1,2}$/.test(query.trim());
+
+// ⬇️ MUDANÇA: Para números, usar resultados do backend diretamente
+const inclusiveSuggestions = isNumberQuery
+  ? (data.suggestions || []) // Backend já filtrou
+  : (data.suggestions || []).filter((suggestion: any) => {
+      // Lógica de filtro existente para texto
+      const suggestionValue = typeof suggestion === 'string' ? suggestion : suggestion.value;
+      let cleanValue = suggestionValue;
+
+      // Extrair modelo e contagem do formato "iPhone 15 (5 produtos)"
+      const match = suggestionValue.match(/^(.+?)\s*\((\d+)\s+produtos?\)$/);
+      if (match) {
+        cleanValue = match[1].trim();
+      }
+
+      const valueLower = cleanValue.toLowerCase().trim();
+      const queryLower = query.toLowerCase().trim();
+
+      // Busca super inclusiva desde a primeira letra
+      return (
+        valueLower.includes(queryLower) ||
+        valueLower.startsWith(queryLower) ||
+        valueLower
+          .split(' ')
+          .some((word) => word.startsWith(queryLower) || word.includes(queryLower)) ||
+        valueLower.replace(/[^a-z0-9]/g, '').includes(queryLower.replace(/[^a-z0-9]/g, ''))
+      );
+    });
+```
+
+**Lógica:**
+- Se query numérica: confiar no backend (que faz expansão inteligente)
+- Se query texto: fazer filtro inclusivo no frontend
+
+### 📝 Resumo das Mudanças:
+
+```typescript
+// PADRÃO A SEGUIR:
+
+// 1. Detectar query numérica
+const isNumberQuery = /^\d{1,2}$/.test(query.trim());
+
+// 2. Ajustar parâmetros de API
+const params = {
+  q: query,
+  limit: isNumberQuery ? '12' : '6',
+  ...(isNumberQuery ? {} : { exact: 'true' })
+};
+
+// 3. Processar resultados
+const suggestions = isNumberQuery
+  ? data.suggestions  // Usar direto do backend
+  : data.suggestions.filter(/* lógica de filtro */);
+```
+
+### ✅ Validação
+```bash
+# Teste 1: Buscar "15"
+Esperado:
+1. iPhone 15
+2. iPhone 15 Pro
+3. iPhone 15 Pro Max
+4. iPhone 15 Plus
+
+# Teste 2: Buscar "iphone"
+Esperado:
+1-6 modelos mais relevantes com "iphone"
+
+# Teste 3: Buscar "14"
+Esperado:
+- iPhone 14 (todas variantes)
+- MacBook Pro 14" (se houver)
+```
+
+---
+
+## 4. TopSearchBar - Expansão Inteligente
+
+### 🐛 Problema
+Mesma limitação do MobileSearchBar, mas em desktop. Busca desktop não expandia números.
+
+### 📁 Arquivo
+```
+client/src/components/top-search-bar.tsx
+```
+
+### 🔧 Solução
+
+#### MUDANÇA 1: Adicionar funções auxiliares (linha ~359)
+
+```tsx
+// ⬇️ ADICIONAR: Função para detectar número simples
+const isSimpleNumberQuery = (query: string): boolean => {
+  return /^\d{1,2}$/.test(query.trim());
+};
+
+// ⬇️ ADICIONAR: Função para expandir número para variantes
+const expandNumberQuery = (query: string, models: string[]): string[] => {
+  const queryNum = query.trim();
+  const results: string[] = [];
+
+  // Procurar todos produtos que contêm esse número
+  models.forEach(model => {
+    if (typeof model === 'string') {
+      const modelLower = model.toLowerCase();
+
+      // Tratamento especial para iPhone
+      if (modelLower.includes('iphone')) {
+        // Match padrões: "iPhone 15", "iPhone 15 Pro", etc.
+        const iphonePattern = new RegExp(`iphone\\s+${queryNum}(?:\\s|$|\\s+pro|\\s+plus|\\s+max|\\s+mini)`, 'i');
+        if (iphonePattern.test(model)) {
+          results.push(model);
+        }
+      }
+      // Para outros produtos (MacBook, iPad, etc.)
+      else if (modelLower.includes(queryNum)) {
+        // Verificar se número aparece como palavra distinta (não parte de outro número)
+        const numberPattern = new RegExp(`\\b${queryNum}\\b`);
+        if (numberPattern.test(modelLower)) {
+          results.push(model);
+        }
+      }
+    }
+  });
+
+  // Ordenar resultados inteligentemente
+  return results.sort((a, b) => {
+    const aLower = a.toLowerCase();
+    const bLower = b.toLowerCase();
+
+    // Base models primeiro (sem Pro/Max/Plus)
+    const aIsBase = !/(pro|max|plus|mini)/i.test(a);
+    const bIsBase = !/(pro|max|plus|mini)/i.test(b);
+
+    if (aIsBase && !bIsBase) return -1;
+    if (!aIsBase && bIsBase) return 1;
+
+    // Ordenar por hierarquia de variantes: Pro, Pro Max, Plus, Mini
+    const variantOrder = ['pro max', 'pro', 'plus', 'mini'];
+    const aVariantIndex = variantOrder.findIndex(v => aLower.includes(v));
+    const bVariantIndex = variantOrder.findIndex(v => bLower.includes(v));
+
+    if (aVariantIndex !== -1 && bVariantIndex !== -1) {
+      return aVariantIndex - bVariantIndex;
+    }
+
+    return a.localeCompare(b);
+  });
+};
+```
+
+#### MUDANÇA 2: Usar funções na busca (linha ~479)
+
+```tsx
+const performSearch = useCallback(
+  async (query: string) => {
+    // ... código existente ...
+
+    // ⬇️ ADICIONAR: Usar expansão de números
+    let filtered: string[] = [];
+
+    if (isSimpleNumberQuery(query)) {
+      console.log('🔢 Detected simple number query:', query);
+      filtered = expandNumberQuery(query, modelsToSearch);
+      console.log('🔢 Expanded to variants:', filtered);
+    } else {
+      // Lógica de filtro existente para texto
+      filtered = modelsToSearch
+        .filter((model) => {
+          // ... filtro existente ...
+        })
+        .sort((a, b) => {
+          // ... ordenação existente ...
+        });
+    }
+
+    // Slice e map resultados
+    const suggestions = filtered
+      .slice(0, query.length === 1 ? 25 : 20)
+      .map((model) => ({ value: model, type: 'model' }));
+
+    // ... resto do código ...
+  },
+  [/* deps */]
+);
+```
+
+#### MUDANÇA 3: Ajustar chamada de API (linha ~574)
+
+```tsx
+// ⬇️ ADICIONAR: Detectar query numérica para API
+const isNumberQuery = /^\d{1,2}$/.test(query.trim());
+const exactParam = isNumberQuery ? '' : '&exact=true';
+
+const response = await fetch(
+  `/api/search/suggestions?q=${encodeURIComponent(query)}&limit=15${exactParam}`,
+  { headers, signal: abortControllerRef.current.signal }
+);
+```
+
+### 📝 Resumo das Mudanças:
+
+1. **Função `isSimpleNumberQuery`:** Detecta queries de 1-2 dígitos
+2. **Função `expandNumberQuery`:** Expande número para todas variantes
+3. **Lógica de ordenação:** Base → Pro → Pro Max → Plus → Mini
+4. **Integração com API:** Não envia `exact=true` para números
+
+### ✅ Validação
+```bash
+# Deve ter comportamento idêntico ao MobileSearchBar
+# Testar em desktop (>= 640px)
+```
+
+---
+
+## 5. Landing Page - Menu Mobile
+
+### 🐛 Problema
+Landing page não tinha menu mobile funcional. Usuários em mobile não conseguiam navegar.
+
+### 📁 Arquivo
+```
+client/src/pages/landing.tsx
+```
+
+### 🔧 Solução
+
+#### MUDANÇA 1: Adicionar estado do menu (linha ~18)
+
+```tsx
+export default function LandingPage() {
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  // ⬇️ ADICIONAR: Estado do menu mobile
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+```
+
+#### MUDANÇA 2: Adicionar botão hamburguer (linha ~174)
+
+```tsx
+<div className="flex gap-3 items-center">
+  {/* ⬇️ ADICIONAR: Botão hamburguer mobile */}
+  <button
+    onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+    className="md:hidden p-2 rounded-md hover:bg-white/10 transition-colors"
+    aria-label="Menu"
+  >
+    {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+  </button>
+
+  {/* Desktop Login Button */}
+  <Link href="/login" className="hidden md:block">
+    <Button variant="ghost" size="sm" ...>
+      Entrar
+    </Button>
+  </Link>
+
+  {/* Desktop CTA Button */}
+  <button className="hidden md:inline-flex ...">
+    Começar
+  </button>
+</div>
+```
+
+**Importar ícones:**
+```tsx
+import { Menu, X } from 'lucide-react';
+```
+
+#### MUDANÇA 3: Adicionar drawer do menu (linha ~226)
+
+```tsx
+{/* ⬇️ ADICIONAR: Menu Mobile */}
+{isMobileMenuOpen && (
+  <>
+    {/* Overlay */}
+    <div
+      className="fixed inset-0 bg-black/80 z-40 md:hidden"
+      onClick={() => setIsMobileMenuOpen(false)}
+    />
+
+    {/* Menu Drawer */}
+    <div className="fixed top-[64px] right-0 bottom-0 w-[280px] bg-black/95 backdrop-blur-xl border-l border-white/10 z-50 md:hidden">
+      <nav className="flex flex-col p-6 space-y-6">
+        {/* Navigation Links */}
+        <button
+          onClick={() => {
+            scrollToSection('como-funciona');
+            setIsMobileMenuOpen(false);
+          }}
+          className="text-left text-base font-medium text-zinc-300 hover:text-white transition-colors py-2"
+        >
+          Como funciona
+        </button>
+        <button
+          onClick={() => {
+            scrollToSection('recursos');
+            setIsMobileMenuOpen(false);
+          }}
+          className="text-left text-base font-medium text-zinc-300 hover:text-white transition-colors py-2"
+        >
+          Recursos
+        </button>
+        <button
+          onClick={() => {
+            scrollToSection('pricing');
+            setIsMobileMenuOpen(false);
+          }}
+          className="text-left text-base font-medium text-zinc-300 hover:text-white transition-colors py-2"
+        >
+          Preços
+        </button>
+
+        {/* Divider */}
+        <div className="border-t border-white/10" />
+
+        {/* Action Buttons */}
+        <Link href="/login" onClick={() => setIsMobileMenuOpen(false)}>
+          <Button variant="ghost" size="sm" className="w-full justify-start text-zinc-300 hover:text-white transition-colors">
+            Entrar
+          </Button>
+        </Link>
+
+        <button
+          className="w-full group relative inline-flex cursor-pointer transition-all duration-300 hover:scale-[1.02] hover:text-white font-semibold text-white/70 tracking-tight rounded-full py-3 px-4 items-center justify-center"
+          style={{
+            boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.1)',
+            background: 'radial-gradient(ellipse at bottom,rgba(71,81,92,1) 0%,rgba(0,0,0,1) 100%)',
+          }}
+          onClick={() => {
+            setIsMobileMenuOpen(false);
+            trackMetaEvent('Contact', {
+              content_name: 'WhatsApp Contact - Mobile Menu',
+              method: 'whatsapp',
+            });
+            const message = encodeURIComponent(
+              'Olá! Gostaria de conhecer o sistema Buscador PXT e saber como posso começar a usar.'
+            );
+            window.open(`https://wa.me/5511963232465?text=${message}`, '_blank');
+          }}
+        >
+          <span className="relative z-10 font-normal">Começar</span>
+        </button>
+      </nav>
+    </div>
+  </>
+)}
+```
+
+#### MUDANÇA 4: Ajustar background effects (linha ~107)
+
+```tsx
+{/* Background Effects */}
+<div className="pointer-events-none fixed inset-0 overflow-hidden">
+  {/* ⬇️ MUDANÇA: Tamanhos responsivos para não vazar em mobile */}
+  <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[150vw] h-[150vw] sm:w-[1200px] sm:h-[1200px] rounded-full blur-3xl opacity-30 bg-[radial-gradient(closest-side,rgba(29,78,216,0.4),rgba(0,0,0,0))]"></div>
+  <div className="absolute bottom-0 right-0 w-[100vw] h-[100vw] sm:w-[800px] sm:h-[800px] translate-x-1/3 translate-y-1/3 rounded-full blur-3xl opacity-25 bg-[radial-gradient(closest-side,rgba(147,51,234,0.35),rgba(0,0,0,0))]"></div>
+  <div className="absolute top-1/2 left-0 w-[80vw] h-[80vw] sm:w-[600px] sm:h-[600px] -translate-x-1/3 -translate-y-1/2 rounded-full blur-3xl opacity-20 bg-[radial-gradient(closest-side,rgba(6,182,212,0.3),rgba(0,0,0,0))]"></div>
+</div>
+```
+
+### 📝 Resumo das Mudanças:
+
+1. **Botão hamburguer:** Menu/X toggle
+2. **Drawer lateral:** 280px de largura, overlay escuro
+3. **Auto-close:** Fechar ao clicar em links
+4. **Background effects:** Tamanhos responsivos com viewport units
+
+### ✅ Validação
+```bash
+# Mobile (< 768px):
+✓ Botão hamburguer visível
+✓ Clicar abre drawer da direita
+✓ Overlay escurece o fundo
+✓ Links funcionam e fecham menu
+✓ CTA "Começar" funciona
+
+# Desktop (>= 768px):
+✓ Menu inline visível
+✓ Botão hamburguer oculto
+✓ Comportamento normal
+```
+
+---
+
+## 6. Sidebar - Modo Colapsado
+
+### 🐛 Problema
+Sidebar colapsada tinha ícones pequenos demais (16x16px) para tocar em mobile/touch devices.
+
+### 📁 Arquivo
+```
+client/src/components/sidebar.tsx
+```
+
+### 🔧 Solução
+
+#### MUDANÇA 1: Props do componente (linha ~42)
+
+```tsx
+interface SidebarProps {
+  isOpen: boolean;
+  onToggle: () => void;
+  // ⬇️ ADICIONAR: Props para controle de collapsed
+  isCollapsed?: boolean;
+  onCollapsedChange?: (collapsed: boolean) => void;
+}
+
+export function Sidebar({
+  isOpen,
+  onToggle,
+  isCollapsed,
+  onCollapsedChange
+}: SidebarProps) {
+  // ⬇️ MUDANÇA: Usar controlled state se fornecido
+  const [internalSidebarCollapsed, setInternalSidebarCollapsed] = useState(false);
+
+  const sidebarCollapsed = isCollapsed !== undefined ? isCollapsed : internalSidebarCollapsed;
+  const setSidebarCollapsed = onCollapsedChange || setInternalSidebarCollapsed;
+```
+
+#### MUDANÇA 2: Tamanhos de ícones responsivos (aplicar em TODOS itens)
+
+```tsx
+// PADRÃO PARA ITENS DE NAVEGAÇÃO:
+
+<div
+  className={`relative flex items-center ${sidebarCollapsed ? 'justify-center' : 'justify-between'}
+  ${sidebarCollapsed ? 'px-0 py-3' : 'px-3 py-2'}
+  rounded-md text-sm font-medium transition-all duration-200 cursor-pointer min-h-[44px] ...`}
+>
+  <div className={`flex items-center ${sidebarCollapsed ? '' : 'space-x-3'}`}>
+    {/* ⬇️ MUDANÇA: Ícones maiores quando colapsada */}
+    <IconComponent
+      className={`${sidebarCollapsed ? 'h-5 w-5' : 'h-4 w-4'}
+      ${item.active ? 'text-primary' : ''}
+      transition-all duration-200`}
+    />
+    {!sidebarCollapsed && (
+      <span className={item.active ? 'font-semibold' : ''}>{item.name}</span>
+    )}
+  </div>
+</div>
+```
+
+#### MUDANÇA 3: Logo responsivo (linha ~304)
+
+```tsx
+<div className={`flex items-center ${sidebarCollapsed ? 'justify-center w-full' : ''}`}>
+  <div
+    className={`${sidebarCollapsed ? 'h-12 sm:h-16 w-12 sm:w-16' : 'h-20 sm:h-32 w-20 sm:w-32'}
+    rounded-lg flex items-center justify-center overflow-hidden flex-shrink-0`}
+  >
+    <img src={logoBranca} alt="Logo" className="h-full w-full object-contain" />
+  </div>
+</div>
+```
+
+#### MUDANÇA 4: Botão expand otimizado (linha ~343)
+
+```tsx
+{sidebarCollapsed && (
+  <div className="flex justify-center mt-2 mb-2">
+    <button
+      onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
+      className="p-2 rounded-md hover:bg-primary/10 hover:text-primary transition-all duration-200"
+    >
+      {/* ⬇️ MUDANÇA: Ícone maior */}
+      <ChevronRight className="h-5 w-5 transition-transform duration-300" />
+    </button>
+  </div>
+)}
+```
+
+#### MUDANÇA 5: Z-index corrigido (linha ~761)
+
+```tsx
+<aside
+  className={`fixed left-0 top-0 bottom-0 hidden lg:flex lg:flex-shrink-0 transition-all duration-300 z-30 ${
+    sidebarCollapsed ? 'lg:w-16' : 'lg:w-64'
+  }`}
+>
+```
+
+**Antes:** `z-1` (muito baixo)
+**Depois:** `z-30` (evita sobreposição)
+
+### 📝 Resumo das Mudanças:
+
+| Estado | Logo | Ícones | Padding | Touch Target |
+|--------|------|--------|---------|--------------|
+| **Expandida** | 128x128px | 16x16px | px-3 py-2 | Normal |
+| **Colapsada Mobile** | 48x48px | 20x20px | px-0 py-3 | 44x44px |
+| **Colapsada Desktop** | 64x64px | 20x20px | px-0 py-3 | 44x44px |
+
+### ✅ Validação
+```bash
+# Sidebar colapsada:
+✓ Ícones visíveis 20x20px
+✓ Área de toque >= 44x44px
+✓ Hover funciona em toda área
+✓ Tooltip mostra nome do item
+
+# Sidebar expandida:
+✓ Comportamento normal
+✓ Transição suave (300ms)
+```
+
+---
+
+## 7. Dashboard Layout - Transição Suave
+
+### 🐛 Problema
+Main content não se ajustava quando sidebar colapsava, causando overlap.
+
+### 📁 Arquivo
+```
+client/src/components/dashboard-layout.tsx
+```
+
+### 🔧 Solução
+
+#### MUDANÇA 1: Estado de collapsed (linha ~118)
+
+```tsx
+export const DashboardLayout = React.memo(({ children, dateFilter }: DashboardLayoutProps) => {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  // ⬇️ ADICIONAR: Estado de collapsed
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+```
+
+#### MUDANÇA 2: Passar props para Sidebar (linha ~192)
+
+```tsx
+<Sidebar
+  isOpen={sidebarOpen}
+  onToggle={toggleSidebar}
+  // ⬇️ ADICIONAR: Props de collapsed
+  isCollapsed={sidebarCollapsed}
+  onCollapsedChange={setSidebarCollapsed}
+/>
+```
+
+#### MUDANÇA 3: Main content responsivo (linha ~205)
+
+```tsx
+{/* ⬇️ MUDANÇA: Margin-left dinâmico baseado em collapsed */}
+<main className={`flex-1 overflow-hidden transition-all duration-300
+  ${sidebarCollapsed ? 'lg:ml-16' : 'lg:ml-64'}`}
+>
+  <div className="h-full overflow-y-auto">{children}</div>
+</main>
+```
+
+**Lógica:**
+- Sidebar colapsada: `ml-16` (64px)
+- Sidebar expandida: `ml-64` (256px)
+- Transição suave: `transition-all duration-300`
+
+### ✅ Validação
+```bash
+# Clicar no botão de collapse:
+✓ Sidebar anima para 64px
+✓ Main content desliza para direita (ml-16)
+✓ Sem overlap de conteúdo
+✓ Transição sincronizada (300ms)
+```
+
+---
+
+## 8. CSS Global - Utility Classes
+
+### 🐛 Problema
+Classes do shadcn/ui não estavam disponíveis, causando estilos quebrados.
+
+### 📁 Arquivo
+```
+client/src/index.css
+```
+
+### 🔧 Solução
+
+#### ADICIONAR: Utility layer (após linha ~498)
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ⬇️ ADICIONAR: Utility classes para tema */
+@layer utilities {
+  /* Background Colors */
+  .bg-background {
+    background-color: hsl(var(--background));
+  }
+  .text-foreground {
+    color: hsl(var(--foreground));
+  }
+  .bg-card {
+    background-color: hsl(var(--card));
+  }
+  .text-card-foreground {
+    color: hsl(var(--card-foreground));
+  }
+  .bg-primary {
+    background-color: hsl(var(--primary));
+  }
+  .text-primary-foreground {
+    color: hsl(var(--primary-foreground));
+  }
+  .bg-secondary {
+    background-color: hsl(var(--secondary));
+  }
+  .text-secondary-foreground {
+    color: hsl(var(--secondary-foreground));
+  }
+  .bg-muted {
+    background-color: hsl(var(--muted));
+  }
+  .text-muted-foreground {
+    color: hsl(var(--muted-foreground));
+  }
+  .bg-accent {
+    background-color: hsl(var(--accent));
+  }
+  .text-accent-foreground {
+    color: hsl(var(--accent-foreground));
+  }
+  .bg-destructive {
+    background-color: hsl(var(--destructive));
+  }
+  .text-destructive-foreground {
+    color: hsl(var(--destructive-foreground));
+  }
+
+  /* Border & Input */
+  .border-border {
+    border-color: hsl(var(--border));
+  }
+  .bg-input {
+    background-color: hsl(var(--input));
+  }
+  .text-ring {
+    color: hsl(var(--ring));
+  }
+
+  /* Opacity Variants */
+  .bg-muted\/50 {
+    background-color: hsl(var(--muted) / 0.5);
+  }
+  .bg-muted\/30 {
+    background-color: hsl(var(--muted) / 0.3);
+  }
+  .bg-muted\/10 {
+    background-color: hsl(var(--muted) / 0.1);
+  }
+  .bg-primary\/5 {
+    background-color: hsl(var(--primary) / 0.05);
+  }
+  .bg-primary\/90 {
+    background-color: hsl(var(--primary) / 0.9);
+  }
+  .bg-card\/95 {
+    background-color: hsl(var(--card) / 0.95);
+  }
+
+  /* Text Colors */
+  .text-primary {
+    color: hsl(var(--primary));
+  }
+  .text-secondary {
+    color: hsl(var(--secondary));
+  }
+  .text-destructive {
+    color: hsl(var(--destructive));
+  }
+
+  /* Placeholder */
+  .placeholder\:text-muted-foreground::placeholder {
+    color: hsl(var(--muted-foreground));
+  }
+}
+```
+
+### 📝 Por que isso é necessário?
+
+shadcn/ui usa CSS variables para temas:
+```css
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --card: 0 0% 100%;
+  /* ... */
+}
+```
+
+E consome via Tailwind:
+```tsx
+<div className="bg-background text-foreground" />
+```
+
+Mas Tailwind por padrão não reconhece essas classes. Precisamos criar as utilities manualmente.
+
+### ✅ Validação
+```bash
+# Verificar que componentes shadcn/ui não têm estilos quebrados
+✓ Dialog renderiza com background correto
+✓ Buttons têm cores do tema
+✓ Cards seguem color scheme
+```
+
+---
+
+## 9. Mobile Header - Touch Targets
+
+### 🐛 Problema
+Logo e ícones do header mobile eram pequenos demais.
+
+### 📁 Arquivo
+```
+client/src/components/sidebar.tsx
+```
+(O componente `MobileHeader` está no mesmo arquivo)
+
+### 🔧 Solução
+
+#### MUDANÇA 1: Logo responsivo (linha ~872)
+
+```tsx
+<div className="flex items-center min-w-0">
+  {/* ⬇️ MUDANÇA: Logo menor em mobile */}
+  <div className="h-10 sm:h-12 w-10 sm:w-12 rounded flex items-center justify-center overflow-hidden flex-shrink-0">
+    <img
+      src={logoBranca}
+      alt="Buscador PXT Logo"
+      className="h-full w-full object-contain"
+    />
+  </div>
+</div>
+```
+
+**Antes:** `h-12 w-12` fixo
+**Depois:** `h-10 w-10` (mobile) → `h-12 w-12` (sm+)
+
+#### MUDANÇA 2: Adicionar badges (linha ~888)
+
+```tsx
+<div className="flex items-center space-x-3">
+  {/* ⬇️ ADICIONAR: Badges informativos */}
+  <TesterHeaderBadge />
+  <HeaderSubscriptionBadge showPopover={true} />
+  <NotificationBell />
+  {/* ... resto */}
+</div>
+```
+
+#### MUDANÇA 3: Z-index correto (linha ~860)
+
+```tsx
+<header className="lg:hidden bg-card border-b border-border/50 px-4 py-3
+  sticky top-0 z-30 flex items-center justify-between backdrop-blur-sm bg-card/95">
+```
+
+**Antes:** `z-1`
+**Depois:** `z-30`
+
+### ✅ Validação
+```bash
+# Mobile header (< 1024px):
+✓ Logo visível e proporcional
+✓ Badges de status aparecem
+✓ Notificações acessíveis
+✓ Menu hamburguer funciona
+
+# Desktop (>= 1024px):
+✓ Header oculto (lg:hidden)
+```
+
+---
+
+## 📊 Resumo Geral das Correções
+
+### Componentes Afetados:
+- ✅ `dialog.tsx` - Overflow corrigido
+- ✅ `sheet.tsx` - Safe areas iOS
+- ✅ `MobileSearchBar.tsx` - Busca numérica inteligente
+- ✅ `top-search-bar.tsx` - Expansão de números desktop
+- ✅ `landing.tsx` - Menu mobile completo
+- ✅ `sidebar.tsx` - Touch targets e collapsed
+- ✅ `dashboard-layout.tsx` - Transição sidebar
+- ✅ `index.css` - Utility classes tema
+- ✅ Mobile header - Logo e badges
+
+### Padrões Aplicados:
+
+#### 1. Responsividade Mobile-First
+```tsx
+// Padrão: mobile-first → desktop override
+className="max-w-[calc(100vw-2rem)] sm:max-w-lg"
+className="p-4 sm:p-6"
+className="h-10 sm:h-12"
+```
+
+#### 2. Touch Targets (Apple HIG)
+```tsx
+// Sempre: min-h-[44px] min-w-[44px]
+className="min-h-[44px] min-w-[44px] inline-flex items-center justify-center"
+```
+
+#### 3. Safe Areas iOS
+```css
+/* Para elementos fixos top/bottom */
+pt-[env(safe-area-inset-top)]
+pb-[env(safe-area-inset-bottom)]
+```
+
+#### 4. Busca Numérica Inteligente
+```typescript
+// Detector de números
+const isNumberQuery = /^\d{1,2}$/.test(query.trim());
+
+// Ajustar parâmetros
+const params = {
+  limit: isNumberQuery ? '12' : '6',
+  ...(isNumberQuery ? {} : { exact: 'true' })
+};
+```
+
+#### 5. Ícones Responsivos
+```tsx
+// Collapsed vs expanded
+className={`${collapsed ? 'h-5 w-5' : 'h-4 w-4'} transition-all duration-200`}
+```
+
+---
+
+## 🎯 Checklist de Aplicação
+
+Ao aplicar essas correções em outro ambiente, siga esta ordem:
+
+### Fase 1: Componentes Base (Crítico)
+- [ ] `dialog.tsx` - Corrigir overflow mobile
+- [ ] `sheet.tsx` - Adicionar safe areas
+- [ ] `index.css` - Adicionar utility classes
+
+### Fase 2: Navegação (Importante)
+- [ ] `sidebar.tsx` - Touch targets e collapsed
+- [ ] `dashboard-layout.tsx` - Transição sidebar
+- [ ] `landing.tsx` - Menu mobile
+
+### Fase 3: Busca (Feature)
+- [ ] `MobileSearchBar.tsx` - Busca numérica
+- [ ] `top-search-bar.tsx` - Expansão desktop
+
+### Fase 4: Refinamentos (Opcional)
+- [ ] Mobile header - Logo e badges
+- [ ] Outros componentes modais (Popover, AlertDialog, etc)
+
+---
+
+## 🧪 Testes Finais
+
+Após aplicar todas as correções:
+
+### Viewports para testar:
+```
+320px  - iPhone SE (mais estreito)
+375px  - iPhone 12/13 (mais comum)
+390px  - iPhone 14 Pro (atual)
+414px  - iPhone 14 Pro Max
+768px  - iPad
+1024px - Desktop
+```
+
+### Checklist de validação:
+- [ ] Nenhum modal ultrapassa viewport
+- [ ] Todos botões/ícones >= 44x44px
+- [ ] Buscar "15" mostra todas variantes iPhone 15
+- [ ] Menu mobile funciona na landing
+- [ ] Sidebar colapsada tem ícones grandes
+- [ ] Safe areas respeitadas em iOS
+- [ ] Sem scroll horizontal em nenhuma tela
+- [ ] Transições suaves (300ms)
+
+### Comandos de verificação:
+```bash
+# TypeScript
+npm run check  # ou: npx tsc --noEmit
+
+# Build
+npm run build
+
+# Dev
+npm run dev
+```
+
+---
+
+## 📚 Referências
+
+### Documentação seguida:
+- **Apple HIG:** Minimum touch target 44pt × 44pt
+- **W3C WCAG:** 2.5.5 Target Size (Level AAA)
+- **Tailwind CSS:** Mobile-first breakpoints
+- **shadcn/ui:** Component patterns
+
+### CSS Custom Properties (tema):
+```css
+/* Definidas em index.css */
+--background
+--foreground
+--card
+--primary
+--secondary
+--muted
+--accent
+--destructive
+--border
+--input
+--ring
+```
+
+---
+
+## 🚨 Avisos Importantes
+
+### NÃO faça:
+❌ Modificar Radix UI primitives diretamente
+❌ Usar `any` no TypeScript
+❌ Ignorar safe areas em iOS
+❌ Usar `!important` no CSS
+❌ Quebrar backward compatibility
+
+### SEMPRE faça:
+✅ Testar em múltiplos viewports
+✅ Verificar touch targets >= 44px
+✅ Manter TypeScript strict
+✅ Usar padrões do projeto (Tailwind, shadcn/ui)
+✅ Validar build antes de commit
+
+---
+
+## 📞 Suporte
+
+Se encontrar problemas ao aplicar:
+
+1. **Verificar dependências:**
+   ```bash
+   npm list react react-dom tailwindcss
+   ```
+
+2. **Limpar cache:**
+   ```bash
+   rm -rf node_modules
+   npm install
+   ```
+
+3. **Verificar versões:**
+   - React: 18.3+
+   - TypeScript: 5.6+
+   - Tailwind: 3.4+
+
+4. **Comparar diffs:**
+   ```bash
+   git diff <commit-hash> -- client/src/components/ui/dialog.tsx
+   ```
+
+---
+
+**Documento criado por:** Claude Code (Anthropic)
+**Versão:** 1.0
+**Última atualização:** 2025-11-07
+
+---
+
+## 🎓 Apêndice: Padrões de Prompt para IA
+
+Para pedir à IA do Replit que aplique essas correções:
+
+### Template de Prompt:
+
+```
+# TASK: Aplicar correções de layout mobile
+
+## CONTEXTO
+Projeto React + TypeScript + Tailwind + shadcn/ui
+Referência: MOBILE-LAYOUT-FIXES-GUIDE.md
+
+## OBJETIVO
+Aplicar todas as correções documentadas na Fase [1/2/3/4]
+
+## INSTRUÇÕES
+1. Ler seção [N] do guia
+2. Aplicar mudanças exatas no arquivo especificado
+3. Manter código existente não mencionado
+4. Validar TypeScript (npm run check)
+5. Confirmar aplicação antes de próxima seção
+
+## REQUISITOS
+- [ ] Seguir código ANTES/DEPOIS exato
+- [ ] Não modificar outras partes do arquivo
+- [ ] Manter imports e exports existentes
+- [ ] Testar em viewport 375px
+
+## VALIDAÇÃO
+[Checklist da seção específica]
+```
+
+---
+
+**FIM DO DOCUMENTO**
