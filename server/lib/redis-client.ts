@@ -17,10 +17,8 @@ class RedisClient {
       });
 
       RedisClient.instance.on('error', (err) => {
-        // Silenciar erros de conexão Redis para não poluir logs
-        if (!err.message.includes('ECONNREFUSED')) {
-          console.error('❌ Redis Client Error:', err);
-        }
+        // Silenciar completamente erros de conexão Redis (opcional)
+        // Redis é opcional - aplicação funciona sem cache
       });
 
       RedisClient.instance.on('connect', () => {

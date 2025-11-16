@@ -223,9 +223,7 @@ export function Sidebar({ isOpen, onToggle, isCollapsed, onCollapsedChange, exte
       name: 'FAQ',
       href: '/faq',
       icon: FAQIcon,
-      active: location === '/faq' || location === '/perguntas-frequentes',
-      badge: 'New',
-      badgeColor: 'bg-green-500 text-white text-[8px] px-1 py-0.5 font-normal'
+      active: location === '/faq' || location === '/perguntas-frequentes'
     }
   ], [watchlistCount, location, currentPlan]);
 
@@ -259,18 +257,24 @@ export function Sidebar({ isOpen, onToggle, isCollapsed, onCollapsedChange, exte
       sidebarCollapsed ? 'w-16' : 'w-full lg:w-64'
     }`}>
       {/* Header */}
-      <div className="px-6 py-0 border-b border-border/50 relative z-10">
-        <div className="flex items-center justify-between min-h-0">
+      <div className="px-6 border-b border-border/50 relative z-10">
+        <div className="flex items-center justify-between">
           <div className={`flex items-center ${sidebarCollapsed ? 'justify-center w-full' : ''}`}>
-            <div className={`${sidebarCollapsed ? 'h-16 w-16' : 'h-32 w-32'} rounded-lg flex items-center justify-center overflow-hidden flex-shrink-0`}>
-              <img 
-                src={logoBranca} 
-                alt="Buscador PXT Logo" 
+            <div
+              className="rounded-lg flex items-center justify-center overflow-hidden flex-shrink-0"
+              style={{
+                height: sidebarCollapsed ? '76.8px' : '153.6px',
+                width: sidebarCollapsed ? '76.8px' : '153.6px'
+              }}
+            >
+              <img
+                src={logoBranca}
+                alt="Buscador PXT Logo"
                 className="h-full w-full object-contain dark:block hidden"
               />
-              <img 
-                src={logoClara} 
-                alt="Buscador PXT Logo" 
+              <img
+                src={logoClara}
+                alt="Buscador PXT Logo"
                 className="h-full w-full object-contain dark:hidden block"
               />
             </div>

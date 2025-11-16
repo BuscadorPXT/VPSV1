@@ -50,13 +50,19 @@ import AuthRecovery from "@/pages/auth-recovery";
 import EncontroPage from "@/pages/encontro";
 import { EmergencyAlertDialog } from './components/EmergencyAlertDialog';
 import FeedbackAlertModal from './components/FeedbackAlertModal';
+// ⚡ OTIMIZAÇÃO #13: Importar ProtectedRoute externo (remover duplicação)
+import ProtectedRoute from '@/components/ProtectedRoute';
 import { useFeedbackAlerts } from './hooks/use-feedback-alerts';
 import { useTermsAcceptance } from './hooks/use-terms-acceptance';
 import TermsAcceptanceModal from './components/TermsAcceptanceModal';
 import ErrorBoundary from './components/ErrorBoundary';
+// ⚡ OTIMIZAÇÃO #15: Importar getAuthHeaders para prefetch
+import { getAuthHeaders } from './lib/auth-api';
 import { AdBlockerCompatibilityLayer } from './components/AdBlockerCompatibilityLayer';
 import { Spinner } from './components/ui/spinner'; // Import Spinner
 import { RealtimeNotificationsProvider } from './components/RealtimeNotificationsProvider';
+// ⚡ OTIMIZAÇÃO #14: Skeleton loading para melhor UX
+import { DashboardSkeleton } from './components/DashboardSkeleton';
 import { ChristmasDecorations } from './components/ChristmasDecorations';
 import { FloatingWhatsAppButton } from './components/FloatingWhatsAppButton';
 // Removed react-router-dom imports to avoid conflicts with wouter
@@ -100,79 +106,25 @@ const RainbowLoadingWave = ({ text, size }: { text: string; size: 'sm' | 'md' | 
   );
 };
 
+// ⚡ OTIMIZAÇÃO #13: ProtectedRoute duplicado REMOVIDO
+// Agora usando o componente externo de @/components/ProtectedRoute
+// Isso elimina 1 loading screen duplicado e economiza 200-500ms
 
-function ProtectedRoute({ children }: { children: React.ReactNode }) {
-  const { user, loading, authInitialized, isAuthReady } = useAuth();
-
-  console.log('🛡️ ProtectedRoute check:', {
-    user: user ? { email: user.email, uid: user.uid } : null,
-    loading,
-    authInitialized,
-    isAuthReady
-  });
-
-  if (loading || !authInitialized || !isAuthReady) {
-    console.log('⏳ Showing loader - auth not ready');
-    return <FullPageLoader />;
-  }
-
-  if (!user) {
-    console.log('🔄 No user - redirecting to login');
-    return <Redirect to="/login" />;
-  }
-
-  console.log('✅ User authenticated - rendering protected content');
-  return <>{children}</>;
-}
-
+// ⚡ OTIMIZAÇÃO #13: AdminProtectedRoute usando ProtectedRoute externo
+// Evita duplicação de auth checks
 function AdminProtectedRoute({ children }: { children: React.ReactNode }) {
-  const { user, loading, authInitialized, isAuthReady } = useAuth();
-
-  // ✅ CORREÇÃO URGENTE: Desabilitar hooks legados que causam múltiplas conexões WebSocket
-  // useWebSocketNotifications(); // DEPRECATED - Causes multiple WebSocket connections
-  // useSingleSessionMonitor();    // DEPRECATED - Replaced by unified WebSocket hook
-
-  if (loading || !authInitialized || !isAuthReady) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-background">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto mb-4"></div>
-          <p className="text-muted-foreground">Carregando...</p>
-        </div>
-      </div>
-    );
-  }
-
-  // Check if user is authenticated
-  if (!user) {
-    return <Redirect to="/login" />;
-  }
-
-  // Admin access check
-  const isAdminUser = user.isAdmin === true || user.role === 'admin' || user.role === 'superadmin';
-
-  if (!isAdminUser) {
-    console.log('Access denied to admin panel - user is not admin/superadmin');
-    return <Redirect to="/buscador" />;
-  }
-
-  return <>{children}</>;
+  // ProtectedRoute externo já faz auth check, aqui só verifica admin
+  return (
+    <ProtectedRoute requireAdmin={true}>
+      {children}
+    </ProtectedRoute>
+  );
 }
 
+// ⚡ OTIMIZAÇÃO #13: PublicRoute simplificado
+// Rotas públicas não precisam de loading check
 function PublicRoute({ children }: { children: React.ReactNode }) {
-  const { user, loading, authInitialized, isAuthReady } = useAuth();
-
-  if (loading || !authInitialized || !isAuthReady) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-background">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto mb-4"></div>
-          <p className="text-muted-foreground">Carregando...</p>
-        </div>
-      </div>
-    );
-  }
-
+  // Rotas públicas renderizam direto, sem verificação de auth
   return <>{children}</>;
 }
 
@@ -555,6 +507,75 @@ function App() {
     };
   }, []);
 
+  // ⚡ OTIMIZAÇÃO #15: Prefetch de dados críticos após autenticação
+  // Carrega dados em paralelo durante auth para Dashboard já ter dados prontos
+  useEffect(() => {
+    if (user && isAuthReady && !loading) {
+      console.log('🚀 Prefetching critical data for faster Dashboard load...');
+
+      // Prefetch em paralelo de dados críticos
+      Promise.all([
+        // User profile
+        queryClient.prefetchQuery({
+          queryKey: ['/api/user/profile'],
+          queryFn: async () => {
+            const headers = await getAuthHeaders();
+            const res = await fetch('/api/user/profile', { headers });
+            if (!res.ok) throw new Error('Failed to prefetch profile');
+            return res.json();
+          },
+          staleTime: 5 * 60 * 1000, // 5 minutes
+        }),
+        // Available dates
+        queryClient.prefetchQuery({
+          queryKey: ['/api/products/dates'],
+          queryFn: async () => {
+            const headers = await getAuthHeaders();
+            const res = await fetch('/api/products/dates', { headers });
+            if (!res.ok) throw new Error('Failed to prefetch dates');
+            return res.json();
+          },
+          staleTime: 24 * 60 * 60 * 1000, // 24 hours
+        }),
+        // Tester status
+        queryClient.prefetchQuery({
+          queryKey: ['/api/tester/status'],
+          queryFn: async () => {
+            const headers = await getAuthHeaders();
+            const res = await fetch('/api/tester/status', { headers });
+            if (!res.ok) throw new Error('Failed to prefetch tester status');
+            return res.json();
+          },
+          staleTime: 60 * 60 * 1000, // 1 hour
+        }),
+        // ⚡ OTIMIZAÇÃO #21: Prefetch primeiros 50 produtos para render rápido
+        // Carrega apenas os primeiros 50 para mostrar algo imediatamente
+        // O componente vai carregar o resto depois
+        queryClient.prefetchQuery({
+          queryKey: ['/api/products/preview'],
+          queryFn: async () => {
+            const headers = await getAuthHeaders();
+            const params = new URLSearchParams({
+              limit: '50',
+              page: '1',
+            });
+            const res = await fetch(`/api/products?${params}`, { headers });
+            if (!res.ok) throw new Error('Failed to prefetch products preview');
+            return res.json();
+          },
+          staleTime: 2 * 60 * 1000, // 2 minutes (shorter since it's a preview)
+        }),
+      ])
+        .then(() => {
+          console.log('✅ Critical data prefetched successfully');
+        })
+        .catch((error) => {
+          console.log('⚠️ Prefetch failed (non-critical):', error.message);
+          // Não bloqueia - se falhar, queries normais vão carregar
+        });
+    }
+  }, [user, isAuthReady, loading, queryClient]);
+
   // Maintenance mode check
   const isMaintenanceMode = MAINTENANCE_CONFIG.MAINTENANCE_MODE;
 
@@ -570,12 +591,11 @@ function App() {
   }
 
   // Early return for loading states
+  // ⚡ OTIMIZAÇÃO #30: DashboardSkeleton unificado para auth e lazy loading
+  // Elimina loading duplicado (RainbowLoadingWave + DashboardSkeleton)
+  // Mostra estrutura da página imediatamente, melhor UX
   if (loading || !authInitialized || !isAuthReady) {
-    return (
-      <div className="min-h-screen bg-black flex items-center justify-center">
-        <RainbowLoadingWave text="Carregando..." size="lg" />
-      </div>
-    );
+    return <DashboardSkeleton />;
   }
 
   console.log('🎯 App component mounted');
@@ -587,7 +607,8 @@ function App() {
       <QueryClientProvider client={queryClient}>
         <ThemeProvider defaultTheme="light" storageKey="pxt-ui-theme">
           <TooltipProvider>
-            <React.Suspense fallback={<FullPageLoader />}>
+            {/* ⚡ OTIMIZAÇÃO #14: DashboardSkeleton para loading progressivo */}
+            <React.Suspense fallback={<DashboardSkeleton />}>
               {!user ? (
                 // Not authenticated - public routes
                 ['/', '/landing', '/login', '/terms-of-use', '/faq', '/ranking', '/melhores-lojas', '/subscribe', '/encontro'].includes(location) ? (

@@ -2,11 +2,12 @@ import { useState, useMemo } from 'react';
 import { useQuery, useMutation } from '@tanstack/react-query';
 import { queryClient, apiRequest } from '@/lib/queryClient';
 import { useToast } from '@/hooks/use-toast';
+import { AdminLayout } from '@/components/admin/AdminLayout';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
-import { 
+import {
   AlertTriangle,
   Clock,
   CheckCircle,
@@ -19,28 +20,11 @@ import {
   CreditCard,
   Mail,
   Phone,
-  Edit,
   Eye,
-  ArrowLeft,
   AlertCircle,
   Ban,
-  Play,
-  X,
-  ChevronLeft,
-  Menu,
-  BarChart3,
-  UserPlus,
-  Globe,
-  Key,
-  MessageSquare,
-  Bell,
-  MessageCircle,
-  Star,
-  Building2,
-  Settings,
-  User
+  Play
 } from 'lucide-react';
-import { useLocation } from 'wouter';
 import {
   Table,
   TableBody,
@@ -112,12 +96,10 @@ const formatCurrency = (amount?: number) => {
 };
 
 export default function AdminCobrancasPage() {
-  const [, setLocation] = useLocation();
   const { toast } = useToast();
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedUser, setSelectedUser] = useState<SubscriptionData | null>(null);
   const [isEditDialogOpen, setIsEditDialogOpen] = useState(false);
-  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const { data: subscriptionsData, isLoading, refetch } = useQuery<SubscriptionResponse>({
     queryKey: ['/api/admin/subscriptions', { limit: 1000 }],
@@ -371,139 +353,22 @@ export default function AdminCobrancasPage() {
     );
   };
 
-  const menuItems = [
-    { value: 'dashboard', label: 'Dashboard', icon: <BarChart3 className="h-5 w-5" /> },
-    { value: 'users', label: 'Aprovação', icon: <UserPlus className="h-5 w-5" /> },
-    { value: 'manage-users', label: 'Usuários', icon: <Users className="h-5 w-5" /> },
-    { value: 'sessions', label: 'Sessões', icon: <Globe className="h-5 w-5" /> },
-    { value: 'emergency', label: 'Emergência', icon: <AlertTriangle className="h-5 w-5" /> },
-    { value: 'keys', label: 'API Keys', icon: <Key className="h-5 w-5" /> },
-    { value: 'feedback', label: 'Feedback', icon: <MessageSquare className="h-5 w-5" /> },
-    { value: 'alerts', label: 'Alertas', icon: <Bell className="h-5 w-5" /> },
-    { value: 'whatsapp', label: 'WhatsApp', icon: <MessageCircle className="h-5 w-5" /> },
-    { value: 'ratings', label: 'Avaliações', icon: <Star className="h-5 w-5" /> },
-    { value: 'suppliers', label: 'Fornecedores', icon: <Building2 className="h-5 w-5" /> },
-    { value: 'subscriptions', label: 'Assinaturas', icon: <CreditCard className="h-5 w-5" /> },
-    { value: 'cobrancas', label: 'Cobranças', icon: <DollarSign className="h-5 w-5" />, isActive: true },
-    { value: 'settings', label: 'Configurações', icon: <Settings className="h-5 w-5" /> },
-  ];
-
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
-      {/* Mobile Sidebar Overlay */}
-      {sidebarOpen && (
-        <div
-          className="fixed inset-0 bg-black/50 z-40 lg:hidden"
-          onClick={() => setSidebarOpen(false)}
-        />
-      )}
-
-      {/* Sidebar */}
-      <aside className={`fixed top-0 left-0 z-50 h-screen w-64 bg-white dark:bg-slate-900 border-r border-slate-200 dark:border-slate-700 transform transition-transform duration-200 ease-in-out ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0`}>
-        <div className="flex flex-col h-full">
-          {/* Sidebar Header */}
-          <div className="p-4 border-b border-slate-200 dark:border-slate-700">
-            <div className="flex items-center justify-between mb-2">
-              <h2 className="text-lg font-bold text-slate-900 dark:text-white">Admin Panel</h2>
-              <Button
-                variant="ghost"
-                size="sm"
-                className="lg:hidden"
-                onClick={() => setSidebarOpen(false)}
-              >
-                <X className="h-5 w-5" />
-              </Button>
-            </div>
-            <div className="flex items-center gap-2 text-xs text-slate-500">
-              <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-              Sistema Online
-            </div>
-          </div>
-
-          {/* Navigation Menu */}
-          <nav className="flex-1 overflow-y-auto p-2 space-y-1">
-            {menuItems.map((item) => (
-              <button
-                key={item.value}
-                onClick={() => {
-                  if (item.value === 'cobrancas') {
-                    setSidebarOpen(false);
-                  } else {
-                    setLocation('/admin');
-                    setSidebarOpen(false);
-                  }
-                }}
-                className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors ${
-                  item.isActive
-                    ? 'bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-400 font-medium'
-                    : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
-                }`}
-              >
-                {item.icon}
-                <span>{item.label}</span>
-              </button>
-            ))}
-            
-            <div className="pt-2 mt-2 border-t border-slate-200 dark:border-slate-700">
-              <button
-                onClick={() => setLocation('/admin/user-diagnostic')}
-                className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800"
-              >
-                <User className="h-5 w-5" />
-                <span>Diagnóstico</span>
-              </button>
-            </div>
-          </nav>
-
-          {/* Sidebar Footer */}
-          <div className="p-4 border-t border-slate-200 dark:border-slate-700">
-            <Button
-              variant="outline"
-              onClick={() => setLocation('/buscador')}
-              className="w-full flex items-center justify-center gap-2"
-            >
-              <ChevronLeft className="h-4 w-4" />
-              Voltar ao Dashboard
-            </Button>
-          </div>
-        </div>
-      </aside>
-
-      {/* Main Content */}
-      <div className="lg:pl-64">
-        {/* Top Bar */}
-        <header className="sticky top-0 z-30 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm border-b border-slate-200 dark:border-slate-700">
-          <div className="flex items-center justify-between px-4 py-3">
-            <div className="flex items-center gap-4">
-              <Button
-                variant="ghost"
-                size="sm"
-                className="lg:hidden"
-                onClick={() => setSidebarOpen(true)}
-              >
-                <Menu className="h-5 w-5" />
-              </Button>
-              <div>
-                <h1 className="text-2xl font-bold text-slate-900 dark:text-white">Gestão de Cobranças</h1>
-                <p className="text-sm text-slate-500 dark:text-slate-400">
-                  Controle de vencimentos e cobranças de assinaturas
-                </p>
-              </div>
-            </div>
-            <Button
-              onClick={() => refetch()}
-              disabled={isLoading}
-              data-testid="button-refresh"
-            >
-              <RefreshCw className={`h-4 w-4 mr-2 ${isLoading ? 'animate-spin' : ''}`} />
-              Atualizar
-            </Button>
-          </div>
-        </header>
-
-        {/* Page Content */}
-        <div className="p-6">
-          <div className="max-w-7xl mx-auto space-y-6">
+    <AdminLayout
+      title="Gestão de Cobranças"
+      description="Controle de vencimentos e cobranças de assinaturas"
+      actions={
+        <Button
+          onClick={() => refetch()}
+          disabled={isLoading}
+          data-testid="button-refresh"
+        >
+          <RefreshCw className={`h-4 w-4 mr-2 ${isLoading ? 'animate-spin' : ''}`} />
+          Atualizar
+        </Button>
+      }
+    >
+      <div className="max-w-7xl mx-auto space-y-6">
 
         {/* Stats Cards */}
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
@@ -650,11 +515,8 @@ export default function AdminCobrancasPage() {
             />
           </TabsContent>
         </Tabs>
-          </div>
-        </div>
-      </div>
 
-      {/* Dialog de detalhes */}
+        {/* Dialog de detalhes */}
       <Dialog open={isEditDialogOpen} onOpenChange={setIsEditDialogOpen}>
         <DialogContent className="max-w-2xl">
           <DialogHeader>
@@ -732,15 +594,14 @@ export default function AdminCobrancasPage() {
               Fechar
             </Button>
             <Button onClick={() => {
-              if (selectedUser) {
-                setLocation(`/admin`);
-              }
+              window.location.href = '/admin';
             }}>
               Editar no Admin
             </Button>
           </DialogFooter>
         </DialogContent>
       </Dialog>
-    </div>
+      </div>
+    </AdminLayout>
   );
 }

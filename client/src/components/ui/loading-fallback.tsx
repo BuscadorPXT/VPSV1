@@ -8,15 +8,16 @@ interface LoadingFallbackProps {
   variant?: "default" | "rainbow";
 }
 
-export function LoadingFallback({ 
-  message = "Carregando...", 
+// ⚡ OTIMIZAÇÃO #12: Background unificado para consistência visual
+export function LoadingFallback({
+  message = "Carregando...",
   size = "md",
   className,
   variant = "rainbow"
 }: LoadingFallbackProps) {
   if (variant === "rainbow") {
     return (
-      <div className={`min-h-screen bg-black flex items-center justify-center ${className || ''}`}>
+      <div className={`min-h-screen bg-background flex items-center justify-center ${className || ''}`}>
         <RainbowLoadingWave text={message} size={size} />
       </div>
     );

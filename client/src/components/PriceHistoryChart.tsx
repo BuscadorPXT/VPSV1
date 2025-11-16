@@ -1,9 +1,12 @@
-import React from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import React, { useState, useEffect, memo } from 'react';
 import { format } from 'date-fns';
 import { ptBR } from 'date-fns/locale';
 import { TrendingUp, TrendingDown, Minus } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { Skeleton } from '@/components/ui/skeleton';
+
+// ⚡ OTIMIZAÇÃO #18: Lazy load Recharts dinamicamente (-150KB do bundle inicial)
+type RechartsModule = typeof import('recharts');
 
 interface PricePoint {
   timestamp: string;
@@ -72,19 +75,39 @@ function getTrendInfo(data: PricePoint[]) {
   }
 }
 
-export function PriceHistoryChart({ 
-  data, 
-  className, 
-  width = 280, 
-  height = 150, 
-  showGrid = true, 
+// ⚡ OTIMIZAÇÃO #22: React.memo para evitar re-renders desnecessários
+const PriceHistoryChartComponent = ({
+  data,
+  className,
+  width = 280,
+  height = 150,
+  showGrid = true,
   showTooltip = true,
-  currentPrice 
-}: PriceHistoryChartProps) {
-  // Debug logging
-  console.log('📊 PriceHistoryChart - Received data:', data);
-  console.log('📊 PriceHistoryChart - Data sample:', data?.[0]);
-  
+  currentPrice
+}: PriceHistoryChartProps) => {
+  // ⚡ OTIMIZAÇÃO #18: Lazy load Recharts
+  const [recharts, setRecharts] = useState<RechartsModule | null>(null);
+
+  useEffect(() => {
+    // Dynamically import Recharts only when component mounts
+    import('recharts').then((module) => {
+      setRecharts(module);
+    }).catch(err => {
+      console.error('Failed to load Recharts:', err);
+    });
+  }, []);
+
+  // Show skeleton while Recharts is loading
+  if (!recharts) {
+    return (
+      <div className={cn("relative", className)} style={{ width, height }}>
+        <Skeleton className="w-full h-full rounded-lg" />
+      </div>
+    );
+  }
+
+  const { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip: RechartsTooltip, ResponsiveContainer } = recharts;
+
   if (!data || data.length === 0) {
     return (
       <div className={cn("flex items-center justify-center border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg", className)} style={{ width, height }}>
@@ -161,7 +184,7 @@ export function PriceHistoryChart({
           />
           
           {showTooltip && (
-            <Tooltip content={<CustomTooltip />} />
+            <RechartsTooltip content={<CustomTooltip />} />
           )}
           
           <Line 
@@ -177,12 +200,15 @@ export function PriceHistoryChart({
       </ResponsiveContainer>
     </div>
   );
-}
+};
+
+// ⚡ OTIMIZAÇÃO #22: Export memoized component
+export const PriceHistoryChart = memo(PriceHistoryChartComponent);
 
 // Mini version for use in small spaces like table cells
-export function MiniPriceHistoryChart({ data, className }: { data: PricePoint[], className?: string }) {
+export const MiniPriceHistoryChart = memo(({ data, className }: { data: PricePoint[], className?: string }) => {
   return (
-    <PriceHistoryChart 
+    <PriceHistoryChart
       data={data}
       width={80}
       height={40}
@@ -191,4 +217,4 @@ export function MiniPriceHistoryChart({ data, className }: { data: PricePoint[],
       className={className}
     />
   );
-}
+});

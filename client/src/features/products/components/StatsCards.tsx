@@ -2,7 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import { getAuthHeaders } from "@/lib/auth-api";
 import { Smartphone, Building, Clock, Bug, UserPlus, Wifi } from "lucide-react";
 import NotificationBell from "@/components/NotificationBell";
-import { useState, useEffect } from "react";
+import { useState, useEffect, memo } from "react";
 import { SuppliersModal } from "@/components/suppliers-modal";
 import { CurrencyCard } from "@/components/CurrencyCard";
 import { BugReportDialog } from "@/components/BugReportDialog";
@@ -21,7 +21,8 @@ interface LiveClockProps {
   className?: string;
 }
 
-export function LiveClock({ showDate = true, className = "" }: LiveClockProps) {
+// ⚡ OTIMIZAÇÃO #22: React.memo para evitar re-renders desnecessários
+export const LiveClock = memo(({ showDate = true, className = "" }: LiveClockProps) => {
   const [currentTime, setCurrentTime] = useState(new Date());
 
   useEffect(() => {
@@ -95,7 +96,7 @@ export function LiveClock({ showDate = true, className = "" }: LiveClockProps) {
       <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-blue-500/10 rounded-xl blur-lg -z-10 opacity-60"></div>
     </div>
   );
-}
+});
 
 interface StatsCardsProps {
   dateFilter: string;
@@ -107,15 +108,16 @@ interface StatsCardsProps {
   onViewSupplierProducts?: (supplierId: number, supplierName: string) => void;
 }
 
-export function StatsCards({ 
-  dateFilter, 
-  brandCategory = 'all', 
-  userPlan = 'free', 
-  isAdmin = false, 
-  role = '', 
+// ⚡ OTIMIZAÇÃO #22: React.memo para evitar re-renders desnecessários
+export const StatsCards = memo(({
+  dateFilter,
+  brandCategory = 'all',
+  userPlan = 'free',
+  isAdmin = false,
+  role = '',
   user,
   onViewSupplierProducts = () => {}
-}: StatsCardsProps) {
+}: StatsCardsProps) => {
   const [showSuppliersModal, setShowSuppliersModal] = useState(false);
   const [showBugReport, setShowBugReport] = useState(false);
   const [showSupplierRecommendation, setShowSupplierRecommendation] = useState(false);
@@ -338,10 +340,10 @@ export function StatsCards({
         onOpenChange={setShowBugReport}
       />
 
-      <SupplierRecommendationDialog 
+      <SupplierRecommendationDialog
         open={showSupplierRecommendation}
         onOpenChange={setShowSupplierRecommendation}
       />
     </>
   );
-}
+});

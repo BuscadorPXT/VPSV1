@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Plus, MessageSquare, BarChart3, Users, Calendar, Settings, Eye, Trash2, ToggleLeft, ToggleRight } from 'lucide-react';
+import { Plus, MessageSquare, BarChart3, Users, Eye, Trash2, ToggleLeft, ToggleRight } from 'lucide-react';
+import { AdminLayout } from '@/components/admin/AdminLayout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -161,18 +162,17 @@ export default function AdminFeedbackAlertsPage() {
   };
 
   return (
-    <div className="container mx-auto p-6 space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-2xl font-bold text-slate-900">Feedback/Login Avisos</h1>
-          <p className="text-slate-600">Gerencie avisos personalizados com feedback dos usuários</p>
-        </div>
+    <AdminLayout
+      title="Feedback/Login Avisos"
+      description="Gerencie avisos personalizados com feedback dos usuários"
+      actions={
         <Button onClick={() => setIsCreateDialogOpen(true)} className="flex items-center gap-2">
           <Plus className="h-4 w-4" />
           Criar Novo Aviso
         </Button>
-      </div>
-
+      }
+    >
+      <div className="container mx-auto space-y-6">
       <Tabs defaultValue="alerts" className="w-full">
         <TabsList className="grid w-full grid-cols-2">
           <TabsTrigger value="alerts">Avisos</TabsTrigger>
@@ -334,7 +334,8 @@ export default function AdminFeedbackAlertsPage() {
           setSelectedAlert(null);
         }}
       />
-    </div>
+      </div>
+    </AdminLayout>
   );
 }
 

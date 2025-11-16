@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { apiRequest } from '@/lib/queryClient';
 import { useAuth } from '@/hooks/use-auth';
+import { AdminLayout } from '@/components/admin/AdminLayout';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -118,28 +119,11 @@ export function AdminUserDiagnosticPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
-      <div className="container mx-auto px-4 py-8">
-        <div className="max-w-4xl mx-auto">
-          {/* Header */}
-          <div className="mb-8">
-            <div className="flex items-center justify-between mb-4">
-              <Button 
-                variant="outline" 
-                onClick={() => setLocation('/admin')}
-                className="flex items-center gap-2"
-              >
-                <Shield className="h-4 w-4" />
-                Voltar ao Painel Admin
-              </Button>
-            </div>
-            <h1 className="text-3xl font-bold text-slate-900 dark:text-white mb-2">
-              Diagnóstico de Usuário
-            </h1>
-            <p className="text-slate-600 dark:text-slate-400">
-              Ferramenta para diagnosticar perfis completos de usuários no sistema
-            </p>
-          </div>
+    <AdminLayout
+      title="Diagnóstico de Usuário"
+      description="Ferramenta para diagnosticar perfis completos de usuários no sistema"
+    >
+      <div className="max-w-4xl mx-auto space-y-6">
 
           {/* Search Form */}
           <Card className="mb-6">
@@ -312,9 +296,8 @@ export function AdminUserDiagnosticPage() {
               </Card>
             </div>
           )}
-        </div>
       </div>
-    </div>
+    </AdminLayout>
   );
 }
 

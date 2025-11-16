@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip';
 import { PriceHistoryChart } from './PriceHistoryChart';
 import { TrendingUp, TrendingDown, Clock, Loader2 } from 'lucide-react';
@@ -12,13 +12,12 @@ interface PriceHoverTooltipProps {
   className?: string;
 }
 
-export function PriceHoverTooltip({ children, data, isLoading, className }: PriceHoverTooltipProps) {
-  // Debug logging
-  console.log('🔍 PriceHoverTooltip - Received data:', data);
-  console.log('🔍 PriceHoverTooltip - Has priceHistory:', !!(data && data.priceHistory));
-  console.log('🔍 PriceHoverTooltip - PriceHistory length:', data?.priceHistory?.length || 0);
-  console.log('🔍 PriceHoverTooltip - First data point:', data?.priceHistory?.[0]);
-  
+// ⚡ OTIMIZAÇÃO #22: React.memo para evitar re-renders desnecessários (renderizado 100+ vezes)
+export const PriceHoverTooltip = memo(({ children, data, isLoading, className }: PriceHoverTooltipProps) => {
+  // ⚡ OTIMIZAÇÃO #17: Console.logs de debug removidos
+  // Esses logs eram executados para cada célula de preço na tabela (100+ produtos)
+  // Causando poluição no console (400+ logs por renderização)
+
   const formatPrice = (price: number) => `R$ ${price.toFixed(2)}`;
   const formatPercentage = (percentage: number) => `${percentage >= 0 ? '+' : ''}${percentage.toFixed(1)}%`;
   
@@ -173,4 +172,4 @@ export function PriceHoverTooltip({ children, data, isLoading, className }: Pric
       </Tooltip>
     </TooltipProvider>
   );
-}
+});

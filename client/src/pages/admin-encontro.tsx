@@ -1,6 +1,7 @@
 import { useQuery, useMutation } from '@tanstack/react-query';
+import { AdminLayout } from '@/components/admin/AdminLayout';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Users, Mail, Phone, Calendar, DollarSign, CheckCircle, Clock, AlertCircle, Check, X } from 'lucide-react';
+import { Users, Mail, Phone, Calendar, DollarSign, CheckCircle, Clock, AlertCircle, Check, X, RefreshCw } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { apiRequest, queryClient } from '@/lib/queryClient';
@@ -108,17 +109,21 @@ export default function AdminEncontroPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-950 dark:via-blue-950/20 dark:to-purple-950/20 py-12 px-4">
-      <div className="max-w-7xl mx-auto">
-        {/* Header */}
-        <div className="mb-8">
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-2">
-            Gerenciar Confirmações do Evento
-          </h1>
-          <p className="text-gray-600 dark:text-gray-400">
-            Acompanhe todas as confirmações de presença para o encontro de networking
-          </p>
-        </div>
+    <AdminLayout
+      title="Gerenciar Confirmações do Evento"
+      description="Acompanhe todas as confirmações de presença para o encontro de networking"
+      actions={
+        <Button
+          onClick={() => queryClient.invalidateQueries({ queryKey: ['/api/event/confirmations'] })}
+          disabled={isLoading}
+          variant="outline"
+        >
+          <RefreshCw className={`h-4 w-4 mr-2 ${isLoading ? 'animate-spin' : ''}`} />
+          Atualizar
+        </Button>
+      }
+    >
+      <div className="max-w-7xl mx-auto space-y-8">
 
         {/* Statistics Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
@@ -339,6 +344,6 @@ export default function AdminEncontroPage() {
           </CardContent>
         </Card>
       </div>
-    </div>
+    </AdminLayout>
   );
 }

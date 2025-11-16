@@ -710,16 +710,16 @@ adminRouter.get('/users', authenticateAdmin, async (req: AuthenticatedRequest, r
     try {
       const onlineResult = await db.execute(sql`
         SELECT
-          COALESCE(user_id, "userId") as userId,
-          COALESCE(last_activity, "lastActivity") as lastActivity
+          "userId",
+          "lastActivity"
         FROM user_sessions
-        WHERE (COALESCE(is_active, "isActive") = true OR COALESCE(is_active, "isActive") = 'true')
-        AND (COALESCE(last_activity, "lastActivity") >= ${fiveMinutesAgo.toISOString()})
+        WHERE is_active = true
+        AND "lastActivity" >= ${fiveMinutesAgo.toISOString()}
       `);
 
       onlineUsers = onlineResult.rows.map(row => ({
-        userId: row.userId || row.user_id,
-        lastActivity: row.lastActivity || row.last_activity
+        userId: row.userId,
+        lastActivity: row.lastActivity
       }));
 
       console.log(`📊 Found ${onlineUsers.length} online users`);
@@ -738,16 +738,16 @@ adminRouter.get('/users', authenticateAdmin, async (req: AuthenticatedRequest, r
       try {
         const activitiesResult = await db.execute(sql`
           SELECT
-            COALESCE(user_id, "userId") as userId,
-            MAX(COALESCE(last_activity, "lastActivity"))::text as lastActivity
+            "userId",
+            MAX("lastActivity")::text as lastActivity
           FROM user_sessions
-          WHERE COALESCE(user_id, "userId") = ANY(${userIds})
-          GROUP BY COALESCE(user_id, "userId")
+          WHERE "userId" = ANY(${userIds})
+          GROUP BY "userId"
         `);
 
         lastActivities = activitiesResult.rows.map(row => ({
-          userId: row.userId || row.user_id,
-          lastActivity: row.lastActivity || row.last_activity
+          userId: row.userId,
+          lastActivity: row.lastActivity
         }));
 
         console.log(`📊 Found last activities for ${lastActivities.length} users`);

@@ -2,6 +2,8 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
+// ⚡ OTIMIZAÇÃO #20: Brotli compression
+import viteCompression from 'vite-plugin-compression';
 
 export default defineConfig({
   plugins: [
@@ -13,6 +15,23 @@ export default defineConfig({
           await import("@replit/vite-plugin-cartographer").then((m) =>
             m.cartographer(),
           ),
+        ]
+      : []),
+    // ⚡ OTIMIZAÇÃO #20: Brotli compression (production only)
+    ...(process.env.NODE_ENV === "production"
+      ? [
+          viteCompression({
+            algorithm: 'brotliCompress',
+            ext: '.br',
+            threshold: 1024, // Only compress files > 1KB
+            deleteOriginFile: false,
+          }),
+          viteCompression({
+            algorithm: 'gzip',
+            ext: '.gz',
+            threshold: 1024,
+            deleteOriginFile: false,
+          }),
         ]
       : []),
   ],
@@ -30,5 +49,16 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
+    // ⚡ OTIMIZAÇÃO #19: Rollup optimization
+    minify: 'esbuild',
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // Separar vendor chunks para melhor caching
+          'react-vendor': ['react', 'react-dom'],
+          'query-vendor': ['@tanstack/react-query'],
+        },
+      },
+    },
   },
 });

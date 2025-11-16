@@ -227,6 +227,7 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   // Supplier contacts query - Load contact information for suppliers (MOVED TO BEGINNING)
+  // ⚡ OTIMIZAÇÃO: Cache de 24h para dados quase estáticos
   const { data: supplierContactsData } = useQuery({
     queryKey: ['supplier-contacts'],
     queryFn: async () => {
@@ -247,8 +248,11 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
         return {};
       }
     },
-    staleTime: 5 * 60 * 1000, // 5 minutes cache
+    staleTime: 24 * 60 * 60 * 1000, // ⚡ OTIMIZADO: 24 horas (antes: 5 min)
+    gcTime: 48 * 60 * 60 * 1000, // ⚡ 48 horas garbage collection
     refetchOnWindowFocus: false,
+    refetchOnMount: false, // ⚡ OTIMIZADO: Não refetch ao montar
+    refetchOnReconnect: false, // ⚡ OTIMIZADO: Não refetch ao reconectar
     retry: 1
   });
 
@@ -329,6 +333,7 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
   }, []);
 
   // Query for monitoring data - similar to other components
+  // ⚡ OTIMIZAÇÃO: Removido polling - WebSocket atualiza quando necessário
   const { data: monitoringData } = useQuery({
     queryKey: ['monitoring-status'],
     queryFn: async () => {
@@ -344,29 +349,27 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
         return null;
       }
     },
-    staleTime: 30 * 1000, // 30 seconds
-    refetchInterval: 30 * 1000, // Refresh every 30 seconds
+    staleTime: 5 * 60 * 1000, // ⚡ OTIMIZADO: 5 minutos (antes: 30s)
+    gcTime: 10 * 60 * 1000, // 10 minutos garbage collection
+    refetchInterval: false, // ⚡ OTIMIZADO: Polling desativado (WebSocket atualiza)
     refetchOnWindowFocus: false,
+    refetchOnMount: false, // ⚡ OTIMIZADO: Não refetch ao montar
     retry: 1
   });
 
   // Products data memoization - now after all variables are declared
+  // ⚡ OTIMIZAÇÃO: Removido stats?.updateCount da key - WebSocket invalida quando necessário
   const {
     data,
     error,
     isLoading: productsLoading,
+    isFetching: productsFetching,
     refetch: refetchProducts
   } = useQuery({
-    queryKey: ['/api/products', dateFilter, currentFilters.date, stats?.updateCount],
+    queryKey: ['/api/products', dateFilter, currentFilters.date],
     queryFn: async () => {
       const currentDateFilter = dateFilter || currentFilters.date || 'all';
-      console.log('🔄 ExcelStylePriceList: Fetching products...', {
-        dateFilter: currentDateFilter,
-        propsDateFilter: dateFilter,
-        currentFiltersDate: currentFilters.date,
-        updateCount: stats?.updateCount,
-        timestamp: new Date().toISOString()
-      });
+      // ⚡ OTIMIZAÇÃO #24: Console.logs removidos para produção
 
       try {
         const headers = await getAuthHeaders();
@@ -381,19 +384,13 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
         params.set('limit', '999999');
         params.set('page', '1');
 
-        // Add cache busting parameter for real-time updates
-        params.set('_t', Date.now().toString());
+        // ⚡ OTIMIZAÇÃO #23: Cache busting removido - WebSocket invalida quando necessário
+        // Removido: params.set('_t', Date.now().toString());
 
         const url = `/api/products${params.toString() ? `?${params}` : ''}`;
-        console.log('🔗 Request URL:', url, 'with date:', currentDateFilter);
 
-        const res = await fetch(url, {
-          headers: {
-            ...headers,
-            'Cache-Control': 'no-cache, no-store, must-revalidate',
-            'Pragma': 'no-cache'
-          }
-        });
+        // ⚡ OTIMIZAÇÃO #25: Headers no-cache removidos - permite cache do navegador
+        const res = await fetch(url, { headers });
 
         if (!res.ok) {
           const errorText = await res.text();
@@ -413,7 +410,6 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
 
         // Handle API errors gracefully
         if (!result.success && result.error) {
-          console.warn('⚠️ API returned error:', result.error);
           return {
             success: false,
             products: [],
@@ -423,18 +419,7 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
           };
         }
 
-        console.log('✅ Products response received for date:', currentDateFilter, {
-          hasSuccess: 'success' in result,
-          hasData: 'data' in result,
-          hasProducts: 'products' in result,
-          dataProductsLength: result.data?.products?.length || 0,
-          directProductsLength: result.products?.length || 0,
-          actualDate: result.data?.actualDate || result.actualDate,
-          requestedDate: result.data?.requestedDate,
-          totalCount: result.total || result.totalCount || 0,
-          fetchTime: new Date().toISOString()
-        });
-
+        // ⚡ OTIMIZAÇÃO #24: Console.logs removidos
         return result;
       } catch (error: unknown) {
         console.error('❌ Products query error:', error);
@@ -449,17 +434,21 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
         };
       }
     },
-    staleTime: 5 * 1000, // Reduzido para 5 segundos para atualizações mais rápidas
-    refetchOnWindowFocus: true, // Reativar refresh ao focar na janela
-    retry: 2, // Increase retry attempts
-    enabled: true, // Always enabled - let the API handle filtering
-    refetchInterval: false // Disable automatic refetching
+    // ⚡ OTIMIZAÇÃO #26: StaleTime aumentado - WebSocket invalida quando necessário
+    staleTime: 2 * 60 * 1000, // 2 minutos (antes: 5 segundos)
+    gcTime: 5 * 60 * 1000, // 5 minutos de garbage collection
+    refetchOnWindowFocus: true, // Refresh ao focar na janela
+    retry: 2,
+    enabled: true,
+    refetchInterval: false,
+    // ⚡ OTIMIZAÇÃO #28: Dados do cache ficam disponíveis mesmo durante refetch
+    placeholderData: (previousData) => previousData,
   });
 
   // Register WebSocket callback for automatic refresh
   useEffect(() => {
     const refreshCallback = () => {
-      console.log('🔄 WebSocket triggered refresh - invalidating cache and refetching products');
+      // ⚡ OTIMIZAÇÃO #24: Console.log removido
       queryClient.invalidateQueries({ queryKey: ['/api/products'] });
       refetchProducts();
     };
@@ -479,7 +468,7 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
   // Listen for custom browser events for real-time updates
   useEffect(() => {
     const handleRealtimeUpdate = (event: CustomEvent) => {
-      console.log('📡 Custom real-time update event received:', event.detail);
+      // ⚡ OTIMIZAÇÃO #24: Console.log removido
       queryClient.invalidateQueries({ queryKey: ['/api/products'] });
       refetchProducts();
     };
@@ -493,16 +482,9 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
 
   // Extract products from normalized response with better error handling
   const products = useMemo(() => {
-    console.log('📦 Processing products data:', {
-      hasData: !!data,
-      dataType: typeof data,
-      dataKeys: data ? Object.keys(data) : [],
-      isLoading: productsLoading,
-      hasError: !!error
-    });
+    // ⚡ OTIMIZAÇÃO #24: Console.logs removidos
 
     if (!data) {
-      console.log('⚠️ No data received from API');
       return [];
     }
 
@@ -522,17 +504,6 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
       // Direct array
       extractedProducts = data;
     }
-
-    console.log('📦 Extracted products:', {
-      source: data.data?.products ? 'data.data.products' :
-              data.products ? 'data.products' :
-              data.data ? 'data.data' :
-              Array.isArray(data) ? 'direct array' : 'unknown',
-      count: extractedProducts.length,
-      total: data.total || data.data?.total,
-      actualDate: data.actualDate || data.data?.actualDate,
-      success: data.success
-    });
 
     return extractedProducts || [];
   }, [data, productsLoading, error]);
@@ -1557,12 +1528,7 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
       return true;
     });
 
-    // Log filtering results without price-per-color filtering
-    const activeSearchTerm = searchTerm || currentFilters.search || searchFilter || '';
-    console.log('🔍 Exibindo todos os produtos filtrados:', {
-      activeSearchTerm,
-      totalProducts: filtered.length
-    });
+    // ⚡ OTIMIZAÇÃO #24: Console.logs removidos
 
     // Aplicar ordenação se especificada
     if (sortField && sortDirection) {
@@ -1621,11 +1587,7 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
     }
 
     const filteredWithLowestPrices = calculateLowestPricesInProducts(filtered);
-    const lowestCount = filteredWithLowestPrices.filter(p => (p as any).isLowestPrice).length;
-
-    if (lowestCount > 0) {
-      console.log('🏷️ [ExcelStylePriceList] Produtos com menor preço após filtragem:', lowestCount);
-    }
+    // ⚡ OTIMIZAÇÃO #24: Console.log removido
 
     return filteredWithLowestPrices;
   }, [searchFilteredProducts, currentFilters, suppliers, sortField, sortDirection, searchTerm, searchFilter]);
@@ -1668,10 +1630,9 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
     return paginated;
   }, [safeProducts, page, itemsPerPage]);
 
-  // Early return if no user - AFTER all hooks are initialized
-  if (!user) {
-    return <div className="text-center py-8 text-muted-foreground">Usuário não autenticado</div>;
-  }
+  // ⚡ OTIMIZAÇÃO #16: Verificação de !user removida
+  // ProtectedRoute garante que user existe antes de renderizar este componente
+  // Remover esta verificação elimina race condition que causava flash de "usuário não autenticado"
 
   // Toggle dropdown with filtered products (respects category filter)
   const handleDropdownToggle = () => {
@@ -1781,81 +1742,19 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
     finalWebSocketStatus
   });
 
-  // Show loading state only for initial load when we actually have no data
+  // ⚡ OTIMIZAÇÃO #27: Skeleton leve em vez de loading pesado
+  // Mostra skeleton apenas se não tiver NENHUM dado em cache
   if (productsLoading && !data && products.length === 0) {
     return (
-      <Card className="shadow-lg">
-        <CardContent className="p-8">
-          <div className="text-center space-y-6">
-            {/* Logo/Icon Section */}
-            <div className="flex justify-center">
-              <div className="relative">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary/20 to-primary/10 rounded-2xl flex items-center justify-center">
-                  <div className="w-8 h-8 bg-primary/20 rounded-lg animate-pulse"></div>
-                </div>
-                <div className="absolute -top-1 -right-1 w-6 h-6 bg-primary rounded-full animate-bounce flex items-center justify-center">
-                  <div className="w-2 h-2 bg-white rounded-full"></div>
-                </div>
-              </div>
-            </div>
-
-            {/* Title and Description */}
-            <div className="space-y-3">
-              <h3 className="text-xl font-bold text-foreground">
-                Carregando Catálogo de Produtos
-              </h3>
-              <p className="text-sm text-muted-foreground max-w-md mx-auto">
-                Sincronizando dados em tempo real para oferecer os preços mais atualizados do mercado
-              </p>
-            </div>
-
-            {/* Progress Bar */}
-            <div className="max-w-sm mx-auto space-y-3">
-              <div className="w-full bg-muted/30 rounded-full h-2.5 overflow-hidden">
-                <div className="h-full bg-gradient-to-r from-primary to-primary/80 rounded-full animate-pulse relative">
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-pulse"></div>
-                </div>
-              </div>
-              <div className="flex items-center justify-center gap-1 text-xs text-muted-foreground">
-                <div className="w-1.5 h-1.5 bg-primary rounded-full animate-bounce" style={{animationDelay: '0ms'}}></div>
-                <div className="w-1.5 h-1.5 bg-primary rounded-full animate-bounce" style={{animationDelay: '150ms'}}></div>
-                <div className="w-1.5 h-1.5 bg-primary rounded-full animate-bounce" style={{animationDelay: '300ms'}}></div>
-                <span className="ml-2">Sincronizando...</span>
-              </div>
-            </div>
-
-            {/* Filter Status */}
-            {(searchFilter || dateFilter) && (
-              <div className="pt-4 border-t border-border/20">
-                <div className="text-sm text-muted-foreground space-y-1">
-                  <div className="font-medium">Filtros Aplicados:</div>
-                  <div className="flex flex-wrap gap-2 justify-center">
-                    {searchFilter && (
-                      <div className="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-medium">
-                        🔍 {searchFilter}
-                      </div>
-                    )}
-                    {dateFilter && dateFilter !== 'all' && (
-                      <div className="px-3 py-1 bg-accent/50 text-accent-foreground rounded-full text-xs font-medium">
-                        📅 {dateFilter}
-                      </div>
-                    )}
-                  </div>
-                </div>
-              </div>
-            )}
-          </div>
-
-          {/* CSS Animation */}
-          <style>{`
-            @keyframes loading-progress {
-              0% { transform: translateX(-100%); }
-              50% { transform: translateX(0%); }
-              100% { transform: translateX(100%); }
-            }
-          `}</style>
-        </CardContent>
-      </Card>
+      <div className="space-y-4 p-4 animate-pulse">
+        {/* Compact skeleton - muito mais leve */}
+        <div className="h-12 bg-muted rounded"></div>
+        <div className="space-y-2">
+          {[1, 2, 3, 4, 5].map(i => (
+            <div key={i} className="h-16 bg-muted rounded"></div>
+          ))}
+        </div>
+      </div>
     );
   }
 
@@ -1926,7 +1825,7 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
         <Watermark />
 
         {/* Header with Time Information */}
-        <div className="flex justify-between items-center p-4 bg-gradient-to-r from-background/95 to-muted/10 border-b border-border/20">
+        <div className="flex justify-between items-center px-4 py-2 bg-gradient-to-r from-background/95 to-muted/10 border-b border-border/20">
           {/* Last Sync Time */}
           <div className="flex items-center gap-1.5 text-muted-foreground">
             <Clock className="h-3 w-3 text-orange-500" />
@@ -2036,7 +1935,7 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
               : "hidden max-h-0 opacity-0"
           )}>
             <div className={cn(
-              "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-3 p-4 bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-700 transition-all duration-300 border-b border-border/20",
+              "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-3 px-4 py-2 bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-700 transition-all duration-300 border-b border-border/20",
               showFilters ? "transform translate-y-0" : "transform -translate-y-2"
             )}>
               {/* Main Filters Grid */}
@@ -2293,14 +2192,8 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
         <div>
           {/* Desktop Table View - Hidden on mobile */}
           <div className="hidden md:block overflow-x-auto">
-            {productsLoading ? (
-              <div className="p-8 text-center">
-                <div className="text-lg font-medium">Carregando produtos...</div>
-                <div className="text-sm text-muted-foreground mt-2">
-                  Status: {productsLoading ? 'Carregando' : 'Concluído'}
-                </div>
-              </div>
-            ) : products.length === 0 ? (
+            {/* ⚡ OTIMIZAÇÃO #29: Loading interno removido - placeholderData mostra cache instantaneamente */}
+            {products.length === 0 ? (
               <div className="p-8 text-center">
                 <div className="space-y-4">
                   <div className="text-xl font-semibold text-foreground">Nenhum resultado encontrado.</div>
@@ -2700,11 +2593,8 @@ const ExcelStylePriceList: React.FC<ExcelStylePriceListProps> = (props) => {
 
             {/* Mobile Card View - Visible on mobile */}
             <div className="block md:hidden">
-              {productsLoading ? (
-                <div className="p-8 text-center">
-                  <div className="text-lg font-medium">Carregando produtos...</div>
-                </div>
-              ) : products.length === 0 ? (
+              {/* ⚡ OTIMIZAÇÃO #29: Loading interno removido - placeholderData mostra cache instantaneamente */}
+              {products.length === 0 ? (
                 <div className="text-center py-12 px-4">
                   <div className="space-y-4">
                     <div className="text-lg font-semibold text-foreground">Nenhum resultado encontrado.</div>

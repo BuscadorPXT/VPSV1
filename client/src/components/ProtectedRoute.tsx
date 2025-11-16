@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { Navigate } from 'react-router-dom';
+import { Redirect } from 'wouter';
 import { useAuth } from '@/hooks/use-auth';
 import { LoadingFallback } from '@/components/ui/loading-fallback';
 
@@ -28,7 +28,7 @@ function ProtectedRoute({
 
   // Sem usuário - redirecionar para login
   if (!user) {
-    return <Navigate to="/" replace />;
+    return <Redirect to="/" />;
   }
 
   // Verificar aprovação se necessário - Trust backend response
@@ -38,12 +38,12 @@ function ProtectedRoute({
       isApproved: user.isApproved,
       needsApproval: user.needsApproval
     });
-    return <Navigate to="/pending-approval" replace />;
+    return <Redirect to="/pending-approval" />;
   }
 
   // Verificar permissão de admin se necessário
   if (requireAdmin && user.role !== 'admin' && user.role !== 'superadmin') {
-    return <Navigate to="/dashboard" replace />;
+    return <Redirect to="/buscador" />;
   }
 
   return <>{children}</>;

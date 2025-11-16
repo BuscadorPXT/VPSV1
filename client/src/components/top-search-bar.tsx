@@ -904,7 +904,7 @@ export function TopSearchBar({
 
       <div className={cn(
         "relative max-w-4xl mx-auto transition-all duration-300",
-        isMobileDevice && isMobileSearchActive ? "relative z-[1000000] px-0" : "px-6"
+        isMobileDevice && isMobileSearchActive ? "relative z-[1000000] px-0" : ""
       )}>
         {/* Container principal com design moderno */}
         <div className="flex items-center gap-4">

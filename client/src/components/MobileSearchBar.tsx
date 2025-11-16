@@ -334,14 +334,12 @@ export function MobileSearchBar({
   return (
     <div className="relative">
       {/* Barra de pesquisa */}
-      <div 
+      <div
         className={cn(
           isSticky ? 'sticky top-0 z-30' : '',
-          'bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-700',
-          'transition-all duration-200',
-          isFocused ? 'shadow-lg' : 'shadow-sm'
+          'transition-all duration-200'
         )}
-        style={{ 
+        style={{
           paddingTop: `max(${safeAreaInsets.top}px, 8px)`,
           paddingBottom: '12px'
         }}
