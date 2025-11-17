@@ -84,7 +84,7 @@ export default function Login() {
       });
 
       hasRedirected.current = true;
-      
+
       const response = await fetch('/api/user/profile', {
         headers: {
           'Authorization': `Bearer ${await userCredential.user.getIdToken()}`,
@@ -94,12 +94,43 @@ export default function Login() {
 
       if (response.ok) {
         const data = await response.json();
+        console.log('✅ Profile loaded, checking approval status:', {
+          isApproved: data.profile?.isApproved,
+          status: data.profile?.status
+        });
+
         if (data.profile?.isApproved) {
           setLocation('/dashboard');
         } else {
           setLocation('/pending-approval');
         }
       } else {
+        // ✅ CORREÇÃO: Verificar código de erro antes de redirecionar
+        console.log('⚠️ Profile fetch failed, status:', response.status);
+
+        try {
+          const errorData = await response.json();
+          console.log('📋 Error data:', errorData);
+
+          // Se usuário está pendente de aprovação, redirecionar para pending-approval
+          if (response.status === 403 && errorData.code === 'PENDING_APPROVAL') {
+            console.log('⏳ User pending approval, redirecting to /pending-approval');
+
+            toast({
+              title: "Aguardando Aprovação",
+              description: "Sua conta está sendo analisada por nossa equipe.",
+              duration: 5000,
+            });
+
+            setLocation('/pending-approval');
+            return;
+          }
+        } catch (parseError) {
+          console.error('Failed to parse error response:', parseError);
+        }
+
+        // Para outros tipos de erro, tentar dashboard como fallback
+        console.log('Redirecting to dashboard as fallback');
         setLocation('/dashboard');
       }
 

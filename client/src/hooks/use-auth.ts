@@ -180,13 +180,42 @@ export function useAuth() {
 
                   console.log('✅ User profile loaded:', profile.email);
                 } else {
+                  // ✅ CORREÇÃO: Tratar status 403 (PENDING_APPROVAL) explicitamente
+                  if (response.status === 403) {
+                    try {
+                      const errorData = await response.json();
+
+                      if (errorData.code === 'PENDING_APPROVAL') {
+                        console.log('⏳ [useAuth] User pending approval detected, setting user state accordingly');
+
+                        setUser({
+                          uid: firebaseUser.uid,
+                          email: firebaseUser.email || '',
+                          name: errorData.email || firebaseUser.displayName || firebaseUser.email || '',
+                          isApproved: false,
+                          needsApproval: true,
+                          status: 'pending_approval',
+                          role: 'user',
+                          subscriptionPlan: 'free',
+                          firebaseToken: freshToken,
+                        });
+
+                        setIsAuthReady(true);
+                        setLoading(false);
+                        return;
+                      }
+                    } catch (parseError) {
+                      console.error('Failed to parse 403 error response:', parseError);
+                    }
+                  }
+
                   // ✅ CRITICAL FIX: Retry on 401 instead of immediately setting as unapproved
                   if (response.status === 401) {
                     console.warn('⚠️ 401 Unauthorized - token may not be ready yet, retrying in 500ms...');
-                    
+
                     // Wait a bit for token to propagate
                     await new Promise(resolve => setTimeout(resolve, 500));
-                    
+
                     // Get fresh token and retry
                     const retryToken = await firebaseUser.getIdToken(true);
                     const retryResponse = await fetch('/api/user/profile', {
@@ -196,11 +225,11 @@ export function useAuth() {
                       },
                       credentials: 'include',
                     });
-                    
+
                     if (retryResponse.ok) {
                       const retryData = await retryResponse.json();
                       const retryProfile = retryData.profile || retryData;
-                      
+
                       setUser({
                         uid: firebaseUser.uid,
                         email: firebaseUser.email || '',
