@@ -9,7 +9,7 @@ class GoogleSheetsService {
   private dataCache: Map<string, any[]> = new Map();
   private sheetsCache: Map<string, string[]> = new Map();
   private cacheTimestamps: Map<string, number> = new Map();
-  private cacheExpiry = 15 * 60 * 1000; // 15 minutes cache (otimizado para reduzir custos)
+  private cacheExpiry = 2 * 60 * 60 * 1000; // ⚡ OTIMIZADO: 2 horas (era 15min) - dados mudam 1-2x/dia apenas
   private initialized = false;
   
   // Inflight request tracking to prevent duplicate API calls

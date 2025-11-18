@@ -2,7 +2,7 @@ import { WebSocket, WebSocketServer } from 'ws';
 import { IncomingMessage } from 'http';
 import { GeolocationService } from './geolocation.service';
 import { db } from '../db';
-import { activeSessions, users } from '@shared/schema';
+import { activeSessions, users, userSessions } from '@shared/schema';
 import { eq, and, desc } from 'drizzle-orm';
 
 interface WebSocketClient extends WebSocket {
@@ -526,15 +526,31 @@ export class UnifiedWebSocketManager {
 
   private async updateSessionActivity(ws: WebSocketClient): Promise<void> {
     try {
-      if (!ws.dbSessionId) {
-        return;
+      // 1. Atualizar active_sessions (geolocalização)
+      if (ws.dbSessionId) {
+        await db.update(activeSessions)
+          .set({ lastActivityAt: new Date() })
+          .where(eq(activeSessions.id, ws.dbSessionId));
       }
 
-      await db.update(activeSessions)
-        .set({ lastActivityAt: new Date() })
-        .where(eq(activeSessions.id, ws.dbSessionId));
+      // 2. ✅ NOVO: Sincronizar com user_sessions.lastActivity
+      // Isso garante que usuários apareçam no painel admin em tempo real
+      if (ws.userId && typeof ws.userId === 'number') {
+        try {
+          await db.update(userSessions)
+            .set({ lastActivity: new Date() })
+            .where(eq(userSessions.userId, ws.userId));
+
+          console.log(`✅ [WS Heartbeat] Updated lastActivity for user ${ws.userId} (${ws.email})`);
+        } catch (syncError) {
+          console.error(`⚠️ [WS Heartbeat] Failed to sync user_sessions for user ${ws.userId}:`, syncError);
+          // Não falhar o heartbeat se sincronização falhar
+        }
+      } else {
+        console.warn(`⚠️ [WS Heartbeat] Cannot sync user_sessions: userId is ${ws.userId} (type: ${typeof ws.userId})`);
+      }
     } catch (error) {
-      console.error('❌ Error updating session activity:', error);
+      console.error('❌ [WS Heartbeat] Error updating session activity:', error);
     }
   }
 

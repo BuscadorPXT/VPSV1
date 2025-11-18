@@ -145,6 +145,16 @@ app.use((req, res, next) => {
 });
 
 (async () => {
+  // Health check endpoint (útil para monitoramento e testes de zero-downtime)
+  app.get('/api/health', (_req: Request, res: Response) => {
+    res.status(200).json({
+      status: 'ok',
+      timestamp: new Date().toISOString(),
+      uptime: process.uptime(),
+      environment: config.nodeEnv
+    });
+  });
+
   // Use the new modular router system with /api prefix
   app.use('/api', router);
 
@@ -247,5 +257,67 @@ app.use((req, res, next) => {
   const port = 5000;
   server.listen(port, "0.0.0.0", () => {
     log(`🚀 Server running on http://0.0.0.0:${port}`);
+
+    // ✅ Notificar PM2 que a aplicação está pronta (para zero-downtime deploys)
+    if (process.send) {
+      process.send('ready');
+      log('📡 PM2 notified: application ready');
+    }
+  });
+
+  // ✅ GRACEFUL SHUTDOWN - Importante para zero-downtime deploys
+  const gracefulShutdown = async (signal: string) => {
+    log(`\n⚠️  ${signal} received - starting graceful shutdown...`);
+
+    // 1. Parar de aceitar novas conexões
+    server.close(async () => {
+      log('✅ HTTP server closed - no longer accepting new connections');
+
+      try {
+        // 2. Fechar todas as conexões WebSocket
+        const wsManager = UnifiedWebSocketManager.getInstance();
+        if (wsManager) {
+          log('🔌 Closing WebSocket connections...');
+          // Broadcast para clientes que o servidor está reiniciando
+          wsManager.broadcast({
+            type: 'server_reloading',
+            message: 'Server is reloading, will reconnect automatically'
+          });
+          // Aguardar um momento para a mensagem ser enviada
+          await new Promise(resolve => setTimeout(resolve, 500));
+        }
+
+        // 3. Parar o Price Monitor Service
+        log('⏹️  Stopping price monitor service...');
+        await priceMonitorService.stop();
+
+        log('✅ Graceful shutdown completed');
+        process.exit(0);
+      } catch (error) {
+        log('❌ Error during graceful shutdown:', error);
+        process.exit(1);
+      }
+    });
+
+    // Timeout de segurança: forçar shutdown após 10 segundos
+    setTimeout(() => {
+      log('⚠️  Graceful shutdown timeout - forcing exit');
+      process.exit(1);
+    }, 10000);
+  };
+
+  // Escutar sinais de shutdown
+  process.on('SIGTERM', () => gracefulShutdown('SIGTERM'));
+  process.on('SIGINT', () => gracefulShutdown('SIGINT'));
+
+  // Tratar erros não capturados
+  process.on('uncaughtException', (error) => {
+    log('❌ Uncaught Exception:', error);
+    gracefulShutdown('uncaughtException');
+  });
+
+  process.on('unhandledRejection', (reason, promise) => {
+    log('❌ Unhandled Rejection at:', promise, 'reason:', reason);
+    gracefulShutdown('unhandledRejection');
   });
 })();

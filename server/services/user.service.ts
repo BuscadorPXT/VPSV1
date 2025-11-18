@@ -359,6 +359,12 @@ class UserService {
       logger.info(`User ${userId} (${existingUser.email}) approved as ${userType.toUpperCase()}${userType === 'tester' ? ` - Expires: ${updateData.testerExpiresAt}` : ''}`);
       console.log(`✅ User approved successfully: ${updatedUser.email} - Plan: ${updatedUser.subscriptionPlan} - Type: ${userType.toUpperCase()}`);
 
+      // ⚡ INVALIDAR CACHE após aprovação
+      if (existingUser.firebaseUid) {
+        await cacheService.del(`user:firebase:${existingUser.firebaseUid}`);
+        console.log(`🗑️ Cache invalidated for user: ${existingUser.email}`);
+      }
+
       return updatedUser;
     } catch (error) {
       logger.error('Error approving user:', error);
@@ -369,6 +375,13 @@ class UserService {
   async rejectUser(userId: number, reason?: string): Promise<User> {
     try {
       console.log(`🔄 Rejecting user ${userId}...`);
+
+      // Buscar o usuário primeiro para pegar o Firebase UID
+      const [existingUser] = await db
+        .select()
+        .from(users)
+        .where(eq(users.id, userId))
+        .limit(1);
 
       const [rejectedUser] = await db
         .update(users)
@@ -398,6 +411,13 @@ class UserService {
       }
 
       logger.info(`User ${userId} (${rejectedUser.email}) rejected successfully`);
+
+      // ⚡ INVALIDAR CACHE após rejeição
+      if (existingUser?.firebaseUid) {
+        await cacheService.del(`user:firebase:${existingUser.firebaseUid}`);
+        console.log(`🗑️ Cache invalidated for user: ${rejectedUser.email}`);
+      }
+
       return rejectedUser;
     } catch (error) {
       logger.error(`Error rejecting user ${userId}:`, error);
@@ -463,6 +483,12 @@ class UserService {
 
       logger.info(`User ${userId} (${existingUser.email}) marked as payment pending`);
       console.log(`✅ User marked as payment pending: ${updatedUser.email}`);
+
+      // ⚡ INVALIDAR CACHE após mudança de status
+      if (existingUser.firebaseUid) {
+        await cacheService.del(`user:firebase:${existingUser.firebaseUid}`);
+        console.log(`🗑️ Cache invalidated for user: ${updatedUser.email}`);
+      }
 
       return updatedUser;
     } catch (error) {
@@ -533,6 +559,12 @@ class UserService {
 
       logger.info(`User ${userId} (${existingUser.email}) restored from payment pending to PRO`);
       console.log(`✅ User restored to PRO: ${updatedUser.email}`);
+
+      // ⚡ INVALIDAR CACHE após restauração
+      if (existingUser.firebaseUid) {
+        await cacheService.del(`user:firebase:${existingUser.firebaseUid}`);
+        console.log(`🗑️ Cache invalidated for user: ${updatedUser.email}`);
+      }
 
       return updatedUser;
     } catch (error) {

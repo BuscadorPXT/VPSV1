@@ -224,7 +224,9 @@ adminRouter.get('/users/online', authenticateAdmin, async (req: AuthenticatedReq
     // Enrich online users with additional data from database
     let enrichedOnlineUsers: any[] = [];
     try {
-      // ALWAYS get users with recent login activity (primary method for Firebase Auth users)
+      // ⚡ OTIMIZADO: Usar userSessions.lastActivity em vez de users.lastLoginAt
+      // Isso reflete atividade REAL dos usuários (atualizado a cada request)
+      // Fix para problema de apenas 2 usuários online (era baseado em lastLoginAt que não é mais atualizado)
       const recentActiveUsers = await db
         .select({
           id: users.id,
@@ -234,24 +236,34 @@ adminRouter.get('/users/online', authenticateAdmin, async (req: AuthenticatedReq
           lastLoginAt: users.lastLoginAt,
           subscriptionPlan: users.subscriptionPlan,
           isAdmin: users.isAdmin,
-          ipAddress: sql<string>`'N/A'`,
-          userAgent: sql<string>`'Desktop'`,
-          browser: sql<string>`'Unknown'`,
-          isSessionActive: sql<boolean>`true`,
-          sessionCreatedAt: users.lastLoginAt,
+          ipAddress: userSessions.ipAddress,
+          userAgent: userSessions.userAgent,
+          browser: sql<string>`CASE
+            WHEN ${userSessions.userAgent} LIKE '%Chrome%' THEN 'Chrome'
+            WHEN ${userSessions.userAgent} LIKE '%Firefox%' THEN 'Firefox'
+            WHEN ${userSessions.userAgent} LIKE '%Safari%' THEN 'Safari'
+            WHEN ${userSessions.userAgent} LIKE '%Edge%' THEN 'Edge'
+            ELSE 'Unknown'
+          END`,
+          isSessionActive: userSessions.isActive,
+          sessionCreatedAt: userSessions.createdAt,
+          lastActivity: userSessions.lastActivity,
         })
         .from(users)
+        .innerJoin(userSessions, eq(users.id, userSessions.userId))
         .where(
           and(
             eq(users.isApproved, true),
-            sql`${users.lastLoginAt} > ${timeWindowStart.toISOString()}` // Filter by last login time
+            eq(userSessions.isActive, true),
+            sql`${userSessions.expiresAt} > NOW()`,
+            sql`${userSessions.lastActivity} > ${timeWindowStart.toISOString()}` // ✅ Usar lastActivity
           )
         )
-        .orderBy(desc(users.lastLoginAt))
+        .orderBy(desc(userSessions.lastActivity))
         .limit(1000); // Allow up to 1000 online users to be shown
 
       enrichedOnlineUsers = recentActiveUsers || [];
-      console.log(`📊 Found ${enrichedOnlineUsers.length} users with recent login activity (last ${TIME_WINDOW_MINUTES} minutes)`);
+      console.log(`📊 Found ${enrichedOnlineUsers.length} users with recent activity (last ${TIME_WINDOW_MINUTES} minutes) - using userSessions.lastActivity`);
 
       // If we found users, log some details
       if (enrichedOnlineUsers.length > 0) {
@@ -259,7 +271,8 @@ adminRouter.get('/users/online', authenticateAdmin, async (req: AuthenticatedReq
           id: enrichedOnlineUsers[0].id,
           name: enrichedOnlineUsers[0].name,
           email: enrichedOnlineUsers[0].email,
-          lastLoginAt: enrichedOnlineUsers[0].lastLoginAt
+          lastActivity: enrichedOnlineUsers[0].lastActivity,
+          sessionCreatedAt: enrichedOnlineUsers[0].sessionCreatedAt
         });
       }
 
