@@ -224,6 +224,8 @@ adminRouter.get('/users/online', authenticateAdmin, async (req: AuthenticatedReq
     // Enrich online users with additional data from database
     let enrichedOnlineUsers: any[] = [];
     try {
+      console.log(`🔍 [Admin Online Users] Querying for users with lastActivity > ${timeWindowStart.toISOString()} (${TIME_WINDOW_MINUTES} min ago)`);
+
       // ⚡ OTIMIZADO: Usar userSessions.lastActivity em vez de users.lastLoginAt
       // Isso reflete atividade REAL dos usuários (atualizado a cada request)
       // Fix para problema de apenas 2 usuários online (era baseado em lastLoginAt que não é mais atualizado)

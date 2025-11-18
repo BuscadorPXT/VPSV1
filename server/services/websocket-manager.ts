@@ -535,19 +535,19 @@ export class UnifiedWebSocketManager {
 
       // 2. ✅ NOVO: Sincronizar com user_sessions.lastActivity
       // Isso garante que usuários apareçam no painel admin em tempo real
-      if (ws.userId && typeof ws.userId === 'number') {
-        try {
-          await db.update(userSessions)
-            .set({ lastActivity: new Date() })
-            .where(eq(userSessions.userId, ws.userId));
+      if (ws.userId) {
+        // Converter para number se for string
+        const userIdNumber = typeof ws.userId === 'number' ? ws.userId : parseInt(ws.userId as string, 10);
 
-          console.log(`✅ [WS Heartbeat] Updated lastActivity for user ${ws.userId} (${ws.email})`);
-        } catch (syncError) {
-          console.error(`⚠️ [WS Heartbeat] Failed to sync user_sessions for user ${ws.userId}:`, syncError);
-          // Não falhar o heartbeat se sincronização falhar
+        if (!isNaN(userIdNumber)) {
+          try {
+            await db.update(userSessions)
+              .set({ lastActivity: new Date() })
+              .where(eq(userSessions.userId, userIdNumber));
+          } catch (syncError) {
+            console.error(`⚠️ [WS Heartbeat] Failed to sync user_sessions for user ${userIdNumber}:`, syncError);
+          }
         }
-      } else {
-        console.warn(`⚠️ [WS Heartbeat] Cannot sync user_sessions: userId is ${ws.userId} (type: ${typeof ws.userId})`);
       }
     } catch (error) {
       console.error('❌ [WS Heartbeat] Error updating session activity:', error);

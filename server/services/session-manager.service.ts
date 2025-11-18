@@ -74,7 +74,7 @@ export class SessionManagerService {
               expiresAt: sql`EXCLUDED.expires_at`,
               ipAddress: sql`EXCLUDED.ip_address`,
               userAgent: sql`EXCLUDED.user_agent`,
-              lastActivity: sql`EXCLUDED.last_activity`,
+              lastActivity: sql`EXCLUDED."lastActivity"`,
               isActive: sql`EXCLUDED.is_active`
             }
           });
@@ -149,6 +149,42 @@ export class SessionManagerService {
 
     } catch (error) {
       console.error('[SessionManager] Session validation error:', error);
+      return null;
+    }
+  }
+
+  /**
+   * 🔍 Busca sessão ativa por userId
+   * Útil quando não há cookie disponível (mobile, cross-origin, etc)
+   */
+  async getSessionByUserId(userId: number): Promise<SessionInfo | null> {
+    try {
+      const session = await db.query.userSessions.findFirst({
+        where: and(
+          eq(userSessions.userId, userId),
+          eq(userSessions.isActive, true),
+          sql`${userSessions.expiresAt} > NOW()`
+        )
+      });
+
+      if (!session) {
+        return null;
+      }
+
+      // NÃO atualizar lastActivity aqui - será feito no middleware se necessário
+
+      return {
+        sessionToken: session.sessionToken,
+        expiresAt: session.expiresAt || new Date(),
+        userId: session.userId,
+        isActive: session.isActive,
+        ipAddress: session.ipAddress,
+        userAgent: session.userAgent || undefined,
+        lastActivity: session.lastActivity
+      };
+
+    } catch (error) {
+      console.error('[SessionManager] Error fetching session by userId:', error);
       return null;
     }
   }

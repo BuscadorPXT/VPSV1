@@ -58,6 +58,16 @@ interface UserCacheEntry {
 const userCache = new Map<string, UserCacheEntry>();
 const USER_CACHE_TTL = 5 * 60 * 1000; // 5 minutos
 
+// ⚡ OTIMIZAÇÃO: Cache em memória para sessões
+// Evita query ao banco em cada request quando não há cookie
+interface SessionCacheEntry {
+  session: any;
+  timestamp: number;
+}
+
+const sessionCache = new Map<number, SessionCacheEntry>(); // userId -> session
+const SESSION_CACHE_TTL = 60 * 1000; // 1 minuto (curto para manter dados frescos)
+
 // Limpeza periódica do cache para evitar memory leak
 setInterval(() => {
   const now = Date.now();
@@ -70,8 +80,17 @@ setInterval(() => {
     }
   }
 
-  if (cleanedCount > 0) {
-    console.log(`🧹 Auth cache cleanup: removed ${cleanedCount} expired entries (total: ${userCache.size})`);
+  // Limpar cache de sessões
+  let sessionCleanedCount = 0;
+  for (const [userId, entry] of sessionCache.entries()) {
+    if (now - entry.timestamp > SESSION_CACHE_TTL) {
+      sessionCache.delete(userId);
+      sessionCleanedCount++;
+    }
+  }
+
+  if (cleanedCount > 0 || sessionCleanedCount > 0) {
+    console.log(`🧹 Auth cache cleanup: ${cleanedCount} users, ${sessionCleanedCount} sessions (total: ${userCache.size} users, ${sessionCache.size} sessions)`);
   }
 }, 60 * 1000); // Executar a cada 1 minuto
 
@@ -128,11 +147,9 @@ export const authenticateToken = async (req: AuthenticatedRequest, res: Response
     let userData: any;
 
     if (cachedEntry && (now - cachedEntry.timestamp) < USER_CACHE_TTL) {
-      console.log(`✅ Auth cache HIT for user: ${decodedToken.email} (age: ${Math.round((now - cachedEntry.timestamp)/1000)}s)`);
       userData = cachedEntry.userData;
     } else {
       // Cache miss ou expirado - buscar do banco
-      console.log(`⚠️ Auth cache MISS for user: ${decodedToken.email}`);
       userData = await findUserByFirebaseUid(decodedToken.uid);
 
       // Salvar no cache se encontrado
@@ -141,7 +158,6 @@ export const authenticateToken = async (req: AuthenticatedRequest, res: Response
           userData: userData,
           timestamp: now
         });
-        console.log(`💾 User data cached for: ${userData.email}`);
       }
     }
 
@@ -156,19 +172,61 @@ export const authenticateToken = async (req: AuthenticatedRequest, res: Response
 
     // 3. Verificar session token (OPCIONAL para algumas rotas)
     const sessionToken = req.cookies?.sessionToken;
+    const { sessionManager } = await import('../services/session-manager.service');
 
     if (sessionToken) {
-      const { sessionManager } = await import('../services/session-manager.service');
       const session = await sessionManager.validateSession(sessionToken);
 
       if (session && session.userId === userData.id) {
         req.session = session;
-        console.log(`✅ Valid session found for user: ${userData.email}`);
-      } else {
-        console.log(`⚠️ Invalid session for user: ${userData.email}, will create new one if needed`);
+        // Cachear sessão
+        sessionCache.set(userData.id, { session, timestamp: now });
       }
-    } else {
-      console.log(`ℹ️ No session token found for user: ${userData.email}`);
+    }
+
+    // 🔧 FIX: Se não há session via cookie, usar CACHE ou buscar no banco
+    // Cache evita query desnecessária em cada request
+    if (!req.session) {
+      // Verificar cache primeiro
+      const cachedSession = sessionCache.get(userData.id);
+
+      if (cachedSession && (now - cachedSession.timestamp) < SESSION_CACHE_TTL) {
+        // Cache HIT - usar sessão em cache
+        req.session = cachedSession.session;
+      } else {
+        // Cache MISS - buscar do banco
+        try {
+          const sessionFromDb = await sessionManager.getSessionByUserId(userData.id);
+
+          if (sessionFromDb && sessionFromDb.isActive && sessionFromDb.expiresAt > new Date()) {
+            req.session = sessionFromDb;
+            // Cachear para próximas requests
+            sessionCache.set(userData.id, { session: sessionFromDb, timestamp: now });
+          } else {
+            // 🔧 AUTO-FIX: Criar sessão automaticamente se não existir
+            try {
+              const newSession = await sessionManager.createSession(
+                userData.id,
+                userData.role || 'user',
+                getClientIp(req),
+                req.headers['user-agent'] || 'Unknown'
+              );
+
+              if (newSession.success && newSession.sessionToken) {
+                const createdSession = await sessionManager.getSessionByUserId(userData.id);
+                if (createdSession) {
+                  req.session = createdSession;
+                  sessionCache.set(userData.id, { session: createdSession, timestamp: now });
+                }
+              }
+            } catch (createError) {
+              console.error(`❌ Error auto-creating session for ${userData.email}:`, createError);
+            }
+          }
+        } catch (dbError) {
+          console.error(`❌ Error fetching session from DB for ${userData.email}:`, dbError);
+        }
+      }
     }
 
     // 4. Se usuário não foi encontrado, erro (já foi tratado anteriormente)
@@ -183,18 +241,8 @@ export const authenticateToken = async (req: AuthenticatedRequest, res: Response
     // 5. Verificar se usuário está aprovado
     const userAgent = req.headers['user-agent'] || '';
     const isMobile = userAgent.toLowerCase().includes('mobile');
-    
-    console.log(`🔍 [Auth] Approval check for ${userData.email}:`, {
-      isApproved: userData.isApproved,
-      status: userData.status,
-      role: userData.role,
-      isAdmin: userData.isAdmin,
-      isMobile: isMobile,
-      userAgent: isMobile ? 'Mobile Device' : 'Desktop'
-    });
 
     if (!userData.isApproved) {
-      console.log(`❌ User not approved: ${userData.email} (Status: ${userData.status}, Mobile: ${isMobile})`);
       return res.status(403).json({ 
         message: 'Sua conta ainda não foi aprovada pelo administrador. Aguarde a aprovação.',
         code: 'PENDING_APPROVAL',
@@ -212,8 +260,7 @@ export const authenticateToken = async (req: AuthenticatedRequest, res: Response
       });
     }
 
-    // 7. Usuário válido e aprovado
-    console.log(`🎉 Firebase user authenticated: ${userData.email} (${userData.role}) with ${userData.subscriptionPlan} plan`);
+    // 7. Usuário válido e aprovado (log removido para performance)
 
     // 8. ✅ VERIFICAÇÃO DE PAGAMENTO PENDENTE
     if (userData.subscriptionPlan === 'pro_pending' || userData.role === 'pending_payment' || userData.status === 'pending_payment') {
@@ -246,7 +293,6 @@ export const authenticateToken = async (req: AuthenticatedRequest, res: Response
           //   .set({ lastLoginAt: new Date() })
           //   .where(eq(users.id, userData.id));
 
-          console.log(`✅ Limited auth success for pending payment: ${userData.email} (${userData.role})`);
           return next();
         }
 
@@ -291,18 +337,11 @@ export const authenticateToken = async (req: AuthenticatedRequest, res: Response
 
         // Update assíncrono para não bloquear a request
         storage.updateSessionActivity(sessionTokenKey).catch(error => {
-          console.error('⚠️ Failed to update session activity:', error);
-          // Não falhar a requisição se update falhar
+          // Silencioso para não poluir logs (update não crítico)
         });
-
-        // Log de debug (remover após validar funcionamento)
-        if (process.env.NODE_ENV === 'development') {
-          console.log(`🔄 [Auth] Updated lastActivity for user ${req.userId} (${req.user?.email})`);
-        }
       }
     }
 
-    console.log(`✅ Auth success: ${userData.email} (${userData.role}) - User ID: ${userData.id}`);
     next();
 
   } catch (error) {
